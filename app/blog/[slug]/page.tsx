@@ -12,6 +12,18 @@ import { orgPostPublie } from "@/lib/posts";
 import { entreesBlog } from "@/lib/blog-unifie";
 import { jourIso, normaliserCorps, reecrireLiensSortants, relDeLorganisme, type OrgPostPublic } from "@/lib/articles";
 
+const MARQUES: Record<string, { name: string; url: string }> = {
+  "back-to-business-formatrix": { name: "Formatrix (Back to Business)", url: "https://formatrix.fr" },
+  skills4mation: { name: "Skills4mation", url: "https://skills4mation.com" },
+  formarh: { name: "FormaRH", url: "https://formarh.com" },
+  formalangue: { name: "FormaLangue", url: "https://formalangue.com" },
+  formadigital: { name: "FormaDigital", url: "https://formadigital.fr" },
+  formavente: { name: "FormaVente", url: "https://formavente.fr" },
+  formabienetre: { name: "FormaBienêtre", url: "https://formabientre.fr" },
+  formacompta: { name: "FormaCompta", url: "https://formacompta.fr" },
+  "bilandecompetence-pro": { name: "Bilan de compétences Pro", url: "https://bilandecompetence.pro" },
+};
+
 export const revalidate = 300;
 export const dynamicParams = true;
 
@@ -95,6 +107,12 @@ export default async function ArticlePage({ params }: Props) {
     date = p.date;
     corps = p.body;
     html = renderMarkdown(p.body);
+    const marque = p.org ? MARQUES[p.org] : undefined;
+    if (marque) {
+      // Article de marque du groupe : liens sortants en rel="sponsored" (règle de liens de l'annuaire)
+      org = { name: marque.name, slug: p.org, is_group: true, link_rel: "sponsored", logo_url: null, website: marque.url };
+      html = reecrireLiensSortants(html, "sponsored", SITE_URL);
+    }
     jsonld = {
       "@type": "BlogPosting",
       "@id": `${url}#article`,
@@ -106,7 +124,9 @@ export default async function ArticlePage({ params }: Props) {
       url,
       ...(p.keyword ? { keywords: p.keyword } : {}),
       ...(p.image ? { image: p.image.startsWith("/") ? `${SITE_URL}${p.image}` : p.image } : {}),
-      author: { "@type": "Person", name: "Ludovic Albisser" },
+      author: marque
+        ? { "@type": "Organization", "@id": orgId(p.org), name: marque.name, url: `${SITE_URL}/organisme/${p.org}` }
+        : { "@type": "Person", name: "Ludovic Albisser" },
       publisher: { "@id": EDITEUR_ID },
       isPartOf: { "@id": SITE_ID },
     };

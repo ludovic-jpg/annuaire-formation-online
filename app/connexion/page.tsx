@@ -19,7 +19,7 @@ export default function ConnexionPage() {
             connexion valable une heure.
           </p>
           <ul className="mt-6 space-y-2 text-encre/85">
-            <li>Gratuit au lancement, sans engagement.</li>
+            <li>5 publications offertes, sans engagement.</li>
             <li>Vos fiches restent en brouillon tant que vous ne les envoyez pas en revue.</li>
             <li>Chaque fiche publiée renvoie vers votre site.</li>
           </ul>

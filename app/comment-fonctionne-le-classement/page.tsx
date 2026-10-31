@@ -20,7 +20,7 @@ export default function ClassementPage() {
         <li>Les organismes de formation disposant d&apos;un SIRET, qui créent un compte et décrivent leur organisme.</li>
         <li>Chaque fiche correspond à un parcours réel, décrit par un résumé original et renvoyant vers la page du parcours sur le site de l&apos;organisme.</li>
         <li>Chaque fiche est relue avant publication. Un refus est toujours motivé par écrit dans l&apos;espace de l&apos;organisme.</li>
-        <li>Le référencement est gratuit. Aucune somme ne permet aujourd&apos;hui d&apos;obtenir un meilleur classement.</li>
+        <li>Publier coûte 1 € par fiche ou article (5 publications offertes). Aucune somme ne permet aujourd&apos;hui d&apos;obtenir un meilleur classement.</li>
       </ul>
 
       <h2>Déréférencement</h2>

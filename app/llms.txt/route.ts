@@ -42,7 +42,7 @@ export async function GET() {
     `- [À propos et méthodologie](${SITE_URL}/a-propos) : éditeur, contenu d'une fiche, relecture, indexation, liens`,
     `- [Comment fonctionne le classement](${SITE_URL}/comment-fonctionne-le-classement) : critères de tri et liens avec l'éditeur`,
     `- [Rechercher une formation](${SITE_URL}/formations) : recherche par mot-clé, thème, ville, modalité, CPF, certification`,
-    `- [Publier ses formations](${SITE_URL}/publier) : référencement gratuit pour les organismes de formation`,
+    `- [Publier ses formations](${SITE_URL}/publier) : 5 publications offertes, puis 1 € par fiche ou article`,
     "",
     "## Thèmes (guide pour bien choisir + parcours référencés)",
     ...SPHERES.map((s) => `- [${THEMES_CONTENU[s.slug]?.h1 ?? s.label}](${SITE_URL}/theme/${s.slug}) : ${THEMES_CONTENU[s.slug]?.accroche ?? s.intro}`),

@@ -72,7 +72,7 @@ export function ListingPage({
               <p className="font-display text-xl font-extrabold">Aucun parcours publié ici pour l&apos;instant.</p>
               <p className="mt-1">
                 Vous proposez une formation sur ce sujet&nbsp;?{" "}
-                <Link href="/publier" className="font-semibold underline underline-offset-4">Publiez-la gratuitement</Link>.
+                <Link href="/publier" className="font-semibold underline underline-offset-4">Publiez-la</Link>.
               </p>
             </div>
           </div>

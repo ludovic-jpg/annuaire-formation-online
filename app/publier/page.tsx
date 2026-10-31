@@ -33,7 +33,7 @@ export default function PublierPage() {
             <h1 className="mt-5 text-4xl sm:text-6xl">{PUBLIER.h1}</h1>
             <p className="mt-5 max-w-xl text-lg font-medium">{PUBLIER.chapo}</p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <Link href="/connexion?suite=/espace" className="btn btn-nuit text-lg">Publier mes parcours gratuitement</Link>
+              <Link href="/connexion?suite=/espace" className="btn btn-nuit text-lg">Publier mes parcours</Link>
               <Link href="/liste-attente" className="btn btn-blanc">Être prévenu plus tard</Link>
             </div>
           </div>
@@ -133,7 +133,7 @@ export default function PublierPage() {
           </div>
 
           <div className="mt-14 text-center">
-            <Link href="/connexion?suite=/espace" className="btn btn-jaune text-lg">Publier mes parcours gratuitement</Link>
+            <Link href="/connexion?suite=/espace" className="btn btn-jaune text-lg">Publier mes parcours</Link>
           </div>
         </div>
       </div>

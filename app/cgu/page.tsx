@@ -15,7 +15,7 @@ export default function CguPage() {
       <h2>1. Service</h2>
       <p>
         L&apos;annuaire permet de consulter des parcours de formation et de contacter les organismes qui les proposent. Il est gratuit
-        pour les visiteurs et, au lancement, pour les organismes.
+        pour les visiteurs. Pour les organismes, 5 € de crédit sont offerts à l&apos;inscription, puis chaque fiche ou article publié coûte 1 €.
       </p>
       <h2>2. Compte organisme</h2>
       <ul>

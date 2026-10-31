@@ -20,6 +20,7 @@ export type Post = {
   imageAlt: string;
   keyword: string;
   body: string; // Markdown, sans le H1
+  org: string; // slug de l'organisme auteur (articles de marque), vide pour les articles éditoriaux
 };
 
 const DIR = path.join(process.cwd(), "content", "blog", "posts");
@@ -63,6 +64,7 @@ export function parsePost(nomFichier: string, brut: string): Post | null {
     image: champs.image || "",
     imageAlt: champs.imageAlt || "",
     keyword: champs.keyword || "",
+    org: champs.org || champs.org_slug || "",
     body,
   };
 }

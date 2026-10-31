@@ -88,7 +88,7 @@ export default async function ThemePage({ params }: { params: Params }) {
           )}
           <p className="mt-5">
             Vous proposez une formation dans ce domaine&nbsp;?{" "}
-            <Link href="/publier" className="font-semibold underline underline-offset-4">Référencez-la gratuitement</Link>.
+            <Link href="/publier" className="font-semibold underline underline-offset-4">Référencez-la</Link>.
           </p>
         </aside>
       </section>

@@ -9,7 +9,7 @@ export const META = {
     // Titre absolu (sans gabarit) : la marque est déjà dedans.
     title: "Annuaire Formation Online : annuaire des formations professionnelles",
     description:
-      "Comparez les parcours de formation professionnelle par thème, durée, prix, modalité et CPF. Organismes de formation : référencez vos parcours gratuitement.",
+      "Comparez les parcours de formation professionnelle par thème, durée, prix, modalité et CPF. Organismes : 5 publications offertes, puis 1 € par fiche.",
   },
   formations: {
     title: "Rechercher une formation professionnelle par thème, CPF ou modalité",
@@ -17,9 +17,9 @@ export const META = {
       "Moteur de recherche de l'annuaire : filtrez les parcours de formation par mot-clé, thème, ville, modalité, éligibilité CPF ou certification.",
   },
   publier: {
-    title: "Publier sa formation gratuitement : référencez vos parcours",
+    title: "Publier sa formation : 5 publications offertes",
     description:
-      "Organisme de formation ? Publiez vos parcours gratuitement dans l'annuaire : fiche guidée, relecture humaine, lien vers votre site et demandes d'apprenants.",
+      "Organisme de formation ? 5 publications offertes, puis 1 € par fiche ou article : fiche guidée, relecture humaine, lien vers votre site.",
   },
   aPropos: {
     title: "À propos et méthodologie de l'annuaire",
@@ -41,7 +41,7 @@ export const ACCUEIL_GUIDE = {
   organismes: {
     titre: "Vous êtes un organisme de formation",
     paragraphes: [
-      "Référencer ses formations ici est gratuit. Vous créez une fiche par parcours, nous la relisons, puis elle renvoie vers la page du parcours sur votre site. Les demandes des apprenants vous arrivent directement.",
+      "Vos 5 premières publications sont offertes, puis chaque fiche ou article publié coûte 1 €. Vous créez une fiche par parcours, nous la relisons, puis elle renvoie vers la page du parcours sur votre site. Les demandes des apprenants vous arrivent directement.",
       "Le classement ne s'achète pas : il dépend de la pertinence de la recherche, de la complétude de la fiche et de sa date de publication.",
     ],
   },
@@ -49,8 +49,8 @@ export const ACCUEIL_GUIDE = {
 
 export const ACCUEIL_FAQ: QuestionReponse[] = [
   {
-    q: "L'annuaire est-il gratuit ?",
-    r: "Oui, pour les apprenants comme pour les organismes de formation. Si une offre payante apparaît un jour, elle sera annoncée à l'avance et ne donnera pas de meilleur classement.",
+    q: "Combien coûte l'annuaire ?",
+    r: "Il est gratuit pour les apprenants. Pour les organismes, 5 € de crédit sont offerts à l'inscription (5 publications), puis chaque fiche ou article publié coûte 1 €. Payer ne donne jamais un meilleur classement.",
   },
   {
     q: "Qui rédige les fiches ?",
@@ -68,9 +68,9 @@ export const FORMATIONS_INTRO =
 
 /** Page /publier : texte orienté « publier sa formation », « annuaire organisme de formation ». */
 export const PUBLIER = {
-  h1: "Publiez vos formations gratuitement, là où les apprenants cherchent",
+  h1: "Publiez vos formations là où les apprenants cherchent",
   chapo:
-    "Une fiche par parcours, avec l'essentiel en haut (durée, prix, modalité, CPF) et un lien vers la page du parcours sur votre site. Le référencement est gratuit.",
+    "Une fiche par parcours, avec l'essentiel en haut (durée, prix, modalité, CPF) et un lien vers la page du parcours sur votre site. 5 publications offertes, puis 1 € par fiche ou article.",
   pourquoi: {
     titre: "Pourquoi référencer vos parcours dans un annuaire de formation",
     paragraphes: [

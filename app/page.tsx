@@ -69,11 +69,11 @@ export default async function Home() {
               </h2>
             </div>
             <p className="mt-4 text-white/85">
-              Gratuit au lancement, connexion par e-mail, une fiche prête en quelques minutes. Chaque fiche renvoie vers la
+              5 publications offertes, connexion par e-mail, une fiche prête en quelques minutes. Chaque fiche renvoie vers la
               page du parcours sur votre site.
             </p>
             <Link href="/publier" className="btn btn-jaune mt-5 self-start">
-              Publier mes parcours gratuitement
+              Publier mes parcours
             </Link>
           </section>
 
@@ -197,7 +197,7 @@ export default async function Home() {
                   {i === 0 ? (
                     <Link href="/formations" className="font-semibold underline underline-offset-4">Rechercher une formation</Link>
                   ) : (
-                    <Link href="/publier" className="font-semibold underline underline-offset-4">Référencer mes formations gratuitement</Link>
+                    <Link href="/publier" className="font-semibold underline underline-offset-4">Référencer mes formations</Link>
                   )}
                   {" · "}
                   <Link href="/a-propos" className="underline underline-offset-4">Notre méthode</Link>

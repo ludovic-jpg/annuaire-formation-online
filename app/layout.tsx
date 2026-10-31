@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Comparez des parcours de formation professionnelle : durée, prix, modalité, éligibilité CPF, organisme. Organismes de formation : publiez vos parcours gratuitement.",
+    "Comparez des parcours de formation professionnelle : durée, prix, modalité, éligibilité CPF, organisme. Organismes de formation : 5 publications offertes.",
   applicationName: SITE_NAME,
   openGraph: {
     type: "website",
