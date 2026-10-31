@@ -1,0 +1,58 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-maitriser-les-reseaux-sociaux/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation réseaux sociaux : développer la visibilité de son activité",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les fondamentaux des réseaux sociaux",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Élaborer une stratégie de communication propre à chaque réseau social utilisé par votre activité.",
+    "Expliquer le fonctionnement et les algorithmes des principales plateformes : Instagram, LinkedIn, Facebook, TikTok.",
+    "Produire des contenus adaptés à chaque plateforme pour attirer et fidéliser votre public.",
+    "Mesurer vos performances avec les outils d’analyse et ajuster vos publications.",
+    "Concevoir une campagne publicitaire sur les réseaux sociaux avec un objectif chiffré."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou distanciel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Le paysage des réseaux sociaux\n- Retracer l’évolution des réseaux sociaux et leur place dans la communication digitale d’une entreprise.\n- Associer chaque plateforme à son public : LinkedIn, Instagram, Facebook, TikTok.\n- Évaluer ce qu’un usage professionnel des réseaux peut apporter à votre activité, et les risques à anticiper.\n### Module 2 : Bâtir sa stratégie\n- Fixer des objectifs précis, en lien avec votre projet d’entreprise.\n- Décrire et segmenter votre audience pour savoir à qui vous parlez.\n- Construire un calendrier éditorial cohérent.\n### Module 3 : Produire des contenus qui retiennent l’attention\n- Écrire des textes adaptés au ton et aux formats de chaque réseau.\n- Appliquer les règles de base du visuel pour des publications soignées.\n- Utiliser vidéos, stories et reels.\n### Module 4 : Travailler avec les algorithmes\n- Repérer ce que chaque algorithme met en avant.\n- Utiliser hashtags, mots-clés et sujets du moment pour élargir la portée.\n- Tester horaires et fréquence de publication, puis garder ceux qui fonctionnent.\n### Module 5 : Animer sa communauté\n- Répondre aux messages et aux commentaires pour créer un lien avec vos abonnés.\n- Gérer un avis négatif ou une situation tendue.\n- Fidéliser une communauté sur la durée.\n### Module 6 : Mesurer et faire de la publicité\n- Suivre les indicateurs clés (KPI) dans les statistiques des plateformes.\n- Tirer de ces données des décisions concrètes pour vos prochaines publications.\n- Lancer une campagne sponsorisée ciblée et en contrôler la rentabilité.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Améliorez votre présence sur les réseaux sociaux tels qu’Instagram, LinkedIn, Facebook ou TikTok. Découvrez les stratégies pour optimiser votre visibilité, créer du contenu engageant, attirer votre audience cible et développer votre stratégie digitale pour vous démarquer en ligne."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Financement possible selon votre situation : OPCO, plan de développement des compétences ou employeur"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

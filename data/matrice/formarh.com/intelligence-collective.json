@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/intelligence-collective",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Animer l'intelligence collective",
+  "image": "https://formarh.com/assets/course-intelligence-collective-D58OFBiW.webp",
+  "niveau": null,
+  "tarif": "1 490 € HT",
+  "duree": "14h (2 jours)",
+  "objectif_court": null,
+  "prerequis": "- Expérience de management ou coordination d'équipe (2 ans minimum)\n- Avoir déjà animé des réunions ou ateliers de groupe\n- Capacité à prendre du recul sur ses pratiques",
+  "public": "Managers, Responsables d'équipe, Facilitateurs, Consultants RH, Chefs de projet",
+  "objectifs": [
+    "Expliquer à son équipe les conditions qui font émerger l'intelligence collective : confiance, diversité, écoute",
+    "Conduire une séance d'Action Learning en 6 étapes sur un problème réel de son service",
+    "Animer un atelier de co-création de 30 minutes en posture de facilitateur",
+    "Choisir le format participatif adapté à l'enjeu : World Café, Forum Ouvert ou brainstorming",
+    "Traiter une divergence ou un conflit en réunion à l'aide de techniques de questionnement",
+    "Concevoir le déroulé d'un atelier collaboratif qui répond à un enjeu de son équipe"
+  ],
+  "points_forts": null,
+  "modalites": "- Apports théoriques illustrés par des cas concrets\n- Mises en situation et jeux de rôle\n- Travail en sous-groupes et co-développement\n- Expérimentation d'outils et techniques\n- Debriefing collectif et feedback personnalisé",
+  "programme_md": "### Ce qui fait travailler un groupe ensemble\nDurée : 3h30\n- Principes de l'intelligence collective appliqués à une équipe de travail\n- Confiance, diversité, écoute : les trois conditions d'émergence\n- Repérer les intelligences multiples de Gardner au sein de son équipe\n- Cas d'organisations apprenantes analysés en sous-groupes\n- Autodiagnostic : où en est la maturité collaborative de mon équipe ?\n### Le manager facilitateur : animer le groupe\nDurée : 3h30\n- Rester neutre et bienveillant quand on est aussi le responsable hiérarchique\n- Poser les questions qui font avancer le groupe : la méthode GROW\n- Désamorcer les conflits et composer avec les personnalités difficiles en réunion\n- Rendre la réflexion visible : mind mapping et canvas\n- Exercice : chaque participant anime un atelier de 30 minutes\n### Action Learning : faire résoudre un vrai problème par l'équipe\nDurée : 3h30\n- Les principes posés par Reg Revans et leur intérêt en entreprise\n- Composer un groupe d'Action Learning et fixer ses règles de fonctionnement\n- Le rôle du coach pendant la séance\n- Dérouler le protocole de résolution de problème en 6 étapes\n- Séance d'Action Learning simulée de bout en bout\n### Co-construire des solutions avec son équipe\nDurée : 3h30\n- Les 4 phases d'un processus créatif collectif\n- Ouvrir les pistes : brainstorming avancé, SCAMPER, analogies\n- Trier et décider : vote pondéré, matrice effort/impact\n- World Café, Forum Ouvert : choisir le format selon le groupe et l'enjeu\n- Construire son propre atelier de co-création, prêt à être animé dans son service",
+  "resultats_attendus": null,
+  "evaluation": "- Quiz de connaissances en début et fin de formation\n- Évaluation des mises en pratique par le formateur\n- Auto-évaluation des compétences acquises\n- Attestation de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Contactez-nous pour adapter les modalités pédagogiques.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Résoudre les problèmes en équipe\nApprenez à mobiliser l'intelligence de groupe pour résoudre des problématiques complexes et prendre des décisions stratégiques collaboratives. Cette formation vous donne les clés pour transformer vos réunions en véritables laboratoires d'innovation collective."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "3 200 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "3 200 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

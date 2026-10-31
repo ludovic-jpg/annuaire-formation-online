@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-shinzu-body/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage SHINZU BODY™",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-massage-4-721x1024.webp",
+  "niveau": "Professionnel du bien-être et/ou personne en reconversion professionnel",
+  "tarif": "A partir de 1200 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de dispenser des massage et soins selon la méthode de Shinzy Body",
+  "prerequis": "Développer les facultés d’écoute et de bienveillance",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques du massage SHINZU BODY facilement applicables.",
+    "Comprendre les besoins spécifiques pour adapter les massages.",
+    "Instaurer une relation de confiance avec le client.",
+    "Optimiser l’espace de massage pour le confort de tous.",
+    "Adapter ses postures pour garantir une pratique efficace et sûre."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formatrice\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques dans un cabinet de massage ( Chez le stagiaire ou au cabinet de la formatrice\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction au SHINZU BODY et ses Fondamentaux\n- Comprendre l’histoire et les principes du massage SHINZU BODY.\n- Identifier les bienfaits du massage SHINZU BODY pour le corps et l’esprit.\n- Apprendre les gestes de base et les techniques de préparation.\n### Module 2: Techniques de Relaxation et Méditation\n- Intégrer des techniques de respiration et de méditation dans les sessions de massage.\n- Maîtriser les méthodes de relaxation profonde pour débuter et conclure une séance.\n- Utiliser la musique et l’aromathérapie comme outils complémentaires.\n### Module 3: Pratiques Avancées en Massage SHINZU BODY\n- Approfondir les techniques spécifiques du SHINZU BODY pour traiter des zones ciblées.\n- Adapter le massage aux besoins spécifiques des clients pour un soulagement optimal.\n- Combiner différentes pressions et mouvements pour une expérience unique.\n### Module 4: Personnalisation des Soins et Approche Holistique\n- Développer des programmes de soin personnalisés en fonction des attentes et besoins des clients.\n- Intégrer une approche holistique dans la pratique du massage, considérant l’individu dans sa globalité.\n- Utiliser le feedback client pour affiner et améliorer les techniques de massage.\n### Module 5: Bien-être et Santé Mentale\n- Reconnaître l’impact du massage sur la santé mentale et le stress.\n- Appliquer des techniques de massage pour favoriser la détente mentale et l’équilibre émotionnel.\n- Encourager les pratiques de bien-être personnel chez les clients.\n### Module 6: Pratique Professionnelle et Éthique\n- Comprendre les aspects éthiques et professionnels du métier de masseur.\n- Gérer efficacement un espace de massage, de la prise de rendez-vous à la fidélisation des clients.\n- Respecter la confidentialité et l’intégrité de chaque client.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Maîtrisez les techniques du massage SHINZU BODY™, alliant traditions orientales et pratiques modernes pour favoriser la relaxation et la revitalisation du corps. Apprenez des gestes précis, des protocoles professionnels et des techniques pour apaiser les tensions musculaires. Cette formation enrichit vos compétences et vous permet d’offrir des soins uniques dans le domaine du bien-être."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

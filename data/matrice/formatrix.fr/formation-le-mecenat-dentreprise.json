@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/rse/formation-le-mecenat-dentreprise/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Le mécénat d’entreprise",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/3-1024x643.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de mettre en place un mécénat au sein de votre structure",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Comprendre les fondamentaux du mécénat et ses enjeux pour les entreprises.",
+    "Identifier et analyser les opportunités de mécénat en fonction des objectifs stratégiques de l’entreprise.",
+    "Concevoir et développer des projets de mécénat en alignant les intérêts de l’entreprise et des bénéficiaires.",
+    "Évaluer l’impact des initiatives de mécénat et optimiser les partenariats pour maximiser les résultats.",
+    "Communiquer efficacement sur les projets de mécénat pour renforcer l’image et la réputation de l’entreprise."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au Mécénat et à ses Enjeux\n- Définir le mécénat et distinguer ses formes principales, telles que le mécénat financier, matériel et de compétence.\n- Identifier les bénéfices du mécénat pour les entreprises et les associations bénéficiaires.\n- Explorer les tendances actuelles et les défis du mécénat dans le contexte économique et social.\n### Module 2 : Stratégie de Mécénat et Alignement avec les Objectifs d’Entreprise\n- Analyser les objectifs stratégiques de l’entreprise pour aligner les projets de mécénat avec sa vision et ses valeurs.\n- Identifier les causes et projets qui correspondent aux intérêts et à la mission de l’entreprise.\n- Établir des critères de sélection pour choisir les initiatives de mécénat les plus pertinentes et impactantes.\n### Module 3 : Conception de Projets de Mécénat\n- Développer des propositions de projets de mécénat en définissant les objectifs, les bénéficiaires et les ressources nécessaires.\n- Créer des plans de mise en œuvre détaillés, y compris les étapes, les partenaires et les indicateurs de succès.\n- Prévoir des stratégies de gestion des ressources et de coordination avec les parties prenantes pour assurer la réussite des projets.\n### Module 4 : Mise en Œuvre et Gestion des Initiatives de Mécénat\n- Exécuter les projets de mécénat selon le plan établi en gérant les ressources et les délais de manière efficace.\n- Collaborer avec les bénéficiaires et les partenaires pour assurer une coordination fluide et atteindre les objectifs fixés.\n- Résoudre les problèmes et ajuster les stratégies en fonction des feedbacks et des résultats observés.\n### Module 5 : Évaluation de l’Impact et Optimisation des Initiatives\n- Mesurer l’impact des projets de mécénat en utilisant des indicateurs de performance et des outils d’évaluation adaptés.\n- Analyser les résultats obtenus pour déterminer l’efficacité des initiatives et leur contribution aux objectifs de l’entreprise.\n- Adapter les projets futurs en fonction des leçons apprises et des opportunités d’amélioration identifiées.\n### Module 6 : Communication et Valorisation des Projets de Mécénat\n- Élaborer des stratégies de communication pour promouvoir les initiatives de mécénat auprès des parties prenantes internes et externes.\n- Créer des supports de communication, tels que des rapports, des études de cas et des témoignages, pour valoriser les projets réalisés.\n- Gérer la réputation de l’entreprise en utilisant les succès des projets de mécénat pour renforcer son image de marque et son engagement social.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Développez des projets de mécénat d’entreprise efficaces et stratégiques. Apprenez à structurer vos partenariats, aligner vos valeurs avec des actions concrètes et maximiser l’impact sociétal de vos initiatives pour renforcer votre engagement auprès des causes sociales."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

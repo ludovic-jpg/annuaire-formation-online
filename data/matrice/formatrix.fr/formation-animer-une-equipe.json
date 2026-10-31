@@ -1,0 +1,63 @@
+{
+  "lien": "https://formatrix.fr/formation/rh-management/formation-animer-une-equipe/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Animer une équipe",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-animer-une-equipe.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Savoir animer une équipe de manière bienveillante et efficace",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "– Développer des compétences en leadership dynamique et motivant.",
+    "– Maîtriser les techniques de communication pour renforcer la cohésion d’équipe.",
+    "– Apprendre à créer et maintenir un environnement de travail stimulant et positif.",
+    "– Acquérir des méthodes pour encourager la créativité et l’innovation au sein de l’équipe.",
+    "– Renforcer les capacités en résolution de conflits et en gestion de la diversité.",
+    "– Élaborer des stratégies pour la reconnaissance et la valorisation des performances individuelles et collectives.",
+    "– Cultiver une culture d’équipe axée sur la collaboration et l’engagement.",
+    "Ce parcours “Animer son Équipe” est conçu pour transformer les managers en leaders inspirants, capables de dynamiser et d’unifier leurs équipes. En adoptant ces compétences essentielles, les participants deviendront des moteurs de changement positif, stimulant la performance et l’innovation au sein de leurs organisations"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "**Développer un Leadership Dynamique et Motivant**\n– Identifier et affiner son propre style de leadership.\n– Inspirer et motiver les membres de l’équipe à travers une vision claire.\n– Encourager l’engagement et la responsabilisation au sein de l’équipe.\n**Maîtrise des Techniques de Communication**\n– Utiliser efficacement la communication verbale et non verbale.\n– Appliquer des méthodes de communication pour renforcer la confiance et la transparence.\n– Gérer les communications dans des situations difficiles ou conflictuelles.\n**Création d’un Environnement de Travail Positif**\n– Favoriser un climat de travail ouvert et inclusif.\n– Développer des stratégies pour maintenir la motivation et le bien-être de l’équipe.\n– Gérer l’équilibre entre la pression du travail et la santé mentale de l’équipe.\n**Encouragement de la Créativité et de l’Innovation**\n– Stimuler la pensée créative et l’innovation dans les projets d’équipe.\n– Mettre en place des ateliers et des sessions de brainstorming efficaces.\n– Encourager l’expérimentation et la prise de risques calculés.\n**Gestion des Conflits et Diversité**\n– Appliquer des techniques de résolution de conflits.\n– Reconnaître et valoriser la diversité au sein de l’équipe.\n– Développer des compétences en médiation et en empathie.\n**Reconnaissance et Valorisation des Performances**\n– Mettre en place des systèmes de reconnaissance des efforts et des succès.\n– Fournir des retours constructifs et motivants.\n– Célébrer les réussites collectives et individuelles.\n**Cultiver une Culture de Collaboration**\n– Encourager la collaboration et le travail d’équipe.\n– Développer des stratégies pour améliorer l’engagement des employés.\n– Construire et maintenir des relations interpersonnelles solides au sein de l’équipe.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Renforcez votre leadership en apprenant à animer, motiver et fédérer vos équipes. Développez vos compétences en communication, gestion des conflits et cohésion d’équipe pour transformer vos collaborateurs en forces performantes et créatives."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

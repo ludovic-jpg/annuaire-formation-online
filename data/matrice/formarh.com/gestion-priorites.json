@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/gestion-priorites",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Gestion des priorités et du temps",
+  "image": "https://formarh.com/assets/course-gestion-priorites-CvtLn8zI.webp",
+  "niveau": null,
+  "tarif": "690 € HT",
+  "duree": "7h (1 jour)",
+  "objectif_court": null,
+  "prerequis": "- Aucun prérequis particulier\n- Venir avec son ordinateur portable ou smartphone\n- Apporter sa to-do list actuelle pour les exercices pratiques",
+  "public": "Tous collaborateurs souhaitant améliorer leur efficacité, Managers, Indépendants, Chefs de projet",
+  "objectifs": [
+    "Identifier ses chronophages et son profil de gestion du temps à partir d'un autodiagnostic",
+    "Classer ses tâches réelles avec la matrice d'Eisenhower, la loi de Pareto et la méthode ABCDE",
+    "Construire un planning hebdomadaire type avec time blocking et revue de semaine",
+    "Refuser ou recadrer une sollicitation ou une réunion avec des formulations assertives",
+    "Paramétrer son agenda et sa messagerie pour traiter ses emails selon la méthode Inbox Zero",
+    "Rédiger un plan d'action personnel qui préserve l'équilibre entre vie professionnelle et vie personnelle"
+  ],
+  "points_forts": null,
+  "modalites": "- Autodiagnostics et tests personnalisés\n- Exercices pratiques sur ses propres tâches\n- Démonstrations d'outils numériques\n- Échanges de bonnes pratiques entre participants\n- Plan d'action individuel en fin de formation",
+  "programme_md": "### Où passe mon temps ? Le diagnostic\nDurée : 1h30\n- Autoévaluation de ses pratiques actuelles\n- Repérer ses chronophages, des interruptions aux réunions qui débordent\n- Tracer sa courbe d'énergie sur une journée\n- Profils de gestion du temps : urgentiste, perfectionniste, etc.\n- Fixer ses propres objectifs d'amélioration\n### Trier l'urgent et l'important\nDurée : 2h\n- Urgent ou important : faire la différence\n- Les 4 quadrants de la matrice d'Eisenhower\n- La règle des 20/80 (loi de Pareto)\n- Prioriser avec les méthodes ABCDE et MoSCoW\n- Atelier : passer sa propre to-do list dans la matrice\n### Planifier sa semaine\nDurée : 1h30\n- GTD (Getting Things Done) de David Allen\n- Time blocking et regroupement des tâches de même nature\n- Pomodoro et protection de la concentration\n- Planification hebdomadaire et revue de semaine\n- Construire son planning type\n### Emails et réunions : reprendre la main\nDurée : 1h\n- Inbox Zero : traiter ses emails sans les laisser s'accumuler\n- Règles de tri automatique et classement des dossiers\n- Décliner une réunion inutile : critères et formulations assertives\n- Des réunions plus courtes et plus utiles\n- Communiquer en asynchrone avec son équipe\n### Des outils numériques au service de ses priorités\nDurée : 1h\n- Panorama des applications de gestion de tâches\n- Régler et utiliser son agenda\n- Outils de concentration et blocage des distractions\n- Synchroniser ses outils entre ordinateur et smartphone\n- Plan d'action personnel et engagements",
+  "resultats_attendus": null,
+  "evaluation": "- Questionnaire d'auto-évaluation avant/après\n- Validation des exercices pratiques\n- Plan d'action personnalisé validé par le formateur\n- Attestation de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Documents fournis en format numérique accessible.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Optimiser sa productivité\nMaîtrisez les techniques éprouvées de gestion du temps et des priorités pour maximiser votre efficacité professionnelle, réduire le stress et retrouver un équilibre de vie satisfaisant. Une formation pratique avec des outils immédiatement applicables."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "1 800 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "1 800 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

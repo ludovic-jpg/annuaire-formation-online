@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-dos-et-cranien/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage Dos et Crânien",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-massage-cranier-1024x758.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 € - Financement possible",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Maîtriser les techniques de massage bien-être",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Acquérir des compétences fondamentales en massage du dos et du crâne.",
+    "Maîtriser les techniques spécifiques de détente musculaire et de soulagement du stress.",
+    "Appliquer les meilleures pratiques en matière de manipulation douce et de pression thérapeutique.",
+    "Développer une approche personnalisée pour chaque client, adaptée à ses besoins spécifiques.",
+    "Promouvoir le bien-être général et la santé grâce à des méthodes de massage innovantes."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur – 14 H de Formation Online et 7 H de formation présentiel\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction au massage thérapeutique\n- Comprendre l’histoire et les fondements du massage thérapeutique.\n- Identifier les différents types de massage et leur application.\n- Étudier l’anatomie de base du crâne et du dos.\n### Module 2: Techniques de base du massage du dos\n- Apprendre les gestes fondamentaux de préparation et d’échauffement musculaire.\n- Pratiquer les mouvements de base comme l’effleurage et le pétrissage.\n- Reconnaître les zones de tension et les techniques pour les soulager.\n### Module 3: Approfondissement du massage crânien\n- Maîtriser les points de pression spécifiques au crâne pour un effet relaxant.\n- Appliquer les techniques de massage crânien pour réduire le stress et les maux de tête.\n- Combiner les mouvements crâniens avec des techniques de respiration pour maximiser l’effet détente.\n### Module 4: Techniques avancées pour le massage du dos\n- Intégrer des techniques avancées telles que le massage profond et les mobilisations.\n- Utiliser des outils et des aides comme les huiles essentielles et les balles de massage.\n- Adapter les séances en fonction des besoins spécifiques des clients, tels que les problèmes de posture ou les douleurs chroniques.\n### Module 5: Pratique clinique et étude de cas\n- Réaliser des séances de massage sous supervision dans un cadre clinique.\n- Analyser des études de cas pour comprendre divers scénarios et réponses thérapeutiques.\n- Recevoir et intégrer des retours constructifs pour affiner les techniques.\n### Module 6: Développement professionnel et éthique du massage\n- Étudier les principes éthiques essentiels dans la pratique du massage thérapeutique.\n- Explorer les voies de développement professionnel continu, y compris les certifications spécialisées.\n- Préparer les participants à gérer leur propre pratique, en se concentrant sur le marketing, la gestion des relations clients et les aspects légaux.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Spécialisez-vous dans le massage du dos et du crâne pour soulager les tensions accumulées et promouvoir la détente nerveuse. Apprenez des gestes ciblés, des pressions adaptées et des techniques spécifiques pour apporter relaxation et bien-être à vos clients. Cette formation est idéale pour les praticiens cherchant à élargir leur expertise dans les soins ciblés et thérapeutiques."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

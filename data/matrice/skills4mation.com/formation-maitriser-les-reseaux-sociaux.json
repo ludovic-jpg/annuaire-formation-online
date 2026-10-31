@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-maitriser-les-reseaux-sociaux",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Maîtriser les Réseaux Sociaux",
+  "image": "https://skills4mation.com/images/formations/formation-maitriser-les-reseaux-sociaux.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 €",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les fondamentaux des réseaux sociaux",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Apprendre à élaborer une stratégie de communication adaptée à chaque réseau social.",
+    "Comprendre les spécificités et les algorithmes des principales plateformes sociales.",
+    "Développer des contenus engageants et optimisés pour attirer et fidéliser une audience ciblée.",
+    "Utiliser efficacement les outils d’analyse pour mesurer la performance et ajuster ses actions.",
+    "Concevoir des campagnes publicitaires percutantes pour atteindre des objectifs marketing précis."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou distanciel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Comprendre les fondamentaux des réseaux sociaux\n- Explorer l’évolution et l’impact des réseaux sociaux dans la communication digitale.\n- Identifier les principales plateformes et leurs audiences cibles.\n- Reconnaître les opportunités et les défis liés à l’utilisation professionnelle des réseaux sociaux.\n### Module 2 : Élaborer une stratégie de communication sur les réseaux sociaux\n- Définir des objectifs clairs et alignés avec une vision globale.\n- Analyser et segmenter une audience pour mieux répondre à ses attentes.\n- Concevoir un plan de contenu stratégique et cohérent.\n### Module 3 : Créer des contenus engageants et adaptés\n- Apprendre à rédiger des textes captivants et optimisés pour chaque plateforme.\n- Découvrir les bases du design visuel pour des publications attrayantes.\n- Intégrer des formats multimédias (vidéos, stories, reels) pour maximiser l’impact.\n### Module 4 : Optimiser sa visibilité grâce aux algorithmes\n- Comprendre les logiques d’algorithmes des principales plateformes sociales.\n- Utiliser les hashtags, mots-clés et tendances pour accroître la portée des contenus.\n- Analyser les horaires et les fréquences de publication pour maximiser l’engagement.\n### Module 5 : Gérer et engager une communauté en ligne\n- Apprendre à interagir efficacement avec son audience pour renforcer les liens.\n- Gérer les commentaires et retours, y compris les situations sensibles ou conflictuelles.\n- Fidéliser une communauté en développant des relations authentiques et durables.\n### Module 6 : Mesurer la performance et optimiser les campagnes\n- Utiliser des outils d’analyse pour suivre les indicateurs clés de performance (KPI).\n- Interpréter les données pour ajuster et améliorer les stratégies.\n- Développer des campagnes publicitaires ciblées et rentables sur les réseaux sociaux.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Améliorez votre présence sur les réseaux sociaux tels qu’Instagram, LinkedIn, Facebook ou TikTok. Découvrez les stratégies pour optimiser votre visibilité, créer du contenu engageant, attirer votre audience cible et développer votre stratégie digitale pour vous démarquer en ligne."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

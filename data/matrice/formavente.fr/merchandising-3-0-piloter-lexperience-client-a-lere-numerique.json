@@ -1,0 +1,57 @@
+{
+  "lien": "https://formavente.fr/formation/merchandising-3-0-piloter-lexperience-client-a-lere-numerique/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Merchandising 3.0 – Piloter l'expérience client à l'ère numérique",
+  "image": "https://formavente.fr/images/2025/05/WhatsApp-Image-2025-05-27-at-1.08.00-PM-4.jpeg",
+  "niveau": "Niveau 4 (équivalent Bac)",
+  "tarif": "À partir de 2450 € – financement possible",
+  "duree": "24 heures sur 8 semaines",
+  "objectif_court": "Optimiser l'expérience d'achat et booster les ventes grâce aux techniques de merchandising numérique et physique.",
+  "prerequis": "Première expérience en vente ou gestion de rayon",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les fondamentaux du merchandising physique et digital",
+    "Concevoir des espaces de vente performants",
+    "Analyser les données clients pour adapter les implantations",
+    "Utiliser les outils numériques pour dynamiser les linéaires"
+  ],
+  "points_forts": null,
+  "modalites": "Formation hybride : classes virtuelles, ateliers présentiels, modules e-learning, coaching terrain",
+  "programme_md": "### Module 1 : Fondamentaux du merchandising visuel\n- Maîtriser les règles de base d’un agencement commercial efficace.\n- Exploiter les principes de circulation, de lisibilité et de focalisation.\n- Identifier les zones chaudes et froides d’un point de vente pour optimiser le parcours client.\n### Module 2 : Théâtralisation de l’offre et storytelling produit\n- Mettre en scène les produits pour créer une expérience sensorielle engageante.\n- Utiliser la lumière, les couleurs et la signalétique pour capter l’attention.\n- Construire des mises en avant cohérentes avec l’identité de marque.\n### Module 3 : Pilotage du linéaire et performance commerciale\n- Analyser la rentabilité des rayons grâce aux indicateurs clés (PM, DV, Taux de rotation).\n- Utiliser des planogrammes et optimiser le facing pour maximiser la visibilité produit.\n- Appliquer les règles de gestion des stocks et de réassort automatisé.\n### Module 4 : Merchandising digital & technologies immersives\n- Intégrer des outils digitaux (bornes, écrans, QR codes) pour enrichir l’expérience client.\n- Utiliser la data (trafic, temps de passage, heatmaps) pour ajuster les implantations.\n- Explorer les innovations phygitales (réalité augmentée, hologrammes, IA en point de vente).\n### Module 5 : Mise en œuvre terrain & projet fil rouge\n- Réaliser un diagnostic merchandising sur un espace de vente réel ou fictif.\n- Concevoir et présenter une stratégie de réimplantation complète.\n- Être évalué sur la cohérence, la créativité et la performance attendue de son dispositif.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Optimiser l'expérience d'achat et booster les ventes grâce aux techniques de merchandising numérique et physique."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

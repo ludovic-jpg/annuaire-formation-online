@@ -1,0 +1,61 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-creer-et-administrer-son-site/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation WordPress : créer et gérer le site de son activité",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 2400 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Savoir comment créer un site WEB à votre image",
+  "prerequis": "Savoir manipuler internet",
+  "public": null,
+  "objectifs": [
+    "Formuler les objectifs de votre site et sa place dans votre communication digitale : clients visés, messages, canaux.",
+    "Lister les fonctionnalités dont votre activité a besoin : prise de contact, réservation, vente en ligne, blog.",
+    "Rédiger un cahier des charges fonctionnel et technique qui servira de référence pendant le développement.",
+    "Choisir puis installer un thème WordPress ou un constructeur de pages.",
+    "Configurer, administrer et mettre à jour votre site WordPress avec les extensions utiles.",
+    "Produire les textes et les visuels des premières pages.",
+    "Mettre en place ou améliorer vos leviers de trafic : réseaux sociaux, emailing, référencement naturel et payant.",
+    "À l’issue du parcours, vous êtes capable de publier vous-même votre site."
+  ],
+  "points_forts": "- **Approche Intégrée et Contextualisée :** Ce cours est spécialement conçu pour lier les aspects techniques et créatifs de la création de sites web, assurant ainsi que les participants peuvent immédiatement mettre en pratique les compétences acquises dans leurs environnements professionnels.\n- **Contenu Sur-Mesure :** Adaptation du contenu aux besoins spécifiques des participants, en fonction de leur domaine d’activité. Cela permet une pertinence accrue et une application directe des compétences en développement web.\n- **Évaluation Continue et Feedback Personnalisé :** Des évaluations régulières et des retours constructifs sont intégrés tout au long du parcours pour suivre les progrès des participants et ajuster l’approche pédagogique si nécessaire.\n- **Formateurs Expérimentés :** Nos formateurs possèdent une connaissance approfondie des technologies web et des pratiques de design modernes.",
+  "modalites": "- **Méthodes d’Enseignement Actives et Participatives :** Utilisation de techniques telles que la pédagogie de projet, les ateliers pratiques, et les revues de code pour encourager l’interaction et l’engagement actif des participants.\n- **Entretien et Test de Positionnement :** Entretien initial avec votre formateur pour déterminer au mieux le contenu de la formation selon votre expérience et vos objectifs professionnels.\n- **Attestation de fin de formation :** Une attestation de fin de formation vous est remise à l’issue du parcours.",
+  "programme_md": "### Module 1 : Démarrer avec WordPress\n- Situer WordPress parmi les systèmes de gestion de contenu (CMS) et voir pourquoi tant d’indépendants et de petites entreprises l’utilisent.\n- Installer WordPress en local puis chez un hébergeur, prendre ses repères dans le tableau de bord et régler les paramètres de base.\n- Publier ses premiers articles et pages, puis les classer avec des catégories et des étiquettes.\n### Module 2 : Donner au site l’apparence de votre activité\n- Comparer plusieurs thèmes dans la bibliothèque WordPress, en installer un et l’activer.\n- Régler couleurs, polices et mises en page dans l’outil de personnalisation pour respecter votre charte.\n- Construire les menus de navigation et ajouter les widgets utiles aux visiteurs.\n### Module 3 : Ajouter des fonctions avec les extensions\n- Voir à quoi servent les extensions et choisir celles dont votre site a réellement besoin.\n- Installer, activer et mettre à jour une extension, puis régler un conflit entre deux extensions.\n- Mettre en place les extensions de base pour la sécurité, le référencement, la sauvegarde et la vitesse.\n### Module 4 : Organiser des contenus plus riches\n- Créer des types de contenu sur mesure, par exemple pour présenter vos réalisations, vos produits ou vos services.\n- Ajouter des champs personnalisés pour afficher des informations précises (tarif, durée, lieu) sur vos pages.\n- Classer ces contenus avec des taxonomies personnalisées quand les catégories ne suffisent plus.\n### Module 5 : Visibilité, mesure d’audience et vitesse\n- Travailler titres, descriptions et mots-clés de vos pages pour les moteurs de recherche.\n- Relier Google Analytics à WordPress et observer le parcours de vos visiteurs.\n- Accélérer le site : compression des images, extension de cache, allègement des scripts.\n### Module 6 : Sécuriser et entretenir le site\n- Protéger le site contre les logiciels malveillants, le piratage et les failles connues.\n- Programmer des sauvegardes régulières et savoir restaurer le site après un incident.\n- Tenir une routine de mises à jour de WordPress, du thème et des extensions.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Salarié chargé du site de son entreprise ou indépendant qui veut le sien : ce parcours vous accompagne de l’idée au site en ligne avec WordPress. Thème, extensions, personnalisation, vitesse, sécurité : vous apprenez à gérer un site vitrine, un blog ou une boutique en ligne, sans connaissances techniques au départ."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Financement possible selon votre situation : OPCO, plan de développement des compétences ou employeur"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "points_forts",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

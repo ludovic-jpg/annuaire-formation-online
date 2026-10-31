@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bureautique/formation-maitriser-les-reseaux-sociaux/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Maîtriser les Réseaux Sociaux",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/communication-1024x659.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les fondamentaux des réseaux sociaux",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Apprendre à élaborer une stratégie de communication adaptée à chaque réseau social.",
+    "Comprendre les spécificités et les algorithmes des principales plateformes sociales.",
+    "Développer des contenus engageants et optimisés pour attirer et fidéliser une audience ciblée.",
+    "Utiliser efficacement les outils d’analyse pour mesurer la performance et ajuster ses actions.",
+    "Concevoir des campagnes publicitaires percutantes pour atteindre des objectifs marketing précis."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou distanciel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Comprendre les fondamentaux des réseaux sociaux\n- Explorer l’évolution et l’impact des réseaux sociaux dans la communication digitale.\n- Identifier les principales plateformes et leurs audiences cibles.\n- Reconnaître les opportunités et les défis liés à l’utilisation professionnelle des réseaux sociaux.\n### Module 2 : Élaborer une stratégie de communication sur les réseaux sociaux\n- Définir des objectifs clairs et alignés avec une vision globale.\n- Analyser et segmenter une audience pour mieux répondre à ses attentes.\n- Concevoir un plan de contenu stratégique et cohérent.\n### Module 3 : Créer des contenus engageants et adaptés\n- Apprendre à rédiger des textes captivants et optimisés pour chaque plateforme.\n- Découvrir les bases du design visuel pour des publications attrayantes.\n- Intégrer des formats multimédias (vidéos, stories, reels) pour maximiser l’impact.\n### Module 4 : Optimiser sa visibilité grâce aux algorithmes\n- Comprendre les logiques d’algorithmes des principales plateformes sociales.\n- Utiliser les hashtags, mots-clés et tendances pour accroître la portée des contenus.\n- Analyser les horaires et les fréquences de publication pour maximiser l’engagement.\n### Module 5 : Gérer et engager une communauté en ligne\n- Apprendre à interagir efficacement avec son audience pour renforcer les liens.\n- Gérer les commentaires et retours, y compris les situations sensibles ou conflictuelles.\n- Fidéliser une communauté en développant des relations authentiques et durables.\n### Module 6 : Mesurer la performance et optimiser les campagnes\n- Utiliser des outils d’analyse pour suivre les indicateurs clés de performance (KPI).\n- Interpréter les données pour ajuster et améliorer les stratégies.\n- Développer des campagnes publicitaires ciblées et rentables sur les réseaux sociaux.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Améliorez votre présence sur les réseaux sociaux tels qu’Instagram, LinkedIn, Facebook ou TikTok. Découvrez les stratégies pour optimiser votre visibilité, créer du contenu engageant, attirer votre audience cible et développer votre stratégie digitale pour vous démarquer en ligne."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

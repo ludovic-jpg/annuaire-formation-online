@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/ventes/formation-vente-conseil/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Vente Conseil",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-vente-conseil-679x1024.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les fondamentaux de la vente conseil",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Acquérir les techniques de vente conseil adaptées aux besoins spécifiques des clients",
+    "Développer des stratégies de négociation efficaces pour améliorer les performances commerciales",
+    "Maîtriser l’art de la relation client pour fidéliser et renforcer la satisfaction",
+    "Apprendre à adapter son discours commercial en fonction des objections et attentes des clients",
+    "Utiliser des outils de vente pour analyser les besoins et proposer des solutions personnalisées"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou distanciel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction à la vente conseil\n- Comprendre les principes fondamentaux de la vente conseil\n- Identifier les différences entre vente traditionnelle et vente conseil\n- Reconnaître l’importance de la personnalisation dans le processus de vente\n### Module 2 : Analyse des besoins du client\n- Apprendre à poser les bonnes questions pour cerner les attentes du client\n- Identifier les motivations d’achat et les freins potentiels\n- Utiliser l’écoute active pour capter les besoins implicites\n### Module 3 : Techniques de persuasion et argumentation\n- Maîtriser les techniques de persuasion pour influencer positivement la décision d’achat\n- Structurer un argumentaire commercial percutant en fonction du profil client\n- Répondre efficacement aux objections pour transformer les hésitations en opportunités\n### Module 4 : Négociation commerciale\n- Préparer et structurer une négociation en vue d’un accord gagnant-gagnant\n- Développer des stratégies de concession tout en défendant ses marges\n- Utiliser les outils de négociation pour anticiper et répondre aux objections du client\n### Module 5 : Fidélisation et suivi client\n- Mettre en place des techniques de fidélisation pour maximiser la rétention client\n- Créer une relation de confiance durable avec le client à travers le conseil personnalisé\n- Élaborer un plan de suivi post-vente pour garantir la satisfaction et les ventes additionnelles\n### Module 6 : Digitalisation de la vente conseil\n- Comprendre l’impact des outils digitaux sur la vente et le conseil\n- Utiliser les outils CRM et de marketing automation pour personnaliser l’approche client\n- Intégrer les réseaux sociaux dans la stratégie de vente conseil pour attirer et fidéliser des clients",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Maîtrisez les techniques de vente conseil pour répondre aux besoins de vos clients tout en optimisant vos performances. Apprenez à écouter, proposer des solutions adaptées et fidéliser durablement votre clientèle. Cette formation pratique renforce votre expertise en relation client et stratégie de vente."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-shinzu-face",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage du visage SHINZU FACE™",
+  "image": "https://formabientre.fr/assets/formation-shinzu-face-blPjIxT7.webp",
+  "niveau": "Professionnel du bien-être et/ou reconversion",
+  "tarif": "À partir de 1200 €",
+  "duree": "À partir de 14h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Appliquer les gestes SHINZU FACE sur le visage et le dos lors d'une séance client",
+    "Analyser la demande de chaque client pour ajuster le déroulé du soin",
+    "Installer un climat de confiance avec la personne reçue dès son arrivée en cabine",
+    "Aménager la cabine pour que receveur et praticien y travaillent à l'aise",
+    "Corriger vos appuis et votre posture pour masser longtemps sans vous blesser"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Premiers pas avec SHINZU FACE\n- Présenter au client la méthode et les effets attendus du soin\n- Écarter les situations où le soin est déconseillé\n- Expliquer le déroulé de la séance avec des mots simples\n### Module 2 : Gestes de base en binôme\n- Enchaîner les gestes de base sur le dos puis sur le visage\n- Donner et recevoir des retours avec votre partenaire\n- S'entraîner sur des cas proches d'un rendez-vous réel\n### Module 3 : Cabine et matériel\n- Choisir et agencer le lieu où vous recevrez vos clients\n- Régler la hauteur et l'inclinaison de la table pour le receveur\n- Préparer et ranger le matériel propre au soin SHINZU FACE\n### Module 4 : Repères théoriques\n- Décrire comment l'énergie circule le long des méridiens\n- Situer la place du formateur dans l'apprentissage de la méthode\n- Passer en revue les aspects administratifs de la formation\n### Module 5 : Gestes avancés et personnalisation\n- Moduler les techniques selon la peau et la demande du client\n- Pratiquer les manœuvres avancées du visage\n- Travailler avec le bol Kansa pour prolonger les effets du soin\n### Module 6 : Évaluation et attestation de fin de formation\n- Réaliser une séance devant le formateur pour l'évaluation pratique\n- Répondre au quiz qui vérifie les connaissances théoriques\n- Recevoir l'attestation de fin de formation",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "La méthode SHINZU FACE™ associe relaxation, travail sur les méridiens et stimulation de la peau du visage. Pour un praticien qui s'installe ou qui veut élargir sa carte, c'est un soin du visage qui répond à une demande forte. La formation alterne pratique en binôme, réglage du poste de travail et apports théoriques, puis se termine par une évaluation pratique et un quiz ; vous recevez une attestation de fin de formation."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "4.5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

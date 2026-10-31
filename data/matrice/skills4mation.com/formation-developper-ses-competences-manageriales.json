@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-developper-ses-competences-manageriales",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Développer ses Compétences Managériales",
+  "image": "https://skills4mation.com/images/formations/formation-developper-ses-competences-manageriales.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Améliorer son approche managériale",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Objectifs pédagogiques du parcours “Diriger avec Impact : Développer ses Compétences Managériales” :",
+    "Cultiver un leadership efficace et inspirant.",
+    "Améliorer les compétences en communication interpersonnelle et en gestion d’équipe.",
+    "Renforcer les capacités en prise de décision stratégique.",
+    "Développer une compréhension approfondie de la dynamique de l’équipe et de la motivation des employés.",
+    "Appliquer des stratégies pour gérer le changement et favoriser l’innovation.",
+    "Maîtriser les techniques de délégation et d’autonomisation des collaborateurs.",
+    "Accroître l’intelligence émotionnelle pour une meilleure gestion des relations professionnelles.",
+    "Ce parcours est conçu pour transformer les professionnels en leaders visionnaires et efficaces, capables de guider leurs équipes vers le succès. En acquérant ces compétences essentielles, les participants se positionnent non seulement comme des managers compétents, mais aussi comme des moteurs de changement et d’innovation dans leurs organisations."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Programme\n- Cultiver un Leadership Efficace et Inspirant\n- Identifier et développer son style de leadership personnel.\n- Inspirer et motiver les équipes à travers un leadership exemplaire.\n- Encourager l’innovation et la créativité au sein des équipes.\n- Amélioration des Compétences en Communication Interpersonnelle\n- Pratiquer l’écoute active pour une meilleure compréhension des besoins de l’équipe.\n- Utiliser des techniques de communication assertive.\n- Gérer efficacement les conflits internes.\n- Renforcement des Capacités en Prise de Décision Stratégique\n- Analyser les situations complexes pour des prises de décision éclairées.\n- Appliquer des modèles stratégiques pour la résolution de problèmes.\n- Intégrer la pensée critique dans le processus décisionnel.\n- Développement de la Compréhension de la Dynamique d’Équipe\n- Identifier et valoriser les divers talents au sein d’une équipe.\n- Construire et maintenir une dynamique d’équipe positive et productive.\n- Gérer la diversité et favoriser un environnement inclusif.\n- Stratégies pour Gérer le Changement et Favoriser l’Innovation\n- Conduire le changement de manière stratégique et empathique.\n- Créer un environnement propice à l’innovation et à la prise de risque calculée.\n- Encourager et soutenir l’initiative et l’autonomie des employés.\n- Maîtrise des Techniques de Délégation et d’Autonomisation\n- Développer des stratégies de délégation efficaces.\n- Encourager l’autonomie et la responsabilisation des collaborateurs.\n- Suivre et évaluer les performances suite à la délégation.\n- Accroître l’Intelligence Émotionnelle pour la Gestion des Relations\n- Reconnaître et gérer ses propres émotions et celles des autres.\n- Appliquer l’intelligence émotionnelle dans le leadership.\n- Utiliser l’empathie pour renforcer les relations professionnelles.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Développez vos compétences managériales pour devenir un leader inspirant et performant. Apprenez à communiquer efficacement, prendre des décisions stratégiques et guider vos équipes vers l’atteinte des objectifs. Cette formation vous aide à maîtriser les outils modernes du management."
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

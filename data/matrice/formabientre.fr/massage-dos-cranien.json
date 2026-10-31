@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-dos-cranien",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage dos et crânien en cabinet",
+  "image": "https://formabientre.fr/assets/formation-dos-cranien-BV7TGFg5.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 1800 €",
+  "duree": "21h (14h online + 7h présentiel)",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Réaliser un massage du dos et du crâne complet avec les gestes de base",
+    "Appliquer des manœuvres qui relâchent les muscles et apaisent un client stressé",
+    "Doser pressions et mobilisations douces selon la réaction du receveur",
+    "Construire une séance personnalisée à partir des besoins recueillis auprès du client",
+    "Proposer à vos clients un soin de détente fondé sur des techniques actuelles"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Bases du massage et repères anatomiques\n- Retracer l'histoire du massage et ses grands principes\n- Distinguer les familles de massage et l'usage de chacune\n- Repérer sur un partenaire les os et muscles du crâne et du dos\n### Module 2 : Le dos, premiers gestes\n- Préparer et échauffer les muscles avant le soin\n- Enchaîner effleurages et pétrissages sur l'ensemble du dos\n- Situer les zones contractées et choisir le geste qui les relâche\n### Module 3 : Le crâne en détail\n- Exercer les pressions sur les points du crâne qui favorisent la détente\n- Utiliser le massage crânien face aux tensions et aux maux de tête liés au stress\n- Associer gestes crâniens et respiration du client pour prolonger l'apaisement\n### Module 4 : Le dos, techniques avancées\n- Ajouter massage profond et mobilisations à votre séance\n- Choisir huiles essentielles et balles de massage selon le soin\n- Moduler la séance selon le profil et la demande du client\n### Module 5 : Pratique encadrée en conditions de cabinet\n- Masser des receveurs sous supervision, comme en cabinet\n- Travailler sur des cas de clients pour choisir la bonne réponse\n- Intégrer les retours du formateur et des binômes à votre geste\n### Module 6 : Démarrer votre pratique\n- Appliquer les règles éthiques du praticien en massage\n- Planifier votre formation continue après le parcours\n- Préparer l'organisation de votre propre activité",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le massage du dos et du crâne répond à une demande fréquente en cabinet : relâcher les épaules, la nuque et le cuir chevelu en peu de temps. Si vous démarrez dans le bien-être, c'est un soin facile à expliquer et à proposer dès vos premiers rendez-vous. Vous apprenez les gestes ciblés, le dosage des pressions et la façon d'adapter la séance à chaque client."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "4.8/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

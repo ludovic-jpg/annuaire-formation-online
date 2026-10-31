@@ -1,0 +1,81 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-creer-et-administrer-son-site",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Créer et administrer son site",
+  "image": "https://skills4mation.com/images/formations/formation-creer-et-administrer-son-site.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2400 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Savoir comment créer un site WEB à votre image",
+  "prerequis": "Savoir manipuler internet",
+  "public": null,
+  "objectifs": [
+    "Définir sa stratégie de communication digitale",
+    "Identifier les fonctionnalités attendues",
+    "Créer une documentation fonctionnelle & technique permettant d’assurer le développement",
+    "Sélectionner et installer un thème WordPress ou un page builder",
+    "Configurer et administrer son site avec WordPress et les extensions adaptées",
+    "Créer des contenus écrits et visuels pour alimenter le site",
+    "Générer du trafic sur le site via la mise en place ou l’optimisation de leviers webmarketing (réseaux sociaux, emailing, référencement naturel & payant… )",
+    "À l’issue de la formation, vous serez en mesure de publier votre propre site WEB."
+  ],
+  "points_forts": null,
+  "modalites": "- Approche Intégrée et Contextualisée :\n- Ce cours est spécialement conçu pour lier les aspects techniques et créatifs de la création de sites web, assurant ainsi que les participants peuvent immédiatement mettre en pratique les compétences acquises dans leurs environnements professionnels.\n- Contenu Sur-Mesure :\n- Adaptation du contenu aux besoins spécifiques des participants, en fonction de leur domaine d’activité. Cela permet une pertinence accrue et une application directe des compétences en développement web.\n- Évaluation Continue et Feedback Personnalisé :\n- Des évaluations régulières et des retours constructifs sont intégrés tout au long du parcours pour suivre les progrès des participants et ajuster l’approche pédagogique si nécessaire.",
+  "programme_md": "### Module 1: Introduction à WordPress\n- Comprendre WordPress\n- : Découvrez l’histoire et l’évolution de WordPress, pourquoi il est devenu la plateforme de choix pour les créateurs de contenu, et comment il se distingue des autres systèmes de gestion de contenu (CMS).\n- Installation et configuration\n- : Apprenez à installer WordPress sur un hébergement local et en ligne, à naviguer dans son tableau de bord, et à configurer les paramètres essentiels pour un démarrage réussi.\n- Principes de base de la publication\n- : Maîtrisez les outils de création de contenu de WordPress, y compris les articles et les pages, et découvrez comment organiser votre contenu avec des catégories et des étiquettes.\n### Module 2: Thèmes et Personnalisation Visuelle\n- Sélection et installation de thèmes\n- : Explorez la vaste bibliothèque de thèmes WordPress pour trouver celui qui convient parfaitement à votre vision, apprenez à l’installer et à l’activer.\n- Personnalisation du thème\n- : Utilisez le personnalisateur de thème pour ajuster les couleurs, les polices, et les dispositions, créant ainsi une apparence unique pour votre site.\n- Widgets et Menus\n- : Intégrez des fonctionnalités supplémentaires à votre site avec des widgets, et créez des menus de navigation pour aider vos visiteurs à explorer votre site.\n### Module 3: Extensions et Fonctionnalités\n- Introduction aux plugins\n- : Découvrez le rôle crucial des plugins dans l’extension des fonctionnalités de WordPress et comment choisir les bons pour votre site.\n- Installation et gestion des plugins\n- : Apprenez à installer, activer, et mettre à jour les plugins, tout en gérant les conflits potentiels entre eux.\n- Plugins essentiels\n- : Explorez quelques plugins incontournables pour la sécurité, le SEO, la sauvegarde, et l’amélioration de la performance de votre site.\n### Module 4: Gestion de Contenu Avancée\n- Types de contenu personnalisés\n- : Créez des types de contenu sur mesure pour votre site, permettant une organisation et une présentation plus sophistiquées du contenu.\n- Champs personnalisés\n- : Apprenez à ajouter des informations supplémentaires et spécifiques à vos articles et pages avec des champs personnalisés.\n- Taxonomies personnalisées\n- : Organisez efficacement votre contenu avec des taxonomies personnalisées, au-delà des catégories et étiquettes standards.\n### Module 5: SEO et Analytiques\n- Optimisation pour les moteurs de recherche\n- : Appliquez les meilleures pratiques de SEO pour améliorer la visibilité de votre site dans les résultats de recherche, y compris l’optimisation des titres, des descriptions, et l’utilisation des mots-clés.\n- Google Analytics\n- : Intégrez Google Analytics à votre site WordPress pour suivre et analyser le trafic de votre site, comprendre le comportement des visiteurs, et améliorer l’engagement.\n- Amélioration de la performance\n- : Augmentez la vitesse de chargement de votre site et optimisez l’expérience utilisateur en compressant les images, en utilisant des plugins de cache, et en minimisant les scripts.\n### Module 6: Sécurité et Maintenance\n- Sécurisation de votre site WordPress\n- : Mettez en place des stratégies de sécurité robustes pour protéger votre site contre les logiciels malveillants, les hacks, et les autres vulnérabilités.\n- Sauvegarde et restauration\n- : Apprenez les meilleures pratiques pour sauvegarder régulièrement votre site et comment restaurer votre contenu en cas de problème.\n- Mise à jour et maintenance\n- : Développez une routine de maintenance pour garder votre site à jour avec les dernières versions",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "De l’idée au site web opérationnel, notre formation “Créer et administrer son site” vous guide étape par étape pour concevoir un site internet professionnel. Apprenez à utiliser des outils comme WordPress, gérer les thèmes et plugins, personnaliser le design, optimiser les performances et assurer la sécurité de votre site. Que ce soit pour un blog personnel, un site vitrine d’entreprise ou une boutique en ligne, cette formation est idéale pour les débutants souhaitant développer leur présence sur le web sans connaissances techniques."
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

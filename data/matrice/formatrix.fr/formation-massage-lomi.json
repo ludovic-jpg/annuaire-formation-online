@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-lomi/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage Lomi",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/massage-lomi-926x1024.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les techniques de massage Lomi",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques de base et avancées du massage Lomi Lomi.",
+    "Comprendre l’histoire et les principes culturels sous-jacents au massage Lomi.",
+    "Développer une approche thérapeutique intégrant le bien-être physique et émotionnel.",
+    "Appliquer les méthodes de relaxation et de réduction du stress spécifiques au Lomi.",
+    "Acquérir les compétences pour pratiquer professionnellement le massage Lomi dans divers environnements."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur – 14 H de Formation Online et 7 H de formation présentiel\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction au Massage Lomi Lomi\n- Découvrir l’origine et l’évolution historique du massage Lomi Lomi.\n- Identifier les principes fondamentaux et les valeurs culturelles hawaïennes intégrées dans la pratique.\n- Comprendre les bienfaits du massage Lomi Lomi sur le corps et l’esprit.\n### Module 2: Anatomie et Physiologie pour le Massage Lomi\n- Explorer l’anatomie humaine clé et la physiologie liée aux techniques de massage.\n- Reconnaître les zones de tension et les points de déclenchement courants.\n- Apprendre à évaluer les besoins physiques des clients avant de pratiquer le massage.\n### Module 3: Techniques de Base du Massage Lomi Lomi\n- Maîtriser les mouvements de base tels que les effleurages longs et fluides.\n- Pratiquer la coordination des gestes avec la respiration harmonieuse.\n- Appliquer les huiles et préparer l’environnement de massage pour optimiser le confort et l’efficacité.\n### Module 4: Techniques Avancées et Personnalisation\n- Intégrer des techniques avancées pour traiter des problèmes spécifiques du corps.\n- Personnaliser les séances en fonction des conditions physiques et des préférences des clients.\n- Utiliser des méthodes de relaxation profonde et de rééquilibrage énergétique.\n### Module 5: Pratique Clinique et Études de Cas\n- Effectuer des séances complètes de massage Lomi Lomi sous supervision.\n- Analyser des études de cas pour identifier les stratégies de traitement efficaces.\n- Recevoir des retours constructifs pour affiner les techniques et la méthode de pratique.\n### Module 6: Développement Professionnel et Éthique\n- Connaître les aspects légaux et éthiques de la pratique du massage.\n- Développer des compétences en communication et en service client pour bâtir une clientèle fidèle.\n- Planifier une trajectoire professionnelle dans le domaine du bien-être en intégrant le massage Lomi",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Maîtrisez le massage Lomi Lomi, une tradition hawaïenne qui combine mouvements fluides et enveloppants pour rétablir l’harmonie du corps et de l’esprit. Apprenez à utiliser vos avant-bras, les pressions et les gestes synchronisés pour offrir un soin relaxant et énergétique. Ce programme vous initie à une pratique unique qui allie culture, technique et bien-être global."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

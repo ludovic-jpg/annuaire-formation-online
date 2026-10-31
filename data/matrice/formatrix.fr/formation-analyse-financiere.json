@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/creation-dentreprise/formation-analyse-financiere/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Analyse Financière",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/2-1024x708.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Maîtriser les fondamentaux en termes d’analyse financière",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Acquérir les compétences nécessaires pour interpréter les états financiers d’une entreprise",
+    "Analyser les ratios financiers afin d’évaluer la performance économique et financière",
+    "Identifier les indicateurs clés pour mesurer la rentabilité et la solvabilité d’une organisation",
+    "Utiliser les outils d’analyse financière pour prendre des décisions stratégiques éclairées",
+    "Anticiper et prévenir les risques financiers à travers une gestion rigoureuse"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou distanciel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction à l’analyse financière\n- Comprendre les principes fondamentaux de l’analyse financière\n- Identifier les documents financiers de base (bilan, compte de résultat, flux de trésorerie)\n- Apprendre les rôles et responsabilités de l’analyste financier\n### Module 2 : Analyse des états financiers\n- Analyser et interpréter les bilans comptables pour évaluer la santé financière d’une entreprise\n- Examiner les comptes de résultat pour mesurer la rentabilité\n- Identifier les flux de trésorerie pour évaluer la liquidité et les besoins en financement\n### Module 3 : Analyse des ratios financiers\n- Calculer les ratios de rentabilité, de solvabilité et de liquidité\n- Interpréter les ratios financiers pour évaluer la performance d’une entreprise\n- Utiliser les ratios pour comparer les performances d’entreprises similaires dans un secteur\n### Module 4 : Analyse de la rentabilité et de la solvabilité\n- Analyser les marges bénéficiaires et les indicateurs de rentabilité\n- Évaluer la solvabilité à long terme d’une entreprise à travers les capitaux propres et les dettes\n- Utiliser l’effet de levier financier pour optimiser la structure du capital\n### Module 5 : Prévision financière et gestion des risques\n- Élaborer des prévisions financières à partir des données historiques\n- Identifier et évaluer les risques financiers potentiels\n- Mettre en place des stratégies pour atténuer les risques et optimiser les décisions financières\n### Module 6 : Prise de décision stratégique à partir de l’analyse financière\n- Utiliser les outils d’analyse financière pour appuyer la prise de décision stratégique\n- Formuler des recommandations d’investissement ou de financement basées sur les analyses\n- Intégrer l’analyse financière dans la gestion quotidienne de l’entreprise pour améliorer sa performance",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Analysez les performances financières de votre entreprise en apprenant à interpréter les bilans, anticiper les risques et identifier les leviers de croissance. Cette formation vous donne les outils pour prendre des décisions stratégiques basées sur des données fiables et concrètes."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n3.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

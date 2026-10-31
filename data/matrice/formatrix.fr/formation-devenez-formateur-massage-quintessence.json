@@ -1,0 +1,66 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-devenez-formateur-massage-quintessence/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Devenez Formateur Massage Quintessence",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/massage-bien-etre-1024x682.webp",
+  "niveau": "Professionnel du bien-être et/ou personne en reconversion professionnel",
+  "tarif": "A partir de 1200 € - Financement possible",
+  "duree": "A partir de 18 H de formation",
+  "objectif_court": "être en capacité de dispenser des massage et soins selon la méthode de MASSAGE QUINTESSENCE DEEP INSIDE ®",
+  "prerequis": "Développer les facultés d’écoute et de bienveillance. Etre pédagogue",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques avancées de massage quintessence.",
+    "Développer des compétences pédagogiques spécifiques à l’enseignement du massage.",
+    "Concevoir et piloter des séances de formation engageantes et efficaces.",
+    "Adapter l’enseignement aux besoins individuels des apprenants.",
+    "Évaluer les progrès et fournir des retours constructifs.",
+    "Promouvoir le bien-être et l’auto-amélioration à travers l’enseignement.",
+    "connaitre les techniques applicables le plus facilement",
+    "Comprendre les besoins et adapter les massages bien-être",
+    "Créer des conditions favorables d’une relation de confiance",
+    "Choisir et organiser l’espace pour optimiser le confort de chacun",
+    "Les postures : comment adapter ses postures aux différentes installations MASSAGE QUINTESSENCE DEEP INSIDE ®"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formatrice\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques dans un cabinet de massage ( Chez le stagiaire ou au cabinet de la formatrice\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Fondations et découverte du concept de MASSAGE QUINTESSENCE DEEP INSIDE ®\n- Comprendre l’histoire et la philosophie du massage quintessence.\n- Identifier les principaux principes et techniques.\n- Démontrer les gestes de base et leur impact sur le bien-être.\n### Module 2: Pédagogie du Bien-être\n- Concevoir des plans de cours adaptés aux divers publics.\n- Utiliser des méthodes d’enseignement interactives et participatives.\n- Évaluer l’apprentissage des élèves de manière constructive.\n### Module 3: Techniques Avancées de Massage\n- Maîtriser des techniques de massage spécifiques et avancées.\n- Intégrer des approches complémentaires (aromathérapie, réflexologie).\n- Pratiquer l’adaptation des techniques aux besoins individuels.\n### Module 4: Communication et Relations Interpersonnelles\n- Développer des compétences en communication efficace.\n- Gérer la dynamique de groupe dans un contexte d’apprentissage.\n- Encourager la rétroaction constructive entre pairs et formateurs.\n### Module 5: Gestion de Classe et Animation\n- Organiser l’espace de formation pour maximiser l’apprentissage.\n- Utiliser des outils pédagogiques pour renforcer l’engagement.\n- Gérer efficacement les défis et les situations difficiles en classe.\n### Module 6: Développement Professionnel et Personnel\n- Réfléchir sur la pratique personnelle et professionnelle.\n- Encourager l’auto-amélioration continue chez les formateurs et les élèves.\n- Explorer les opportunités de carrière et de développement dans le domaine du bien-être.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à transmettre vos connaissances en massage bien-être et à former de nouveaux praticiens à la technique Massage Quintessence. Cette formation vous offre des outils pédagogiques concrets pour structurer vos enseignements, partager votre expertise et inspirer vos apprenants. Idéale pour les professionnels du bien-être souhaitant élargir leur impact dans le domaine de la formation."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

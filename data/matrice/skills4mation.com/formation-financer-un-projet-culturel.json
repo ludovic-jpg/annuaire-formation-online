@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-financer-un-projet-culturel",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Financer un projet culturel",
+  "image": "https://skills4mation.com/images/formations/formation-financer-un-projet-culturel.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 €",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de demander des financements pour tout projetà dimension culturel",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Comprendre les différentes sources de financement disponibles pour les projets culturels.",
+    "Élaborer des propositions de financement convaincantes en alignant les besoins du projet avec les attentes des bailleurs de fonds.",
+    "Développer des stratégies de recherche et d’identification des financeurs potentiels pour maximiser les opportunités de financement.",
+    "Gérer et suivre les fonds obtenus en assurant une utilisation efficace et conforme aux attentes des partenaires financiers.",
+    "Évaluer l’impact des financements reçus et ajuster les stratégies pour optimiser les futures demandes de fonds."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction aux Sources de Financement Culturel\n- Identifier les principales sources de financement disponibles pour les projets culturels, telles que les subventions, les mécénats et les campagnes de crowdfunding.\n- Analyser les avantages et les contraintes de chaque source de financement pour choisir les plus adaptées à vos projets.\n- Découvrir les tendances actuelles en matière de financement culturel et comment elles peuvent influencer vos stratégies de levée de fonds.\n### Module 2 : Élaboration de Propositions de Financement\n- Rédiger des propositions de financement percutantes en structurant clairement les objectifs, le budget et les bénéfices du projet.\n- Adapter les propositions aux attentes spécifiques des bailleurs de fonds pour augmenter vos chances de succès.\n- Utiliser des techniques de présentation efficaces pour capter l’attention des financeurs et démontrer la valeur de votre projet.\n### Module 3 : Recherche et Identification des Financeurs\n- Développer des stratégies pour rechercher et identifier les financeurs potentiels qui correspondent à vos projets culturels.\n- Utiliser des outils et des ressources pour évaluer les opportunités de financement et cibler les bailleurs de fonds les plus pertinents.\n- Créer un réseau de contacts et de partenaires qui peuvent soutenir et promouvoir vos demandes de financement.\n### Module 4 : Gestion et Suivi des Fonds\n- Mettre en place des processus de gestion des fonds obtenus pour assurer leur utilisation conforme aux exigences des financeurs.\n- Suivre et évaluer les dépenses en fonction du budget approuvé pour garantir la transparence et l’efficacité des fonds.\n- Communiquer régulièrement avec les bailleurs de fonds pour fournir des mises à jour et maintenir une relation positive.\n### Module 5 : Évaluation de l’Impact des Financements\n- Mesurer l’impact des financements reçus en utilisant des indicateurs de performance et des outils d’évaluation appropriés.\n- Analyser les résultats obtenus pour déterminer l’efficacité des fonds et leur contribution aux objectifs du projet.\n- Adapter les stratégies de financement futures en fonction des leçons apprises et des feedbacks des financeurs.\n### Module 6 : Optimisation des Stratégies de Financement\n- Réviser et améliorer les stratégies de demande de financement en tenant compte des évaluations et des résultats précédents.\n- Explorer des approches innovantes et des tendances émergentes dans le financement culturel pour diversifier vos sources de fonds.\n- Préparer des plans de financement à long terme pour garantir la durabilité et le succès continu de vos projets culturels.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Maîtrisez les stratégies pour financer vos projets culturels. Apprenez à mobiliser des fonds, convaincre vos partenaires et coordonner des ressources pour réaliser vos ambitions artistiques. Cette formation vous guide dans le monde du financement culturel pour concrétiser vos idées."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

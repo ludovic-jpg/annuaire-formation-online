@@ -1,0 +1,86 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-lart-du-closing",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation L’art du Closing",
+  "image": "https://skills4mation.com/images/formations/formation-lart-du-closing.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 €",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser l’art du Closing pour augmenter vos taux de conversions",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Comprendre les Fondamentaux du Closing.",
+    "Développer des Techniques de Persuasion Efficaces.",
+    "Maîtriser les Stratégies de Closing.",
+    "Gestion des Objections.",
+    "Renforcer la Confiance et l’Assurance en Soi.",
+    "Pratique et Mise en Situation Réelle.",
+    "Analyse et Auto-évaluation.",
+    "Ethique et Responsabilité dans le Closing.",
+    "Ce parcours vise à équiper les participants avec les outils et les compétences nécessaires pour exceller dans l’art du closing, leur permettant ainsi d’améliorer significativement leurs performances de vente."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au closing – Les bases de la conclusion de vente\n- Comprendre le rôle crucial du closing dans le processus de vente et ses objectifs principaux.\n- Identifier les différentes étapes du cycle de vente et comment le closing s’intègre dans ce processus.\n- Apprendre à reconnaître les signes d’achat et à préparer efficacement la phase de conclusion.\n### Module 2 : Techniques de closing – Méthodes et approches efficaces\n- Découvrir les principales techniques de closing : la méthode de la supposition, l’alternative, et la technique de l’urgence.\n- Apprendre à utiliser les techniques de closing adaptées en fonction du type de prospect et du contexte de vente.\n- Maîtriser l’art de la négociation pour surmonter les objections et conclure avec succès.\n### Module 3 : Gestion des objections – Transformer les résistances en opportunités\n- Identifier les objections courantes et comprendre leurs origines pour mieux y répondre.\n- Apprendre des techniques pour répondre efficacement aux objections et convertir les résistances en opportunités de vente.\n- Utiliser des questions ouvertes et des reformulations pour clarifier et résoudre les préoccupations des prospects.\n### Module 4 : Construire une proposition irrésistible – Créer de la valeur perçue\n- Apprendre à élaborer des propositions de valeur claires et convaincantes adaptées aux besoins du prospect.\n- Maîtriser la personnalisation des offres pour aligner les bénéfices de vos produits ou services avec les attentes spécifiques du client.\n- Utiliser des démonstrations et des preuves sociales pour renforcer la crédibilité de votre proposition.\n### Module 5 : Techniques de persuasion – Influencer et convaincre le prospect\n- Découvrir les principes de la persuasion et comment les appliquer pour influencer positivement les décisions d’achat.\n- Apprendre à utiliser des techniques de communication persuasive, telles que les appels émotionnels et les arguments rationnels.\n- Maîtriser l’art de créer une connexion personnelle avec le prospect pour renforcer l’impact de votre discours de closing.\n### Module 6 : Finalisation de la vente – Assurer la réussite du closing\n- Apprendre à finaliser la vente avec des actions concrètes : signature du contrat, gestion des modalités de paiement, et mise en place des prochaines étapes.\n- Découvrir les meilleures pratiques pour le suivi après la vente, assurer une satisfaction client et encourager des recommandations.\n- Analyser les résultats de vos opérations de closing pour identifier les réussites et les points à améliorer, afin d’optimiser vos futures ventes.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez les techniques de closing pour conclure vos négociations commerciales avec succès. Découvrez comment persuader vos interlocuteurs, lever les freins et finaliser vos ventes. Cette formation s’adresse aux professionnels souhaitant améliorer leurs compétences commerciales et optimiser leurs performances."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

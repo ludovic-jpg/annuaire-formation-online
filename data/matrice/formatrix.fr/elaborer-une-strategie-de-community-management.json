@@ -1,0 +1,56 @@
+{
+  "lien": "https://formatrix.fr/formation/bureautique/elaborer-une-strategie-de-community-management/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Élaborer une stratégie de community management",
+  "image": "https://formatrix.fr/wp-content/uploads/2026/01/formation-community-management-formatrix.png",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2100 € - Financement possible",
+  "duree": "A partir de 21 H de formation",
+  "objectif_court": "Élaborer une stratégie de community management",
+  "prerequis": "avoir un projet de communication sur les réseaux sociaux",
+  "public": "Dirigeants de petites entreprises et collaborateurs directs chargés de la communication marketing souhaitant mettre en place une stratégie de community management en vue de développer l’activité de leur entreprise.",
+  "objectifs": [
+    "Élaborer une stratégie de community management.",
+    "Organiser l’application opérationnelle d’un projet de community management.",
+    "Suivre et évaluer l’impact de ses actions de community management."
+  ],
+  "points_forts": "Certification reconnue : La formation prépare directement à la certification enregistrée à France Compétences sous le numéro RS6452. Approche opérationnelle complète : Le programme couvre l’intégralité du cycle de vie d’un projet de community management, de la définition de la stratégie (Persona, objectifs S.M.A.R.T.) à l’analyse des résultats (KPIs, ROI). Focus sur la création de contenu : Une partie importante (8 heures) est dédiée à l’animation des comptes, incluant le copywriting, la création de visuels et de vidéos, ainsi que la compréhension des algorithmes",
+  "modalites": "- **En distanciel :** Formation réalisée en classe virtuelle synchrone via [Zoom/Teams]. Le stagiaire doit disposer d’un ordinateur avec connexion internet, micro et webcam.\n- **Suivi :** Assistance pédagogique par email sous 24h ouvrées. Suivi de l’assiduité par relevés de connexion ou feuilles d’émargement numériques.\n**Accessibilité Handicap :** Formation accessible aux personnes en situation de handicap (PSH). Contactez notre référent handicap pour étudier les aménagements nécessaires.",
+  "programme_md": "### Module 1 : Définir la stratégie de community management (Durée : 4h)\n- Identifier sa cible (Persona) et ses problématiques.\n- Définir des objectifs marketing S.M.A.R.T. et le budget associé.\n- Choisir les réseaux sociaux pertinents pour son activité.\n### Module 2 : Créer ses comptes sur les réseaux sociaux (Durée : 2h)\n- Configurer les pages entreprises (Infos clés, SEO social).\n- Adapter sa charte graphique aux formats des réseaux sociaux (Bannières, logos).\n### Module 3 : Animer les comptes sociaux (Durée : 8h)\n- Concevoir un calendrier éditorial et planifier ses publications.\n- Créer des contenus engageants : rédaction (copywriting), visuels et vidéo.\n- **Accessibilité :** Rendre les contenus accessibles aux personnes en situation de handicap (balises Alt, sous-titres).\n- Comprendre les algorithmes pour maximiser l’engagement.\n### Module 4 : Stratégie d’acquisition d’abonnés (Durée : 3h)\n- Activer les leviers de croissance organique (Naturelle).\n- Introduction à la publicité (Social Ads) pour cibler son audience.\n### Module 5 : Mobiliser les compétences du projet (Durée : 2h)\n- Identifier les ressources internes et externes nécessaires.\n- Coordonner les prestataires (graphistes, rédacteurs) et organiser la veille.\n### Module 6 : Analyser les résultats (Durée : 2h)\n- Suivre les indicateurs de performance (KPIs) via un tableau de bord.\n- Analyser le ROI et ajuster sa stratégie d’amélioration continue.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\nEligible : RS6452"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "Cette formation vous prépare à la certification “Développer son activité avec le community management” enregistrée à France Compétences sous le numéro RS6452."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

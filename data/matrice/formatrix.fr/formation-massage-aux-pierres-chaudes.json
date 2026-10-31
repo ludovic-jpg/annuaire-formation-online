@@ -1,0 +1,64 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-aux-pierres-chaudes/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage aux Pierres Chaudes",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-pierre-chaude-1024x1016.webp",
+  "niveau": "Professionnel du bien-être et/ou personne en reconversion professionnel",
+  "tarif": "A partir de 1000 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de dispenser des massage et soins selon la méthode de massage pierres chaudes",
+  "prerequis": "Développer les facultés d’écoute et de bienveillance",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques de massage aux pierres chaudes pour une relaxation profonde.",
+    "Comprendre la théorie derrière les bienfaits physiologiques et psychologiques du massage aux pierres chaudes.",
+    "Appliquer les méthodes d’entretien et de maniement des pierres pour assurer une pratique sécuritaire et durable.",
+    "Découvrir l’histoire et les fondements du massage aux pierres chaudes.",
+    "Identifier les bienfaits et contre-indications de cette pratique.",
+    "Manipuler l’unité chauffante et les pierres adéquatement.",
+    "Exécuter une séance de massage aux pierres chaudes avec aisance.",
+    "Assurer l’entretien et la sécurité des pierres chaudes.",
+    "Évaluer les besoins du client pour une séance personnalisée."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formatrice\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques dans un cabinet de massage ( Chez le stagiaire ou au cabinet de la formatrice\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "**Fondements et Histoire du Massage aux Pierres Chaudes**\n- Comprendre l’origine et l’évolution historique du massage aux pierres chaudes.\n- Explorer les cultures et pratiques traditionnelles associées.\n- Relier les anciennes techniques aux méthodes modernes.\n**Bienfaits et Contre-Indications**\n- Identifier les effets thérapeutiques sur le corps et l’esprit.\n- Reconnaître les contre-indications pour éviter les risques.\n- Étudier les recherches et données actuelles sur l’efficacité du massage aux pierres chaudes.\n**Techniques de Massage aux Pierres Chaudes**\n- Appliquer les techniques manuelles de massage (californien/suédois) combinées avec l’usage des pierres.\n- Varier la pression et le rythme pour une efficacité optimale.\n- Intégrer des mouvements spécifiques pour les différents groupes musculaires.\n**Gestion de l’Unité Chauffante et des Pierres**\n- Opérer l’unité chauffante pour atteindre la température idéale.\n- Sélectionner et préparer les pierres selon leurs tailles et formes.\n- Appliquer des techniques de refroidissement et de réchauffement sécuritaires.\n**Pratique et Sécurité**\n- Mener une séance complète en suivant un protocole sécuritaire.\n- Adapter la séance aux besoins spécifiques de chaque client.\n- Gérer l’environnement de la séance pour maximiser le confort et la sécurité.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à pratiquer le massage aux pierres chaudes, une technique ancestrale qui favorise la relaxation profonde et soulage les tensions musculaires. Cette formation vous initie à l’utilisation sécurisée des pierres volcaniques et aux gestes adaptés pour offrir un soin complet et apaisant. Idéale pour les praticiens du bien-être souhaitant diversifier leur expertise."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

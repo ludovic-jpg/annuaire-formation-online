@@ -1,0 +1,64 @@
+{
+  "lien": "https://formatrix.fr/formation/ventes/formation-lart-du-closing/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation L’art du Closing",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-art-du-closing.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser l’art du Closing pour augmenter vos taux de conversions",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "– Comprendre les Fondamentaux du Closing.",
+    "– Développer des Techniques de Persuasion Efficaces.",
+    "– Maîtriser les Stratégies de Closing.",
+    "– Gestion des Objections.",
+    "– Renforcer la Confiance et l’Assurance en Soi.",
+    "– Pratique et Mise en Situation Réelle.",
+    "– Analyse et Auto-évaluation.",
+    "– Ethique et Responsabilité dans le Closing.",
+    "Ce parcours vise à équiper les participants avec les outils et les compétences nécessaires pour exceller dans l’art du closing, leur permettant ainsi d’améliorer significativement leurs performances de vente."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au closing – Les bases de la conclusion de vente\n- Comprendre le rôle crucial du closing dans le processus de vente et ses objectifs principaux.\n- Identifier les différentes étapes du cycle de vente et comment le closing s’intègre dans ce processus.\n- Apprendre à reconnaître les signes d’achat et à préparer efficacement la phase de conclusion.\n### Module 2 : Techniques de closing – Méthodes et approches efficaces\n- Découvrir les principales techniques de closing : la méthode de la supposition, l’alternative, et la technique de l’urgence.\n- Apprendre à utiliser les techniques de closing adaptées en fonction du type de prospect et du contexte de vente.\n- Maîtriser l’art de la négociation pour surmonter les objections et conclure avec succès.\n### Module 3 : Gestion des objections – Transformer les résistances en opportunités\n- Identifier les objections courantes et comprendre leurs origines pour mieux y répondre.\n- Apprendre des techniques pour répondre efficacement aux objections et convertir les résistances en opportunités de vente.\n- Utiliser des questions ouvertes et des reformulations pour clarifier et résoudre les préoccupations des prospects.\n### Module 4 : Construire une proposition irrésistible – Créer de la valeur perçue\n- Apprendre à élaborer des propositions de valeur claires et convaincantes adaptées aux besoins du prospect.\n- Maîtriser la personnalisation des offres pour aligner les bénéfices de vos produits ou services avec les attentes spécifiques du client.\n- Utiliser des démonstrations et des preuves sociales pour renforcer la crédibilité de votre proposition.\n### Module 5 : Techniques de persuasion – Influencer et convaincre le prospect\n- Découvrir les principes de la persuasion et comment les appliquer pour influencer positivement les décisions d’achat.\n- Apprendre à utiliser des techniques de communication persuasive, telles que les appels émotionnels et les arguments rationnels.\n- Maîtriser l’art de créer une connexion personnelle avec le prospect pour renforcer l’impact de votre discours de closing.\n### Module 6 : Finalisation de la vente – Assurer la réussite du closing\n- Apprendre à finaliser la vente avec des actions concrètes : signature du contrat, gestion des modalités de paiement, et mise en place des prochaines étapes.\n- Découvrir les meilleures pratiques pour le suivi après la vente, assurer une satisfaction client et encourager des recommandations.\n- Analyser les résultats de vos opérations de closing pour identifier les réussites et les points à améliorer, afin d’optimiser vos futures ventes.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez les techniques de closing pour conclure vos négociations commerciales avec succès. Découvrez comment persuader vos interlocuteurs, lever les freins et finaliser vos ventes. Cette formation s’adresse aux professionnels souhaitant améliorer leurs compétences commerciales et optimiser leurs performances."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

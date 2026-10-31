@@ -1,0 +1,59 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-maitriser-canva-pour-sublimer-votre-communication/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation Canva : créer les visuels de son activité sans graphiste",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les fonctionnalités de Canva pour créer des supports de communication visuels professionnels et impactants.",
+  "prerequis": "savoir utiliser Internet",
+  "public": null,
+  "objectifs": [
+    "Utiliser l’interface et les outils principaux de Canva en appliquant les règles de base du graphisme.",
+    "Créer des visuels pour vos réseaux sociaux, vos présentations et vos supports commerciaux.",
+    "Adapter un modèle Canva à votre identité visuelle : couleurs, polices, logo.",
+    "Composer une mise en page équilibrée entre texte, images et éléments graphiques.",
+    "Produire des contenus animés et des vidéos courtes avec les fonctions avancées de Canva.",
+    "Concevoir des visuels qui transmettent un message clair à votre public."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques.\n- Procédés pédagogiques adaptés au niveau des participants.\n- Travaux pratiques adaptés à votre activité.",
+  "programme_md": "### Module 1 : Premiers pas dans Canva\n- Ce qu’un visuel soigné apporte à la communication d’un indépendant ou d’une petite entreprise.\n- Tour de l’interface : modèles, éléments, textes, imports, outils de mise en page.\n- Ouverture du compte et réglage du profil.\n### Module 2 : Partir d’un modèle\n- Sélectionner un modèle selon le support visé : publication, affiche, présentation.\n- Remplacer textes, photos et éléments pour coller à votre charte graphique.\n- Décliner un même visuel dans les formats de chaque support.\n### Module 3 : Créer ses propres visuels\n- Concevoir un visuel à partir d’une page vierge en important vos images et votre logo.\n- Retoucher les photos avec les outils intégrés de Canva.\n- Animer une création pour la rendre plus vivante.\n### Module 4 : Travailler à plusieurs\n- Inviter des collègues dans un projet Canva et répartir le travail.\n- Envoyer un visuel à un client ou à un collègue pour avoir son avis.\n- Traiter commentaires et suggestions jusqu’à la version finale.\n### Module 5 : Exporter et publier\n- Choisir le bon format d’export (JPEG, PNG, PDF) selon l’usage.\n- Régler qualité et poids du fichier pour le web ou pour l’imprimeur.\n- Publier sur vos réseaux sociaux directement depuis Canva.\n### Module 6 : Les règles qui font un bon visuel\n- Repérer les tendances graphiques du moment et retenir celles qui conviennent à votre marque.\n- Appliquer contraste, alignement et hiérarchie pour garder une communication cohérente.\n- Corriger les erreurs fréquentes qui affaiblissent un visuel.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Créez des visuels professionnels et attractifs pour vos projets grâce à Canva. Apprenez à concevoir des présentations, des affiches, des publications pour les réseaux sociaux et bien plus encore, sans compétences en design. Maîtrisez cet outil accessible pour dynamiser votre communication visuelle."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Financement possible selon votre situation : OPCO, plan de développement des compétences ou employeur"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

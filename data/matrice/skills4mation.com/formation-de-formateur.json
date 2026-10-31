@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-de-formateur",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation de formateur",
+  "image": "https://skills4mation.com/images/formations/formation-de-formateur.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 €",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "devenir un formateur inspirant et pédagogue",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Acquérir les techniques fondamentales de conception de programmes pédagogiques efficaces.",
+    "Maîtriser les méthodes d’animation de groupe pour favoriser l’engagement des apprenants.",
+    "Utiliser des outils numériques pour enrichir et dynamiser les formations.",
+    "Adapter les contenus pédagogiques en fonction des besoins et des profils des apprenants.",
+    "Évaluer les compétences des apprenants à travers des outils et techniques d’évaluation adaptés."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction à la formation et rôle du formateur\n- Identifier les rôles et responsabilités du formateur dans différents contextes d’apprentissage.\n- Comprendre les enjeux de la formation professionnelle et ses objectifs.\n- Explorer les compétences clés nécessaires pour devenir un formateur efficace.\n### Module 2 : Conception pédagogique d’un programme de formation\n- Analyser les besoins des apprenants pour construire des objectifs pédagogiques clairs et mesurables.\n- Élaborer un parcours pédagogique structuré et progressif.\n- Sélectionner les outils et ressources pédagogiques adaptés à la formation.\n### Module 3 : Méthodes et techniques d’animation\n- Maîtriser les techniques d’animation de groupe pour favoriser l’interaction et l’engagement.\n- Utiliser la pédagogie active pour rendre les sessions de formation dynamiques et participatives.\n- Gérer la diversité des profils apprenants au sein d’un groupe.\n### Module 4 : Utilisation des outils numériques en formation\n- Découvrir les outils numériques essentiels pour enrichir et dynamiser les sessions de formation.\n- Intégrer des plateformes de e-learning et des ressources multimédias dans les formations.\n- Faciliter l’interaction en ligne et en présentiel avec des outils collaboratifs.\n### Module 5 : Évaluation des acquis et des compétences\n- Concevoir des évaluations formatives et sommatives adaptées aux objectifs pédagogiques.\n- Utiliser des méthodes variées pour évaluer les compétences des apprenants.\n- Analyser les résultats des évaluations pour ajuster et améliorer les contenus de formation.\n### Module 6 : Développement professionnel et posture du formateur\n- Réfléchir à son positionnement en tant que formateur et à l’amélioration continue de ses pratiques.\n- Mettre en place des stratégies pour gérer les situations difficiles en formation.\n- Favoriser son développement professionnel à travers la veille pédagogique et l’auto-évaluation.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Devenez un professionnel de la formation en apprenant à concevoir, animer et évaluer des sessions pédagogiques adaptées à vos apprenants. Maîtrisez les techniques de communication, de gestion de groupe et les outils modernes pour capter l’attention et garantir des apprentissages efficaces. Ce programme s’adresse aux futurs formateurs ainsi qu’aux professionnels cherchant à perfectionner leurs pratiques pédagogiques."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- 5"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

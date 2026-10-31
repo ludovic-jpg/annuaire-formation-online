@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-maitriser-la-methode-aec-disc",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Maîtriser la méthode AEC DISC",
+  "image": "https://skills4mation.com/images/formations/formation-maitriser-la-methode-aec-disc.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1200 €",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Améliorer ses compétences interpersonnelles",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Comprendre les fondements théoriques et pratiques de la méthode AEC DISC.",
+    "Analyser les différents styles de comportement et communication selon le modèle DISC.",
+    "Adapter sa communication et son management aux profils DISC identifiés.",
+    "Résoudre les conflits et améliorer la cohésion d’équipe en utilisant les principes AEC DISC.",
+    "Développer des stratégies personnalisées pour optimiser le leadership et l’efficacité organisationnelle."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction à la méthode AEC DISC\n- Découvrir les origines et les principes fondamentaux de la méthode AEC DISC.\n- Comprendre les quatre dimensions du modèle DISC : Dominance, Influence, Stabilité, Conformité.\n- Identifier les applications de la méthode DISC dans différents contextes professionnels.\n### Module 2: Analyse comportementale avec DISC\n- Apprendre à évaluer et à classifier les comportements selon les catégories DISC.\n- Utiliser des outils d’analyse comportementale pour observer et comprendre les interactions au sein d’une équipe.\n- Pratiquer l’interprétation des profils DISC à travers des études de cas et des simulations.\n### Module 3: Communication efficace grâce au DISC\n- Adapter sa communication aux différents profils DISC pour améliorer l’efficacité des échanges.\n- Développer des compétences en écoute active adaptées aux différents types de comportement.\n- Gérer les feedbacks constructifs en fonction des profils comportementaux DISC.\n### Module 4: Gestion des conflits avec la méthode DISC\n- Identifier les sources potentielles de conflits entre différents profils DISC.\n- Appliquer des stratégies de résolution de conflits adaptées aux spécificités comportementales.\n- Simuler des scénarios de gestion de conflits pour renforcer l’apprentissage et la compréhension.\n### Module 5: Leadership et management selon DISC\n- Évaluer l’impact des styles de leadership DISC sur la performance de l’équipe.\n- Développer des techniques de management adaptatives pour motiver et engager divers profils comportementaux.\n- Créer des plans de développement personnel et professionnel basés sur l’analyse DISC.\n### Module 6: Synthèse et mise en application de la méthode AEC DISC\n- Intégrer les compétences acquises à travers un projet final qui simule une situation réelle de gestion d’équipe.\n- Analyser et discuter des retours d’expérience des participants pour consolider les connaissances.\n- Planifier la continuation du développement des compétences DISC au-delà de la formation.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Découvrez la méthode AEC DISC pour améliorer votre communication interpersonnelle et la gestion des dynamiques d’équipe. Apprenez à analyser les profils comportementaux, anticiper les besoins des collaborateurs et adapter votre approche pour optimiser les interactions. Cette formation est idéale pour les managers, les coachs et toute personne souhaitant renforcer son leadership et sa capacité d’adaptation."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

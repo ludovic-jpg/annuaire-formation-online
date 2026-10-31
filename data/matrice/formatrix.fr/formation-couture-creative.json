@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/metier-specifique/formation-couture-creative/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation couture créative",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-couture-1024x688.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "maîtriser les techniques de couture",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques fondamentales de la couture, de la coupe à la confection.",
+    "Explorer les différents matériaux et textiles pour enrichir ses créations.",
+    "Développer sa créativité en design de mode pour concevoir des pièces uniques.",
+    "Appliquer les normes de qualité et de finition dans la réalisation de vêtements.",
+    "Préparer un portfolio professionnel pour présenter ses œuvres à des potentiels employeurs ou clients."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Initiation à la couture\n- Découvrir les outils de base et leur utilisation pour la couture.\n- Apprendre les techniques de base de couture à la main et à la machine.\n- Réaliser des projets simples pour pratiquer les points de couture essentiels.\n### Module 2: Matériaux et textiles\n- Identifier et sélectionner les différents types de tissus adaptés à divers projets de couture.\n- Comprendre les propriétés des textiles pour optimiser leur utilisation dans la création.\n- Expérimenter avec des matériaux innovants pour enrichir le répertoire créatif.\n### Module 3: Techniques avancées de couture\n- Maîtriser des techniques de couture complexes telles que les plis, les fronces et les zips.\n- Apprendre à ajuster des patrons pour le sur-mesure.\n- Effectuer des finitions professionnelles pour améliorer la qualité des créations.\n### Module 4: Design et création de mode\n- Explorer les principes de design en mode, incluant la couleur, la forme et la texture.\n- Développer une collection capsule en appliquant les méthodes de brainstorming et de moodboarding.\n- Concevoir et réaliser des pièces de vêtements à partir des esquisses initiales.\n### Module 5: Innovation et couture durable\n- Intégrer des pratiques de couture durable dans les projets de création.\n- Utiliser des techniques de recyclage et de réutilisation pour minimiser l’impact environnemental.\n- Expérimenter avec la technologie textile pour innover dans les créations de mode.\n### Module 6: Préparation professionnelle et portfolio\n- Développer un portfolio de projets de couture qui reflète les compétences et la créativité.\n- Préparer des présentations efficaces pour les interviews et les rencontres avec des clients.\n- Explorer les carrières potentielles dans l’industrie de la mode et se préparer pour le marché du travail.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Explorez votre créativité et développez vos compétences en couture pour concevoir des pièces uniques et personnalisées. Apprenez des techniques de patronage, de découpe et d’assemblage adaptées à tous niveaux. Que vous souhaitiez créer des vêtements, des accessoires ou des objets décoratifs, cette formation vous offre les outils nécessaires pour réussir dans le domaine textile."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

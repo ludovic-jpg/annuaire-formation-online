@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-gestion-et-pilotage-dentreprise-tpe",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Gestion et pilotage d’entreprise TPE",
+  "image": "https://skills4mation.com/images/formations/formation-gestion-et-pilotage-dentreprise-tpe.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 €",
+  "duree": "A partir de 21 H de formation",
+  "objectif_court": "Maîtriser les techniques de gestion de votre Business",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques de réalisation des bilans pour évaluer et optimiser la rentabilité des activités d’une entreprise.",
+    "Calculer et analyser les seuils de rentabilité pour prendre des décisions financières éclairées.",
+    "Établir des stratégies de prix compétitives en tenant compte de la concurrence et du positionnement sur le marché.",
+    "Concevoir et suivre un calendrier budgétaire pour une gestion financière précise et proactive.",
+    "Développer et analyser les tableaux de bord financiers pour améliorer continuellement les performances de l’entreprise."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou distanciel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté sur les logiques de performance dans votre Business\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Principes de comptabilité et analyse financière\n- Comprendre et appliquer les méthodes de réalisation des bilans pour évaluer la rentabilité des activités.\n- Analyser les résultats à travers des indicateurs comme les marges sur coûts variables et les marges contributives.\n- Maîtriser le calcul du seuil de rentabilité pour déterminer le point où l’entreprise commence à générer des profits.\n### Module 2: Stratégies de prix et positionnement sur le marché\n- Établir les prix de vente en tenant compte de la concurrence et du positionnement de l’entreprise.\n- Utiliser des approches stratégiques pour ajuster les prix en fonction des coûts directs et des objectifs de marge.\n- Analyser les impacts des décisions de tarification sur la rentabilité globale de l’entreprise.\n### Module 3: Planification et contrôle budgétaire\n- Développer des compétences pour la création d’un calendrier budgétaire et la budgétisation des services.\n- Construire des plans d’actions en adéquation avec les budgets établis, en utilisant des outils comme les tableaux de bord.\n- Analyser et interpréter les écarts budgétaires, et proposer des actions correctives pour optimiser la gestion.\n### Module 4: Analyse financière approfondie\n- Explorer les techniques avancées pour l’analyse des informations financières, incluant les soldes intermédiaires de gestion.\n- Évaluer la capacité d’autofinancement pour comprendre la liquidité et les capacités d’investissement de l’entreprise.\n- Utiliser les diagnostics financiers pour identifier les zones de risque et d’opportunité au sein de l’entreprise.\n### Module 5: Gestion des investissements et de la trésorerie\n- Apprendre à gérer les finances liées aux investissements pour maximiser le retour sur investissement.\n- Optimiser la gestion de la trésorerie pour assurer la liquidité et la solvabilité à court terme.\n- Créer des plans d’action pour améliorer et pérenniser la situation financière de l’entreprise.\n### Module 6: Systèmes de pilotage et contrôle de gestion\n- Animer et maintenir le système de pilotage budgétaire pour aligner la stratégie avec la performance opérationnelle.\n- Assurer la cohérence entre les budgets, les tableaux de bord et les plans d’actions.\n- Réaliser des analyses continues des performances par rapport aux prévisions, en ajustant les stratégies en temps réel pour maximiser l’efficacité et la rentabilité.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à piloter une TPE avec des outils pratiques en gestion financière, budgétisation, trésorerie et planification stratégique. Développez les compétences nécessaires pour assurer la rentabilité, gérer les coûts et guider efficacement votre petite entreprise vers la réussite."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

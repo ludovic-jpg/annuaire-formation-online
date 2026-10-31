@@ -1,0 +1,63 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-maitrisez-lart-du-referencement-naturel-seo/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation SEO : référencer soi-même le site de son activité",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 2000 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les techniques de SEO",
+  "prerequis": "Détenir un site internet que l’on souhaite référencer naturellement",
+  "public": null,
+  "objectifs": [
+    "Réaliser l’audit SEO du site de votre activité : pages indexées, balises, vitesse, liens entrants.",
+    "Choisir des mots-clés réalistes à partir des recherches de vos clients et de vos concurrents directs.",
+    "Réécrire les titres, méta-descriptions et intertitres de vos pages principales.",
+    "Corriger les erreurs techniques courantes signalées par la Search Console (robots.txt, sitemap XML, redirections).",
+    "Établir un plan d’actions SEO priorisé et en lancer les premières mesures pendant la formation.",
+    "Suivre l’évolution de vos positions et de votre trafic dans Google Analytics et la Search Console."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Comment Google choisit les pages qu’il affiche\n- Ce que regardent les robots d’exploration et l’algorithme de classement : pertinence de la page, popularité, qualité technique.\n- Lire une page de résultats comme un client qui cherche votre service : annonces, résultats locaux, extraits, questions associées.\n- Repérer l’intention derrière une requête (s’informer, comparer, acheter) et la page de votre site qui doit y répondre.\n### Module 2 : Trouver les mots que tapent vos clients\n- Constituer une première liste à partir de vos devis, de vos échanges clients et des suggestions de Google.\n- Mesurer volume et concurrence avec des outils spécialisés, puis repérer les requêtes de longue traîne accessibles à une petite structure.\n- Attribuer un mot-clé principal à chaque page pour éviter que deux pages de votre site se fassent concurrence.\n### Module 3 : Retravailler vos pages une par une\n- Écrire la balise title et la méta-description de chaque page importante, puis vérifier leur rendu dans Google.\n- Hiérarchiser le texte avec des intertitres H1 à H6 et placer les mots-clés là où ils aident le lecteur.\n- Soigner les adresses des pages et relier vos contenus entre eux par des liens internes.\n### Module 4 : Les réglages techniques à vérifier\n- Contrôler l’exploration et l’indexation de vos pages dans la Search Console.\n- Réduire le temps de chargement et vérifier l’affichage sur smartphone.\n- Corriger un fichier robots.txt, un plan de site XML ou une redirection mal configurés.\n### Module 5 : Obtenir des liens vers votre site\n- Recenser les sites qui peuvent parler de vous : partenaires, fournisseurs, annuaires professionnels, presse locale.\n- Distinguer les liens utiles des pratiques sanctionnées par Google, comme l’achat de liens en masse.\n- Surveiller vos liens entrants et repérer ceux qui nuisent à votre profil.\n### Module 6 : Suivre les résultats et ajuster\n- Configurer Google Analytics et la Search Console, puis lire les rapports utiles à une petite activité.\n- Choisir quelques indicateurs (clics, positions, demandes de contact) et les relever chaque mois.\n- Revoir le plan d’actions après une mise à jour d’algorithme ou une baisse de trafic.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à optimiser votre site internet pour apparaître en tête des résultats de recherche grâce à notre formation “Maîtrisez l’Art du Référencement Naturel SEO”. Découvrez les stratégies SEO avancées, le fonctionnement des algorithmes des moteurs de recherche comme Google, l’optimisation on-page et off-page, l’utilisation des mots-clés, la création de contenu optimisé et le netlinking. Que vous soyez entrepreneur, freelance ou chargé de marketing, cette formation vous permettra d’augmenter la visibilité de votre site web et de générer plus de trafic organique."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Financement possible selon votre situation : OPCO, plan de développement des compétences ou employeur"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "En fin de parcours, vous pilotez vous-même le référencement naturel de votre site au quotidien."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

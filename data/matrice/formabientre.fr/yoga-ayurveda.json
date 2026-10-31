@@ -1,0 +1,60 @@
+{
+  "lien": "https://formabientre.fr/formation/yoga-ayurveda",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Yoga et Ayurveda",
+  "image": "https://formabientre.fr/assets/formation-yoga-DzHtgM_s.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 1800 €",
+  "duree": "À partir de 21h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Expliquer à un élève les principes de base de l'Ayurveda et du Yoga",
+    "Construire des routines de yoga adaptées à chacun des doshas",
+    "Proposer des conseils d'alimentation et d'hygiène de vie fondés sur l'Ayurveda",
+    "Pratiquer chaque jour méditation et pranayama de façon autonome",
+    "Choisir les techniques ayurvédiques adaptées à un besoin physique ou mental exprimé",
+    "Accompagner d'autres personnes dans une démarche de bien-être par le Yoga et l'Ayurveda"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Deux traditions, une approche\n- Retracer l'histoire et la pensée du Yoga et de l'Ayurveda\n- Décrire les trois doshas et leur action sur le corps et le mental\n- Présenter les Yamas et Niyamas, socle éthique du Yoga\n### Module 2 : Le yoga selon les doshas\n- Repérer un déséquilibre des doshas chez vous puis chez un élève\n- Construire une séquence de yoga pour chaque dosha\n- Ajouter pranayama et méditation pour rééquilibrer\n### Module 3 : Alimentation et routine ayurvédiques\n- Composer des repas qui respectent l'équilibre des doshas\n- Installer une routine quotidienne ayurvédique (Dinacharya)\n- Cuisiner avec les épices et plantes de la tradition\n### Module 4 : Approfondir sa pratique de yoga\n- Affiner asanas, pranayama et méditation\n- Pratiquer les Shatkarmas, techniques de purification du Yoga\n- Écrire votre séquence de pratique quotidienne\n### Module 5 : Stress, doshas et apaisement\n- Relier le stress aux déséquilibres des doshas\n- Appliquer les outils yogiques et ayurvédiques contre le stress\n- Utiliser méditation et pranayama pour apaiser\n### Module 6 : Guider les autres\n- Transmettre le Yoga et l'Ayurveda à un groupe ou en individuel\n- Concevoir des ateliers et séminaires Yoga Ayurveda\n- Exercer selon l'éthique et les pratiques du métier",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le yoga et l'ayurveda se complètent : l'un travaille par la posture et le souffle, l'autre par l'alimentation et l'hygiène de vie. Ce parcours s'adresse aux personnes qui veulent en faire une activité, en reconversion ou en complément d'une pratique bien-être. Vous apprenez à bâtir des routines selon les doshas, à installer votre propre pratique de méditation et de pranayama, puis à guider d'autres personnes en séance ou en atelier."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "4.5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

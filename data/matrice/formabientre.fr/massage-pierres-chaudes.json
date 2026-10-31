@@ -1,0 +1,60 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-pierres-chaudes",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage aux Pierres Chaudes",
+  "image": "https://formabientre.fr/assets/formation-massage-pierres-DzhO66Pa.webp",
+  "niveau": "Professionnel du bien-être et/ou reconversion",
+  "tarif": "À partir de 1000 €",
+  "duree": "À partir de 14h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Réaliser un massage aux pierres chaudes qui amène le client à une détente profonde",
+    "Expliquer à un client les effets physiques et psychologiques attendus du soin",
+    "Entretenir et manier les pierres selon les règles de sécurité",
+    "Présenter l'histoire et les principes du massage aux pierres chaudes",
+    "Repérer les bienfaits et contre-indications avant chaque séance",
+    "Conduire une séance complète aux pierres chaudes avec aisance"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Histoire et principes du soin\n- Retracer l'origine du massage aux pierres chaudes et son évolution\n- Situer les cultures et traditions qui l'ont pratiqué\n- Faire le lien entre les techniques anciennes et la pratique actuelle\n### Effets du soin et contre-indications\n- Décrire les effets du soin sur le corps et le mental\n- Écarter les situations à risque grâce aux contre-indications\n- Lire les études et données disponibles sur l'efficacité du soin\n### Gestes et pierres\n- Associer gestes manuels et passages des pierres\n- Jouer sur la pression et le rythme\n- Choisir les mouvements selon les groupes musculaires\n### Chauffe et préparation des pierres\n- Régler l'appareil de chauffe à la bonne température\n- Trier et préparer les pierres selon taille et forme\n- Chauffer et refroidir les pierres en sécurité\n### Séance complète et sécurité\n- Dérouler une séance entière selon un protocole sûr\n- Ajuster la séance à chaque client\n- Organiser la cabine pour le confort et la sécurité du client",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le massage aux pierres chaudes associe les gestes manuels à la chaleur de pierres volcaniques pour une détente profonde et un relâchement musculaire. C'est un soin apprécié en cabinet et en spa, qui demande une vraie maîtrise du matériel. Cette formation s'adresse aux praticiens et aux personnes en reconversion : vous apprenez à chauffer, manier et entretenir les pierres, puis à conduire une séance complète en toute sécurité."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/rh-management/formation-gestion-des-conflits/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Gestion des conflits en situation professionnelle",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-gestion-conflit-843x1024.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "Gestion des conflits de manière constructive",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Identifier les différents types de conflits et leurs origines dans un contexte professionnel",
+    "Mettre en œuvre des techniques de communication assertive pour désamorcer les tensions",
+    "Appliquer des stratégies de médiation efficaces pour faciliter la résolution des conflits",
+    "Développer une approche proactive pour prévenir l’escalade des désaccords au sein d’une équipe",
+    "Élaborer un plan d’action personnalisé pour gérer les conflits futurs et améliorer le climat organisationnel"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Comprendre les fondamentaux du conflit\n- Explorer les différents types de conflits et leurs origines\n- Analyser le cycle de vie d’un conflit et ses impacts sur l’environnement professionnel\n- Identifier les signes précurseurs et les comportements associés aux situations conflictuelles\n### Module 2 : Développer une communication efficace en situation de conflit\n- Maîtriser les techniques d’écoute active et d’empathie\n- Pratiquer la communication non-violente et l’assertivité\n- Adapter son style de communication en fonction des personnalités et des contextes\n### Module 3 : Techniques de résolution de conflits\n- Appliquer la méthode des intérêts mutuels pour trouver des solutions gagnant-gagnant\n- Utiliser la négociation raisonnée pour désamorcer les tensions\n- Mettre en œuvre des stratégies de médiation efficaces\n### Module 4 : Gestion des émotions dans les conflits\n- Reconnaître et gérer ses propres émotions face aux situations conflictuelles\n- Développer son intelligence émotionnelle pour mieux comprendre les autres\n- Utiliser des techniques de régulation émotionnelle pour maintenir son calme et son objectivité\n### Module 5 : Prévention et anticipation des conflits\n- Créer un environnement de travail propice à la collaboration et au dialogue ouvert\n- Mettre en place des systèmes de feedback constructif et de résolution précoce des désaccords\n- Élaborer des protocoles de gestion des conflits adaptés à la culture de l’entreprise\n### Module 6 : Leadership et gestion d’équipe en situation de conflit\n- Développer un style de leadership adapté à la gestion des conflits\n- Faciliter la résolution de conflits au sein d’une équipe\n- Transformer les conflits en opportunités d’apprentissage et de croissance pour l’équipe",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à identifier, prévenir et résoudre les conflits professionnels grâce à des techniques de communication assertive, d’écoute active et de négociation raisonnée. Découvrez comment analyser les origines d’un désaccord, appliquer des stratégies de médiation et transformer les tensions en opportunités de croissance collective. Ce programme combine théorie et pratique pour améliorer le climat organisationnel et développer vos compétences en gestion d’équipe."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

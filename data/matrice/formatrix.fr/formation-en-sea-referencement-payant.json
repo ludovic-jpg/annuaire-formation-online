@@ -1,0 +1,64 @@
+{
+  "lien": "https://formatrix.fr/formation/bureautique/formation-en-sea-referencement-payant/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation SEA – Référencement Payant",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-sea.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1490 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les techniques de SEA pour mener des campagnes performantes",
+  "prerequis": "Détenir un site internet dont l’on souhaite booster la visibilité",
+  "public": null,
+  "objectifs": [
+    "Cerner les avantages de la publicité sur les moteurs de recherche pour sa notoriété",
+    "Développer son site web",
+    "Savoir mettre en place une stratégie ciblée via la publicité",
+    "Savoir créer des campagnes et des annonces efficaces",
+    "Se démarquer de la concurrence et développer sa notoriété"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au SEA – Comprendre les bases du référencement payant\n- Découvrir les fondamentaux du SEA et son importance dans une stratégie marketing digitale.\n- Comprendre le fonctionnement des enchères et du Quality Score sur les plateformes comme Google Ads.\n- Différencier le SEA du SEO et identifier leurs complémentarités.\n### Module 2 : Recherche de mots-clés et ciblage – Attirer les bonnes audiences\n- Maîtriser la recherche de mots-clés pour cibler les utilisateurs avec une intention d’achat élevée.\n- Comprendre les différents types de correspondances de mots-clés et leur impact sur les performances des annonces.\n- Mettre en place un ciblage géographique, démographique et comportemental efficace pour maximiser la pertinence.\n### Module 3 : Création d’annonces percutantes – Captez l’attention en quelques secondes\n- Rédiger des annonces textuelles optimisées, captivantes et orientées conversion.\n- Utiliser les extensions d’annonces pour enrichir la visibilité et l’efficacité des campagnes.\n- Tester et optimiser les éléments d’une annonce (titres, descriptions, URLs) pour améliorer le taux de clics (CTR).\n### Module 4 : Structure des campagnes – Maximisez l’efficacité de vos campagnes\n- Apprendre à structurer vos campagnes SEA : compte, campagnes, groupes d’annonces et mots-clés.\n- Optimiser votre budget en répartissant judicieusement vos enchères sur des campagnes rentables.\n- Définir des objectifs clairs pour chaque campagne afin de mieux évaluer vos résultats et ajuster les actions.\n### Module 5 : Optimisation des performances – Améliorez vos résultats grâce à l’analyse\n- Analyser les données clés (CTR, CPC, taux de conversion) pour identifier les points d’amélioration.\n- Utiliser les tests A/B pour optimiser vos annonces et pages de destination.\n- Réduire les coûts tout en maximisant les conversions avec l’optimisation du Quality Score et du coût par clic (CPC).\n### Module 6 : Suivi et ajustement des campagnes – Pérennisez vos résultats SEA\n- Apprendre à utiliser Google Analytics et Google Ads pour suivre les performances en temps réel.\n- Ajuster vos enchères et mots-clés en fonction des résultats et des changements de marché.\n- Adopter une stratégie de suivi et d’itération continue pour maintenir des campagnes rentables sur le long terme.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Boostez instantanément votre visibilité grâce à notre formation “SEA – Référencement Payant”. Maîtrisez les outils publicitaires tels que Google Ads pour créer des campagnes PPC (Pay Per Click) efficaces. Apprenez à cibler les bons mots-clés, rédiger des annonces performantes, définir des budgets optimisés et analyser vos résultats pour maximiser votre retour sur investissement (ROI). Cette formation s’adresse aux professionnels souhaitant attirer un trafic qualifié, générer des conversions rapides et booster leurs ventes grâce à la publicité en ligne."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.7"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "À l’issue de cette formation, vous serez capable de maîtriser la publicité sponsorisée sur Google."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

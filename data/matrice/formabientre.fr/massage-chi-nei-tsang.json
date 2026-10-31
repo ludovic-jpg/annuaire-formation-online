@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-chi-nei-tsang",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage abdominal Chi Nei Tsang",
+  "image": "https://formabientre.fr/assets/formation-chi-nei-tsang-DYEYOJiy.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 €",
+  "duree": "À partir de 7h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Pratiquer les gestes de base du Chi Nei Tsang pour accompagner le confort digestif",
+    "Appliquer les principes du Qi Gong dans le massage pour favoriser la circulation énergétique",
+    "Repérer les blocages énergétiques de l'abdomen et choisir la technique adaptée",
+    "Conduire un échange avec le client qui installe la confiance dès l'accueil",
+    "Intégrer le Chi Nei Tsang à votre offre de praticien en bien-être"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Origines du Chi Nei Tsang\n- Retracer l'histoire et les principes du Chi Nei Tsang\n- Situer la place du massage du ventre dans les médecines traditionnelles\n- Nommer les systèmes énergétiques mobilisés\n### Module 2 : Le ventre, anatomie et équilibre\n- Décrire l'abdomen et les organes qu'il contient\n- Relier digestion, lymphe et système nerveux\n- Détecter les signes de déséquilibre physique et énergétique\n### Module 3 : Les gestes de base\n- Effectuer les gestes manuels qui stimulent circulation et élimination\n- Doser la pression sur le ventre\n- Synchroniser le soin avec la respiration du client\n### Module 4 : Techniques ciblées\n- Appliquer les techniques avancées face au stress, à l'insomnie et aux troubles digestifs\n- Accompagner le lâcher-prise et l'équilibre émotionnel par le soin\n- Bâtir des protocoles personnalisés\n### Module 5 : Accueillir et suivre le client\n- Communiquer pour créer la confiance\n- Mener un premier entretien et un bilan global\n- Ajuster la séance à ce que le client exprime\n### Module 6 : Exercer et s'installer\n- Respecter le cadre légal et éthique du massage\n- Placer le Chi Nei Tsang dans votre offre de soins\n- Préparer le lancement de votre activité",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le Chi Nei Tsang est un massage du ventre issu de la tradition, qui cherche à dénouer les blocages énergétiques et à soutenir le travail des organes internes. Pour un praticien en reconversion ou déjà installé, c'est un soin holistique qui se distingue sur une carte. Vous apprenez les gestes sur l'abdomen, le lien avec le Qi Gong et l'accompagnement du client tout au long de la séance."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

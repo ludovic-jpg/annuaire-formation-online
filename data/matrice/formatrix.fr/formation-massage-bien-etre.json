@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-bien-etre/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage Bien-être",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/massage-1024x682.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les techniques de massage bien-être",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "1- Connaître les fondamentaux du Massage Bien-être",
+    "2- Savoir préparer un Massage Bien-être",
+    "3- Connaître les zones massées",
+    "4- Savoir exercer les manœuvres du Massage Bien-être",
+    "5- Savoir exécuter le protocole complet du Massage Bien-être"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur – 14 H de Formation Online et 7 H de formation présentiel\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Histoire et Principes du Massage Bien-être\n- Explorer l’évolution historique du massage et son importance culturelle à travers les âges.\n- Identifier le matériel et les accessoires essentiels pour une séance de massage réussie.\n- Comprendre les multiples bienfaits du massage bien-être et les contre-indications majeures.\n### Module 2: Anatomie pour le Massage\n- Étudier l’anatomie du dos, des trapèzes et de la nuque pour des techniques de massage ciblées.\n- Examiner les structures musculaires des jambes et des bras et leur implication dans différents types de massage.\n- Apprendre à masser le thorax et l’abdomen en respectant les précautions et techniques adaptées.\n### Module 3: Techniques Fondamentales de Massage\n- Acquérir les gestes de base du massage, tels que l’effleurage, le pétrissage et la friction.\n- S’entraîner à la bonne exécution des mouvements et à la gestion du flux d’une séance.\n- Apprendre à créer une ambiance propice au bien-être et à la relaxation du client.\n### Module 4: Séquençage et Protocole de Massage\n- Apprendre le séquençage logique d’une séance de massage bien-être pour un effet maximal.\n- Observer des démonstrations pratiques pour maîtriser chaque étape du protocole.\n- Pratiquer les protocoles de massage en autonomie pour développer la confiance et la compétence.\n### Module 5: Perfectionnement des Techniques de Massage\n- Intégrer des techniques avancées et des manipulations spécifiques pour un massage personnalisé.\n- S’exercer à des méthodes de massage adaptées à différentes conditions et populations.\n- Utiliser des études de cas pour comprendre comment varier les techniques selon les besoins du client.\n### Module 6: Pratique Professionnelle et Éthique\n- Incarner le savoir-être du masseur à travers une communication professionnelle et empathique.\n- Suivre les étapes pour réussir le massage et assurer une expérience client exceptionnelle.\n- Établir des standards éthiques et professionnels pour une pratique durable et respectée.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Initiez-vous aux fondamentaux du massage bien-être pour offrir des soins personnalisés qui répondent aux besoins croissants de relaxation et de gestion du stress. Apprenez les techniques de base : effleurages, pressions et mouvements fluides pour favoriser la détente physique et mentale. Cette formation pratique est conçue pour vous lancer avec succès dans un secteur en plein développement."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-assis/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage Assis",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-massage-assi-1024x834.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Maîtriser les techniques de massage assis",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Apprendre à maîtriser les techniques fondamentales du massage assis.",
+    "Identifier les points de tension et les soulager efficacement à travers le massage.",
+    "Utiliser les postures et mouvements adaptés pour assurer un confort optimal au receveur.",
+    "Adapter les techniques de massage assis en fonction des besoins spécifiques de chaque personne.",
+    "Développer une pratique professionnelle du massage assis en respectant les normes d’hygiène et de sécurité."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au massage assis et ses bienfaits\n- Comprendre les origines et les fondements du massage assis.\n- Découvrir les bienfaits physiques et mentaux du massage en milieu professionnel.\n- Identifier les situations et contextes propices à l’utilisation du massage assis.\n### Module 2 : Anatomie de base et points de tension\n- Étudier les principales structures anatomiques concernées par le massage assis.\n- Localiser les points de tension les plus courants chez les individus stressés.\n- Apprendre à reconnaître les symptômes de tension musculaire à travers l’observation et la palpation.\n### Module 3 : Techniques fondamentales de massage assis\n- Maîtriser les gestes et mouvements de base du massage assis (pressions, étirements, percussions).\n- Appliquer les techniques de massage en fonction des besoins spécifiques du receveur.\n- Adapter l’intensité du massage pour une relaxation optimale.\n### Module 4 : Posture du praticien et ergonomie\n- Apprendre à adopter une posture correcte pour éviter les tensions chez le praticien.\n- Utiliser efficacement l’ergonomie de la chaise de massage pour optimiser le confort du receveur.\n- Gérer l’espace de travail pour assurer une séance fluide et sécurisée.\n### Module 5 : Adapter le massage assis à différents contextes\n- Personnaliser les séances de massage assis en fonction du cadre professionnel (entreprise, événementiel, etc.).\n- Adapter le massage à différents profils de receveurs (salariés, cadres, etc.).\n- Prendre en compte les besoins spécifiques et éventuelles contre-indications médicales.\n### Module 6 : Pratique professionnelle et cadre légal\n- Intégrer les bonnes pratiques d’hygiène et de sécurité dans le cadre d’un massage assis.\n- Respecter les obligations légales et éthiques liées à la pratique professionnelle.\n- Développer ses compétences relationnelles pour une communication fluide avec les clients ou collègues.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à pratiquer le massage assis, une technique rapide et efficace pour soulager les tensions musculaires dans un temps limité. Idéal en milieu professionnel ou événementiel, ce massage se pratique sur chaise, sans huile, et offre des bénéfices immédiats en termes de relaxation et de gestion du stress. Intégrez cette compétence pour diversifier vos services et répondre aux besoins actuels."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

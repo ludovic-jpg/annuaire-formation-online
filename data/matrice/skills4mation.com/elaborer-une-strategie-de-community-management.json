@@ -1,0 +1,81 @@
+{
+  "lien": "https://skills4mation.com/formations/elaborer-une-strategie-de-community-management",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Élaborer une stratégie de community management",
+  "image": "https://skills4mation.com/images/formations/elaborer-une-strategie-de-community-management.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2100 €",
+  "duree": "A partir de 21 H de formation",
+  "objectif_court": "Élaborer une stratégie de community management",
+  "prerequis": "avoir un projet de communication sur les réseaux sociaux",
+  "public": "- Dirigeants de petites entreprises et collaborateurs directs chargés de la communication marketing souhaitant mettre en place une stratégie de community management en vue de développer l’activité de leur entreprise.",
+  "objectifs": [
+    "À l’issue de la formation, le stagiaire sera capable de :",
+    "Élaborer une stratégie de community management.",
+    "Organiser l’application opérationnelle d’un projet de community management.",
+    "Suivre et évaluer l’impact de ses actions de community management."
+  ],
+  "points_forts": "- Approche opérationnelle complète : Le programme couvre l’intégralité du cycle de vie d’un projet de community management, de la définition de la stratégie (Persona, objectifs S.M.A.R.T.) à l’analyse des résultats (KPIs, ROI).\n- Focus sur la création de contenu : Une partie importante (8 heures) est dédiée à l’animation des comptes, incluant le copywriting, la création de visuels et de vidéos, ainsi que la compréhension des algorithmes",
+  "modalites": "- En distanciel : Formation réalisée en classe virtuelle synchrone via [Zoom/Teams]. Le stagiaire doit disposer d’un ordinateur avec connexion internet, micro et webcam.\n- Suivi : Assistance pédagogique par email sous 24h ouvrées. Suivi de l’assiduité par relevés de connexion ou feuilles d’émargement numériques.\n- Accessibilité Handicap : Formation accessible aux personnes en situation de handicap (PSH). Contactez notre référent handicap pour étudier les aménagements nécessaires.",
+  "programme_md": "### Module 1 : Définir la stratégie de community management (Durée : 4h)\n- Identifier sa cible (Persona) et ses problématiques.\n- Définir des objectifs marketing S.M.A.R.T. et le budget associé.\n- Choisir les réseaux sociaux pertinents pour son activité.\n### Module 2 : Créer ses comptes sur les réseaux sociaux (Durée : 2h)\n- Configurer les pages entreprises (Infos clés, SEO social).\n- Adapter sa charte graphique aux formats des réseaux sociaux (Bannières, logos).\n### Module 3 : Animer les comptes sociaux (Durée : 8h)\n- Concevoir un calendrier éditorial et planifier ses publications.\n- Créer des contenus engageants : rédaction (copywriting), visuels et vidéo.\n- Accessibilité : Rendre les contenus accessibles aux personnes en situation de handicap (balises Alt, sous-titres).\n- Comprendre les algorithmes pour maximiser l’engagement.\n### Module 4 : Stratégie d’acquisition d’abonnés (Durée : 3h)\n- Activer les leviers de croissance organique (Naturelle).\n- Introduction à la publicité (Social Ads) pour cibler son audience.\n### Module 5 : Mobiliser les compétences du projet (Durée : 2h)\n- Identifier les ressources internes et externes nécessaires.\n- Coordonner les prestataires (graphistes, rédacteurs) et organiser la veille.\n### Module 6 : Analyser les résultats (Durée : 2h)\n- Suivre les indicateurs de performance (KPIs) via un tableau de bord.\n- Analyser le ROI et ajuster sa stratégie d’amélioration continue.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Élaborer une stratégie de community management"
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "programme_md",
+    "modalites",
+    "points_forts",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Résultats attendus"
+  ]
+}

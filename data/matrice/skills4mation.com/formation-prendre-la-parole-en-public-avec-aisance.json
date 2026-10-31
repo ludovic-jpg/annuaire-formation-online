@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-prendre-la-parole-en-public-avec-aisance",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Prendre la parole en public avec aisance",
+  "image": "https://skills4mation.com/images/formations/formation-prendre-la-parole-en-public-avec-aisance.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1200 €",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Prendre la parole en public avec aisance",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Identifier les mécanismes de la peur de parler en public pour mieux les surmonter.",
+    "Structurer efficacement un discours pour capter et maintenir l’attention de l’auditoire.",
+    "Utiliser des techniques de communication non verbale pour renforcer le message oral.",
+    "Appliquer des méthodes de gestion du stress pour rester calme et confiant durant les interventions.",
+    "Pratiquer la prise de parole en différents contextes pour développer une aisance adaptable à toutes situations."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Fondations de la communication orale\n- Comprendre les principes de base de la communication efficace.\n- Étudier le rôle de l’écoute active dans la réception et la transmission des messages.\n- Analyser les différentes composantes de la communication verbale et non verbale.\n### Module 2 : Structuration et organisation du discours\n- Apprendre à organiser ses idées clairement et logiquement.\n- Développer des techniques pour construire une introduction captivante et une conclusion mémorable.\n- Exercer la création de transitions fluides pour maintenir l’engagement de l’audience.\n### Module 3 : Techniques de présentation visuelle\n- Maîtriser l’usage des supports visuels pour renforcer le discours.\n- Intégrer efficacement les technologies de présentation comme PowerPoint ou Prezi.\n- Pratiquer la synergie entre expression orale et aides visuelles pour maximiser l’impact.\n### Module 4 : Gestion du trac et du stress\n- Identifier les sources de stress liées à la prise de parole en public.\n- Appliquer des stratégies de relaxation et de préparation mentale avant les prises de parole.\n- Utiliser des exercices de respiration et de relaxation pour contrôler l’anxiété en temps réel.\n### Module 5 : Interaction et engagement de l’audience\n- Techniques pour questionner et impliquer l’audience pour favoriser l’interaction.\n- Apprendre à lire et à répondre aux réactions de l’audience en temps réel.\n- Développer des compétences pour adapter le discours en fonction du feedback de l’audience.\n### Module 6 : Pratique et feedback\n- Participer à des séances de pratique intensive pour affiner les techniques de prise de parole.\n- Recevoir et intégrer le feedback constructif pour améliorer la performance personnelle.\n- Organiser des sessions d’évaluation mutuelle pour renforcer l’apprentissage collaboratif et continuer le développement personnel.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à vous exprimer avec confiance et à captiver votre auditoire lors de vos prises de parole en public. Découvrez des techniques pour structurer vos discours, gérer le stress et développer votre présence scénique. À travers des exercices pratiques, gagnez en assurance pour transformer vos interventions en moments impactants et mémorables."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

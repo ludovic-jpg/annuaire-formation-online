@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-kobi/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage Kobi",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-massage-1024x600.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 € - Financement possible",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Maîtriser les techniques de massage bien-être",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Acquérir les techniques fondamentales et avancées du massage Kobi pour améliorer la relaxation et le bien-être.",
+    "Développer une compréhension approfondie de l’anatomie humaine et des points de tension spécifiques liés au massage Kobi.",
+    "Maîtriser l’application des différentes pressions et mouvements spécifiques au massage Kobi.",
+    "Apprendre à créer un environnement thérapeutique adapté, en intégrant des éléments de musique, de lumière et d’aromathérapie.",
+    "Cultiver les compétences interpersonnelles nécessaires pour établir une relation de confiance et de professionnalisme avec les clients."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur – 14 H de Formation Online et 7 H de formation présentiel\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction au Massage Kobi\n- Découvrir l’histoire et les principes fondamentaux du massage Kobi.\n- Identifier les bienfaits du massage Kobi sur le corps et l’esprit.\n- Se familiariser avec le matériel et l’environnement nécessaires pour pratiquer efficacement.\n### Module 2: Anatomie et Physiologie pour le Massage Kobi\n- Comprendre la structure et les fonctions des systèmes musculaire et nerveux.\n- Étudier les zones de tension typiques et leur impact sur le bien-être général.\n- Apprendre à identifier les points de déclenchement et les zones de relaxation.\n### Module 3: Techniques de Base du Massage Kobi\n- Maîtriser les mouvements de base tels que le pétrissage, la pression et l’effleurage.\n- Pratiquer l’application de différentes pressions pour un effet thérapeutique optimal.\n- Intégrer des techniques de respiration et de relaxation pendant les séances de massage.\n### Module 4: Techniques Avancées en Massage Kobi\n- Appliquer des techniques avancées pour des traitements spécifiques tels que le soulagement de la douleur et la réduction du stress.\n- Utiliser des méthodes combinées pour améliorer l’efficacité du massage.\n- Personnaliser les séances de massage selon les besoins individuels des clients.\n### Module 5: Création d’un Environnement Thérapeutique\n- Concevoir un espace de massage qui encourage la relaxation et le bien-être.\n- Intégrer des éléments sensoriels tels que l’aromathérapie, la musique et l’éclairage adapté.\n- Établir des protocoles de confidentialité et de confort pour les clients.\n### Module 6: Pratique Professionnelle et Développement des Compétences Interpersonnelles\n- Développer des compétences en communication pour mieux comprendre et répondre aux attentes des clients.\n- Apprendre à gérer un agenda de rendez-vous et à maintenir des relations professionnelles durables.\n- Cultiver une éthique professionnelle et des pratiques de travail sûres et efficaces.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Découvrez le massage Kobi, une technique innovante et relaxante qui allie gestes précis et approche thérapeutique pour soulager les tensions musculaires. Apprenez à adapter vos soins en fonction des besoins de vos clients pour offrir une expérience de relaxation profonde. Cette formation pratique vous permet d’ajouter une compétence unique à votre offre professionnelle."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

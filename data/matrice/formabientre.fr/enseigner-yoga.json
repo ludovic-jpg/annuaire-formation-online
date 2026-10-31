@@ -1,0 +1,60 @@
+{
+  "lien": "https://formabientre.fr/formation/enseigner-yoga",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Enseigner le Yoga",
+  "image": "https://formabientre.fr/assets/formation-enseigner-yoga-Sp_nv0_I.webp",
+  "niveau": "Professionnel du bien-être et/ou reconversion",
+  "tarif": "À partir de 2200 €",
+  "duree": "À partir de 30h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Expliquer à des élèves les grands principes et la philosophie du yoga",
+    "Démontrer et guider postures, techniques de respiration et méditation",
+    "Animer un cours en donnant des consignes claires à un groupe",
+    "Construire des cours adaptés à différents niveaux et besoins",
+    "Appliquer l'anatomie et la physiologie pour placer les élèves en sécurité",
+    "Entretenir une pratique personnelle régulière qui nourrit votre enseignement"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Les racines du yoga\n- Retracer l'histoire et la philosophie du yoga\n- Lire des extraits des textes fondateurs\n- Présenter les huit membres du yoga à un groupe\n### Module 2 : Le corps en mouvement\n- Relier anatomie et pratique des postures\n- Analyser la biomécanique des mouvements de yoga\n- Repérer les contre-indications de certaines postures\n### Module 3 : Postures (asanas)\n- Pratiquer les asanas, des plus simples aux plus avancées\n- Proposer variantes et ajustements selon l'élève\n- Enchaîner les postures pour en tirer le meilleur effet\n### Module 4 : Souffle (pranayama) et méditation\n- Pratiquer plusieurs techniques de pranayama\n- Découvrir la méditation et ses effets\n- Insérer pranayama et méditation dans vos cours\n### Module 5 : Pédagogie du cours de yoga\n- Donner des consignes claires et bien placées\n- Préparer et structurer un cours\n- Gérer un groupe tout en répondant aux besoins de chacun\n### Module 6 : Votre métier d'enseignant\n- Appliquer l'éthique de l'enseignement du yoga\n- Affirmer votre posture d'enseignant face au groupe\n- Organiser votre formation continue et l'analyse de votre pratique",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Vous pratiquez le yoga depuis longtemps ou vous enseignez déjà une activité physique, et vous voulez donner vos propres cours ? Ce parcours vous fait passer de l'autre côté du tapis. Vous apprenez à construire et guider une séance, à placer les élèves en sécurité selon leur niveau et à transmettre postures, pranayama, méditation et philosophie du yoga. Il convient aux professionnels du bien-être comme aux personnes en reconversion."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "4.9/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

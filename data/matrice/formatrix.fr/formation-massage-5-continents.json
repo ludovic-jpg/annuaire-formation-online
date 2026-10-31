@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-5-continents/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage 5 Continents",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-massage-1-1024x501.webp",
+  "niveau": "Professionnel du bien-être et/ou personne en reconversion professionnel",
+  "tarif": "A partir de 1000 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de dispenser des massage et soins selon la méthode de massage 5 continents",
+  "prerequis": "Développer les facultés d’écoute et de bienveillance",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques de massage issues des cinq continents.",
+    "Comprendre l’histoire et la signification culturelle des différentes pratiques de massage.",
+    "Développer une approche globale et intégrée du bien-être.",
+    "Appliquer les techniques apprises de manière professionnelle et bienveillante.",
+    "Utiliser efficacement les outils de communication fournis pour promouvoir vos services."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formatrice\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques dans un cabinet de massage ( Chez le stagiaire ou au cabinet de la formatrice\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au Massage des 5 Continents\n- Comprendre l’origine et les principes du Massage des 5 Continents.\n- Découvrir les bienfaits du massage sur le bien-être physique et mental.\n- Se familiariser avec le matériel et l’environnement nécessaires à la pratique.\n### Module 2 : Techniques de Massage d’Asie\n- Apprendre les techniques spécifiques du massage asiatique.\n- Pratiquer le massage Shiatsu et le massage Thaï.\n- Intégrer les principes de l’énergie et des méridiens dans le massage.\n### Module 3 : Techniques de Massage d’Afrique\n- Explorer les techniques de massage africaines et leur contexte culturel.\n- Maîtriser les mouvements rythmiques et l’utilisation des huiles essentielles.\n- Appliquer les techniques de relaxation profonde et de revitalisation.\n### Module 4 : Techniques de Massage d’Europe\n- Étudier les techniques de massage classiques européennes.\n- Pratiquer le massage suédois et le massage aux pierres chaudes.\n- Comprendre l’importance de l’anatomie et de la physiologie dans le massage.\n### Module 5 : Techniques de Massage d’Amérique\n- Découvrir les pratiques de massage américaines, y compris le massage deep tissue.\n- Intégrer les techniques de libération myofasciale.\n- Utiliser le massage pour améliorer la mobilité et réduire les tensions.\n### Module 6 : Synthèse et Pratique Intensive\n- Réviser et pratiquer intensivement les techniques apprises.\n- Recevoir des feedbacks constructifs sur la technique et la posture.\n- Préparer et présenter une séance de massage complète intégrant les techniques des 5 continents.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Explorez les techniques de massage internationales grâce à ce programme combinant des méthodes traditionnelles issues des cinq continents. Apprenez à harmoniser le corps et l’esprit en intégrant des gestes fluides, des huiles essentielles et des techniques de relaxation profonde. Cette formation vous permet de proposer un soin global et unique à vos clients."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

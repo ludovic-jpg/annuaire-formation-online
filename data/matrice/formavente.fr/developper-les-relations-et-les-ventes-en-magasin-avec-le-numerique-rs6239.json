@@ -1,0 +1,58 @@
+{
+  "lien": "https://formavente.fr/formation/developper-les-relations-et-les-ventes-en-magasin-avec-le-numerique-rs6239/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Développer les relations et les ventes en magasin avec le numérique",
+  "image": "https://formavente.fr/images/2025/05/WhatsApp-Image-2025-05-27-at-1.08.00-PM.jpeg",
+  "niveau": "Attestation de fin de formation",
+  "tarif": "À partir de 2490 € – financement possible",
+  "duree": "À définir",
+  "objectif_court": "Dynamiser les relations client et les ventes en magasin grâce aux outils numériques.",
+  "prerequis": "À définir",
+  "public": null,
+  "objectifs": [
+    "Structurer ses activités et son temps pour être plus efficace dans l’atteinte de ses objectifs commerciaux en utilisant les méthodes de gestion du temps et de l’information à l’ère du digital.",
+    "Communiquer via les réseaux sociaux pour développer la notoriété de son entreprise et générer des contacts utiles, par l’utilisation de techniques d’influence en ligne et de social selling, afin de développer l’activité et le chiffre d’affaires de son entreprise.",
+    "Accueillir son client pour qu’il soit à l’aise et ait envie de découvrir les offres et le conseiller en fonction de ses attentes pour développer ses ventes à l’aide des outils digitaux.",
+    "Réaliser l’entretien de vente auprès du client à l’aide des outils digitaux, en argumentant, en traitant avec pédagogie et conviction les incompréhensions, interrogations et objections émises, afin d’optimiser le panier moyen et favoriser la vente additionnelle et la vente d’articles à plus forte valeur ajoutée.",
+    "Adapter sa posture de vente en fonction de la personnalité, de la culture et de la situation de handicap du client, afin d’optimiser la satisfaction client."
+  ],
+  "points_forts": null,
+  "modalites": "Formation hybride : modules e-learning, classes virtuelles, ateliers pratiques et accompagnement personnalisé.",
+  "programme_md": "### Module 1 : Organisation & productivité digitale\n- Diagnostiquer son usage du temps et des outils.\n- Implémenter méthodes GTD et digital clean‑desk.\n- Automatiser tâches à faible valeur pour se concentrer sur la vente.\n### Module 2 : Marketing social local\n- Construire une présence cohérente sur les réseaux sociaux.\n- Créer du contenu engageant pour générer du trafic en magasin.\n- Suivre les indicateurs de notoriété et ajuster la stratégie.\n### Module 3 : Accueil client phygital\n- Offrir une première impression mémorable en magasin.\n- Utiliser mobile/tablette pour enrichir l’expérience d’achat.\n- Personnaliser l’accueil selon les besoins détectés.\n### Module 4 : Vente assistée par le numérique\n- Mener l’entretien de vente avec outils d’aide (catalogues, CRM).\n- Proposer ventes additionnelles & upselling via recommandations digitales.\n- Conclure la transaction et orienter vers programmes de fidélité.\n### Module 5 : Posture de vente inclusive\n- Identifier style d’achat et personnalité du client.\n- Adapter communication verbale et non‑verbale.\n- Garantir accessibilité aux clients en situation de handicap.\n### Module 6 : Fidélisation omnicanale & pilotage\n- Mettre en place un programme CRM relationnel.\n- Exploiter data client pour offres personnalisées.\n- Mesurer conversion & panier moyen pour optimiser les actions.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Dynamiser les relations client et les ventes en magasin grâce aux outils numériques."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-ayurvedique",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage ayurvédique pour futurs praticiens",
+  "image": "https://formabientre.fr/assets/formation-ayurveda-Dvxb2_Ly.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 €",
+  "duree": "À partir de 7h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Réaliser un massage ayurvédique, des gestes de base aux techniques avancées",
+    "Choisir et appliquer les huiles et plantes traditionnelles adaptées au client",
+    "Expliquer à un client les principes de l'Ayurveda et leur lien avec le soin proposé",
+    "Évaluer les besoins du client pour construire un soin personnalisé",
+    "Planifier le lancement et la gestion d'une activité de praticien en massage ayurvédique"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : L'Ayurveda et son massage\n- Situer les origines et la philosophie de l'Ayurveda\n- Décrire Vata, Pitta et Kapha et leur effet sur le corps et le mental\n- Présenter les bases du massage ayurvédique et ses bienfaits\n### Module 2 : Anatomie et points marma\n- Repérer l'anatomie mobilisée par les gestes ayurvédiques\n- Tenir compte de la circulation sanguine et lymphatique dans le geste\n- Localiser les points marma et décrire leur rôle\n### Module 3 : Gestes de base, huiles et plantes\n- Exécuter pétrissages et frictions propres au massage ayurvédique\n- Garder alignement et posture justes tout au long du soin\n- Utiliser huiles et plantes selon le soin\n### Module 4 : Techniques avancées\n- Pratiquer les techniques avancées sur des demandes précises\n- Adapter le soin au dosha et à l'état du client\n- Intégrer détente profonde et méditation à la séance\n### Module 5 : Évaluer et ajuster\n- Évaluer le client avant, pendant et après le massage\n- Faire évoluer le geste selon ce que vous observez\n- Proposer un accompagnement global avec conseils d'alimentation et d'hygiène de vie ayurvédiques\n### Module 6 : Lancer votre cabinet\n- Gérer une activité de bien-être au quotidien\n- Construire votre plan marketing pour trouver puis garder vos clients\n- Respecter le cadre légal et éthique du massage professionnel",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le massage ayurvédique vient de la médecine traditionnelle indienne. Il associe huiles, gestes fluides et pressions pour revitaliser le corps et rééquilibrer les énergies. Ce parcours vise les personnes qui veulent se reconvertir ou ouvrir un cabinet de bien-être holistique : vous apprenez le soin, l'évaluation du client selon l'Ayurveda et les bases pour lancer votre activité."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

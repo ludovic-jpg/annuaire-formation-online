@@ -1,0 +1,79 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-maitrisez-lart-du-referencement-naturel-seo",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Maîtrisez l’Art du Référencement naturel SEO",
+  "image": "https://skills4mation.com/images/formations/formation-maitrisez-lart-du-referencement-naturel-seo.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2000 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les techniques de SEO",
+  "prerequis": "Détenir un site internet que l’on souhaite référencer naturellement",
+  "public": null,
+  "objectifs": [
+    "Acquérir une expertise en référencement naturel",
+    "Examiner et évaluer le référencement actuel d’un site web",
+    "Fixer des buts spécifiques pour l’amélioration des contenus web",
+    "Créer un plan d’action détaillé pour l’optimisation du référencement du site",
+    "Implémenter les premières mesures efficaces pour renforcer le référencement",
+    "Après cette formation, vous serez en mesure d’optimiser votre présence sur les moteurs de recherche internet."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Les Fondations du SEO – Comprendre le fonctionnement des moteurs de recherche\n- Décrypter les algorithmes des moteurs de recherche et leur impact sur le classement des sites.\n- Identifier les facteurs clés qui influencent le SEO : pertinence, popularité, et structure technique.\n- Comprendre le comportement des utilisateurs et l’importance de l’intention de recherche.\n### Module 2 : Recherche de mots-clés – L’art d’attirer du trafic qualifié\n- Apprendre à identifier et sélectionner des mots-clés pertinents grâce à des outils spécialisés.\n- Analyser la concurrence et détecter les opportunités de mots-clés longue traîne.\n- Optimiser votre stratégie de mots-clés pour répondre aux besoins de votre audience cible.\n### Module 3 : L’optimisation on-page – Comment structurer et améliorer votre contenu\n- Apprendre à rédiger des balises méta, titres et descriptions efficaces pour chaque page.\n- Optimiser le contenu en utilisant les mots-clés de manière stratégique tout en garantissant une expérience utilisateur fluide.\n- Maîtriser la structure des URL, des balises H1 à H6, et le maillage interne pour une meilleure indexation.\n### Module 4 : SEO technique – Les piliers d’une architecture web performante\n- Comprendre les fondamentaux de l’indexation et du crawl pour garantir la visibilité de vos pages.\n- Optimiser la vitesse de chargement de vos pages et améliorer l’expérience mobile.\n- Identifier et corriger les erreurs techniques communes (fichiers robots.txt, plan de site XML, redirections).\n### Module 5 : Création de liens – Développer une stratégie de backlinks solide\n- Apprendre à bâtir une stratégie de netlinking pour renforcer l’autorité de votre site.\n- Découvrir les meilleures pratiques pour obtenir des backlinks de qualité et éviter les pénalités Google.\n- Surveiller et analyser les liens entrants pour optimiser votre profil de liens.\n### Module 6 : Mesurer et ajuster sa stratégie SEO – L’optimisation continue\n- Utiliser Google Analytics et Google Search Console pour suivre les performances SEO.\n- Analyser les indicateurs clés de performance (KPI) pour ajuster et affiner votre stratégie SEO.\n- Tester, itérer et s’adapter aux mises à jour des algorithmes pour maintenir votre avantage concurrentiel.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à optimiser votre site internet pour apparaître en tête des résultats de recherche grâce à notre formation “Maîtrisez l’Art du Référencement Naturel SEO”. Découvrez les stratégies SEO avancées, le fonctionnement des algorithmes des moteurs de recherche comme Google, l’optimisation on-page et off-page, l’utilisation des mots-clés, la création de contenu optimisé et le netlinking. Que vous soyez entrepreneur, freelance ou chargé de marketing, cette formation vous permettra d’augmenter la visibilité de votre site web et de générer plus de trafic organique."
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

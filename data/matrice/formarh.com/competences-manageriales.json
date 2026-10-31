@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/competences-manageriales",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Compétences managériales",
+  "image": "https://formarh.com/assets/course-competences-manageriales-vSydrdXM.webp",
+  "niveau": null,
+  "tarif": "1 590 € HT",
+  "duree": "14h (2 jours)",
+  "objectif_court": null,
+  "prerequis": "- Être en situation de management (ou prise de poste imminente)\n- Avoir une équipe d'au moins 2 personnes à encadrer\n- Volonté de remettre en question ses pratiques",
+  "public": "Managers en poste, Responsables d'équipe, Futurs managers, Team Leaders, Directeurs de service",
+  "objectifs": [
+    "Identifier son style de leadership dominant et l'adapter au niveau d'autonomie de chaque collaborateur",
+    "Conduire un entretien de feedback structuré avec la méthode DESC",
+    "Mener un entretien de recadrage en gérant les réactions émotionnelles du collaborateur",
+    "Adapter sa communication au profil DISC de son interlocuteur",
+    "Préparer et conduire un entretien de délégation au niveau de délégation adapté",
+    "Établir un plan de délégation pour son équipe actuelle"
+  ],
+  "points_forts": null,
+  "modalites": "- Autodiagnostics et tests de personnalité managériale\n- Jeux de rôles filmés et analysés\n- Co-développement sur les problématiques des participants\n- Apports théoriques illustrés de cas concrets\n- Plan de progrès individuel",
+  "programme_md": "### Trouver son style de leadership\nDurée : 3h30\n- Les styles de leadership selon Hersey et Blanchard\n- Autodiagnostic de son style dominant\n- Ajuster son management au niveau d'autonomie de chacun\n- Directif, persuasif, participatif, délégatif : les 4 postures\n- Cas pratiques : quel style pour quelle situation ?\n- Rédiger son profil de manager\n### Communiquer avec son équipe\nDurée : 3h30\n- Bases de la communication interpersonnelle\n- Écoute active et questionnement\n- Non-verbal et congruence\n- Ajuster son message aux profils DISC\n- Conversations difficiles : rester assertif\n- Mises en situation filmées et débriefées\n### Feedback et recadrage\nDurée : 3h30\n- Feedback positif, correctif, constructif\n- Structurer son feedback avec la méthode DESC\n- Les étapes et la posture d'un entretien de recadrage\n- Faire face au déni, à la colère, aux justifications\n- Déboucher sur un plan d'action concret\n- Jeux de rôles tirés de situations managériales réelles\n### Déléguer et responsabiliser\nDurée : 3h30\n- Ce que la délégation apporte au manager et au collaborateur\n- Les 7 niveaux de délégation de Jurgen Appelo\n- Préparer et mener l'entretien de délégation\n- Suivre sans surcontrôler\n- Traiter l'erreur comme une occasion d'apprendre\n- Plan de délégation pour son équipe actuelle",
+  "resultats_attendus": null,
+  "evaluation": "- Évaluation des mises en situation par le formateur\n- Grille d'auto-évaluation des compétences\n- Feedback 360° entre participants\n- Attestation de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Aménagements possibles sur demande.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Diriger avec impact\nDéveloppez votre leadership authentique et vos compétences managériales pour inspirer, motiver et faire grandir vos équipes. Cette formation intensive vous donne les clés d'un management moderne, humain et performant."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "3 500 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "3 500 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

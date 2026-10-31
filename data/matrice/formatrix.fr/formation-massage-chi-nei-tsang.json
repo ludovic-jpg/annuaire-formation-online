@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-chi-nei-tsang/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage Chi Nei Tsang",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-masssage-708x1024.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Maîtriser les techniques de massage Chi Nei Tsang",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques fondamentales du massage Chi Nei Tsang pour améliorer la santé gastro-intestinale et le bien-être général.",
+    "Appliquer les principes du Qi Gong dans les pratiques de massage pour stimuler la circulation énergétique et la détoxification.",
+    "Identifier les blocages énergétiques dans l’abdomen des clients et utiliser des méthodes spécifiques pour les résoudre.",
+    "Développer des compétences en communication thérapeutique pour établir une relation de confiance et comprendre les besoins spécifiques des clients.",
+    "Intégrer le massage Chi Nei Tsang dans une pratique professionnelle de bien-être, en respectant les normes de sécurité et d’éthique professionnelle."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction au Chi Nei Tsang\n- Comprendre l’histoire et les principes fondamentaux du Chi Nei Tsang.\n- Explorer l’importance du massage abdominal dans les médecines traditionnelles.\n- Identifier les principaux systèmes énergétiques impliqués dans la pratique du Chi Nei Tsang.\n### Module 2: Anatomie et physiologie pour le Chi Nei Tsang\n- Étudier l’anatomie détaillée de l’abdomen et les organes internes associés.\n- Comprendre les interactions entre les systèmes digestif, lymphatique et nerveux.\n- Apprendre à reconnaître les signes de déséquilibre énergétique et physique chez le client.\n### Module 3: Techniques de base du Chi Nei Tsang\n- Pratiquer les techniques manuelles pour stimuler la circulation et la détoxification.\n- Apprendre à appliquer la pression adéquate pour un massage abdominal efficace.\n- Intégrer les mouvements de respiration pour renforcer l’efficacité du massage.\n### Module 4: Approfondissement des techniques spécifiques\n- Maîtriser les techniques avancées pour traiter des problèmes spécifiques tels que le stress, l’insomnie, et les troubles digestifs.\n- Utiliser le Chi Nei Tsang pour améliorer la santé émotionnelle et le lâcher-prise.\n- Développer des protocoles de traitement personnalisés en fonction des besoins individuels des clients.\n### Module 5: Pratique thérapeutique et communication\n- Apprendre les compétences de communication pour établir une relation de confiance avec les clients.\n- Pratiquer des consultations initiales et des évaluations holistiques pour comprendre les attentes et les antécédents des clients.\n- Gérer des séances de Chi Nei Tsang en intégrant écoute active et réponses adaptées aux feedbacks des clients.\n### Module 6: Intégration professionnelle et éthique\n- Comprendre les aspects légaux et éthiques de la pratique du massage thérapeutique.\n- Développer des stratégies pour intégrer le Chi Nei Tsang dans une offre de services de bien-être plus large.\n- Préparer les participants à lancer et à gérer leur propre pratique professionnelle de Chi Nei Tsang.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Découvrez le Chi Nei Tsang, un massage abdominal ancestral qui vise à libérer les blocages énergétiques et à améliorer le fonctionnement des organes internes. Apprenez des techniques spécifiques pour favoriser la détoxification, soulager les tensions profondes et rétablir l’harmonie du corps et de l’esprit. Cette formation pratique est idéale pour les praticiens en quête de nouvelles approches holistiques."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

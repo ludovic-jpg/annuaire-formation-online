@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-5-continents",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massages du monde : méthode 5 Continents",
+  "image": "https://formabientre.fr/assets/formation-5-continents-D5dAI4zz.webp",
+  "niveau": "Professionnel du bien-être et/ou reconversion",
+  "tarif": "À partir de 1000 €",
+  "duree": "À partir de 14h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Pratiquer les techniques de massage issues des cinq continents",
+    "Présenter à un client l'histoire et le sens culturel de chaque pratique",
+    "Composer une séance qui prend en compte le bien-être global du client",
+    "Appliquer les techniques apprises avec professionnalisme et bienveillance",
+    "Utiliser les supports de communication fournis pour faire connaître votre offre"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : La méthode 5 Continents\n- Situer l'origine et les principes de la méthode\n- Décrire les effets du massage sur le corps et le mental\n- Préparer matériel et lieu de pratique\n### Module 2 : Asie\n- Pratiquer les gestes propres aux massages asiatiques\n- S'exercer au Shiatsu et au massage thaï\n- Travailler avec l'énergie et les méridiens\n### Module 3 : Afrique\n- Découvrir les massages africains dans leur contexte\n- Exécuter les mouvements rythmés avec huiles essentielles\n- Alterner relaxation profonde et revitalisation\n### Module 4 : Europe\n- Pratiquer les techniques classiques européennes\n- S'exercer au massage suédois et aux pierres chaudes\n- Appuyer le geste sur l'anatomie et la physiologie\n### Module 5 : Amérique\n- Découvrir les pratiques américaines dont le deep tissue\n- Appliquer la libération myofasciale\n- Utiliser le massage pour gagner en mobilité et relâcher les tensions\n### Module 6 : Votre séance signature\n- Réviser toutes les techniques en pratique intensive\n- Corriger geste et posture grâce aux retours reçus\n- Présenter une séance complète qui associe les cinq continents",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "La méthode 5 Continents réunit dans un même soin des techniques venues d'Asie, d'Afrique, d'Europe et d'Amérique. Pour un praticien qui s'installe, c'est une façon de proposer une séance qui ne ressemble pas à celle du cabinet voisin. Vous apprenez chaque famille de gestes, les huiles et la relaxation profonde, puis vous assemblez une séance complète que vous présentez à vos clients."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

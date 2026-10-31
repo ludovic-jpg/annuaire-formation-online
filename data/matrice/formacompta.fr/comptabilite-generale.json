@@ -1,0 +1,79 @@
+{
+  "lien": "https://formacompta.fr/formations/comptabilite-generale",
+  "site": "formacompta.fr",
+  "marque": "formacompta",
+  "titre": "Comptabilité Générale",
+  "image": "https://formacompta.fr/og-image.jpg",
+  "niveau": "Débutant à Intermédiaire",
+  "tarif": "1 490 €",
+  "duree": "5 jours (35h)",
+  "objectif_court": null,
+  "prerequis": "Aucun prérequis technique nécessaire\nMaîtrise des opérations arithmétiques de base\nConnaissance de l'environnement informatique (Excel basique)",
+  "public": "- Collaborateurs comptables débutants souhaitant acquérir les fondamentaux\n- Entrepreneurs et créateurs d'entreprise voulant comprendre leur comptabilité\n- Assistants administratifs évoluant vers des fonctions comptables\n- Professionnels en reconversion vers les métiers de la comptabilité\n- Toute personne souhaitant maîtriser les bases de la comptabilité",
+  "objectifs": [
+    "Comprendre et appliquer les principes comptables fondamentaux du PCG",
+    "Maîtriser les écritures comptables courantes et complexes",
+    "Traiter correctement la TVA dans toutes ses dimensions",
+    "Réaliser les travaux d'inventaire et de clôture",
+    "Établir les documents de synthèse : bilan et compte de résultat",
+    "Analyser les états financiers à l'aide des principaux ratios"
+  ],
+  "points_forts": null,
+  "modalites": "- Apports théoriques illustrés d'exemples concrets\n- Exercices pratiques progressifs sur chaque thématique\n- Cas de synthèse fil rouge tout au long de la formation\n- Travail sur logiciel comptable professionnel\n- Support de cours complet remis à chaque participant",
+  "programme_md": "### Introduction aux principes comptables fondamentaux\n4 heures\n- Le rôle et l'importance de la comptabilité dans l'entreprise\n- Les principes comptables généralement admis (PCGA)\n- Le principe de la partie double et son application\n- Les différents cycles comptables : achats, ventes, trésorerie\n- Organisation et documents comptables obligatoires\n- Les acteurs de la profession comptable\n### Le plan comptable général et son utilisation\n6 heures\n- Structure et logique du Plan Comptable Général (PCG)\n- Les 8 classes de comptes : actif, passif, charges, produits\n- Création et personnalisation du plan de comptes\n- Les comptes d'actif : immobilisations, stocks, créances, trésorerie\n- Les comptes de passif : capitaux propres, provisions, dettes\n- Les comptes de charges et de produits\n- Exercices pratiques de classification\n### Les écritures comptables courantes\n8 heures\n- Comptabilisation des opérations d'achat et de vente\n- Enregistrement des règlements clients et fournisseurs\n- Gestion des avoirs, remises et rabais\n- Comptabilisation des frais généraux\n- Les opérations bancaires : virements, prélèvements, CB\n- Les écritures de paie : salaires et charges sociales\n- Les immobilisations : acquisition, amortissement, cession\n- Cas pratiques sur logiciel comptable\n### La TVA et son traitement comptable\n5 heures\n- Mécanisme de la TVA : collectée, déductible, à payer\n- Les différents taux de TVA applicables\n- TVA sur les débits vs TVA sur les encaissements\n- Comptabilisation de la TVA intracommunautaire\n- Régularisations et ajustements de TVA\n- Préparation de la déclaration CA3\n- Exercices de calcul et de comptabilisation\n### Les opérations de fin d'exercice\n7 heures\n- L'inventaire : principe et obligations légales\n- Les écritures de régularisation : charges et produits constatés d'avance\n- Les provisions pour risques et charges\n- Les dépréciations : stocks, créances, immobilisations\n- Le calcul des amortissements : linéaire et dégressif\n- La détermination du résultat comptable\n- Préparation à la clôture des comptes\n### L'établissement des états financiers\n5 heures\n- Structure et présentation du bilan comptable\n- Élaboration du compte de résultat\n- L'annexe aux comptes annuels\n- Lecture et analyse des principaux ratios\n- Les liasses fiscales : formulaires et obligations\n- Archivage et conservation des documents comptables\n- Cas pratique complet : de la balance au bilan",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Cette formation complète vous permet d'acquérir toutes les compétences essentielles en comptabilité générale. Des principes de base aux écritures comptables complexes, vous développerez une maîtrise solide des outils et méthodes comptables indispensables à la gestion financière de toute entreprise. Notre approche pédagogique combine théorie et pratique intensive pour une montée en compétences rapide et efficace."
+    },
+    {
+      "rubrique": "Questions fréquentes",
+      "contenu": "### Cette formation est-elle éligible au financement OPCO ?\nUn financement est possible selon votre situation et l'éligibilité de la formation (OPCO, CPF avec participation forfaitaire à votre charge, etc.). Cette formation est dispensée par Back to Business – Formatrix, organisme certifié Qualiopi au titre des actions de formation : cette certification de l'organisme est une condition nécessaire, mais l'éligibilité dépend du financeur, de votre statut et des critères de prise en charge, qui ne sont jamais automatiques. Nous vous accompagnons dans la constitution de votre dossier.\n### Quel est le format de la formation ?\nLa formation se déroule en présentiel ou en distanciel synchrone selon vos préférences. Les sessions en distanciel se font via Teams ou Zoom avec un accompagnement personnalisé par nos formateurs experts.\n### Un certificat est-il délivré à la fin ?\nOui, une attestation de formation détaillant les compétences acquises est délivrée à l'issue de la formation. Cette attestation est reconnue par les entreprises et les OPCO.\n### Dois-je apporter mon propre ordinateur ?\nPour les formations en présentiel, nous fournissons tout le matériel nécessaire. Pour le distanciel, un ordinateur avec connexion internet stable est requis.\n### Les exercices sont-ils basés sur des cas réels ?\nAbsolument ! Tous nos exercices sont inspirés de situations réelles d'entreprise. Vous travaillerez sur des documents authentiques et utiliserez un logiciel comptable professionnel."
+    },
+    {
+      "rubrique": "Encart tarif",
+      "contenu": "1 490 €\n35 heures de formation\nFinancement possible selon votre situation : plan de développement des compétences de l'entreprise, OPCO ou fonds d'assurance formation des indépendants."
+    },
+    {
+      "rubrique": "Durée",
+      "contenu": "5 jours\n35 heures de formation réparties sur 6 modules complets."
+    },
+    {
+      "rubrique": "Certification Qualiopi",
+      "contenu": "Formations dispensées par Back to Business – Formatrix, organisme certifié Qualiopi au titre des actions de formation. La certification de l'organisme est une condition nécessaire, mais l'éligibilité à un financement dépend du financeur."
+    },
+    {
+      "rubrique": "Financement OPCO",
+      "contenu": "Bénéficiez d'une prise en charge totale ou partielle de votre formation grâce aux financements OPCO."
+    }
+  ],
+  "ordre_rubriques": [
+    "tarif",
+    "duree",
+    "niveau",
+    "programme_md",
+    "objectifs",
+    "prerequis",
+    "modalites",
+    "public",
+    "Questions fréquentes",
+    "Durée",
+    "Certification Qualiopi",
+    "Financement OPCO"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "playwright",
+  "manques": [
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

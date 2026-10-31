@@ -1,0 +1,85 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-reussir-sa-prospection-telephonique",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Réussir sa prospection téléphonique",
+  "image": "https://skills4mation.com/images/formations/formation-reussir-sa-prospection-telephonique.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 €",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Améliorer ses performances dans le cadre de sa prospection téléphonique",
+  "prerequis": "Savoir utiliser un PC, avoir la suite Office",
+  "public": null,
+  "objectifs": [
+    "Développer des Compétences en Communication Verbale",
+    "Maîtrise des Scripts de Prospection",
+    "Gestion des Objections",
+    "Ecoute Active",
+    "Utilisation des Outils et Technologies",
+    "Évaluation et Amélioration des Performances",
+    "Connaissance des Aspects Légaux et Éthiques",
+    "Ce parcours est conçu pour transformer les participants en experts de la prospection téléphonique, capables de générer des leads de qualité et de booster les ventes grâce à une communication téléphonique efficace et respectueuse."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Les bases de la prospection téléphonique – Comprendre les fondamentaux\n- Découvrir les objectifs et les enjeux de la prospection téléphonique pour générer des opportunités commerciales.\n- Comprendre l’importance de la préparation : cibler les bons prospects, analyser leurs besoins, et définir les objectifs de l’appel.\n- Maîtriser les outils indispensables pour une prospection efficace : CRM, scripts, et argumentaires.\n### Module 2 : Structurer un appel de prospection – Captiver dès le premier contact\n- Apprendre à soigner l’introduction de l’appel pour créer une première impression positive et capter l’attention du prospect.\n- Découvrir les techniques pour structurer un appel : phases d’introduction, découverte des besoins, argumentation et conclusion.\n- Gérer les objections courantes et savoir rebondir avec des réponses convaincantes et adaptées.\n### Module 3 : Techniques d’écoute active – Comprendre les besoins du prospect\n- Maîtriser l’écoute active pour mieux comprendre les attentes et les besoins réels du prospect.\n- Apprendre à poser des questions ouvertes pour favoriser le dialogue et récolter des informations pertinentes.\n- Savoir reformuler les propos du prospect pour clarifier et valider sa compréhension tout en renforçant la relation.\n### Module 4 : Adapter son discours et son ton – Créer un impact positif\n- Comprendre l’importance de l’adaptation du discours en fonction du profil du prospect (décideurs, acheteurs, partenaires).\n- Apprendre à utiliser un ton assertif, respectueux et dynamique pour susciter l’engagement et la confiance.\n- Gérer les silences, les hésitations et savoir ajuster le rythme de la conversation pour maintenir l’intérêt du prospect.\n### Module 5 : Conclure efficacement – Transformer l’appel en opportunité\n- Apprendre à détecter les signaux d’achat et à proposer une offre adaptée en fonction des besoins exprimés.\n- Maîtriser les techniques de closing : proposition d’une rencontre, envoi d’un devis ou d’informations complémentaires.\n- Savoir conclure l’appel avec des engagements clairs et un suivi bien défini pour entretenir la relation avec le prospect.\n### Module 6 : Suivi et analyse des performances – Optimiser sa prospection\n- Mettre en place un suivi rigoureux des appels grâce aux outils CRM et à la gestion des relances.\n- Analyser les résultats de ses appels (taux de transformation, qualité des échanges) pour identifier les axes d’amélioration.\n- Adapter et affiner ses techniques de prospection en fonction des retours terrain et des objectifs commerciaux atteints.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Maîtrisez les techniques pour réussir votre prospection téléphonique. Apprenez à capter l’attention, surmonter les objections et conclure des ventes efficacement. Développez vos compétences en communication téléphonique, renforcez votre confiance et transformez chaque appel en opportunité commerciale."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

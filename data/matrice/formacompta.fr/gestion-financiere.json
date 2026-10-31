@@ -1,0 +1,79 @@
+{
+  "lien": "https://formacompta.fr/formations/gestion-financiere",
+  "site": "formacompta.fr",
+  "marque": "formacompta",
+  "titre": "Gestion Financière",
+  "image": "https://formacompta.fr/og-image.jpg",
+  "niveau": "Intermédiaire à Avancé",
+  "tarif": "1 890 €",
+  "duree": "6 jours (42h)",
+  "objectif_court": null,
+  "prerequis": "Maîtrise des fondamentaux de la comptabilité générale\nCapacité à lire et interpréter les états financiers\nBonne maîtrise d'Excel (formules, tableaux croisés dynamiques)",
+  "public": "- Responsables financiers et directeurs administratifs et financiers (DAF)\n- Contrôleurs de gestion souhaitant élargir leurs compétences\n- Dirigeants d'entreprise et managers impliqués dans les décisions financières\n- Chefs de projet amenés à gérer des budgets importants\n- Créateurs d'entreprise préparant leur business plan",
+  "objectifs": [
+    "Réaliser un diagnostic financier complet d'une entreprise",
+    "Construire et piloter un budget de trésorerie prévisionnel",
+    "Élaborer et suivre un budget annuel avec analyse des écarts",
+    "Concevoir des tableaux de bord pertinents avec les bons KPI",
+    "Évaluer la rentabilité des projets d'investissement",
+    "Construire un business plan solide et convaincant"
+  ],
+  "points_forts": null,
+  "modalites": "- Apports théoriques illustrés de nombreux exemples\n- Cas pratiques fil rouge d'une entreprise type\n- Travaux sur Excel avec templates professionnels fournis\n- Études de cas sectorielles (industrie, services, commerce)\n- Mise en situation : présentation d'un business plan",
+  "programme_md": "### Analyse financière et diagnostic d'entreprise\n8 heures\n- Lecture et interprétation du bilan et du compte de résultat\n- Les soldes intermédiaires de gestion (SIG)\n- Analyse de la rentabilité : ROE, ROA, marge opérationnelle\n- Analyse de la structure financière : fonds de roulement, BFR, trésorerie\n- Les ratios clés : liquidité, solvabilité, autonomie financière\n- Analyse de la capacité d'autofinancement (CAF)\n- Tableau de financement et tableau de flux de trésorerie\n- Cas pratique : diagnostic financier complet d'une entreprise\n### Gestion de trésorerie et prévisions\n7 heures\n- Enjeux et objectifs de la gestion de trésorerie\n- Construction du budget de trésorerie prévisionnel\n- Gestion du besoin en fonds de roulement (BFR)\n- Optimisation du poste clients : délais de paiement, relances\n- Négociation avec les fournisseurs et gestion des décaissements\n- Les outils de financement court terme : découvert, affacturage, Dailly\n- Placements de trésorerie excédentaire\n- Logiciels et outils de pilotage de trésorerie\n### Élaboration et suivi budgétaire\n7 heures\n- La démarche budgétaire : calendrier et acteurs\n- Budget des ventes et prévision du chiffre d'affaires\n- Budget de production et des approvisionnements\n- Budget des frais généraux et des investissements\n- Consolidation et arbitrages budgétaires\n- Suivi budgétaire et analyse des écarts\n- Le rolling forecast : budget glissant\n- Cas pratique : élaboration d'un budget annuel complet\n### Tableaux de bord et indicateurs clés (KPI)\n6 heures\n- Définition et rôle des tableaux de bord de gestion\n- Identification des indicateurs pertinents par fonction\n- Construction d'un tableau de bord financier efficace\n- KPI opérationnels : productivité, qualité, délais\n- Outils de visualisation : Excel avancé, Power BI\n- Automatisation et alimentation des tableaux de bord\n- Communication et partage des indicateurs\n### Financement et investissement\n7 heures\n- Les sources de financement : fonds propres, dette, hybrides\n- Coût du capital et structure financière optimale (WACC)\n- Critères de choix d'investissement : VAN, TRI, payback\n- Montage d'un dossier de financement bancaire\n- Le financement par crédit-bail et location financière\n- Levées de fonds : capital-risque, business angels\n- Subventions et aides publiques aux entreprises\n- Cas pratique : étude d'un projet d'investissement\n### Business plan et évaluation d'entreprise\n7 heures\n- Structure et contenu d'un business plan convaincant\n- Prévisions financières : compte de résultat, bilan, trésorerie\n- Construction des hypothèses et analyse de sensibilité\n- Méthodes d'évaluation : DCF, multiples, patrimoniale\n- Présentation du business plan aux investisseurs\n- Erreurs à éviter dans l'élaboration du business plan\n- Cas pratique : construction d'un business plan complet",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Développez vos compétences en gestion financière pour piloter la performance de votre entreprise avec précision. Du diagnostic financier à l'élaboration de business plans, en passant par la gestion de trésorerie et le pilotage budgétaire, cette formation vous donnera tous les outils nécessaires pour prendre les bonnes décisions financières et assurer la pérennité de votre organisation."
+    },
+    {
+      "rubrique": "Questions fréquentes",
+      "contenu": "### Quels outils sont utilisés pendant la formation ?\nNous utilisons principalement Excel avec des fonctionnalités avancées (TCD, macros, tableaux de bord). Une introduction à Power BI est également proposée. Tous les templates professionnels utilisés sont fournis aux participants.\n### La formation est-elle adaptée aux PME ?\nAbsolument ! Le contenu est spécifiquement adapté aux réalités des PME et ETI. Les exemples et cas pratiques sont tirés de situations concrètes de ces entreprises pour une application immédiate.\n### Faut-il avoir un niveau avancé en Excel ?\nUn niveau intermédiaire en Excel est suffisant (formules de base, mises en forme). Les fonctionnalités avancées sont expliquées pendant la formation et les templates prêts à l'emploi sont fournis.\n### Puis-je utiliser mes propres données d'entreprise ?\nOui, nous encourageons les participants à travailler sur leurs propres données lors des exercices, dans le respect de la confidentialité. C'est le meilleur moyen d'appliquer immédiatement les acquis."
+    },
+    {
+      "rubrique": "Encart tarif",
+      "contenu": "1 890 €\n42 heures de formation\nFinancement possible selon votre situation : plan de développement des compétences de l'entreprise, OPCO ou fonds d'assurance formation des indépendants."
+    },
+    {
+      "rubrique": "Durée",
+      "contenu": "6 jours\n42 heures de formation réparties sur 6 modules complets."
+    },
+    {
+      "rubrique": "Certification Qualiopi",
+      "contenu": "Formations dispensées par Back to Business – Formatrix, organisme certifié Qualiopi au titre des actions de formation. La certification de l'organisme est une condition nécessaire, mais l'éligibilité à un financement dépend du financeur."
+    },
+    {
+      "rubrique": "Financement OPCO",
+      "contenu": "Bénéficiez d'une prise en charge totale ou partielle de votre formation grâce aux financements OPCO."
+    }
+  ],
+  "ordre_rubriques": [
+    "tarif",
+    "duree",
+    "niveau",
+    "programme_md",
+    "objectifs",
+    "prerequis",
+    "modalites",
+    "public",
+    "Questions fréquentes",
+    "Durée",
+    "Certification Qualiopi",
+    "Financement OPCO"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "playwright",
+  "manques": [
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

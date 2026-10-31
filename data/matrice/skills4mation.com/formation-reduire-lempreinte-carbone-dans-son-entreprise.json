@@ -1,0 +1,85 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-reduire-lempreinte-carbone-dans-son-entreprise",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Réduire l’empreinte carbone dans son entreprise",
+  "image": "https://skills4mation.com/images/formations/formation-reduire-lempreinte-carbone-dans-son-entreprise.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 €",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Améliorer ses compétences et la prise de conscience de son entreprise de son emprunte carbone",
+  "prerequis": "Avoir une entreprise désireuse de tendre vers une approche décarbonée",
+  "public": null,
+  "objectifs": [
+    "Comprendre le concept d’empreinte carbone et son impact sur l’environnement.",
+    "Identifier les principales sources d’émissions de carbone dans les opérations d’entreprise.",
+    "Développer des stratégies pour réduire efficacement les émissions de carbone.",
+    "Mettre en œuvre des pratiques durables pour minimiser l’empreinte carbone.",
+    "Analyser et mesurer l’efficacité des initiatives de réduction du carbone.",
+    "Sensibiliser et former le personnel aux pratiques de réduction du carbone.",
+    "Promouvoir l’innovation dans l’adoption de technologies et procédés écologiques.",
+    "Ce parcours offre une occasion unique de transformer votre entreprise en leader de la durabilité, en adoptant des pratiques qui réduisent significativement l’empreinte carbone. En intégrant ces stratégies, vous positionnerez votre organisation à l’avant-garde de l’innovation écologique et du développement durable."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Comprendre le Concept d’Empreinte Carbone\n- Identifier les composants clés de l’empreinte carbone et leur impact environnemental.\n- Analyser les tendances globales et industrielles en matière d’émissions de carbone.\n- Évaluer comment les activités de l’entreprise contribuent à l’empreinte carbone globale.\n### Identifier les Sources d’Émissions de Carbone dans l’Entreprise\n- Examiner les processus opérationnels et leur contribution aux émissions de carbone.\n- Identifier les sources indirectes d’émissions de carbone liées à la chaîne d’approvisionnement.\n- Effectuer un audit carbone pour quantifier les émissions spécifiques à l’entreprise.\n### Développer des Stratégies de Réduction du Carbone\n- Planifier et mettre en œuvre des initiatives de réduction des émissions de carbone.\n- Intégrer des technologies et des processus à faible émission de carbone.\n- Créer des objectifs de réduction du carbone alignés sur les normes internationales.\n### Mettre en Œuvre des Pratiques Durables\n- Adopter des pratiques de gestion durable dans les opérations quotidiennes.\n- Promouvoir l’utilisation d’énergies renouvelables et de ressources efficaces.\n- Intégrer le recyclage et la réutilisation dans les processus de l’entreprise.\n### Analyser l’Efficacité des Initiatives de Réduction du Carbone\n- Utiliser des outils et des méthodes pour mesurer l’impact des initiatives écologiques.\n- Analyser les données pour optimiser les stratégies de réduction du carbone.\n- Rapporter les progrès et les défis dans la réduction de l’empreinte carbone.\n### Sensibiliser et Former le Personnel\n- Éduquer les employés sur l’importance de la réduction de l’empreinte carbone.\n- Encourager la participation active des employés dans les initiatives écologiques.\n- Intégrer la durabilité dans la culture et les valeurs de l’entreprise.\n### Promouvoir l’Innovation Écologique\n- Explorer et adopter des technologies vertes et des innovations écologiques.\n- Encourager la recherche et le développement dans les solutions durables.\n- Collaborer avec des partenaires externes pour renforcer les initiatives de durabilité.\n- Ce programme vise à doter les participants de compétences pratiques pour réduire l’empreinte carbone de leur entreprise, en favorisant l’innovation et la responsabilité environnementale.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Adoptez des solutions concrètes pour réduire l’empreinte carbone de votre entreprise. Apprenez à identifier vos principaux impacts environnementaux, optimiser vos ressources et mettre en place des pratiques durables pour allier rentabilité et transition écologique."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

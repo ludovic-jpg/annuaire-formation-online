@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/design-thinking",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Design Thinking en entreprise",
+  "image": "https://formarh.com/assets/course-design-thinking-CangtVu_.webp",
+  "niveau": null,
+  "tarif": "2 190 € HT",
+  "duree": "21h (3 jours)",
+  "objectif_court": null,
+  "prerequis": "- Ouverture d'esprit et curiosité pour les nouvelles approches\n- Aucun prérequis technique particulier\n- Volonté de travailler en mode collaboratif",
+  "public": "Chefs de projet, Designers, Product Managers, Innovateurs, Équipes R&D, Responsables marketing",
+  "objectifs": [
+    "Mener un projet d'innovation en suivant les 5 phases du Design Thinking, de l'immersion au test",
+    "Conduire des entretiens exploratoires et en tirer des personas et une carte d'empathie",
+    "Formuler un défi d'innovation sous forme de questions 'How Might We'",
+    "Produire des idées en groupe avec SCAMPER, Crazy 8s et les 6 chapeaux de Bono",
+    "Fabriquer un prototype basse fidélité et le soumettre à des utilisateurs",
+    "Bâtir un plan d'action pour diffuser la démarche dans ses équipes"
+  ],
+  "points_forts": null,
+  "modalites": "- Apprentissage par le faire (learning by doing)\n- Projet fil rouge traité tout au long de la formation\n- Travail en équipes pluridisciplinaires\n- Utilisation de kits créatifs et matériel de prototypage\n- Feedback continu et itérations successives",
+  "programme_md": "### Immersion : partir des besoins des utilisateurs\nDurée : 4h\n- Origines (d.school de Stanford) et principes du Design Thinking\n- Observer le terrain avec les méthodes de l'ethnographie légère\n- Mener un entretien exploratoire semi-directif\n- Construire personas et cartes d'empathie\n- Exercice : interviews croisées entre participants, puis synthèse\n### Définition : poser le bon problème\nDurée : 3h30\n- Regrouper les insights par thèmes (clustering)\n- Écrire un énoncé Point of View (POV)\n- Transformer le problème en défi 'How Might We'\n- Hiérarchiser les enjeux avec une matrice de valeur\n- Atelier : rédiger le brief d'innovation de l'équipe\n### Idéation : produire des pistes en équipe\nDurée : 4h\n- Les règles d'un brainstorming qui fonctionne\n- SCAMPER, analogies et Crazy 8s\n- Les 6 chapeaux de Bono pour faire travailler ensemble des profils différents\n- Retenir puis enrichir les idées les plus prometteuses\n- Sprint d'idéation appliqué au projet fil rouge\n### Prototypage : rendre les idées tangibles\nDurée : 5h\n- Prototyper vite pour apprendre vite ('Fail fast, learn faster')\n- Quel niveau de fidélité pour quel prototype ?\n- Prototypage papier et maquettes\n- Storyboard et parcours utilisateur\n- Atelier pratique : fabriquer des prototypes testables\n### Test : apprendre des utilisateurs et itérer\nDurée : 4h30\n- Préparer puis animer un test utilisateur\n- Observer avec une grille et recueillir les retours\n- Analyser les résultats et décider des itérations\n- Pitcher la solution finale\n- Plan d'action pour installer le Design Thinking dans son organisation",
+  "resultats_attendus": null,
+  "evaluation": "- Évaluation continue des livrables (personas, prototypes)\n- Pitch final devant le groupe et le formateur\n- Auto-évaluation des compétences Design Thinking\n- Attestation de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Nous adaptons nos ateliers pratiques selon vos besoins.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Innover par l'empathie\nAdoptez une approche centrée sur l'humain pour développer des solutions innovantes qui répondent réellement aux besoins de vos utilisateurs. Cette formation intensive vous fait vivre le processus complet du Design Thinking à travers un projet fil rouge."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "4 800 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "4 800 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

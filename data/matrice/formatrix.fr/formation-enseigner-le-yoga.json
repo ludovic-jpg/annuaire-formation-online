@@ -1,0 +1,61 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-enseigner-le-yoga/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Enseigner le Yoga",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-yoga.webp",
+  "niveau": "Professionnel du bien-être et/ou personne en reconversion professionnel",
+  "tarif": "A partir de 2200 € - Financement possible",
+  "duree": "A partir de 30 H de formation",
+  "objectif_court": "proposer des ateliers de YOGA en toute confiance avec tous type de public",
+  "prerequis": "Être: coach sportif, professeur de yoga, professeur de fitness, ou professeur de danse. Avoir suivi régulièrement une pratique du yoga en tant que pratiquant avec un enseignant confirmé.",
+  "public": null,
+  "objectifs": [
+    "Comprendre les principes fondamentaux et la philosophie du yoga.",
+    "Maîtriser les techniques de posture, de respiration et de méditation.",
+    "Développer des compétences en communication et en enseignement pour guider les étudiants de manière efficace.",
+    "Concevoir des cours de yoga adaptés à différents niveaux et besoins.",
+    "Intégrer les principes d’anatomie et de physiologie dans l’enseignement du yoga.",
+    "Cultiver une pratique personnelle du yoga pour enseigner par l’exemple."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants",
+  "programme_md": "### Module 1: Fondements du Yoga\n- Explorer l’histoire et la philosophie du yoga.\n- Introduction aux textes fondateurs du yoga.\n- Comprendre les huit membres du yoga.\n### Module 2: Anatomie et Physiologie\n- Étudier l’anatomie humaine en relation avec le yoga.\n- Comprendre la biomécanique des mouvements de yoga.\n- Identifier les contre-indications pour certaines postures.\n### Module 3: Techniques de Posture (Asanas)\n- Apprendre et pratiquer les asanas de base à avancés.\n- Techniques de modification et d’ajustement des postures.\n- Séquençage des postures pour optimiser les bénéfices.\n### Module 4: Techniques de Respiration (Pranayama) et Méditation\n- Pratiquer diverses techniques de pranayama.\n- Initiation à la méditation et à ses bienfaits.\n- Intégrer pranayama et méditation dans l’enseignement du yoga.\n### Module 5: Méthodologie d’Enseignement\n- Techniques de communication efficaces pour l’enseignement.\n- Planification et structuration d’un cours de yoga.\n- Gestion de la dynamique de groupe et des besoins individuels.\n### Module 6: Pratique Professionnelle\n- Principes éthiques de l’enseignement du yoga.\n- Construire sa présence en tant qu’instructeur de yoga.\n- Développement professionnel continu et auto-réflexion",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Devenez instructeur de yoga en apprenant à guider des séances structurées et inspirantes. Maîtrisez les postures, techniques de respiration (pranayama), méditation et les principes fondamentaux de la philosophie du yoga. Découvrez comment adapter vos cours à différents niveaux et besoins pour offrir une pratique sécurisée et épanouissante. Ce programme vous prépare à transmettre votre passion tout en développant vos compétences pédagogiques."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.9"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

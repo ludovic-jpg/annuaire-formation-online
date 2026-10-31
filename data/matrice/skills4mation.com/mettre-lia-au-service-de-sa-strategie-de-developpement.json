@@ -1,0 +1,75 @@
+{
+  "lien": "https://skills4mation.com/formations/mettre-lia-au-service-de-sa-strategie-de-developpement",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Mettre l’IA au service de sa stratégie de développement",
+  "image": "https://skills4mation.com/images/formations/mettre-lia-au-service-de-sa-strategie-de-developpement.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2100 € HT",
+  "duree": "A partir de 21 H de formation",
+  "objectif_court": "La maîtrise des compétences nécessaires pour booster la croissance de votre Business via les outils IA adaptés",
+  "prerequis": "Justifier d’un projet de développement de l’activité de son entreprise avec l’intelligence artificielle",
+  "public": "- La formation s’adresse aux dirigeants de TPE, PME et à leurs collaborateurs directs amenés à intégrer l’Intelligence Artificielle dans les processus clés de l’entreprise pour développer son activité.",
+  "objectifs": [
+    "Élaborer un plan d’intégration de l’IA dans son entreprise.",
+    "Implémenter les solutions d’IA dans les processus de l’entreprise.",
+    "Évaluer l’impact de l’intégration de l’IA sur les performances de l’entreprise."
+  ],
+  "points_forts": "- Approche 100% pratique : Chaque module inclut des cas pratiques concrets (analyse d’opportunités, feuille de route, configuration d’outils, charte éthique). Flexibilité totale : Formation 100% distanciel (21 heures) avec classes virtuelles en direct et accès aux replays. Accompagnement réactif : Assistance pédagogique garantie sous 24h, support technique email/téléphone. Expertise complète : Couverture des aspects techniques (Prompt engineering), légaux (RGPD, IA Act) et humains. Inclusivité : Adaptations prévues pour l’accessibilité aux personnes en situation de handicap.",
+  "modalites": "- Durée : 21 Heures.\n- Format : 100% Distanciel (Classes virtuelles en direct, exercices, ressources).\n- Tarif : 2100 € HT.\n- Assistance technique et pédagogique : Support technique (email/téléphone), assistance pédagogique sous 24h, accès aux replays et supports.\n- Accessibilité handicap : Adaptations possibles (rythme, supports, assistance personnalisée).",
+  "programme_md": "### Module 1 : Identifier les opportunités d’intégration de l’IA (6h)\n- Définition et concepts fondamentaux\n- Impacts de l’IA sur les TPE/PME\n- Familles d’outils IA\n- Méthode de veille IA\n- Identification des processus internes optimisables\n- Cas pratique : analyse des opportunités IA.\n### Module 2 : Élaborer un plan d’intégration de l’IA (4h)\n- Automatisation des tâches\n- IA pour marketing, communication, relation client\n- Élaboration d’une feuille de route\n- Identification des ressources\n- Cas pratique : rédaction d’une feuille de route.\n### Module 3 : Implémenter les solutions d’IA (6h)\n- Configuration des outils IA\n- Prompt engineering\n- Intégration aux workflows\n- Conformité RGPD et IA Act\n- Cas pratique : configuration d’un outil IA + prompt optimisé.\n### Module 4 : Accompagner le déploiement (3h)\n- Plan de formation des équipes\n- Accompagnement au changement\n- Charte éthique et sécurisée IA\n- Accessibilité handicap\n- Cas pratique : rédaction d’une charte IA.\n### Module 5 : Évaluer l’impact de l’IA (2h)\n- Définition d’indicateurs\n- Analyse des résultats\n- Plan d’amélioration continue\n- Cas pratique : tableau d’indicateurs.",
+  "resultats_attendus": "- À l’issue de cette formation, vous serez en capacité de :\n- Structurer une stratégie IA : Élaborer un plan d’intégration et une feuille de route claire.\n- Optimiser les processus : Identifier et implémenter des solutions d’IA (marketing, com, relation client).\n- Maîtriser l’ingénierie de prompts : Utiliser le prompt engineering pour gagner en efficacité.\n- Piloter le déploiement humain : Concevoir un plan de formation et rédiger une charte éthique.\n- Mesurer la performance : Définir des indicateurs et instaurer un plan d’amélioration continue.",
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Propulsez votre entreprise grâce à une stratégie IA opérationnelle et éthique."
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "programme_md",
+    "resultats_attendus",
+    "modalites",
+    "points_forts",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": []
+}

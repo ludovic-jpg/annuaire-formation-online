@@ -1,0 +1,83 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-coaching-systemique-dequipe",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Coaching Systémique d’Equipe",
+  "image": "https://skills4mation.com/images/formations/formation-coaching-systemique-dequipe.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 6000 €",
+  "duree": "A partir de 35 H de formation",
+  "objectif_court": "Faire de vous un Coach systémique et/ou un manager-coach en capacité d’améliorer les capacités d’une équipe",
+  "prerequis": "Un échange avec le formateur",
+  "public": null,
+  "objectifs": [
+    "Comprendre les principes fondamentaux du coaching systémique d’équipe.",
+    "Appliquer des outils et techniques systémiques pour améliorer la dynamique d’équipe.",
+    "Diagnostiquer et intervenir dans les systèmes d’équipe pour faciliter le changement et la transformation.",
+    "Développer des stratégies pour renforcer la communication et la résolution de conflits au sein des équipes.",
+    "Accompagner les équipes dans le développement de leur leadership et l’atteinte de leurs objectifs.",
+    "Intégrer le coaching systémique dans les plans de développement organisationnel."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en hybride (présentiel en occitanie et online pour ceux qui ne peuvent se déplacer) dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au Coaching Systémique d’Équipe\n- Principes du coaching systémique.\n- Les bases de la dynamique d’équipe.\n- Introduction aux outils systémiques.\n### Module 2 : Diagnostique Systémique des Équipes\n- Techniques de diagnostic pour équipes.\n- Analyse des patterns de comportement d’équipe.\n- Stratégies d’intervention précoce.\n### Module 3 : Outils et Techniques pour le Coaching d’Équipe\n- Application des outils systémiques.\n- Techniques de facilitation et médiation d’équipe.\n- Gestion des conflits et amélioration de la communication.\n### Module 4 : Leadership et Développement d’Équipe\n- Renforcement des compétences en leadership d’équipe.\n- Développement de la cohésion et de la collaboration.\n- Techniques pour encourager l’innovation et la créativité.\n### Module 5 : Adaptation au Changement et Gestion de la Transition\n- Stratégies pour accompagner les équipes à travers le changement.\n- Gestion de la transition et résilience d’équipe.\n- Création d’une culture d’apprentissage et d’amélioration continue.\n### Module 6 : Coaching d’Équipe Avancé et Supervision\n- Techniques avancées de coaching d’équipe.\n- Supervision de cas de coaching d’équipe.\n- Évaluation et feedback pour le développement continu.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Adoptez une approche innovante pour accompagner vos équipes grâce au coaching systémique. Apprenez à naviguer dans les dynamiques collectives, identifier les forces et les blocages d’une équipe et stimuler la performance collaborative. En utilisant des méthodes concrètes comme celles d’Alain Cardon et Claude Arribas école Anse-Metasysteme, facilitez la communication, le développement et l’engagement pour des résultats durables."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

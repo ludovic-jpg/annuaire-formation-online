@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-bien-etre",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Devenir praticien en massage bien-être",
+  "image": "https://formabientre.fr/assets/formation-bien-etre-D8DLY6R9.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 1800 €",
+  "duree": "21h (14h online + 7h présentiel)",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Citer les principes, les bienfaits et les contre-indications du massage bien-être",
+    "Préparer la salle, le matériel et le client avant le massage",
+    "Situer chaque zone massée et les précautions qui s'y rattachent",
+    "Exécuter les manœuvres du massage bien-être avec le bon geste",
+    "Réaliser le protocole complet du massage bien-être en autonomie"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Le massage, son histoire et ses bases\n- Retracer l'évolution du massage et sa place dans les cultures\n- Lister le matériel et les accessoires d'une séance\n- Distinguer bienfaits et contre-indications majeures avant d'accepter un client\n### Module 2 : Anatomie zone par zone\n- Masser le dos, les trapèzes et la nuque en connaissant les muscles en jeu\n- Repérer la musculature des bras et des jambes\n- Aborder le thorax et le ventre avec les précautions adaptées\n### Module 3 : Les gestes de base\n- Exécuter effleurage, pétrissage et friction\n- Enchaîner les mouvements sans rupture pendant la séance\n- Créer une ambiance de détente pour le client\n### Module 4 : Construire le protocole\n- Ordonner les étapes d'une séance de massage bien-être\n- Observer les démonstrations du formateur étape par étape\n- Dérouler le protocole seul, sans support\n### Module 5 : Affiner et personnaliser\n- Ajouter des manœuvres avancées selon le client\n- Adapter le massage à des situations différentes\n- Analyser des cas pour choisir la bonne variante\n### Module 6 : La posture du praticien\n- Adopter le savoir-être attendu : écoute, empathie, discours professionnel\n- Suivre les étapes qui font une séance réussie du point de vue du client\n- Fixer vos règles éthiques et professionnelles pour exercer dans la durée",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Vous voulez faire du massage votre métier et vous partez de zéro ? Ce parcours pose les bases : préparation de la séance, zones massées, manœuvres et protocole complet du massage bien-être. Il répond à une demande en hausse de soins de relaxation et de gestion du stress. Vous terminez en sachant conduire une séance du début à la fin, avec la posture attendue d'un praticien."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "4.8/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-shinzu-face/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage SHINZU FACE™",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-visage-1024x682.webp",
+  "niveau": "Professionnel du bien-être et/ou personne en reconversion professionnel",
+  "tarif": "A partir de 1200 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de dispenser des massage et soins selon la méthode de massage SHINZU FACE ™",
+  "prerequis": "Développer les facultés d’écoute et de bienveillance",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques du massage SHINZU BODY facilement applicables.",
+    "Comprendre les besoins spécifiques pour adapter les massages.",
+    "Instaurer une relation de confiance avec le client.",
+    "Optimiser l’espace de massage pour le confort de tous.",
+    "Adapter ses postures pour garantir une pratique efficace et sûre"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formatrice\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques dans un cabinet de massage ( Chez le stagiaire ou au cabinet de la formatrice\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction au MASSAGE SHINZU FACE\n- Comprendre les fondements du massage SHINZU et ses bienfaits.\n- Identifier les contre-indications.\n- Établir une communication efficace avec le client.\n### Module 2: La pratique de base et les techniques\n- Pratiquer les techniques de base sur le dos et le visage.\n- Échanger des feedbacks constructifs en binômes.\n- Réaliser des mises en situation pratiques.\n### Module 3: La gestion de l’espace et du matériel\n- Choisir et organiser l’espace pour le massage.\n- Savoir régler la table de massage pour le confort du receveur.\n- Gérer le matériel nécessaire pour le massage SHINZU FACE.\n### Module 4: Les aspects théoriques de la formation\n- Approfondir les connaissances sur la circulation de l’énergie et des méridiens.\n- Étudier le rôle du formateur dans la transmission des savoirs.\n- Aborder les aspects administratifs de la formation.\n### Module 5: Techniques avancées et adaptation\n- Adapter ses techniques aux besoins spécifiques des clients.\n- Pratiquer des techniques avancées pour le visage.\n- Utiliser la Kansa pour maximiser les bienfaits du massage.\n### Module 6: Évaluation et certification\n- Réaliser une évaluation pratique de fin de formation.\n- Répondre à un quizz théorique pour consolider les connaissances.\n- Obtenir la certification après succès de l’évaluation.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Spécialisez-vous dans les techniques de massage facial avec la méthode SHINZU FACE™. Apprenez à combiner relaxation, gestion des méridiens énergétiques et stimulation cutanée pour des effets rajeunissants et apaisants. Cette formation pratique vous permet d’élargir votre offre professionnelle avec des soins innovants et recherchés par vos clients."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n1.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

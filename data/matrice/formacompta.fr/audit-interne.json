@@ -1,0 +1,79 @@
+{
+  "lien": "https://formacompta.fr/formations/audit-interne",
+  "site": "formacompta.fr",
+  "marque": "formacompta",
+  "titre": "Audit Interne",
+  "image": "https://formacompta.fr/og-image.jpg",
+  "niveau": "Avancé",
+  "tarif": "1 790 €",
+  "duree": "5 jours (35h)",
+  "objectif_court": null,
+  "prerequis": "Expérience professionnelle d'au moins 2 ans en entreprise ou cabinet\nConnaissances de base en comptabilité et gestion d'entreprise\nCapacité d'analyse et de synthèse",
+  "public": "- Auditeurs internes juniors et confirmés souhaitant structurer leurs pratiques\n- Contrôleurs internes évoluant vers l'audit interne\n- Responsables qualité impliqués dans l'audit de processus\n- Managers opérationnels préparant des audits de leur périmètre\n- Toute personne souhaitant découvrir le métier d'auditeur interne",
+  "objectifs": [
+    "Maîtriser le cadre de référence et les normes de l'audit interne",
+    "Planifier et organiser une mission d'audit de A à Z",
+    "Appliquer les techniques d'investigation et de collecte de preuves",
+    "Évaluer l'efficacité du dispositif de contrôle interne (COSO)",
+    "Rédiger des rapports d'audit clairs avec des recommandations pertinentes",
+    "Mettre en place un suivi efficace des recommandations"
+  ],
+  "points_forts": null,
+  "modalites": "- Exposés théoriques basés sur les normes internationales IIA\n- Études de cas pratiques sur des missions d'audit réelles\n- Jeux de rôle : entretiens d'audit, réunions de restitution\n- Travaux en sous-groupes sur des thématiques spécifiques\n- Rédaction collective de rapports d'audit",
+  "programme_md": "### Fondamentaux de l'audit interne\n5 heures\n- Définition et missions de l'audit interne selon l'IIA\n- Différences entre audit interne, audit externe et contrôle de gestion\n- Le cadre de référence international (CRIPP) de l'audit interne\n- Les normes internationales pour la pratique de l'audit interne\n- Code de déontologie et indépendance de l'auditeur\n- Positionnement de l'audit interne dans l'organisation\n- Relations avec le comité d'audit et la direction générale\n### Méthodologie et planification de mission\n6 heures\n- Le plan d'audit annuel : élaboration et priorisation\n- L'approche par les risques dans la planification\n- Définition du périmètre et des objectifs de la mission\n- L'ordre de mission et la lettre de mission\n- Préparation de la phase terrain : collecte documentaire\n- Constitution de l'équipe et répartition des travaux\n- Le programme de travail et les référentiels d'audit\n- Outils de gestion de projet d'audit\n### Techniques d'investigation et de collecte\n7 heures\n- L'entretien d'audit : préparation, conduite, compte-rendu\n- Techniques de questionnement et d'écoute active\n- Les tests d'audit : sondages, échantillonnage, tests substantifs\n- Analyse documentaire et revue de processus\n- Observation physique et inspection sur site\n- Techniques d'audit assisté par ordinateur (CAAT)\n- Utilisation d'Excel et des outils d'analyse de données\n- Documentation des travaux : papiers de travail\n### Évaluation du contrôle interne\n6 heures\n- Le référentiel COSO : principes et composantes\n- Cartographie des processus et identification des contrôles clés\n- Évaluation de la conception des contrôles\n- Tests d'efficacité opérationnelle des contrôles\n- Identification des faiblesses et des zones de risque\n- Matrice des risques et des contrôles\n- Évaluation du dispositif de contrôle interne global\n### Rédaction des rapports d'audit\n6 heures\n- Structure et contenu du rapport d'audit\n- Rédaction des constats : fait, cause, conséquence, recommandation\n- Hiérarchisation des recommandations par criticité\n- Formulation de recommandations SMART et actionnables\n- La réunion de clôture avec les audités\n- Gestion des désaccords et processus contradictoire\n- Rédaction du rapport final et diffusion\n- Cas pratique : rédaction d'un rapport d'audit\n### Suivi des recommandations\n5 heures\n- Mise en place d'un dispositif de suivi des recommandations\n- Définition des plans d'action et des échéances\n- Reporting à la direction et au comité d'audit\n- Missions de suivi et vérification des actions correctives\n- Indicateurs de performance de la fonction audit\n- Amélioration continue de la démarche d'audit\n- Outils de gestion du suivi : logiciels d'audit, tableurs",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Acquérez les méthodologies et outils de l'audit interne pour évaluer et améliorer l'efficacité des processus de gouvernance, de gestion des risques et de contrôle. Cette formation vous permettra de conduire des missions d'audit de manière professionnelle, de la planification à la rédaction du rapport, en passant par les techniques d'investigation et la formulation de recommandations pertinentes."
+    },
+    {
+      "rubrique": "Questions fréquentes",
+      "contenu": "### Cette formation prépare-t-elle à une certification ?\nCette formation constitue une excellente préparation aux certifications CIA (Certified Internal Auditor) et CRMA (Certification in Risk Management Assurance) délivrées par l'IIA. Elle couvre les domaines clés de ces certifications.\n### Des modèles de documents sont-ils fournis ?\nOui, vous recevrez une boîte à outils complète : modèles de programme de travail, papiers de travail, check-lists d'audit, modèle de rapport d'audit, matrice de suivi des recommandations.\n### La formation aborde-t-elle les audits spécifiques (SI, fraude) ?\nNous abordons les spécificités de certains audits thématiques (SI, achats, RH). Pour l'audit des fraudes, nous recommandons notre formation spécialisée complémentaire.\n### Quel est le nombre maximum de participants ?\nNos sessions sont limitées à 10 participants maximum pour garantir la qualité des échanges et permettre à chacun de pratiquer lors des exercices et jeux de rôle."
+    },
+    {
+      "rubrique": "Encart tarif",
+      "contenu": "1 790 €\n35 heures de formation\nFinancement possible selon votre situation : plan de développement des compétences de l'entreprise, OPCO ou fonds d'assurance formation des indépendants."
+    },
+    {
+      "rubrique": "Durée",
+      "contenu": "5 jours\n35 heures de formation réparties sur 6 modules complets."
+    },
+    {
+      "rubrique": "Certification Qualiopi",
+      "contenu": "Formations dispensées par Back to Business – Formatrix, organisme certifié Qualiopi au titre des actions de formation. La certification de l'organisme est une condition nécessaire, mais l'éligibilité à un financement dépend du financeur."
+    },
+    {
+      "rubrique": "Financement OPCO",
+      "contenu": "Bénéficiez d'une prise en charge totale ou partielle de votre formation grâce aux financements OPCO."
+    }
+  ],
+  "ordre_rubriques": [
+    "tarif",
+    "duree",
+    "niveau",
+    "programme_md",
+    "objectifs",
+    "prerequis",
+    "modalites",
+    "public",
+    "Questions fréquentes",
+    "Durée",
+    "Certification Qualiopi",
+    "Financement OPCO"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "playwright",
+  "manques": [
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

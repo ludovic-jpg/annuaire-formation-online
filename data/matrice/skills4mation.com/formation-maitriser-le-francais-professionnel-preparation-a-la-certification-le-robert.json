@@ -1,0 +1,78 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-maitriser-le-francais-professionnel-preparation-a-la-certification-le-robert",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Maîtriser le français professionnel – Préparation à la Certification en langue française Le Robert",
+  "image": "https://skills4mation.com/images/formations/formation-maitriser-le-francais-professionnel-preparation-a-la-certification-le-robert.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 800 €",
+  "duree": "30 heures",
+  "objectif_court": "Améliorer ses compétences linguistiques pour un usage professionnel",
+  "prerequis": "Avoir le français pour langue maternelle OU avoir acquis au minimum le niveau A2 en français (selon le Cadre européen commun de référence pour les langues - CECRL) et ne pas être en situation d'analphabétisme.",
+  "public": "- Tout professionnel souhaitant améliorer la qualité de son français écrit Salariés, demandeurs d’emploi, indépendants, Dirigeants",
+  "objectifs": [
+    "À l’issue de la formation, le participant sera capable de :",
+    "Identifier et corriger les fautes d’orthographe les plus courantes",
+    "Appliquer les règles de grammaire, d’accord et de conjugaison",
+    "Utiliser un vocabulaire adapté au monde professionnel",
+    "Structurer ses phrases avec clarté et précision",
+    "Gagner en aisance et en fiabilité dans ses écrits professionnels"
+  ],
+  "points_forts": "- Formation individuel ou en groupe adapté à votre projet personnel et professionnel",
+  "modalites": "- Formation en présentiel ou distanciel selon votre convenance",
+  "programme_md": "### Module 1 – Diagnostic & objectifs personnalisés (2h)\n- Objectif : Identifier ses forces et faiblesses pour personnaliser le parcours\n- Évaluation diagnostique basée sur les typologies d’erreurs\n- Livrable : Profil personnel d’apprentissage et plan de progression\n### Module 2 – Orthographe d’usage et accords (6h)\n- Objectif : Éliminer les fautes récurrentes à l’écrit\n- Pluriel des noms composés, homophones, accord du participe passé\n- Majuscules, accents, ponctuation, chiffres\n- Méthode de relecture active\n- Exercices : quiz interactifs, dictées à trous, séries d’entraînement progressives\n### Module 3 – Grammaire et syntaxe (6h)\n- Objectif : Structurer correctement ses phrases\n- Conjugaison : modes, temps, valeurs\n- Pronoms, propositions subordonnées, emploi du conditionnel\n- Style écrit professionnel : cohérence et fluidité\n- Activité : Exercices de transformation, phrases à corriger, compréhension grammaticale\n### Module 4 – Vocabulaire et expression professionnelle (6h)\n- Objectif : Enrichir son lexique et adapter sa langue au contexte de travail\n- Lexique de l’entreprise, connecteurs logiques, formules types\n- Expression de la nuance, de la cause, de l’opposition, du but\n- Éviter les tournures maladroites ou familières\n- Livrable : Glossaire personnalisé + fiches de reformulation\n### Module 5 – Compréhension et traitement de textes professionnels (5h)\n- Objectif : Lire, comprendre, analyser, reformuler\n- Analyse de mails, notes, consignes, procédures\n- Reformulation d’informations clés\n- Extractions et inférences\n- Activité : Textes à trous, QCM, exercices de compréhension écrite\n### Module 6 – Entraînement intensif et évaluation finale (5h)\n- Objectif : Se préparer efficacement à l’examen officiel\n- Simulation d’épreuves en condition réelle (durée, environnement)\n- Astuces pour gagner du temps et éviter les pièges\n- Bilan personnalisé et dernières recommandations\n- Livrable final : Rapport de progression + score prévisionnel",
+  "resultats_attendus": "- Compétences clés développées :\n- Attribuer correctement aux mots leur sens communément admis dans un contexte professionnel.\n- Construire des phrases grammaticalement correctes en employant adéquatement les mots-outils.\n- Maîtriser l’orthographe lexicale et grammaticale des mots de la langue française.\n- Structurer des écrits professionnels de manière cohérente et intelligible.",
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Améliorer ses compétences linguistiques pour un usage professionnel"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "programme_md",
+    "resultats_attendus",
+    "modalites",
+    "points_forts",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": []
+}

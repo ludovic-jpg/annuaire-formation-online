@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/projet-evenementiel",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Organiser un événement d'entreprise",
+  "image": "https://formarh.com/assets/course-projet-evenementiel-7zAucsGK.webp",
+  "niveau": null,
+  "tarif": "1 390 € HT",
+  "duree": "14h (2 jours)",
+  "objectif_court": null,
+  "prerequis": "- Sensibilité à l'univers de l'événementiel\n- Maîtrise des outils bureautiques\n- Capacité d'organisation et rigueur",
+  "public": "Chargés de communication, Assistants de direction, Responsables événementiel, Chefs de projet marketing",
+  "objectifs": [
+    "Rédiger un cahier des charges créatif à partir du brief, de la cible et d'une veille événementielle",
+    "Construire le budget prévisionnel d'un événement et en suivre les écarts",
+    "Établir le rétroplanning et coordonner les équipes jusqu'au jour J",
+    "Négocier avec les prestataires et rechercher sponsors et partenaires",
+    "Vérifier la conformité d'un événement aux règles ERP, de sécurité et d'accessibilité",
+    "Mesurer l'impact d'un événement et capitaliser dans un book événement"
+  ],
+  "points_forts": null,
+  "modalites": "- Étude de cas fil rouge (organisation d'un événement fictif)\n- Témoignages vidéo de professionnels du secteur\n- Travaux pratiques sur chaque étape du processus\n- Visite virtuelle de lieux événementiels\n- Constitution d'une boîte à outils personnelle",
+  "programme_md": "### Concevoir le concept\nDurée : 3h\n- Lire le brief et clarifier les objectifs du client ou de l'entreprise\n- Cerner la cible et les personas participants\n- Techniques de créativité pour trouver un concept original\n- Benchmark et veille événementielle\n- Rédiger le cahier des charges créatif\n- Pitch du concept devant le groupe\n### Chiffrer et financer\nDurée : 3h\n- Les postes de dépenses d'un budget événementiel\n- Estimer et chiffrer\n- Trouver sponsors et partenaires\n- Négocier avec les prestataires\n- Suivre le budget et traiter les écarts\n- Exercice : construire un budget type\n### Organiser la logistique\nDurée : 3h\n- Rétroplanning et coordination des équipes\n- Choisir et aménager le lieu (site inspection)\n- Inscriptions et billetterie\n- Le jour J : timeline, briefings, rôle du régisseur\n- Prévoir l'imprévu : le plan B\n- Check-lists et outils de suivi logistique\n### Sécuriser l'événement\nDurée : 2h30\n- Le cadre réglementaire des ERP (établissements recevant du public)\n- Obligations de sécurité et d'accessibilité\n- Déclarations et autorisations administratives\n- Analyser les risques propres à l'événement\n- Plan de sécurité et lien avec les services d'urgence\n- Les assurances événementielles\n### Communiquer et mesurer l'impact\nDurée : 2h30\n- Communication avant, pendant et après l'événement\n- Invitations, signalétique, goodies\n- Réseaux sociaux et live-tweet\n- Relations presse et media training\n- Mesurer l'impact (ROI événementiel)\n- Capitaliser : le book événement",
+  "resultats_attendus": null,
+  "evaluation": "- Évaluation des livrables produits (budget, rétroplanning)\n- Présentation orale du projet événementiel\n- Quiz de validation des connaissances réglementaires\n- Attestation de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Supports visuels et auditifs adaptés.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Piloter un événement\nMaîtrisez tous les aspects de la gestion de projet événementiel, du concept initial jusqu'au bilan post-événement. Cette formation opérationnelle vous prépare à piloter des événements professionnels de toutes tailles avec rigueur et créativité."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "3 100 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "3 100 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

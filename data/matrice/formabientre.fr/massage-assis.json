@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-assis",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage assis en entreprise",
+  "image": "https://formabientre.fr/assets/formation-assis-oxqPRzE7.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 €",
+  "duree": "À partir de 7h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Exécuter l'enchaînement de base du massage assis sur chaise ergonomique",
+    "Repérer chez le receveur les zones de tension et les relâcher par des gestes ciblés",
+    "Installer le receveur et placer votre propre corps pour un confort et une sécurité constants",
+    "Ajuster la séance au profil, aux attentes et aux éventuelles contre-indications de chaque personne",
+    "Intervenir en entreprise ou en événement en appliquant les règles d'hygiène et de sécurité"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Pourquoi le massage assis séduit les entreprises\n- Situer l'origine de la technique et ses principes\n- Décrire les effets du massage assis sur la fatigue et le stress au travail\n- Lister les lieux où le proposer : bureaux, salons, séminaires, coworkings\n### Module 2 : Repères d'anatomie et tensions du quotidien\n- Nommer les muscles du cou, des épaules et du dos sollicités par la technique\n- Situer les nœuds de tension typiques des personnes qui travaillent assises\n- Détecter une tension en observant la posture puis en palpant\n### Module 3 : L'enchaînement sur chaise\n- Réaliser pressions, étirements et percussions dans le bon ordre\n- Cibler les gestes selon ce que la personne exprime\n- Doser la pression pour détendre sans gêner\n### Module 4 : Votre posture et la chaise\n- Placer vos appuis pour masser une journée entière sans vous blesser\n- Régler la chaise selon la taille et la morphologie du receveur\n- Organiser votre poste sur place pour enchaîner les séances en sécurité\n### Module 5 : Une séance pour chaque lieu et chaque public\n- Construire une séance adaptée à une entreprise, un salon ou un événement\n- Ajuster le contenu pour un salarié, un cadre ou un dirigeant\n- Écarter ou adapter le massage en cas de contre-indication médicale\n### Module 6 : Exercer en indépendant, en règle\n- Appliquer un protocole d'hygiène et de sécurité entre deux receveurs\n- Respecter les obligations légales et éthiques du praticien\n- Présenter votre prestation avec aisance aux clients comme aux équipes",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le massage assis se pratique sur une chaise ergonomique, sur une personne habillée et sans huile, en une quinzaine de minutes. C'est une porte d'entrée fréquente pour qui se reconvertit dans le bien-être : peu de matériel, des interventions en entreprise, en coworking ou lors d'événements, et des clients qui découvrent votre travail. La formation vous apprend les gestes, la posture du praticien et l'adaptation de la séance au lieu et à la personne."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

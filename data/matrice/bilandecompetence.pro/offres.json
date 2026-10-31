@@ -1,0 +1,63 @@
+{
+  "lien": "https://bilandecompetence.pro/offres",
+  "site": "bilandecompetence.pro",
+  "marque": "bilandecompetence-pro",
+  "titre": "Bilan de compétences 13 h : une formule unique, 1 750 € TTC",
+  "image": "https://bilandecompetence.pro/og-image.jpg",
+  "niveau": null,
+  "tarif": "1 750 € TTC",
+  "duree": "13 h",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": "Salarié, demandeur d’emploi ou indépendant : vous souhaitez faire le point sur vos compétences, explorer des pistes professionnelles, préparer une évolution ou une reconversion. Un échange permet de vérifier si le bilan correspond à votre situation.",
+  "objectifs": [],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "Les 13 h sont réparties en séances individuelles. Le calendrier est défini avec votre accompagnant, sans durée imposée par phase.\n### Phase préliminaire\nAnalyser votre demande et définir ensemble les modalités du bilan.\n### Phase d’investigation\nAnalyser votre parcours et vos compétences, puis explorer les pistes professionnelles.\n### Phase de conclusion\nFormaliser les résultats dans une synthèse écrite et construire votre plan d’action. Un suivi à 6 mois est inclus.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Faites le point sur votre parcours et vos compétences, explorez les pistes professionnelles et construisez votre plan d’action."
+    },
+    {
+      "rubrique": "Votre accompagnement individuel",
+      "contenu": "- Séances individuelles en visio, présentiel ou hybride\n- Analyse du parcours et des compétences\n- Exploration des pistes professionnelles\n- Synthèse écrite\n- Plan d’action\n- Suivi à 6 mois"
+    },
+    {
+      "rubrique": "Financement",
+      "contenu": "Le prix est de 1 750 € TTC. Un financement est possible selon votre situation : CPF avec une éventuelle participation, employeur ou financement personnel, notamment. La prise en charge dépend de vos droits, de votre éligibilité et des conditions du financeur."
+    },
+    {
+      "rubrique": "Questions fréquentes",
+      "contenu": "### Comment se déroule le bilan de compétences de 13 h ?\nLes 13 h sont réparties en séances individuelles. Le bilan suit trois phases : préliminaire, investigation et conclusion. Le calendrier est défini avec votre accompagnant, selon vos disponibilités.\n### Quel est le prix du bilan ?\nLa formule unique coûte 1 750 € TTC. Elle comprend les séances individuelles, l’analyse du parcours et des compétences, l’exploration des pistes professionnelles, une synthèse écrite, un plan d’action et un suivi à 6 mois.\n### Le bilan peut-il être financé ?\nUn financement est possible selon votre situation : CPF avec une éventuelle participation, employeur ou financement personnel, notamment. La prise en charge dépend de vos droits, de votre éligibilité et des conditions du financeur.\n### Puis-je réaliser le bilan en visio ?\nOui. Les séances individuelles peuvent se dérouler en visio, en présentiel ou en format hybride. Les modalités sont définies avec votre accompagnant.\n### À qui s’adresse le bilan de compétences ?\nLe bilan s’adresse aux personnes qui souhaitent faire le point sur leur parcours et leurs compétences, explorer des pistes professionnelles ou préparer une évolution ou une reconversion. Un échange permet de vérifier l’adéquation avec votre situation.\n### Quels documents et quel suivi sont inclus ?\nVous recevez une synthèse écrite et un plan d’action. Un suivi à 6 mois est inclus. Le contenu du bilan et la synthèse restent confidentiels et ne sont transmis à un tiers qu’avec votre accord.\nLe bilan se fait en visio depuis toute la France : trouvez votre région, département ou ville."
+    }
+  ],
+  "ordre_rubriques": [
+    "tarif",
+    "duree",
+    "Votre accompagnement individuel",
+    "programme_md",
+    "public",
+    "Financement",
+    "Questions fréquentes"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "playwright",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Pré-requis",
+    "Objectifs pédagogiques",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

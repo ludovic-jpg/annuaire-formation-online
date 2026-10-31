@@ -1,0 +1,62 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-traitement-de-texte-de-linitiation-au-perfectionnement/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation Word : produire des documents professionnels et préparer l’ICDL",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Acquisition des connaissances simples pour comprendre et utiliser le traitement de texte tant au niveau personnel que professionnel.",
+  "prerequis": "Savoir utiliser un PC, avoir la suite Office",
+  "public": null,
+  "objectifs": [
+    "Acquérir la compétence d’insérer divers éléments visuels tels que images, formes, dessins et photos dans vos documents.",
+    "Maîtriser la création et la gestion de tableaux complexes.",
+    "Développer des compétences en mise en forme et en mise en page de documents pour une présentation professionnelle.",
+    "Appliquer des techniques avancées pour enrichir et optimiser vos documents de traitement de texte.",
+    "Apprendre des stratégies pour améliorer l’efficacité et la productivité dans l’utilisation du traitement de texte."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au traitement de texte – Premiers pas avec les outils essentiels\n- Découvrir l’interface d’un logiciel de traitement de texte (Microsoft Word, Google Docs) et ses principales fonctionnalités.\n- Apprendre à créer, enregistrer et organiser des documents pour une gestion efficace de vos fichiers.\n- Utiliser les fonctionnalités de base : saisie de texte, mise en forme simple, et correction automatique.\n### Module 2 : Mise en forme avancée – Structurer et embellir vos documents\n- Maîtriser les options de mise en page : marges, interlignes, en-têtes et pieds de page.\n- Utiliser les styles pour uniformiser la présentation de vos titres, sous-titres et paragraphes.\n- Apprendre à insérer et formater des tableaux, images, graphiques et autres éléments visuels.\n### Module 3 : Collaboration et révision – Travailler efficacement en équipe\n- Découvrir les fonctionnalités de suivi des modifications pour réviser et commenter des documents à plusieurs.\n- Apprendre à utiliser les outils de comparaison et de fusion pour gérer les versions multiples d’un document.\n- Partager et sécuriser vos documents grâce aux options de permissions et aux protections par mot de passe.\n### Module 4 : Gestion des longs documents – Organiser efficacement vos fichiers complexes\n- Créer des tables des matières, index, et listes d’illustrations pour une navigation fluide dans de longs documents.\n- Apprendre à utiliser les sections pour différencier la mise en page dans différentes parties de votre document.\n- Maîtriser la numérotation automatique des pages, des chapitres et des annexes pour un document professionnel.\n### Module 5 : Automatisation des tâches répétitives – Gagner en productivité\n- Utiliser les modèles de documents pour créer des courriers, rapports et présentations standardisés.\n- Maîtriser le publipostage pour automatiser l’envoi de courriers personnalisés en masse.\n- Utiliser les raccourcis clavier et les macros pour automatiser les tâches courantes et gagner du temps.\n### Module 6 : Exportation et diffusion – Préparer vos documents pour leur distribution\n- Apprendre à exporter vos documents dans différents formats : PDF, .docx, .odt, et plus encore.\n- Maîtriser les options d’impression, d’exportation et de partage pour distribuer vos documents selon vos besoins.\n- Intégrer vos documents avec d’autres outils collaboratifs (Drive, Dropbox, OneDrive) pour une gestion centralisée des fichiers.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Courriers, comptes rendus, rapports, procédures : ce parcours vous apprend à produire avec Word des documents propres et faciles à mettre à jour. Débutant ou utilisateur régulier, vous travaillez les styles, les tableaux, la mise en page et l’automatisation, et vous préparez la certification ICDL."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Formation préparant à la certification ICDL, mobilisable avec votre CPF (participation forfaitaire à votre charge, sauf exonération) ou financée par votre OPCO ou votre employeur"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "À la fin de cette formation, vous aurez la capacité d’exploiter efficacement les fonctionnalités essentielles du traitement de texte."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": "ICDL",
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

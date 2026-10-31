@@ -1,0 +1,84 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-prise-en-main-dun-pc-mac",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Prise en main d’un PC/MAC",
+  "image": "https://skills4mation.com/images/formations/formation-prise-en-main-dun-pc-mac.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 €",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les techniques de prise en main d’un PC/ MAC",
+  "prerequis": "Savoir utiliser Internet",
+  "public": null,
+  "objectifs": [
+    "Acquérir une compréhension fondamentale de l’opération de votre ordinateur",
+    "Maîtriser l’utilisation de Windows ou Mac pour l’organisation de vos fichiers et dossiers",
+    "Explorer internet avec aisance",
+    "Reconnaître les éléments clés constituant un ordinateur",
+    "Manier efficacement le clavier et la souris",
+    "Appliquer les commandes de base d’un ordinateur",
+    "À la fin de cette formation, vous aurez les compétences nécessaires pour manœuvrer un ordinateur et tirer parti de ses multiples fonctionnalités."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Découverte de l’ordinateur – Comprendre le matériel et l’interface\n- Explorer les composants d’un ordinateur (PC/Mac) : processeur, RAM, stockage, périphériques externes.\n- Découvrir les différences et les similitudes entre un PC et un Mac, et comprendre les bases de leur fonctionnement.\n- Apprendre à allumer, éteindre, et redémarrer correctement l’ordinateur, ainsi qu’à connecter des périphériques.\n### Module 2 : Naviguer dans le système d’exploitation – Windows vs macOS\n- Apprendre à se repérer dans l’interface d’un PC (Windows) et d’un Mac (macOS) : bureau, barre des tâches, menus.\n- Gérer les dossiers, fichiers et applications : créer, renommer, déplacer et organiser ses documents.\n- Comprendre les bases de la personnalisation de l’interface utilisateur pour améliorer la productivité.\n### Module 3 : Utilisation des logiciels de base – Applications incontournables\n- Prendre en main les logiciels essentiels comme le navigateur internet, les outils de traitement de texte et les clients email.\n- Apprendre à installer, désinstaller et mettre à jour les logiciels et applications sur PC et Mac.\n- Découvrir les différences entre les suites bureautiques : Microsoft Office, Google Workspace, iWork.\n### Module 4 : Gestion des fichiers et des sauvegardes – Sécuriser ses données\n- Apprendre à organiser, stocker et rechercher efficacement des fichiers dans l’explorateur (Windows) ou le Finder (macOS).\n- Maîtriser les outils de sauvegarde automatique (Time Machine pour Mac, et solutions Windows) pour protéger ses données.\n- Découvrir le cloud computing et les solutions de stockage en ligne (iCloud, Google Drive, OneDrive).\n### Module 5 : Sécurité informatique – Protéger son ordinateur et ses données\n- Comprendre les bases de la sécurité informatique : antivirus, pare-feu, et mises à jour de sécurité.\n- Apprendre à détecter et à éviter les tentatives de phishing, malwares et autres menaces.\n- Configurer des mots de passe sécurisés et découvrir les avantages de l’authentification à deux facteurs.\n### Module 6 : Maintenance et dépannage de base – Garder son ordinateur performant\n- Apprendre à effectuer les opérations de maintenance de base : nettoyage de disque, gestion des applications et mémoire.\n- Découvrir les outils de diagnostic pour identifier et résoudre les problèmes courants sur PC et Mac.\n- Maîtriser la réinitialisation du système et la restauration en cas de panne majeure ou d’infection.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Découvrez les bases pour utiliser efficacement un ordinateur PC ou MAC. Apprenez à naviguer sur internet, gérer vos documents, utiliser des logiciels bureautiques et communiquer via les outils numériques. Cette formation vous permet d’acquérir les compétences essentielles pour devenir autonome dans l’usage quotidien d’un ordinateur."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

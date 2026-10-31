@@ -1,0 +1,79 @@
+{
+  "lien": "https://formacompta.fr/formations/fiscalite-entreprise",
+  "site": "formacompta.fr",
+  "marque": "formacompta",
+  "titre": "Fiscalité d'Entreprise",
+  "image": "https://formacompta.fr/og-image.jpg",
+  "niveau": "Intermédiaire",
+  "tarif": "1 690 €",
+  "duree": "4 jours (28h)",
+  "objectif_court": null,
+  "prerequis": "Connaissances de base en comptabilité générale\nExpérience professionnelle en entreprise ou cabinet\nFamiliarité avec les documents comptables (bilan, compte de résultat)",
+  "public": "- Comptables et responsables financiers d'entreprise\n- Dirigeants de PME et TPE souhaitant maîtriser leur fiscalité\n- Collaborateurs de cabinets d'expertise comptable\n- Contrôleurs de gestion impliqués dans la fiscalité\n- Juristes d'entreprise avec orientation fiscale",
+  "objectifs": [
+    "Maîtriser le cadre fiscal français applicable aux entreprises",
+    "Calculer l'impôt sur les sociétés et optimiser le résultat fiscal",
+    "Gérer efficacement les déclarations de TVA et les régimes spéciaux",
+    "Connaître les principales taxes locales et contributions",
+    "Anticiper et gérer sereinement les contrôles fiscaux",
+    "Mettre en place une stratégie d'optimisation fiscale légale"
+  ],
+  "points_forts": null,
+  "modalites": "- Exposés théoriques avec exemples chiffrés\n- Études de cas pratiques sur situations réelles\n- Travail sur les formulaires fiscaux officiels (liasse fiscale, déclarations TVA)\n- Analyse de jurisprudence fiscale récente\n- Documentation complète remise aux participants",
+  "programme_md": "### Les fondamentaux de la fiscalité française\n4 heures\n- Le système fiscal français : principes et organisation\n- Les différentes catégories d'impôts et taxes\n- Le calendrier des obligations fiscales de l'entreprise\n- Les interlocuteurs fiscaux : SIE, DGFIP, portails en ligne\n- Sources du droit fiscal : CGI, BOFiP, jurisprudence\n- Veille fiscale : comment se tenir informé des évolutions\n### L'impôt sur les sociétés : calcul et optimisation\n6 heures\n- Champ d'application de l'IS : entreprises assujetties\n- Détermination du résultat fiscal à partir du résultat comptable\n- Les réintégrations extra-comptables : charges non déductibles\n- Les déductions extra-comptables : produits non imposables\n- Le régime des plus et moins-values professionnelles\n- Calcul de l'IS : taux normal, taux réduit PME\n- Acomptes et liquidation de l'impôt\n- Déficits fiscaux : report en avant et carry-back\n- Les crédits d'impôt : CIR, CII, mécénat\n### La TVA : régimes et déclarations\n5 heures\n- Mécanisme de la TVA et champ d'application\n- Fait générateur et exigibilité selon les opérations\n- Les différents régimes de TVA : réel normal, simplifié, franchise\n- TVA déductible : conditions de fond et de forme\n- Régularisations de TVA : coefficient de déduction\n- Opérations internationales : intracommunautaire et export\n- Établissement des déclarations CA3 et CA12\n- Gestion des remboursements de crédit de TVA\n### Les taxes locales et contributions diverses\n4 heures\n- La contribution économique territoriale (CFE et CVAE)\n- La taxe foncière des entreprises\n- La taxe sur les véhicules de société (TVS)\n- La contribution sociale de solidarité (C3S)\n- Les taxes sur les salaires et la formation\n- Obligations déclaratives et calendrier de paiement\n### Le contrôle fiscal et les contentieux\n5 heures\n- Les différentes formes de contrôle fiscal\n- Déroulement d'une vérification de comptabilité\n- Droits et garanties du contribuable vérifié\n- La proposition de rectification et la réponse\n- Les pénalités fiscales : intérêts de retard, majorations\n- Les voies de recours : réclamation, tribunal administratif\n- Comment sécuriser ses positions fiscales : rescrit\n### Stratégies d'optimisation fiscale légale\n4 heures\n- Distinction entre optimisation, évasion et fraude fiscale\n- L'abus de droit : définition et jurisprudence récente\n- Optimisation de la rémunération du dirigeant\n- Choix du régime fiscal : IR vs IS\n- Gestion fiscale des investissements et amortissements\n- Intégration fiscale : avantages et conditions\n- Cas pratiques d'optimisation fiscale",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Approfondissez vos connaissances en fiscalité d'entreprise pour maîtriser les obligations fiscales et optimiser légalement la charge fiscale de votre organisation. Cette formation vous donnera les clés pour comprendre le système fiscal français, anticiper les évolutions législatives et mettre en place une stratégie fiscale efficace tout en restant en conformité avec la réglementation."
+    },
+    {
+      "rubrique": "Questions fréquentes",
+      "contenu": "### La formation inclut-elle des cas pratiques ?\nAbsolument, chaque module comprend des exercices pratiques et des études de cas réels pour une application immédiate des connaissances. Vous travaillerez sur des liasses fiscales complètes et des déclarations de TVA.\n### Comment se passe le financement OPCO ?\nNous prenons en charge la constitution du dossier OPCO. Il vous suffit de nous transmettre les informations de votre entreprise et de votre OPCO. Nous nous occupons du reste !\n### La formation est-elle à jour des dernières lois de finances ?\nOui, notre contenu est mis à jour chaque année pour intégrer les dispositions des lois de finances et les évolutions réglementaires. Les participants reçoivent également une note de synthèse des actualités fiscales.\n### Puis-je poser des questions sur ma situation personnelle ?\nBien sûr ! Nos formateurs prennent le temps de répondre aux questions spécifiques des participants. C'est l'un des avantages de nos formations en petit groupe."
+    },
+    {
+      "rubrique": "Encart tarif",
+      "contenu": "1 690 €\n28 heures de formation\nFinancement possible selon votre situation : plan de développement des compétences de l'entreprise, OPCO ou fonds d'assurance formation des indépendants."
+    },
+    {
+      "rubrique": "Durée",
+      "contenu": "4 jours\n28 heures de formation réparties sur 6 modules complets."
+    },
+    {
+      "rubrique": "Certification Qualiopi",
+      "contenu": "Formations dispensées par Back to Business – Formatrix, organisme certifié Qualiopi au titre des actions de formation. La certification de l'organisme est une condition nécessaire, mais l'éligibilité à un financement dépend du financeur."
+    },
+    {
+      "rubrique": "Financement OPCO",
+      "contenu": "Bénéficiez d'une prise en charge totale ou partielle de votre formation grâce aux financements OPCO."
+    }
+  ],
+  "ordre_rubriques": [
+    "tarif",
+    "duree",
+    "niveau",
+    "programme_md",
+    "objectifs",
+    "prerequis",
+    "modalites",
+    "public",
+    "Questions fréquentes",
+    "Durée",
+    "Certification Qualiopi",
+    "Financement OPCO"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "playwright",
+  "manques": [
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

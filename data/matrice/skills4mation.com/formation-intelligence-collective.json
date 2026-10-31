@@ -1,0 +1,88 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-intelligence-collective",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Résoudre les problèmes grâce à l’intelligence collective",
+  "image": "https://skills4mation.com/images/formations/formation-intelligence-collective.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2400 €",
+  "duree": "A partir de 10 H de formation",
+  "objectif_court": "Améliorer votre capacité de résolution de problème grâce à l’intelligence collective",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Développer une compréhension approfondie de l’intelligence collective et de ses avantages.",
+    "Apprendre à faciliter des ateliers d’intelligence collective efficacement.",
+    "Maîtriser des techniques de créativité et d’innovation collaboratives.",
+    "Renforcer la cohésion et la dynamique d’équipe.",
+    "Améliorer la prise de décision collective et la résolution de problèmes.",
+    "Au programme",
+    "Le mindset collaboratif – expérimentation du cadre de liberté et de responsabilité, identification des freins et des leviers collaboratifs sur la base d’expériences.",
+    "Introduction et expérimentation/ animation d’ateliers de co-développement “action learning” sur un sujet concret.",
+    "Présentation et expérimentation des réunions de triage / gestion par tension comme puissant format pour cultiver l’entraide et activer l’intelligence collective pour résoudre des problèmes.",
+    "Pratique de la “sollicitation d’avis” un outil consultatif du collectif qui permet la décentralisation de pouvoir et de l’économie de temps collectif.",
+    "Les différentes formes de prises de décision et notamment la prise de décision par la majorité et par consentement / comparatif et bilan (avantages, inconvénients) de différentes formes"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation pour des groupes entre 4 et 12 personnes.\n- Formation en présentiel ou à distance\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Fondements de l’Intelligence Collective\n- Comprendre les principes de l’intelligence collective.\n- Identifier les bénéfices de l’intelligence collective dans la résolution de problèmes.\n- Explorer les conditions nécessaires pour cultiver l’intelligence collective.\n### Module 2 : Techniques de Facilitation pour l’Intelligence Collective\n- Maîtriser des techniques de facilitation pour maximiser la participation et l’engagement.\n- Apprendre à gérer la diversité des perspectives pour enrichir la réflexion collective.\n- Pratiquer la mise en place d’un environnement propice à la créativité et à l’innovation.\n### Module 3 : l’action Learning et Innovation Collaborative\n- Introduire les principes de l’ action Learning comme outil de résolution de problèmes.\n- Expérimenter avec des méthodes de brainstorming et de prototypage rapide.\n- Développer une culture d’innovation ouverte et collaborative.\n### Module 4 : Communication et Dynamiques d’Équipe\n- Renforcer les compétences de communication pour une collaboration efficace.\n- Comprendre et améliorer les dynamiques d’équipe.\n- Encourager une culture de feedback constructif et de soutien mutuel.\n### Module 5 : Prise de Décision et Résolution de Problèmes en Équipe\n- Explorer des méthodes de prise de décision collaborative.\n- Appliquer l’intelligence collective à la résolution de problèmes concrets.\n- Évaluer et mesurer l’impact des solutions co-créées.\n### Module 6 : Cas Pratiques et Application\n- Mettre en pratique les compétences et connaissances acquises à travers des études de cas.\n- Faciliter des sessions d’intelligence collective sur des problématiques réelles.\n- Analyser et réfléchir sur les processus et résultats obtenus",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Mobilisez le potentiel de votre équipe pour résoudre des défis grâce à l’intelligence collective. Découvrez des techniques comme l’Action Learning, la co-création et la facilitation pour stimuler l’innovation et renforcer la collaboration. Transformez vos réunions et échanges en véritables leviers de résolution de problèmes et d’amélioration continue."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

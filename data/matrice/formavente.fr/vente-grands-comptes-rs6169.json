@@ -1,0 +1,59 @@
+{
+  "lien": "https://formavente.fr/formation/vente-grands-comptes-rs6169/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Vente grands comptes",
+  "image": "https://formavente.fr/images/2025/05/WhatsApp-Image-2025-05-27-at-1.08.00-PM-3.jpeg",
+  "niveau": "Attestation de fin de formation",
+  "tarif": "À partir de 2900 € – financement possible",
+  "duree": "À définir",
+  "objectif_court": "Développer et conclure des ventes grands comptes de manière stratégique.",
+  "prerequis": "Avoir un projet professionnel en lien avec les métiers de la vente grands comptes",
+  "public": null,
+  "objectifs": [
+    "Identifier les prospects stratégiques en s’appuyant sur les méthodes de prospection à l’ère du digital et les contacter afin d’obtenir des rendez-vous commerciaux",
+    "Analyser le portefeuille client et cibler les clients stratégiques en utilisant la méthode « d’analyse grands comptes » afin d’identifier les comptes à privilégier.",
+    "Rédiger un document d’analyse stratégique client et planifier différentes actions auprès de multiples interlocuteurs d’une même entreprise en réalisant un plan de compte afin d’établir des relations avec des alliés stratégiques chez le client.",
+    "Conduire des entretiens de vente grands comptes en adaptant son offre aux besoins du client pour conclure la vente efficacement.",
+    "Identifier les informations clés pour construire une réponse adaptée au cahier des charges d’un appel d’offres en soulignant la valeur apportée.",
+    "Présenter une soutenance structurée lors d’une réponse à un appel d’offres en utilisant une stratégie de persuasion afin de remporter l’appel d’offres."
+  ],
+  "points_forts": null,
+  "modalites": "Formation hybride : modules e-learning, classes virtuelles, ateliers pratiques et accompagnement personnalisé.",
+  "programme_md": "### Module 1 : Identifier les prospects stratégiques\n- Cartographier les comptes clés via outils digitaux et données internes.\n- Définir des critères de qualification pour prioriser les grands comptes.\n- Obtenir des rendez‑vous grâce à des approches multicanales ciblées.\n### Module 2 : Analyser son portefeuille et cibler les comptes\n- Construire une matrice attrait / potentiel pour segmenter son portefeuille.\n- Repérer parties prenantes et influenceurs dans chaque compte.\n- Sélectionner les comptes à fort ROI pour son plan d’attaque.\n### Module 3 : Élaborer le plan de compte\n- Rédiger la fiche d’analyse stratégique (enjeux, acteurs, concurrence).\n- Bâtir un plan de pénétration à 12 mois avec jalons et actions.\n- Développer des alliances internes pour devenir partenaire clé.\n### Module 4 : Conduire des entretiens de vente complexes\n- Préparer des rendez‑vous orientés co‑création de valeur.\n- Utiliser questionnement SPIN et vente consultative.\n- Adapter son pitch et conclure face à une gouvernance complexe.\n### Module 5 : Répondre efficacement aux appels d’offres\n- Influencer le cahier des charges en amont et détecter les besoins tacites.\n- Structurer une réponse différenciante orientée bénéfices client.\n- Mettre en avant preuves et ROI pour sécuriser la short‑list.\n### Module 6 : Soutenance & négociation finale\n- Concevoir une soutenance visuelle et impactante.\n- Mobiliser storytelling et techniques de persuasion avancées.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Développer et conclure des ventes grands comptes de manière stratégique."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

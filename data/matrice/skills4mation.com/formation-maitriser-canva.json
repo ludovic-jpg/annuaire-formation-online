@@ -1,0 +1,83 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-maitriser-canva",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Maîtriser Canva pour sublimer votre communication",
+  "image": "https://skills4mation.com/images/formations/formation-maitriser-canva.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 €",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtriser les fonctionnalités de Canva pour créer des supports de communication visuels professionnels et impactants.",
+  "prerequis": "savoir utiliser Internet",
+  "public": null,
+  "objectifs": [
+    "1. Apprendre les fondamentaux du design graphique en utilisant Canva, en se familiarisant avec ses outils et fonctionnalités clés.",
+    "2. Maîtriser la création de visuels attractifs pour divers usages tels que les réseaux sociaux, les présentations d’entreprise, et les supports marketing.",
+    "3. S’exercer à utiliser les modèles de Canva, en les adaptant et en les personnalisant pour répondre à des besoins spécifiques.",
+    "4. Développer des compétences en intégration d’éléments graphiques et textuels pour créer des compositions harmonieuses et impactantes.",
+    "5. Explorer les techniques avancées de Canva, y compris l’animation et la vidéo, pour produire des contenus dynamiques et interactifs.",
+    "6. Renforcer la capacité à communiquer des messages clairs et engageants à travers le design visuel."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques.\n- Procédés pédagogiques adaptés au niveau des participants.\n- Travaux pratiques adaptés à votre activité.",
+  "programme_md": "### Module 1 : Introduction à Canva – Les bases de la conception graphique\n- Comprendre l’importance des visuels dans la communication moderne.\n- Présentation de l’interface de Canva et de ses principales fonctionnalités.\n- Création d’un compte Canva et personnalisation du profil.\n### Module 2 : Création de supports de communication – Utilisation des modèles et personnalisation\n- Choisir et personnaliser des modèles préexistants adaptés à différents supports (réseaux sociaux, affiches, présentations).\n- Modifier le texte, les images et autres éléments des modèles pour les adapter à votre identité visuelle.\n- Adapter les formats aux différents supports de communication.\n### Module 3 : Techniques avancées de design – Création de visuels originaux\n- Créer des designs originaux en important des éléments externes (images, logos).\n- Utiliser les outils de retouche d’image de Canva pour améliorer vos visuels.\n- Appliquer des animations pour dynamiser vos créations.\n### Module 4 : Collaboration et partage – Travailler en équipe sur Canva\n- Utiliser les fonctionnalités de collaboration pour travailler en équipe sur des projets Canva.\n- Partager vos créations avec des collaborateurs ou des clients pour recueillir des feedbacks.\n- Gérer les commentaires et les suggestions pour améliorer vos designs.\n### Module 5 : Exportation et diffusion – Optimiser vos visuels pour différents supports\n- Exporter vos créations dans différents formats adaptés (JPEG, PNG, PDF).\n- Optimiser la qualité et la taille des fichiers pour une utilisation en ligne ou en impression.\n- Publier directement vos créations sur les réseaux sociaux depuis Canva.\n### Module 6 : Bonnes pratiques et tendances actuelles – Assurer une communication visuelle efficace\n- Découvrir les tendances actuelles en matière de design graphique.\n- Appliquer les principes de base du design pour assurer une communication visuelle cohérente et efficace.\n- Éviter les erreurs courantes et adopter les bonnes pratiques pour maximiser l’impact de vos visuels.\n- Ce parcours vise à équiper les participants des compétences nécessaires pour utiliser Canva de manière efficace, leur permettant ainsi d’améliorer significativement leur communication visuelle.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Créez des visuels professionnels et attractifs pour vos projets grâce à Canva. Apprenez à concevoir des présentations, des affiches, des publications pour les réseaux sociaux et bien plus encore, sans compétences en design. Maîtrisez cet outil accessible pour dynamiser votre communication visuelle."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

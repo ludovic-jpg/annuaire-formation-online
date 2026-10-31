@@ -1,0 +1,59 @@
+{
+  "lien": "https://formatrix.fr/formation/creation-dentreprise/management-operationnel-performance-equipe/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Piloter la performance d’équipe et adopter un management adapté aux collaborateurs",
+  "image": "https://formatrix.fr/wp-content/uploads/2025/10/visuel-cours-formatrix-3.png",
+  "niveau": "De Débutant à Avancé",
+  "tarif": null,
+  "duree": "42 heures (6 modules de 7h)",
+  "objectif_court": "Management de la performance d’une équipe",
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Fixer un cadre clair et des objectifs opérationnels en lien avec la stratégie de l’entreprise.",
+    "Adapter son style de management aux profils, compétences et motivations des collaborateurs.",
+    "Animer les rituels collectifs de performance et favoriser la co-construction.",
+    "Mener des entretiens individuels adaptés (suivi, feedback, recadrage, motivation, développement).",
+    "Prévenir et gérer les situations de tension ou de conflit.",
+    "Piloter l’activité grâce à des outils de suivi et ancrer une dynamique d’amélioration continue."
+  ],
+  "points_forts": null,
+  "modalites": "Blended learning (e-learning, ateliers présentiels/visio, mises en situation filmées, accompagnement individuel)",
+  "programme_md": "### Module 1 – Définir le cadre et fixer des objectifs (7h)\n- Décliner la stratégie en objectifs SMART.\n- Clarifier les rôles et responsabilités de chaque membre de l’équipe.\n- Construire des indicateurs de performance pertinents alignés sur la valeur créée.\n- Prendre en compte les spécificités individuelles (compétences, handicap, disponibilités, appétences).\n- Mise en pratique : atelier de déclinaison d’objectifs à partir d’un cas réel.\n### Module 2 – Adapter son style managérial (7h)\n- Diagnostiquer la maturité et l’autonomie des collaborateurs (méthode Hersey-Blanchard).\n- Ajuster son style de leadership (directif, persuasif, participatif, délégatif).\n- Développer la motivation et l’engagement dans des contextes variés.\n- Adopter une posture managériale éthique et inclusive.\n- Mise en pratique : jeu de rôle sur l’ajustement du management selon le profil collaborateur.\n### Module 3 – Animer les rituels et réunions de performance (7h)\n- Préparer et animer des réunions productives, orientées résultats.\n- Utiliser des outils collaboratifs pour faciliter la décision agile.\n- Favoriser l’expression de chacun et l’émergence d’idées innovantes.\n- Instaurer des rituels réguliers de pilotage et de partage de résultats.\n- Mise en pratique : animation d’une réunion de suivi de performance filmée et débriefée.\n### Module 4 – Conduire les entretiens individuels (7h)\n- Préparer et structurer un entretien de performance.\n- Maîtriser les techniques de feedback constructif et de coaching.\n- Conduire différents types d’entretien : motivation, recadrage, développement, évaluation.\n- Élaborer avec le collaborateur un plan de développement de compétences.\n- Mise en pratique : simulation d’entretiens variés avec mise en situation.\n### Module 5 – Gérer les conflits et situations difficiles (7h)\n- Détecter les signaux faibles de tensions.\n- Utiliser les techniques de communication non violente (CNV).\n- Mettre en place des outils de médiation et de négociation.\n- Maintenir un climat de confiance et d’engagement collectif.\n- Mise en pratique : résolution d’un cas de conflit en équipe avec feedback collectif.\n### Module 6 – Piloter l’activité et ancrer l’amélioration continue (7h)\n- Mettre en place des tableaux de bord et KPIs adaptés.\n- Analyser les écarts et définir des plans d’action correctifs.\n- Formaliser les processus clés de l’équipe.\n- Installer une culture d’apprentissage et d’amélioration continue.\n- Mise en pratique : construction d’un tableau de bord et plan d’action d’équipe.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\nEligible : RS6910 – Management de la performance d’une équipe"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Tarif (rubrique présente mais vide)",
+    "Pré-requis (rubrique présente mais vide)",
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

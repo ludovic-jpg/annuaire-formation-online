@@ -1,0 +1,64 @@
+{
+  "lien": "https://formalangue.com/formation/formation-le-francais-des-affaires/",
+  "site": "formalangue.com",
+  "marque": "formalangue",
+  "titre": "Formation de français des affaires",
+  "image": "https://formalangue.com/images/site/formation-francais.webp",
+  "niveau": "De débutant à avancé",
+  "tarif": "À partir de 800 € – financement possible",
+  "duree": "À déterminer selon votre niveau et votre objectif",
+  "objectif_court": "Améliorer ses compétences linguistiques pour un usage professionnel",
+  "prerequis": "À déterminer selon votre niveau et votre objectif",
+  "public": null,
+  "objectifs": [
+    "employer en français le vocabulaire de votre métier dans vos réunions, appels et courriels ;",
+    "suivre une réunion de travail en français et y prendre la parole pour exposer, questionner ou trancher ;",
+    "rédiger un courriel, un compte rendu ou un courrier formel en français, avec les formules de politesse attendues ;",
+    "appliquer les usages du travail en France, en Belgique, en Suisse romande, au Québec ou en Afrique francophone : vouvoiement, ton des écrits, place du débat d’idées en réunion ;",
+    "présenter une proposition et la négocier en français jusqu’à un accord ;",
+    "reconnaître les expressions idiomatiques et le jargon de l’entreprise, et en réemployer les plus utiles ;",
+    "comprendre des accents francophones variés."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques.\n- Procédés pédagogiques adaptés au niveau du ou des participants.\n- Travaux pratiques adaptés à votre activité.",
+  "programme_md": "### Avant la réunion : analyser le dossier\n- Lire un document professionnel (note, rapport, courriel) et en résumer les points clés.\n- Situer l’affaire dans son contexte économique et culturel francophone.\n- Énoncer en français, clairement, la question à traiter.\n### Exposer devant une équipe francophone\n- Construire un exposé structuré : introduction, développement, proposition.\n- Utiliser les connecteurs qui guident l’auditoire (d’abord, en outre, par conséquent…).\n- Préparer un support visuel qui appuie l’exposé sans le répéter.\n### Parler et écrire un français juste\n- Employer la terminologie exacte de votre secteur.\n- Travailler la prononciation, les liaisons et l’intonation.\n- Appliquer les règles de grammaire et de syntaxe qui comptent à l’écrit professionnel.\n### Argumenter et négocier\n- Préparer les arguments qui soutiennent votre proposition.\n- Répondre aux objections avec méthode.\n- Tenir votre position dans un débat ou une négociation, souvent animés dans les réunions en France.\n### Mobiliser le vocabulaire lié au français des affaires\n- Élargir votre lexique : finance, marketing, management, droit des affaires.\n- Passer du registre soutenu des courriers au ton plus direct des échanges internes.\n- Comprendre les expressions idiomatiques et les sigles de l’entreprise française.\n### Relier l’actualité à vos dossiers\n- Suivre l’actualité économique de la France et des pays francophones.\n- Rattacher une information aux enjeux de votre entreprise.\n- En débattre en français et évaluer ses effets sur votre activité.\nLes exercices partent de vos documents et de vos réunions réelles, pour un français utile dès le lendemain.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Vous travaillez en français avec des équipes, des clients ou des partenaires francophones ? Ce parcours de français des affaires reprend vos situations de travail : animer ou suivre une réunion, négocier, rédiger un courriel ou un compte rendu au ton juste. Il se déroule en ligne ou en présentiel."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Financement possible selon votre situation : OPCO, plan de développement des compétences ou employeur"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "Ce parcours de français des affaires s’adresse aux professionnels qui travaillent en français avec des équipes, des clients ou des partenaires francophones. Le contenu part de votre poste et de vos situations de travail."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

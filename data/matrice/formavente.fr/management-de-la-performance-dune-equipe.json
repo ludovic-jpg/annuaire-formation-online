@@ -1,0 +1,59 @@
+{
+  "lien": "https://formavente.fr/formation/management-de-la-performance-dune-equipe/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Manager la performance de son équipe",
+  "image": "https://formavente.fr/images/2025/05/WhatsApp-Image-2025-05-27-at-1.08.00-PM-1-1.jpeg",
+  "niveau": "Non précisé",
+  "tarif": "À partir de 2900 € – financement possible",
+  "duree": "À définir",
+  "objectif_court": "Fixer des objectifs à son équipe, la faire progresser et suivre ses résultats avec des indicateurs.",
+  "prerequis": "À définir",
+  "public": null,
+  "objectifs": [
+    "Attribuer à chaque collaborateur des objectifs et des missions qui tiennent compte de ses compétences, de ses disponibilités, de ses appétences et d'une éventuelle situation de handicap, pour répartir l'activité de façon équilibrée (secteurs, portefeuilles clients, plannings de magasin).",
+    "Choisir puis ajuster son style de management selon la situation et le profil de chaque personne, afin que chacun travaille dans une relation qui soutient sa progression.",
+    "Animer des réunions d'équipe dans lesquelles chacun commente ses chiffres et propose des pistes pour faire évoluer les pratiques ou les processus de travail.",
+    "Conduire un entretien de recadrage, de motivation ou de feed-back en adaptant sa posture au type d'échange et à la personnalité du collaborateur, pour l'aider à atteindre ses objectifs.",
+    "Traiter une tension ou un conflit dans l'équipe par l'écoute active et en associant les personnes concernées à la solution, pour garder un climat qui donne envie de s'engager.",
+    "Suivre l'activité grâce à un tableau de bord et à des indicateurs, formaliser les façons de travailler et en tirer des actions d'amélioration continue."
+  ],
+  "points_forts": null,
+  "modalites": "Formation hybride : modules e-learning, classes virtuelles, ateliers pratiques et accompagnement personnalisé.",
+  "programme_md": "### Module 1 : Poser le cadre et répartir les objectifs\n- Traduire la stratégie de l'entreprise en objectifs SMART individuels et collectifs (chiffre, marge, nombre de visites).\n- Écrire qui fait quoi dans l'équipe et lever les zones de recouvrement.\n- Relier chaque indicateur suivi à la valeur réellement apportée au client.\n### Module 2 : Ajuster son style de management\n- Situer le degré d'autonomie de chaque collaborateur avec la grille de Hersey et Blanchard.\n- Passer d'un style à l'autre (directif, participatif, délégatif) selon la situation.\n- Repérer ce qui motive chaque vendeur et l'utiliser pour entretenir son engagement.\n### Module 3 : Faire vivre les réunions et les rituels d'équipe\n- Préparer une réunion commerciale courte et tournée vers les résultats.\n- Prendre des décisions rapides avec des outils collaboratifs.\n- Faire émerger des idées de l'équipe et les transformer en essais concrets.\n### Module 4 : Mener les entretiens individuels\n- Organiser des points de suivi réguliers sur les chiffres et les comportements.\n- Donner un feed-back utile et pratiquer le coaching sur le terrain.\n- Construire avec le collaborateur son plan de développement des compétences.\n### Module 5 : Désamorcer les tensions et les conflits\n- Repérer tôt les signes de tension (rivalité entre secteurs, partage des clients).\n- Faire appel à la médiation et à la négociation pour sortir du conflit.\n- Préserver un climat de travail qui favorise l'engagement de chacun.\n### Module 6 : Piloter l'activité et progresser en continu\n- Construire un tableau de bord avec des KPI utiles au manager commercial.\n- Lire les écarts entre prévu et réalisé, puis décider d'un plan d'action.\n- Installer dans l'équipe l'habitude de l'amélioration continue.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Fixer des objectifs à son équipe, la faire progresser et suivre ses résultats avec des indicateurs."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

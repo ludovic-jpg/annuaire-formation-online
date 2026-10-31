@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/communication/formation-produire-du-contenu-video-avec-votre-smartphone/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Produire du contenu vidéo avec votre smartphone",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/2-1-1024x833.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 € - Financement possible",
+  "duree": "A partir de 8 H de formation",
+  "objectif_court": "Maîtriser la création et production de film sur son smartphone",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "**Analyser** l’impact stratégique de la vidéo dans le marketing et la communication d’entreprise.",
+    "**Maîtriser** les techniques de cadrage, d’éclairage, de prise de son, ainsi que de gestion de l’exposition et de la mise au point avec un smartphone.",
+    "**Développer** des scénarios et planifier de manière détaillée les aspects logistiques nécessaires à la production de vidéos.",
+    "**Appliquer** des techniques de montage avancées sur smartphone, y compris l’intégration d’effets spéciaux et la correction des couleurs.",
+    "**Optimiser** les vidéos pour le web et gérer les droits légaux associés à la diffusion de contenu vidéo commercial."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Principes fondamentaux de la vidéo promotionnelle\n- **Comprendre la valeur ajoutée de la vidéo** : Explorez comment la vidéo peut servir de puissant outil de communication et de marketing pour promouvoir votre entreprise.\n- **Planification d’une action de communication vidéo** : Apprenez à concevoir une stratégie de communication vidéo ciblée et efficace en tenant compte de votre audience et de vos objectifs.\n- **Avantages et inconvénients de l’utilisation d’un smartphone** : Discutez des points forts et des limites du smartphone comme outil de production vidéo pour les entreprises.\n### Module 2 : Préparation et scénarisation\n- **Styles et mises en scène** : Identifiez les différents styles de vidéo qui peuvent être créés avec un smartphone et déterminez quel style convient le mieux à vos besoins.\n- **Écriture et préparation** : Techniques pour écrire un script convaincant et préparer efficacement votre tournage pour éviter les pièges courants.\n- **Planifier un tournage** : Organisez les aspects logistiques de votre tournage, de la sélection des lieux à la coordination des horaires et des ressources.\n### Module 3 : Techniques de réalisation sur smartphone\n- **Basics de la technique caméra** : Maîtrisez les bases du cadrage, de l’éclairage et de la prise de son spécifiques aux smartphones.\n- **Réalisation d’images et d’interviews** : Apprenez à capturer des images de qualité et à mener des interviews qui captent l’intérêt des spectateurs.\n- **Gestion de l’exposition et de la mise au point** : Techniques pour contrôler l’exposition et la mise au point sur votre smartphone, garantissant ainsi la clarté et la qualité visuelle.\n### Module 4 : Montage et post-production\n- **Le montage sur smartphone** : Utilisez des applications de montage pour couper, assembler et dynamiser vos vidéos directement sur votre smartphone.\n- **Effets spéciaux et transitions** : Intégrez des effets spéciaux et des transitions pour améliorer l’attrait visuel et la narration de votre vidéo.\n- **Colorimétrie et finitions** : Techniques de correction des couleurs pour donner à votre vidéo un look professionnel et cohérent.\n### Module 5 : Optimisation pour le web et diffusion\n- **Formats et optimisation pour le web** : Découvrez les formats de vidéo les plus efficaces pour le web et apprenez à optimiser vos vidéos pour différents canaux de diffusion.\n- **Valorisation et orchestration d’une campagne vidéo** : Stratégies pour mettre en valeur vos vidéos dans les campagnes de marketing numérique et maximiser leur impact.\n- **Gestion des droits et aspects juridiques** : Comprenez les précautions juridiques nécessaires pour utiliser des vidéos dans un cadre commercial, y compris les droits d’auteur et le droit à l’image.\n### Module 6 : Analyse des performances et ajustements\n- **Analyse des retours et des données** : Méthodes pour évaluer l’efficacité de vos vidéos à travers des analyses de données et des retours d’audience.\n- **Ajustements stratégiques** : Apprenez à ajuster votre contenu et votre approche en fonction des retours pour améliorer vos futures productions vidéo.\n- **Développement de compétences continues** : Encouragez une amélioration continue en intégrant les dernières tendances et technologies en matière de vidéo mobile pour rester compétitif.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Maîtrisez la création de vidéos professionnelles avec un simple smartphone. Apprenez les techniques de cadrage, montage et édition pour produire du contenu engageant et de qualité. Idéale pour les entrepreneurs, communicants ou indépendants, cette formation vous guide pour concevoir des vidéos percutantes, adaptées aux réseaux sociaux et aux besoins de votre stratégie de communication visuelle."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.9"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "lien": "https://formavente.fr/formation/formation-vente-conseil/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Vente conseil en magasin et en rendez-vous client",
+  "image": "https://formavente.fr/images/2024/12/1.jpg",
+  "niveau": "Niveau 5 (équivalent Bac+2)",
+  "tarif": "À partir de 900 € – financement possible",
+  "duree": "96 heures (12 semaines)",
+  "objectif_court": "Écouter le client, lui proposer la solution qui lui convient et le faire revenir.",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Appliquer une démarche de vente conseil qui part du besoin propre à chaque client.",
+    "Négocier en vente conseil de façon à améliorer ses résultats sans sacrifier la marge.",
+    "Entretenir une relation client qui donne envie de revenir et de recommander.",
+    "Ajuster son discours aux objections et aux attentes exprimées par le client.",
+    "Se servir d'outils d'aide à la vente pour analyser le besoin et proposer une solution sur mesure."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou distanciel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Ce qui fait une vente conseil\n- Expliquer en quoi la vente conseil se distingue d'une vente de produit classique.\n- Repérer, en magasin comme en rendez-vous, les moments où le client attend un avis plutôt qu'un catalogue.\n- Personnaliser chaque étape de l'échange au client qu'on a en face de soi.\n### Module 2 : Faire parler le client\n- Préparer les questions qui révèlent ce que le client cherche vraiment.\n- Distinguer ses motivations d'achat et ce qui le retient.\n- Écouter activement pour capter les besoins qu'il n'exprime pas.\n### Module 3 : Argumenter et convaincre\n- Influencer la décision d'achat avec des techniques de persuasion honnêtes.\n- Construire son argumentaire en fonction du profil du client.\n- Répondre aux objections et en faire une occasion de rassurer.\n### Module 4 : Négocier sans brader\n- Préparer une négociation qui laisse les deux parties satisfaites.\n- Concéder de façon calculée tout en défendant sa marge.\n- Anticiper les demandes de remise grâce à des outils de négociation.\n### Module 5 : Garder le client\n- Choisir des leviers de fidélisation qui font revenir le client.\n- Construire une relation durable fondée sur le conseil personnalisé.\n- Planifier le suivi après l'achat pour vérifier la satisfaction et proposer un complément.\n### Module 6 : Vendre conseil avec les outils numériques\n- Mesurer ce que les outils digitaux changent dans la relation de conseil.\n- Exploiter le CRM et le marketing automation pour personnaliser chaque contact.\n- Utiliser les réseaux sociaux pour attirer de nouveaux clients et garder le lien.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Écouter le client, lui proposer la solution qui lui convient et le faire revenir."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

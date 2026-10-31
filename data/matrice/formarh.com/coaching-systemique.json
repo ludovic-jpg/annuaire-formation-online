@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/coaching-systemique",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Coaching systémique : accompagner une équipe",
+  "image": "https://formarh.com/assets/course-coaching-systemique-BRGACCO6.webp",
+  "niveau": null,
+  "tarif": "2 890 € HT",
+  "duree": "28h (4 jours)",
+  "objectif_court": null,
+  "prerequis": "- Formation initiale en coaching ou accompagnement (40h minimum)\n- Expérience d'accompagnement individuel ou collectif (1 an)\n- Engagement à pratiquer entre les sessions",
+  "public": "Coachs professionnels, Responsables RH, Consultants en accompagnement, Managers de transition",
+  "objectifs": [
+    "Expliquer un dysfonctionnement d'équipe avec les concepts systémiques : homéostasie, feedback, émergence",
+    "Réaliser le diagnostic systémique d'une équipe : sociogramme, patterns relationnels, jeux de pouvoir",
+    "Repérer les leviers de changement et les points de blocage d'un collectif",
+    "Animer une mini-constellation organisationnelle ou une sculpture d'équipe",
+    "Construire l'accompagnement d'une transition d'équipe à partir du modèle de William Bridges",
+    "Tenir en séance une posture de coach facilitateur neutre et bienveillante"
+  ],
+  "points_forts": null,
+  "modalites": "- Alternance théorie/pratique (30%/70%)\n- Travail sur des cas réels apportés par les participants\n- Constellations et mises en situation\n- Supervision en groupe de pairs\n- Journal de bord réflexif",
+  "programme_md": "### Penser l'équipe comme un système\nDurée : 7h\n- D'où vient la pensée systémique : Palo Alto, Bateson\n- Système, homéostasie, feedback, émergence : les notions de base\n- Les lois systémiques de Bert Hellinger\n- Causalité linéaire ou circulaire : ce que cela change pour lire une situation d'équipe\n- Usages en entreprise et en management\n- Exercices de pensée systémique sur des cas concrets\n### Diagnostiquer une équipe\nDurée : 7h\n- Cartographier acteurs et relations avec un sociogramme\n- Repérer les patterns relationnels qui se répètent\n- Lire les jeux psychologiques avec le triangle de Karpman\n- Décoder les rapports de pouvoir et d'influence\n- Évaluer la maturité systémique d'une équipe\n- Atelier : diagnostic d'un cas réel apporté par un participant\n### Intervenir sur le système\nDurée : 7h\n- Questionnement circulaire et questions systémiques\n- Constellations organisationnelles : principes et conduite\n- Sculptures et représentations dans l'espace\n- Recadrer une situation à l'échelle du système\n- Travailler avec les métaphores et les récits de l'équipe\n- Mise en pratique : animer une mini-constellation\n### Accompagner une équipe qui change\nDurée : 7h\n- Lecture systémique des résistances au changement\n- Interventions stratégiques et paradoxales\n- Les transitions selon William Bridges\n- Aider une nouvelle culture d'équipe à émerger\n- Clore l'intervention et passer le relais\n- Rédiger son plan de développement de coach",
+  "resultats_attendus": null,
+  "evaluation": "- Étude de cas écrite avec analyse systémique\n- Animation supervisée d'une intervention\n- Soutenance orale de l'étude de cas devant le formateur\n- Attestation de fin de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Les exercices corporels sont adaptables.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Accompagner les équipes\nDéveloppez une vision systémique pour accompagner les transformations d'équipe et d'organisation. Cette formation vous donne les outils conceptuels et pratiques pour intervenir sur les dynamiques collectives complexes."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "5 900 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "5 900 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

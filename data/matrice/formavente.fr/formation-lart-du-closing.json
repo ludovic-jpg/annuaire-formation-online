@@ -1,0 +1,61 @@
+{
+  "lien": "https://formavente.fr/formation/formation-lart-du-closing/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Closing : conclure ses ventes et lever les dernières objections",
+  "image": "https://formavente.fr/images/2024/12/3.jpg",
+  "niveau": "Niveau 5 (équivalent Bac+2)",
+  "tarif": "À partir de 900 € – financement possible",
+  "duree": "96 heures (12 semaines)",
+  "objectif_court": "Conclure davantage de ventes en préparant la signature, en levant les derniers freins et en analysant ses résultats.",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Situer le closing dans le cycle de vente et en expliquer le rôle.",
+    "Employer des techniques de persuasion adaptées au client.",
+    "Choisir et appliquer une stratégie de conclusion selon la situation.",
+    "Traiter les objections qui surgissent au moment de signer.",
+    "Aborder la conclusion avec assurance et confiance en soi.",
+    "S'entraîner sur des mises en situation proches de son quotidien commercial.",
+    "Analyser ses propres entretiens et évaluer ses progrès.",
+    "Conclure dans le respect de l'éthique et de l'intérêt du client."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Le moment de conclure\n- Expliquer ce que le closing apporte à la vente et ce qu'on en attend.\n- Replacer la conclusion parmi les étapes du cycle, du premier contact à la signature.\n- Repérer les signaux d'achat et préparer le terrain avant de proposer l'accord.\n### Module 2 : Les techniques de conclusion\n- Pratiquer la conclusion par supposition, par alternative et par l'urgence.\n- Choisir la technique selon le type de client et le contexte (magasin, rendez-vous, appel).\n- Négocier les derniers points pour lever ce qui bloque encore la signature.\n### Module 3 : Les objections de dernière minute\n- Classer les objections fréquentes et retrouver ce qui les provoque.\n- Y répondre de façon à relancer la vente plutôt qu'à la défendre.\n- Se servir des questions ouvertes et de la reformulation pour clarifier le doute du client.\n### Module 4 : Une offre qui donne envie de signer\n- Rédiger une proposition de valeur claire, alignée sur les besoins du client.\n- Personnaliser l'offre pour relier chaque bénéfice à une attente précise.\n- Appuyer sa proposition sur une démonstration et des témoignages de clients.\n### Module 5 : Convaincre sans forcer\n- Appliquer les principes de la persuasion à la décision d'achat.\n- Mêler arguments rationnels et ressorts émotionnels dans son discours.\n- Créer un lien personnel avec le client pour donner du poids à sa conclusion.\n### Module 6 : Signer et assurer la suite\n- Mener les dernières étapes : signature, modalités de paiement, prochaines actions.\n- Organiser l'après-vente pour que le client soit satisfait et vous recommande.\n- Faire le bilan de ses conclusions, réussies ou non, pour progresser à la vente suivante.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Conclure davantage de ventes en préparant la signature, en levant les derniers freins et en analysant ses résultats."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

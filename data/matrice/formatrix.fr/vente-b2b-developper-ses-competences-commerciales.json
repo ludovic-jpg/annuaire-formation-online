@@ -1,0 +1,57 @@
+{
+  "lien": "https://formatrix.fr/formation/creation-dentreprise/vente-b2b-developper-ses-competences-commerciales/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Vente B2B – Développer ses compétences commerciales",
+  "image": "https://formatrix.fr/wp-content/uploads/2025/09/formation-vente-b2b-vente-b2b-–-developper-ses-competences-commerciale.png",
+  "niveau": "Niveau 5 (équivalent Bac+2)",
+  "tarif": "A partir de 2 490 € (éligible CPF) - Financement possible",
+  "duree": "96 heures (12 semaines)",
+  "objectif_court": "Acquérir les compétences nécessaires pour vendre efficacement des produits ou services en B2B, en maîtrisant l'ensemble du processus de vente, de la prospection à la conclusion et au suivi",
+  "prerequis": "Minimum 2 ans d'expérience professionnelle",
+  "public": null,
+  "objectifs": [
+    "– Rédiger un argumentaire de prospection et de vente",
+    "– Développer et gérer un portefeuille de prospects",
+    "– Réaliser une approche diagnostic des besoins clients",
+    "– Conduire des entretiens de vente structurés",
+    "– Conclure des ventes en instaurant la confiance",
+    "– Mettre en place un processus de suivi des ventes"
+  ],
+  "points_forts": null,
+  "modalites": "– Formation en distanciel\n– Accompagnement personnalisé par un formateur expert\n– Mises en situation professionnelles\n– Accès à une plateforme pédagogique avec ressources numériques",
+  "programme_md": "Module 1 : Comprendre les fondamentaux de la vente B2B\nIdentifier les spécificités du cycle de vente en environnement B2B.\nDifférencier les typologies de clients et leurs processus décisionnels.\nIntégrer les enjeux stratégiques de la vente complexe dans sa posture commerciale.\nModule 2 : Préparer efficacement ses actions commerciales\nAnalyser son portefeuille clients et segmenter ses cibles avec pertinence.\nConstruire un argumentaire commercial structuré et adapté à la cible B2B.\nDéfinir des objectifs SMART pour ses rendez-vous et campagnes de prospection.\nModule 3 : Prospecter et obtenir des rendez-vous qualifiés\nDévelopper des scripts d’appel et d’e-mails percutants pour capter l’attention.\nUtiliser LinkedIn et les outils digitaux pour générer des leads en B2B.\nMettre en œuvre des relances efficaces sans être intrusif.\nModule 4 : Mener un entretien de vente performant\nCréer une relation de confiance dès les premières minutes de l’échange.\nUtiliser la méthode de découverte (QQOQCCP, SONCAS, SPIN…) pour qualifier les besoins.\nReformuler et structurer son offre en lien avec les attentes du client.\nModule 5 : Argumenter, traiter les objections et conclure\nAdapter son discours de valeur en fonction des enjeux et profils clients.\nRépondre aux objections avec assertivité et professionnalisme.\nSaisir les signaux d’achat et conclure de manière engageante et naturelle.\nModule 6 : Suivre, fidéliser et développer son portefeuille client\nMettre en place un plan de suivi post-vente pour pérenniser la relation client.\nIdentifier les opportunités de ventes croisées ou additionnelles.\nConstruire une stratégie de fidélisation basée sur la satisfaction client.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

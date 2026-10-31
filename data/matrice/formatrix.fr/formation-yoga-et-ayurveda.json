@@ -1,0 +1,61 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-yoga-et-ayurveda/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Yoga et Ayurveda pour une vie harmonieuse et saine",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-yoga1.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1800 € - Financement possible",
+  "duree": "A partir de 21 H de formation",
+  "objectif_court": "Maîtriser les techniques de yoga ayurveda",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Comprendre les principes fondamentaux de l’Ayurveda et du Yoga.",
+    "Apprendre à créer des routines de Yoga adaptées aux différents doshas.",
+    "Intégrer les principes de l’Ayurveda dans l’alimentation et le mode de vie.",
+    "Développer une pratique personnelle de méditation et de pranayama.",
+    "Utiliser les techniques ayurvédiques pour améliorer le bien-être physique et mental.",
+    "Guider les autres dans leur parcours de bien-être à travers le Yoga et l’Ayurveda."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au Yoga et à l’Ayurveda\n- Comprendre l’histoire et les philosophies du Yoga et de l’Ayurveda.\n- Identifier les trois doshas et leur influence sur notre corps et notre esprit.\n- Explorer les Yamas et Niyamas comme fondements éthiques du Yoga.\n### Module 2 : Les Doshas et le Yoga\n- Apprendre à identifier les déséquilibres des doshas chez soi et chez les autres.\n- Concevoir des séquences de Yoga adaptées à chaque dosha.\n- Intégrer la respiration (Pranayama) et la méditation pour équilibrer les doshas.\n### Module 3 : Nutrition et Hygiène de Vie Ayurvédique\n- Comprendre les principes de l’alimentation ayurvédique pour équilibrer les doshas.\n- Intégrer les routines ayurvédiques quotidiennes (Dinacharya) pour améliorer le bien-être.\n- Utiliser les épices et les herbes dans la cuisine ayurvédique pour la santé et la guérison.\n### Module 4 : Pratique Avancée de Yoga\n- Approfondir les asanas, pranayama, et techniques de méditation.\n- Explorer les techniques de purification du Yoga (Shatkarmas) pour le bien-être physique.\n- Développer une séquence de Yoga personnelle pour la pratique quotidienne.\n### Module 5 : Ayurveda et Gestion du Stress\n- Comprendre l’impact du stress sur les doshas et le bien-être général.\n- Apprendre des techniques ayurvédiques et yogiques pour gérer le stress.\n- Pratiquer la méditation et le pranayama pour la réduction du stress.\n### Module 6 : Devenir un Guide en Yoga Ayurveda\n- Développer des compétences pour enseigner le Yoga et l’Ayurveda.\n- Apprendre à créer des ateliers et des séminaires sur le Yoga Ayurveda.\n- Éthique et pratiques professionnelles pour les praticiens du Yoga Ayurveda.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Explorez l’alliance du yoga et de l’ayurveda pour favoriser un bien-être global. Apprenez à intégrer ces disciplines ancestrales dans votre quotidien pour rétablir l’équilibre du corps, de l’esprit et des émotions. Ce parcours vous offre des outils pratiques comme la nutrition ayurvédique, la méditation et des postures ciblées pour guider vos élèves vers une vie plus saine et harmonieuse."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n3"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

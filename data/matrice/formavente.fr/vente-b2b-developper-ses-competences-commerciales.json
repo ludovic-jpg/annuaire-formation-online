@@ -1,0 +1,59 @@
+{
+  "lien": "https://formavente.fr/formation/vente-b2b-developper-ses-competences-commerciales/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Vente B2B : prospecter, vendre et fidéliser ses comptes professionnels",
+  "image": "https://formavente.fr/images/2025/05/WhatsApp-Image-2025-05-27-at-1.08.00-PM-2.jpeg",
+  "niveau": "Niveau 5 (équivalent Bac+2)",
+  "tarif": "À partir de 2490 € – financement possible",
+  "duree": "96 heures (12 semaines)",
+  "objectif_court": "Conduire une vente entre entreprises de bout en bout : prospection, rendez-vous, signature puis suivi du compte.",
+  "prerequis": "Minimum 2 ans d'expérience professionnelle",
+  "public": null,
+  "objectifs": [
+    "Écrire l'argumentaire qui servira à prospecter puis à présenter son offre à une entreprise cliente.",
+    "Constituer un fichier de prospects, le qualifier et le faire vivre dans la durée.",
+    "Mener le diagnostic des besoins d'un client professionnel avant de faire une proposition.",
+    "Dérouler un rendez-vous de vente selon une trame préparée à l'avance.",
+    "Obtenir l'accord du client en s'appuyant sur la confiance construite tout au long du cycle.",
+    "Installer une routine de suivi de ses ventes et des comptes signés."
+  ],
+  "points_forts": null,
+  "modalites": "Formation en distanciel – Accompagnement personnalisé par un formateur expert – Mises en situation professionnelles – Accès à une plateforme pédagogique avec ressources numériques",
+  "programme_md": "### Module 1 : Les règles du jeu en vente entre entreprises\n- Décrire les étapes d'un cycle de vente B2B, souvent long et à plusieurs interlocuteurs.\n- Distinguer les profils côté client (utilisateur, prescripteur, acheteur, décideur) et la façon dont chacun pèse sur la décision.\n- Adopter la posture qu'exige une vente complexe face à un comité d'achat.\n### Module 2 : Préparer sa tournée et ses campagnes\n- Trier son portefeuille de comptes et choisir ses cibles prioritaires.\n- Bâtir un argumentaire adapté aux attentes d'un acheteur professionnel.\n- Fixer pour chaque rendez-vous et chaque campagne un objectif SMART.\n### Module 3 : Décrocher des rendez-vous qualifiés\n- Rédiger des scripts d'appel et des e-mails de premier contact qui donnent envie de répondre.\n- Se servir de LinkedIn et d'outils numériques pour repérer et contacter des prospects.\n- Relancer au bon rythme sans braquer son interlocuteur.\n### Module 4 : Conduire le rendez-vous de découverte\n- Gagner la confiance du client dès les premières minutes.\n- Questionner avec QQOQCCP, SONCAS ou SPIN pour qualifier le besoin.\n- Reformuler ce qui a été dit et présenter l'offre en réponse aux attentes exprimées.\n### Module 5 : Défendre la valeur et signer\n- Ajuster son discours aux enjeux et au profil de chaque interlocuteur.\n- Répondre aux objections avec assurance et sans agressivité.\n- Repérer le moment où le client est prêt et lui proposer de s'engager.\n### Module 6 : Faire grandir le compte après la signature\n- Organiser l'après-vente pour que la relation dure.\n- Détecter les occasions de vente croisée ou additionnelle chez le client.\n- Mesurer la satisfaction et s'en servir pour fidéliser le compte.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Conduire une vente entre entreprises de bout en bout : prospection, rendez-vous, signature puis suivi du compte."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

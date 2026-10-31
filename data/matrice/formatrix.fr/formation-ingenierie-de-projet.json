@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/rh-management/formation-ingenierie-de-projet/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Ingénierie de projet",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-ingenierie-de-projet.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de réaliser des projets complexe",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Acquérir les compétences nécessaires pour planifier et structurer un projet de manière efficace",
+    "Maîtriser les outils de gestion de projet pour suivre les délais, les coûts et les ressources",
+    "Développer des techniques de communication pour coordonner les équipes et les parties prenantes",
+    "Anticiper et gérer les risques liés à l’exécution des projets",
+    "Analyser et évaluer les résultats d’un projet afin d’assurer son succès et ses retombées"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction à l’ingénierie de projet\n- Comprendre les principes fondamentaux de la gestion de projet\n- Identifier les différentes phases du cycle de vie d’un projet\n- Découvrir les rôles et responsabilités d’un ingénieur de projet\n### Module 2 : Planification et structuration de projet\n- Apprendre à définir les objectifs et livrables d’un projet\n- Élaborer un plan de projet détaillé avec des échéances et des ressources allouées\n- Mettre en place des outils de planification (diagrammes de Gantt, PERT, etc.)\n### Module 3 : Gestion des ressources et des équipes\n- Maîtriser la gestion des ressources humaines, matérielles et financières\n- Développer des compétences de leadership pour coordonner efficacement une équipe\n- Optimiser l’allocation des ressources et gérer les conflits internes\n### Module 4 : Suivi et contrôle de projet\n- Mettre en place des indicateurs de performance pour suivre l’avancement du projet\n- Gérer les écarts entre le plan initial et la réalité du terrain\n- Utiliser des outils de reporting pour communiquer les résultats aux parties prenantes\n### Module 5 : Gestion des risques et résolution des problèmes\n- Identifier, analyser et anticiper les risques liés au projet\n- Mettre en place un plan de gestion des risques pour minimiser les impacts\n- Développer des stratégies de résolution de problèmes en cas d’imprévus\n### Module 6 : Clôture et évaluation de projet\n- Apprendre à formaliser la clôture d’un projet et la remise des livrables\n- Analyser les résultats du projet pour évaluer son succès\n- Capitaliser sur les leçons apprises pour améliorer les futurs projets",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Développez vos compétences en gestion de projet pour planifier, organiser et piloter efficacement vos initiatives. Découvrez les outils de planification, les techniques de gestion des risques et l’optimisation des ressources pour garantir le respect des délais et des objectifs. Cette formation vous donne les clés pour structurer vos projets, mobiliser vos équipes et mener vos ambitions à bien dans un environnement exigeant."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.9"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

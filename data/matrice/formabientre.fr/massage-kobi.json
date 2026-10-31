@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-kobi",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage Kobi : formation de praticien",
+  "image": "https://formabientre.fr/assets/formation-kobi-DQSC6kkf.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 1800 €",
+  "duree": "21h (14h online + 7h présentiel)",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Pratiquer les gestes de base puis avancés du massage Kobi dans une séance de détente",
+    "Situer sur le corps les muscles, les nerfs et les zones de tension visés par le soin",
+    "Doser pressions et mouvements propres au Kobi selon la réponse du receveur",
+    "Aménager une cabine avec aromathérapie et lumière adaptées au soin",
+    "Établir avec chaque client une relation de confiance dès le premier rendez-vous"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : Découvrir le Kobi\n- Retracer l'histoire du Kobi et ses principes\n- Décrire ses effets sur le corps et le mental\n- Choisir le matériel et préparer le lieu de pratique\n### Module 2 : Anatomie utile au praticien\n- Décrire le rôle des muscles et du système nerveux dans la tension\n- Relier les zones tendues au mal-être ressenti par le client\n- Situer points gâchettes et zones de relâchement sur un partenaire\n### Module 3 : Les gestes fondamentaux\n- Exécuter pétrissages, pressions et effleurages\n- Varier l'intensité des pressions selon l'effet recherché\n- Accompagner le soin par la respiration et la relaxation du receveur\n### Module 4 : Techniques avancées\n- Utiliser les techniques avancées sur des demandes précises\n- Combiner plusieurs méthodes au cours d'un même soin\n- Bâtir une séance sur mesure pour chaque client\n### Module 5 : Votre cabine\n- Aménager un espace qui invite au relâchement\n- Choisir parfums, musique et lumière pour la séance\n- Mettre en place des règles de confidentialité et de confort\n### Module 6 : Travailler avec vos clients\n- Questionner le client pour cerner ses attentes\n- Tenir un agenda de rendez-vous et suivre vos clients dans la durée\n- Exercer selon une éthique et des pratiques sûres",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le massage Kobi associe des gestes précis à une approche orientée vers le relâchement des tensions musculaires. La formation convient aux personnes en reconversion comme aux praticiens qui veulent un soin de plus à proposer. Vous apprenez les pressions et les mouvements propres au Kobi, puis la façon de préparer une cabine accueillante et d'ajuster chaque séance au client."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "4.8/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

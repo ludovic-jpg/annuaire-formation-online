@@ -1,0 +1,60 @@
+{
+  "lien": "https://formavente.fr/formation/formation-reussir-sa-prospection-telephonique/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Prospection téléphonique : décrocher des rendez-vous qualifiés",
+  "image": "https://formavente.fr/images/2024/12/4.jpg",
+  "niveau": "Niveau 5 (équivalent Bac+2)",
+  "tarif": "À partir de 1800 € – financement possible",
+  "duree": "96 heures (12 semaines)",
+  "objectif_court": "Préparer et mener ses appels de prospection pour obtenir des rendez-vous et suivre ses résultats.",
+  "prerequis": "Savoir utiliser un PC, avoir la suite Office",
+  "public": null,
+  "objectifs": [
+    "S'exprimer au téléphone de façon claire, posée et convaincante.",
+    "Construire et utiliser des scripts d'appel adaptés à ses cibles.",
+    "Répondre aux objections des prospects au téléphone.",
+    "Pratiquer l'écoute active pendant l'appel.",
+    "Se servir des outils de prospection (CRM, fichiers, outils d'appel).",
+    "Mesurer ses résultats d'appel et mettre en place des actions de progrès.",
+    "Respecter le cadre légal et les règles éthiques du démarchage téléphonique."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Préparer sa session d'appels\n- Fixer ce que l'on attend de la prospection téléphonique : rendez-vous, devis, informations.\n- Choisir les bons prospects, se renseigner sur eux et définir le but de chaque appel.\n- Mettre en place ses outils avant de décrocher : CRM, script, argumentaire.\n### Module 2 : La trame d'un appel qui accroche\n- Soigner les premières secondes pour donner envie de poursuivre l'échange.\n- Enchaîner les étapes de l'appel : accroche, questions, argument, conclusion.\n- Rebondir sur les objections les plus courantes avec des réponses préparées.\n### Module 3 : Écouter pour qualifier\n- Pratiquer l'écoute active pour saisir le besoin réel derrière les réponses.\n- Poser des questions ouvertes qui font parler le prospect.\n- Reformuler pour vérifier qu'on a bien compris et renforcer le lien.\n### Module 4 : Le ton et les mots justes\n- Adapter son discours au profil du prospect : décideur, acheteur, partenaire.\n- Garder un ton assertif, respectueux et dynamique qui inspire confiance.\n- Utiliser les silences et ajuster le rythme pour garder l'attention.\n### Module 5 : Transformer l'appel en rendez-vous\n- Repérer l'intérêt du prospect et lui proposer la suite qui correspond à son besoin.\n- Conclure par une rencontre, l'envoi d'un devis ou d'une documentation.\n- Terminer l'appel sur un engagement clair et une date de rappel.\n### Module 6 : Suivre et améliorer sa prospection\n- Tracer chaque appel et chaque relance dans le CRM.\n- Calculer ses taux de transformation et juger la qualité de ses échanges.\n- Faire évoluer sa méthode à partir des retours du terrain et des objectifs atteints.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Préparer et mener ses appels de prospection pour obtenir des rendez-vous et suivre ses résultats."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

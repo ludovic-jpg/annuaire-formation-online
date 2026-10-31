@@ -1,0 +1,69 @@
+{
+  "lien": "https://formatrix.fr/formation/bureautique/formation-maitriser-lart-des-tableurs/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Maîtriser l’art des tableurs",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/excel-1024x604.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Acquisition des connaissances simples pour comprendre et utiliser l’outil Excel tant au niveau personnel que professionnel.",
+  "prerequis": "Avoir des connaissances en fonction de calculs simples.",
+  "public": null,
+  "objectifs": [
+    "Maîtrise du Tri de Données : Apprenez à organiser méthodiquement les données d’une base, une compétence essentielle pour gérer et interpréter efficacement de grands ensembles d’informations.",
+    "Recherche Avancée avec Filtres : Développez l’aptitude à localiser des informations spécifiques à l’aide des filtres, une technique cruciale pour l’analyse de données rapide et précise.",
+    "Application des Sous-Totaux : Acquérez la compétence d’utiliser les sous-totaux pour une analyse segmentée et détaillée, améliorant la compréhension des tendances et des patterns dans les données.",
+    "Compétences en Calcul Mathématique : Renforcez votre capacité à effectuer des calculs mathématiques complexes, un atout indispensable pour toute analyse de données numériques.",
+    "Création de Graphiques et Tableaux : Maîtrisez l’utilisation de graphiques, tableaux et autres outils d’Excel pour visualiser les données de manière efficace et attrayante."
+  ],
+  "points_forts": "- **Approche Intégrée et Contextualisée :** Ce cours est spécialement conçu pour lier les aspects techniques et pratique de la maîtrise des tableurs, assurant ainsi que les participants peuvent immédiatement mettre en pratique les compétences acquises dans leurs environnements professionnels.\n**Contenu Sur-Mesure :** Adaptation du contenu aux besoins spécifiques des participants, en fonction de leur domaine d’activité. Cela permet une pertinence accrue et une application directe des compétences en tableur.\n- **Évaluation Continue et Feedback Personnalisé :** Des évaluations régulières et des retours constructifs sont intégrés tout au long du parcours pour suivre les progrès des participants et ajuster l’approche pédagogique si nécessaire.\n- **Formateurs Expérimentés :** Nos formateurs possèdent une connaissance approfondie de l’ensemble des logiciels de tableurs",
+  "modalites": "- **Méthodes d’Enseignement Actives et Participatives :** Utilisation de techniques telles que la pédagogie de projet, les ateliers pratiques pour encourager l’interaction et l’engagement actif des participants.\n- **Entretien et Test de Positionnement :** Entretien initial avec votre formateur pour déterminer au mieux le contenu de la formation selon votre expérience et vos objectifs professionnels.\n- **Préparation et Passage à la Certification :** Préparation au passage de certifications reconnues dans le domaine de la maîtrise des tableurs.",
+  "programme_md": "### Module 1 : Introduction aux tableurs et à leur interface\n- Découverte de l’interface utilisateur : Exploration des menus, barres d’outils, et personnalisation de l’environnement de travail.\n- Création et gestion des fichiers : Apprendre à ouvrir, fermer, sauvegarder, et organiser les feuilles de calcul.\n- Saisie et formatage de base des données : Techniques de saisie rapide, utilisation des formats de cellules, et mise en place des styles pour améliorer la lisibilité des données.\n### Module 2 : Manipulation de données de base\n- Fonctions essentielles : Utilisation des fonctions de base telles que SOMME, MOYENNE, et MAX pour le calcul de données.\n- Tri et filtrage des données : Techniques pour organiser et extraire les données pertinentes.\n- Introduction aux tableaux croisés dynamiques : Création simple de tableaux pour résumer et analyser des ensembles de données volumineux.\n### Module 3 : Formules avancées et fonctions\n- Fonctions complexes et conditionnelles : Approfondissement avec des fonctions telles que SI, RECHERCHEV/H et les fonctions imbriquées.\n- Gestion des erreurs dans les formules : Techniques pour trouver et corriger les erreurs courantes dans les formules.\n- Automatisation des calculs : Utilisation de formules matricielles pour traiter des données en masse et simplifier les opérations complexes.\n### Module 4 : Analyse de données avancée\n- Utilisation avancée des tableaux croisés dynamiques : Techniques pour personnaliser, grouper des données, et utiliser des segments pour une analyse détaillée.\n- Graphiques et visualisation de données : Création de graphiques avancés pour une représentation graphique des tendances et analyses.\n- Introduction à l’analyse prédictive : Bases de l’utilisation des fonctions statistiques et de modélisation pour prévoir des tendances.\n### Module 5 : Automatisation avec les macros\n- Introduction aux macros : Bases de la création et de l’utilisation de macros pour automatiser des tâches répétitives.\n- Écriture de scripts simples en VBA : Techniques de programmation de base pour personnaliser des fonctions dans les tableurs.\n- Intégration et interaction avec d’autres applications : Automatiser le flux de travail entre les tableurs et d’autres logiciels de bureautique.\n### Module 6 : Collaboration et partage\n- Techniques de partage et de protection des données : Méthodes pour partager des feuilles de calcul tout en protégeant les informations sensibles.\n- Collaboration en temps réel : Utilisation des outils de collaboration pour travailler simultanément sur des documents avec d’autres utilisateurs.\n- Préparation à l’audit et à la révision : Comment préparer des feuilles de calcul pour la révision par des tiers, incluant des annotations et le suivi des modifications.",
+  "resultats_attendus": "**Certification**\n- En vous formant au tableur , vous passerez **la certification ICDL – Tableur (Excel, Calc, Google Sheets) –date d’enregistrement 27-03-2024** . Cela valide la capacité d’individus à manipuler des tableurs dans un cadre professionnelTest en ligne automatisé s’appuyant sur une mise en situation de cas pratiques, permettant l’évaluation des compétences et soumis aux conditions de passage d’examen imposées par la Fondation ICDL (surveillance obligatoire, sans support, etc.)\nFormatrix vous accompagne tout au long de la procédure et vous propose une date à votre convenance pour passer la certification visée.\nCette certification améliore votre employabilité et atteste des compétences acquises sur notre parcours de Formation.\nDurée : 35 minutes. Nombre de questions : 36. Afin de valider la certification ICDL , vous avez besoin d’atteindre un taux de bonne réponse de 75 %/.",
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à utiliser des tableurs comme Excel pour organiser, analyser et présenter vos données. Découvrez les formules, les graphiques, les tableaux croisés dynamiques et les fonctions avancées pour optimiser votre productivité et prendre des décisions basées sur des données claires."
+    },
+    {
+      "rubrique": "Déroulement des sessions avec votre formateur",
+      "contenu": "Nous proposons des sessions de formation en visioconférence via Google Meet ou Zoom offrant une expérience d’apprentissage interactive et personnalisée, adaptées à votre propre rythme.\nChaque session avec votre formateur, sélectionné selon votre projet de formation pour un suivi sur mesure. Vous pouvez planifier ces sessions individuelles selon votre disponibilité, 6 jours sur 7, de 9h à 20h.\nPour une meilleure assimilation, l’approche pédagogique est axée sur la pratique, comprenant des exercices et des études de cas spécialement adaptés à votre projet.\nLes échanges par mail avec votre formateur dédié et votre coordinatrice pédagogique sont illimités, facilitant ainsi un accompagnement continu et efficace."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\nEligible : En vous formant sur ce parcours : Tableur vous passerez la certification ICDL – Tableur (Excel, Calc, Google Sheets) -date d’enregistrement 27-03-2024 . Cela valide la capacité d’individus à manipuler des tableurs dans un cadre professionnel\n4.8"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "À l’issue de cette formation, vous aurez acquis les compétences nécessaires pour concevoir, gérer et exploiter des tableaux de calculs avancés sur tableur vous permettant d’analyser et de présenter des données de manière professionnelle et intuitive."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md",
+    "resultats_attendus",
+    "Déroulement des sessions avec votre formateur",
+    "Informations relatives à la certification"
+  ],
+  "certification": "ICDL",
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

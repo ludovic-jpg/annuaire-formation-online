@@ -1,0 +1,63 @@
+{
+  "lien": "https://formalangue.com/formation/maitriser-le-francais-professionnel-preparation-a-la-certification-le-robert/",
+  "site": "formalangue.com",
+  "marque": "formalangue",
+  "titre": "Maîtriser le français professionnel écrit",
+  "image": "https://formalangue.com/images/site/formation-le-robert.webp",
+  "niveau": "De débutant à avancé",
+  "tarif": "À partir de 800 € – financement possible",
+  "duree": "30 heures",
+  "objectif_court": "Améliorer ses compétences linguistiques pour un usage professionnel",
+  "prerequis": "Avoir des notions de base en français et vouloir progresser",
+  "public": "- tout professionnel souhaitant améliorer la qualité de son français écrit\n- salariés, demandeurs d’emploi, indépendants\n- niveau B1 minimum conseillé\n- idéal pour : assistants, cadres, RH, commerciaux, communicants, formateurs…",
+  "objectifs": [
+    "repérer et corriger dans vos écrits de travail les fautes d’orthographe les plus fréquentes ;",
+    "appliquer les règles d’accord, de conjugaison et de grammaire dans un courriel, une note ou un compte rendu ;",
+    "choisir un vocabulaire adapté au contexte professionnel et au destinataire ;",
+    "construire des phrases claires et précises ;",
+    "produire et relire en temps limité un écrit professionnel sans faute bloquante."
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : faire le point sur vos écrits (2 h)\n**But du module :** repérer vos points forts et vos points faibles pour personnaliser le parcours.\n- Évaluation de départ classée par types d’erreurs.\n- Analyse de quelques écrits que vous rédigez dans votre poste. **Livrable :** votre profil d’apprentissage et votre plan de progression.\n### Module 2 : orthographe et accords dans vos courriels (6 h)\n**But du module :** ne plus laisser passer les fautes qui reviennent dans vos écrits.\n- Homophones, pluriel des noms composés, accord du participe passé.\n- Ponctuation, majuscules, accents, écriture des nombres.\n- Une méthode de relecture active à appliquer avant chaque envoi. **Entraînement :** quiz interactifs, dictées à trous, séries d’exercices ciblés.\n### Module 3 : des phrases bien construites (6 h)\n**But du module :** écrire des phrases correctes et faciles à lire.\n- Conjugaison : modes, temps et leurs valeurs.\n- Pronoms, subordonnées, emploi du conditionnel.\n- Cohérence et fluidité d’un écrit professionnel. **Entraînement :** phrases à transformer, phrases à corriger, exercices de grammaire en contexte.\n### Module 4 : le mot juste au travail (6 h)\n**But du module :** enrichir votre vocabulaire et l’adapter à la situation.\n- Lexique de l’entreprise, formules types, connecteurs logiques.\n- Exprimer la nuance, la cause, l’opposition et le but.\n- Remplacer les tournures familières ou maladroites. **Livrable :** un glossaire personnel et des fiches de reformulation.\n### Module 5 : lire et reformuler les documents de travail (5 h)\n**But du module :** comprendre un texte professionnel, l’analyser et le reformuler.\n- Étude de courriels, de notes, de consignes et de procédures.\n- Reformulation des informations essentielles.\n- Repérage d’informations explicites et déduction des informations implicites. **Entraînement :** textes à trous, QCM, exercices de compréhension écrite.\n### Module 6 : mise en situation finale et évaluation des acquis (5 h)\n**But du module :** vérifier vos progrès sur des écrits proches de votre quotidien.\n- Exercices chronométrés en conditions réelles (durée, environnement).\n- Conseils pour gagner du temps et déjouer les pièges les plus courants.\n- Bilan individuel et dernières recommandations. **Livrable final :** rapport de progression et attestation de fin de formation.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Vos courriels, notes et comptes rendus partent avec des fautes qui vous gênent ? En 30 heures, ce parcours reprend vos écrits de travail : fautes les plus courantes, grammaire, accords et conjugaison, vocabulaire professionnel, puis exercices en temps limité. Il se conclut par une attestation de fin de formation."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Financement possible selon votre situation : OPCO, plan de développement des compétences ou employeur"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "La formation se conclut par une évaluation des acquis et la remise d’une attestation de fin de formation."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "public",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Points forts",
+    "Modalités pédagogiques (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

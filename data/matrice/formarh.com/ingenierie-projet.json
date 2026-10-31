@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/ingenierie-projet",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Ingénierie de projet",
+  "image": "https://formarh.com/assets/course-ingenierie-projet-ApKhxYbQ.webp",
+  "niveau": null,
+  "tarif": "1 890 € HT",
+  "duree": "21h (3 jours)",
+  "objectif_court": null,
+  "prerequis": "- Avoir participé à au moins un projet en tant que contributeur\n- Maîtrise des outils bureautiques de base (Excel, PowerPoint)\n- Capacité à travailler sur des cas pratiques en autonomie",
+  "public": "Chefs de projet débutants ou confirmés, Coordinateurs de projet, Managers fonctionnels, Ingénieurs",
+  "objectifs": [
+    "Rédiger la note de cadrage et la charte d'un projet, périmètre (WBS) et matrice RACI compris",
+    "Construire un planning avec diagramme de Gantt, chemin critique et estimation des charges",
+    "Tenir un registre des risques et choisir une stratégie de réponse pour chacun",
+    "Animer un comité de pilotage à partir d'un tableau de bord et d'indicateurs de valeur acquise",
+    "Négocier avec les parties prenantes une demande de modification du périmètre",
+    "Conduire la clôture d'un projet et un retour d'expérience (REX) exploitable"
+  ],
+  "points_forts": null,
+  "modalites": "- Apports méthodologiques structurés\n- Étude de cas fil rouge traitée tout au long de la formation\n- Travaux pratiques sur outils de gestion de projet\n- Simulations de comités de pilotage\n- Échanges d'expériences entre participants",
+  "programme_md": "### Cadrer le projet\nDurée : 4h\n- Projet, programme, portefeuille : situer le sien\n- Contexte et enjeux stratégiques du projet\n- Repérer et analyser les parties prenantes\n- Note de cadrage et charte projet\n- Délimiter le périmètre : WBS et matrice RACI\n- Atelier : cadrage d'un projet exemple\n### Planifier et ordonnancer\nDurée : 4h\n- Estimer charges et durées : méthodes expertes et analogiques\n- Diagramme de Gantt et chemin critique\n- Méthode PERT et optimisation des ressources\n- Planifier les ressources humaines et matérielles\n- MS Project, GanttProject et outils collaboratifs\n- Exercice : bâtir le planning d'un projet\n### Anticiper les risques\nDurée : 4h\n- Identifier les risques : brainstorming et check-lists\n- Probabilité et impact : l'analyse qualitative\n- Analyse quantitative et calcul de la réserve pour aléas\n- Éviter, transférer, atténuer ou accepter : choisir sa réponse\n- Faire vivre le registre des risques\n- Atelier : analyse de risques sur un cas réel\n### Piloter et rendre compte\nDurée : 5h\n- Les KPI d'un projet\n- La valeur acquise (Earned Value Management)\n- Construire puis animer le tableau de bord\n- Reporting et échanges avec le comité de pilotage\n- Maîtriser le périmètre et traiter les demandes de modification\n- Conflits et négociation avec les parties prenantes\n### Clôturer et capitaliser\nDurée : 4h\n- Critères de réception et transfert aux équipes métier\n- Bilan : indicateurs finaux et analyse des écarts\n- Retour d'expérience (REX) : méthodes de capitalisation\n- Documentation projet finale\n- Libérer les ressources et clore le projet administrativement\n- Évaluation finale et remise des attestations",
+  "resultats_attendus": null,
+  "evaluation": "- QCM de validation des acquis\n- Évaluation des livrables produits (planning, registre des risques)\n- Mise en situation : présentation d'un avancement projet\n- Attestation de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Outils et supports adaptés sur demande.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Piloter de A à Z\nAcquérez les compétences essentielles pour mener à bien vos projets complexes, de la conception initiale jusqu'à la clôture réussie. Cette formation couvre l'ensemble du cycle de vie projet avec une approche pragmatique combinant méthodes classiques et agiles."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "4 200 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "4 200 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

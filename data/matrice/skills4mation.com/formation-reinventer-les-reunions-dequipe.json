@@ -1,0 +1,82 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-reinventer-les-reunions-dequipe",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation réinventer les réunions d’équipe",
+  "image": "https://skills4mation.com/images/formations/formation-reinventer-les-reunions-dequipe.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2400 €",
+  "duree": "A partir de 12 H - Formation pour des groupes entre 4 et 12 personnes.",
+  "objectif_court": "Améliorer l’efficacité de vos réunions grâce à l’intelligence collective",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Identifier les lacunes des formats de réunion traditionnels et explorer des alternatives innovantes.",
+    "Appliquer des techniques de facilitation pour engager tous les participants.",
+    "Concevoir des réunions d’équipe qui favorisent la collaboration, l’innovation et l’efficacité.",
+    "Utiliser des outils et des technologies pour renforcer l’interaction et la productivité des réunions.",
+    "Mesurer l’efficacité des réunions et ajuster les pratiques en conséquence."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives essentiellement basées sur la pratique\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Diagnostiquer les Défis des Réunions Actuelles\n- Comprendre les problèmes communs des réunions d’équipe.\n- Identifier les besoins spécifiques de votre équipe.\n- Évaluer l’efficacité des réunions actuelles.\n- Évaluer la nécessité des réunions et explorer les alternatives.\n### Module 2 : Principes de Réunions collaboratives et efficaces\n- Fixer des objectifs précis et clarifier les attentes de chaque réunion.\n- Planifier l’agenda avec une intention stratégique.\n- Poser et maintenir un cadre de communication propice aux échanges ouverts et constructifs.\n- Créer de la cohésion en équipe en favorisant une communication transparente et respectueuse.\n### Module 3 : Techniques de Facilitation Interactives\n- Apprendre à faciliter les réunions de manière interactive et engageante.\n- Intégrer des méthodes qui stimulent la créativité et maximisent la participation active de tous les membres de l’équipe. Intégrer des pauses actives et des techniques de brainstorming.\n- Utiliser des méthodes pour gérer les divergences d’opinions.\n### Module 4 : Créer l’Engagement du collectif\n- Établir des rôles et des responsabilités clairs pour encourager la co-responsabilité dans la réussite des réunions.\n- Favoriser un sentiment de propriété et d’engagement envers les résultats des réunions.\n- Découvrir les techniques pour prendre des décisions de manière collective et engageante.\n- Sortir avec un plan d’action précis et validé par tous grâce à des processus décisionnels inclusifs.\n### Module 5 : Technologies et Outils pour des Réunions Productives\n- Sélectionner et utiliser des outils digitaux pour améliorer la collaboration.\n- Exploiter les plateformes de gestion de projet pour le suivi des actions.\n- Optimiser la communication pré et post-réunion.\n### Module 6 : Évaluation et Amélioration Continue des Réunions\n- Mettre en place des mécanismes de feedback pour les réunions.\n- Analyser les données pour mesurer l’efficacité des réunions.\n- Ajuster les pratiques en fonction des retours et des résultats obtenus.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à organiser des réunions efficaces, productives et engageantes pour vos équipes. Explorez des techniques pour structurer vos sessions, favoriser la prise de décision et dynamiser la participation. Cette formation vous aide à transformer vos réunions en outils puissants pour le suivi de projet, la communication interne et le travail collaboratif."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

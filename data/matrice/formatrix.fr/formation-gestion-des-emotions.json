@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/rh-management/formation-gestion-des-emotions/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Gestion des émotions",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-939x1024.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "Prendre le contrôle de ses émotions",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Acquérir des techniques pour identifier et comprendre ses émotions.",
+    "Développer des stratégies pour gérer efficacement le stress et les situations difficiles.",
+    "Renforcer son intelligence émotionnelle pour améliorer les relations interpersonnelles.",
+    "Appliquer des méthodes pour réguler ses émotions dans un contexte professionnel.",
+    "Intégrer des pratiques de bien-être pour favoriser un équilibre émotionnel durable."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "**Module 1 : Comprendre les émotions** • Explorez la nature et la fonction des émotions dans notre vie quotidienne\n- Identifiez les différentes catégories d’émotions et leurs manifestations physiques\n- Découvrez le lien entre pensées, émotions et comportements\n### Module 2 : Développer l’intelligence émotionnelle\n- Apprenez à reconnaître et nommer vos propres émotions avec précision\n- Cultivez l’empathie pour mieux comprendre les émotions des autres\n- Pratiquez l’auto-régulation émotionnelle dans diverses situations\n### Module 3 : Techniques de gestion du stress\n- Maîtrisez les techniques de respiration pour calmer rapidement le système nerveux\n- Intégrez la méditation de pleine conscience dans votre routine quotidienne\n- Adoptez des stratégies de restructuration cognitive pour gérer les pensées stressantes\n### Module 4 : Communication émotionnelle efficace\n- Développez une communication assertive pour exprimer vos besoins et limites\n- Apprenez à donner et recevoir du feedback émotionnel de manière constructive\n- Pratiquez l’écoute active pour améliorer vos relations interpersonnelles\n### Module 5 : Gestion des émotions difficiles\n- Explorez des techniques pour faire face à la colère de manière saine et productive\n- Apprenez à surmonter l’anxiété et la peur par des exercices pratiques\n- Développez des stratégies pour gérer la tristesse et prévenir la dépression\n### Module 6 : Intégration et pratique avancée\n- Créez votre boîte à outils personnalisée de gestion des émotions\n- Mettez en pratique vos compétences à travers des jeux de rôle et des simulations\n- Élaborez un plan d’action pour intégrer la gestion des émotions dans votre vie quotidienne",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Renforcez votre intelligence émotionnelle pour mieux gérer vos réactions et celles des autres dans un contexte professionnel. Apprenez à identifier vos émotions, les transformer en leviers positifs et maintenir votre calme en situation de stress ou de conflit. Cette formation vous donne des outils pratiques pour renforcer votre bien-être, vos relations professionnelles et votre efficacité au quotidien."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

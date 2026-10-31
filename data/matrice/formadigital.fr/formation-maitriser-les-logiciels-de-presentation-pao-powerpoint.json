@@ -1,0 +1,60 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-maitriser-les-logiciels-de-presentation-pao-powerpoint/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation PowerPoint : concevoir des présentations claires et préparer l’ICDL",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Acquisition des connaissances simples pour comprendre et utiliser les logiciels de présentation tant au niveau personnel que professionnel.",
+  "prerequis": "Savoir utiliser un PC, avoir la suite Office",
+  "public": null,
+  "objectifs": [
+    "Évaluer les compétences fondamentales dans la conception et le formatage de présentations de diapositives.",
+    "Maîtriser l’art d’illustrer, de communiquer et de présenter efficacement des concepts.",
+    "Apprendre à condenser vos idées et à mettre en valeur chaque élément de contenu.",
+    "Acquérir la compétence d’utiliser et de personnaliser des modèles de présentation, ainsi que de créer de nouvelles diapositives.",
+    "Développer des compétences pour élaborer des présentations intégrales et captivantes.",
+    "Maîtriser l’application de transitions et d’animations pour dynamiser vos présentations.",
+    "À l’issue de cette formation, vous aurez acquis la capacité d’exploiter les fonctionnalités clés des logiciels de présentation"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction aux logiciels de présentation – Premiers pas avec PowerPoint\n- Découvrir l’interface de PowerPoint et ses principales fonctionnalités pour créer des présentations efficaces.\n- Apprendre à créer, enregistrer et organiser des diapositives pour structurer vos idées de manière claire.\n- Utiliser les modèles prédéfinis pour gagner du temps tout en conservant une esthétique professionnelle.\n### Module 2 : Maîtrise des diapositives – Structurer et organiser le contenu visuel\n- Apprendre à ajouter et à formater du texte, des images et des formes pour enrichir vos présentations.\n- Maîtriser l’utilisation des dispositions de diapositives pour structurer les informations de manière logique.\n- Utiliser les outils d’alignement et de regroupement pour organiser les éléments visuels avec précision.\n### Module 3 : Animation et transitions – Donner du dynamisme à vos présentations\n- Découvrir les animations pour rendre vos diapositives interactives et attrayantes.\n- Apprendre à utiliser les transitions pour passer d’une diapositive à l’autre avec fluidité et impact.\n- Maîtriser l’animation avancée pour synchroniser le contenu de vos diapositives avec votre discours.\n### Module 4 : Intégration de médias – Enrichir vos présentations avec des éléments multimédias\n- Apprendre à insérer des vidéos, des sons, et des liens hypertextes pour capter l’attention de votre audience.\n- Utiliser les graphiques et tableaux pour visualiser des données complexes de manière claire et concise.\n- Maîtriser l’exportation de votre présentation avec les éléments multimédias intégrés pour garantir leur lecture sur tous supports.\n### Module 5 : Collaboration et révision – Travailler en équipe sur une présentation\n- Utiliser les outils de révision pour ajouter des commentaires et apporter des modifications en équipe.\n- Apprendre à collaborer en temps réel sur des présentations partagées via OneDrive ou Google Drive.\n- Découvrir les options de suivi des modifications et de validation pour garantir la cohérence du contenu.\n### Module 6 : Présentation et diffusion – Parfaire votre communication orale et visuelle\n- Maîtriser le mode présentateur pour gérer vos notes et vos diapositives de manière fluide pendant votre discours.\n- Apprendre à adapter votre présentation pour différents formats : en ligne, imprimée, ou vidéo.\n- Utiliser les options de diffusion (PDF, vidéo, enregistrement vocal) pour partager efficacement vos présentations avec votre audience.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Réunion d’équipe, rendez-vous client, point d’avancement : ce parcours vous apprend à construire avec PowerPoint, ou un autre logiciel de présentation, des supports qui servent votre propos. Vous structurez vos idées, choisissez les bons visuels, dosez les animations et préparez la certification ICDL."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Formation préparant à la certification ICDL, mobilisable avec votre CPF (participation forfaitaire à votre charge, sauf exonération) ou financée par votre OPCO ou votre employeur"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": "ICDL",
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

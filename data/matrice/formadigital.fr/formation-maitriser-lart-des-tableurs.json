@@ -1,0 +1,62 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-maitriser-lart-des-tableurs/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation Excel et tableurs : analyser ses données et préparer l’ICDL",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Acquisition des connaissances simples pour comprendre et utiliser l’outil Excel tant au niveau personnel que professionnel.",
+  "prerequis": "Avoir des connaissances en fonction de calculs simples.",
+  "public": null,
+  "objectifs": [
+    "Maîtrise du Tri de Données : Apprenez à organiser méthodiquement les données d’une base, une compétence essentielle pour gérer et interpréter efficacement de grands ensembles d’informations.",
+    "Recherche Avancée avec Filtres : Développez l’aptitude à localiser des informations spécifiques à l’aide des filtres, une technique cruciale pour l’analyse de données rapide et précise.",
+    "Application des Sous-Totaux : Acquérez la compétence d’utiliser les sous-totaux pour une analyse segmentée et détaillée, améliorant la compréhension des tendances et des patterns dans les données.",
+    "Compétences en Calcul Mathématique : Renforcez votre capacité à effectuer des calculs mathématiques complexes, un atout indispensable pour toute analyse de données numériques.",
+    "Création de Graphiques et Tableaux : Maîtrisez l’utilisation de graphiques, tableaux et autres outils d’Excel pour visualiser les données de manière efficace et attrayante."
+  ],
+  "points_forts": "- **Approche Intégrée et Contextualisée :** Ce cours est spécialement conçu pour lier les aspects techniques et pratique de la maîtrise des tableurs, assurant ainsi que les participants peuvent immédiatement mettre en pratique les compétences acquises dans leurs environnements professionnels.\n- **Contenu Sur-Mesure :** Adaptation du contenu aux besoins spécifiques des participants, en fonction de leur domaine d’activité. Cela permet une pertinence accrue et une application directe des compétences en tableur.\n- **Évaluation Continue et Feedback Personnalisé :** Des évaluations régulières et des retours constructifs sont intégrés tout au long du parcours pour suivre les progrès des participants et ajuster l’approche pédagogique si nécessaire.\n- **Formateurs Expérimentés :** Nos formateurs possèdent une connaissance approfondie de l’ensemble des logiciels de tableurs",
+  "modalites": "- **Méthodes d’Enseignement Actives et Participatives :** Utilisation de techniques telles que la pédagogie de projet, les ateliers pratiques pour encourager l’interaction et l’engagement actif des participants.\n- **Entretien et Test de Positionnement :** Entretien initial avec votre formateur pour déterminer au mieux le contenu de la formation selon votre expérience et vos objectifs professionnels.\n- **Préparation et Passage à la Certification :** Préparation au passage de certifications reconnues dans le domaine de la maîtrise des tableurs.",
+  "programme_md": "### Module 1 : Introduction aux tableurs et à leur interface\n- Découverte de l’interface utilisateur : Exploration des menus, barres d’outils, et personnalisation de l’environnement de travail.\n- Création et gestion des fichiers : Apprendre à ouvrir, fermer, sauvegarder, et organiser les feuilles de calcul.\n- Saisie et formatage de base des données : Techniques de saisie rapide, utilisation des formats de cellules, et mise en place des styles pour améliorer la lisibilité des données.\n### Module 2 : Manipulation de données de base\n- Fonctions essentielles : Utilisation des fonctions de base telles que SOMME, MOYENNE, et MAX pour le calcul de données.\n- Tri et filtrage des données : Techniques pour organiser et extraire les données pertinentes.\n- Introduction aux tableaux croisés dynamiques : Création simple de tableaux pour résumer et analyser des ensembles de données volumineux.\n### Module 3 : Formules avancées et fonctions\n- Fonctions complexes et conditionnelles : Approfondissement avec des fonctions telles que SI, RECHERCHEV/H et les fonctions imbriquées.\n- Gestion des erreurs dans les formules : Techniques pour trouver et corriger les erreurs courantes dans les formules.\n- Automatisation des calculs : Utilisation de formules matricielles pour traiter des données en masse et simplifier les opérations complexes.\n### Module 4 : Analyse de données avancée\n- Utilisation avancée des tableaux croisés dynamiques : Techniques pour personnaliser, grouper des données, et utiliser des segments pour une analyse détaillée.\n- Graphiques et visualisation de données : Création de graphiques avancés pour une représentation graphique des tendances et analyses.\n- Introduction à l’analyse prédictive : Bases de l’utilisation des fonctions statistiques et de modélisation pour prévoir des tendances.\n### Module 5 : Automatisation avec les macros\n- Introduction aux macros : Bases de la création et de l’utilisation de macros pour automatiser des tâches répétitives.\n- Écriture de scripts simples en VBA : Techniques de programmation de base pour personnaliser des fonctions dans les tableurs.\n- Intégration et interaction avec d’autres applications : Automatiser le flux de travail entre les tableurs et d’autres logiciels de bureautique.\n### Module 6 : Collaboration et partage\n- Techniques de partage et de protection des données : Méthodes pour partager des feuilles de calcul tout en protégeant les informations sensibles.\n- Collaboration en temps réel : Utilisation des outils de collaboration pour travailler simultanément sur des documents avec d’autres utilisateurs.\n- Préparation à l’audit et à la révision : Comment préparer des feuilles de calcul pour la révision par des tiers, incluant des annotations et le suivi des modifications.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Listes de clients, suivi de factures, budgets, tableaux de bord : ce parcours vous apprend à organiser, analyser et présenter vos chiffres avec Excel ou un autre tableur. Vous travaillez les formules, les graphiques, les tableaux croisés dynamiques et les fonctions avancées, et vous préparez la certification ICDL."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Formation préparant à la certification ICDL, mobilisable avec votre CPF (participation forfaitaire à votre charge, sauf exonération) ou financée par votre OPCO ou votre employeur"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "À l’issue de cette formation, vous aurez acquis les compétences nécessaires pour concevoir, gérer et exploiter des tableaux de calculs avancés sur tableur vous permettant d’analyser et de présenter des données de manière professionnelle et intuitive."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "points_forts",
+    "programme_md"
+  ],
+  "certification": "ICDL",
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

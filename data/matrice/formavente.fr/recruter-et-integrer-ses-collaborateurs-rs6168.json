@@ -1,0 +1,59 @@
+{
+  "lien": "https://formavente.fr/formation/recruter-et-integrer-ses-collaborateurs-rs6168/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Recruter et intégrer ses collaborateurs",
+  "image": "https://formavente.fr/images/2025/05/WhatsApp-Image-2025-05-27-at-1.08.00-PM-1.jpeg",
+  "niveau": "Attestation de fin de formation",
+  "tarif": "À partir de 2900 € – financement possible",
+  "duree": "À définir",
+  "objectif_court": "Recruter et intégrer efficacement de nouveaux collaborateurs.",
+  "prerequis": "Avoir un projet professionnel en lien avec les métiers des RH et du recrutement",
+  "public": null,
+  "objectifs": [
+    "Définir les critères de recrutement en fonction des besoins de l’entreprise, des missions et du poste de travail et élaborer une grille de décision structurée afin de cibler les compétences des candidats.",
+    "Diffuser une offre de recrutement engageante sur les canaux de recrutement variés pour attirer les profils adaptés en s’aidant des outils digitaux.",
+    "Mener un entretien de recrutement chaleureux et structuré pour faire émerger les potentiels du candidat, afin de sélectionner un candidat adapté au poste, dans le respect des règles de non-discrimination et d’inclusion.",
+    "Présenter les atouts de l’entreprise et du poste de manière convaincante afin d’encourager le candidat à rejoindre l’entreprise.",
+    "Intégrer le collaborateur au sein de l’équipe en créant des moments dédiés pour le motiver et créer une ambiance favorable au travail.",
+    "Accueillir et accompagner les collaborateurs en situation de handicap en mettant en place les aménagements et conditions de travail nécessaires pour favoriser l’intégration et la performance."
+  ],
+  "points_forts": null,
+  "modalites": "Formation hybride : modules e-learning, classes virtuelles, ateliers pratiques et accompagnement personnalisé.",
+  "programme_md": "### Module 1 : Définir le besoin et le profil recherché\n- Analyser la stratégie et les compétences clés à acquérir.\n- Rédiger le profil de poste et la grille de sélection.\n- Sécuriser un processus décisionnel impartial et inclusif.\n### Module 2 : Attirer les talents\n- Rédiger une annonce engageante et accessible.\n- Sélectionner les canaux (job‑boards, réseaux, cooptation).\n- Exploiter les outils digitaux pour élargir le vivier de candidats.\n### Module 3 : Conduire l’entretien de recrutement\n- Préparer un guide structuré basé sur les compétences (STAR, DISC, etc.).\n- Mener l’entretien avec écoute active et questionnement ciblé.\n- Évaluer soft skills en limitant biais et discrimination.\n### Module 4 : Convaincre et conclure\n- Valoriser la proposition employeur et les perspectives d’évolution.\n- Répondre aux objections candidat de manière transparente.\n- Sécuriser l’engagement et formaliser l’offre.\n### Module 5 : Réussir l’onboarding\n- Concevoir un parcours d’accueil sur 90 jours.\n- Mettre en place mentor, ressources et rituels de feedback.\n- Mesurer la satisfaction et ajuster l’intégration.\n### Module 6 : Intégration inclusive & handicap\n- Connaître le cadre légal et les aides mobilisables.\n- Adapter le poste et l’environnement de travail.\n- Sensibiliser l’équipe pour favoriser l’inclusion durable.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Recruter et intégrer efficacement de nouveaux collaborateurs."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

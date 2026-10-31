@@ -1,0 +1,59 @@
+{
+  "lien": "https://formabientre.fr/formation/massage-lomi",
+  "site": "formabientre.fr",
+  "marque": "formabienetre",
+  "titre": "Massage Lomi Lomi : devenir praticien",
+  "image": "https://formabientre.fr/assets/formation-lomi-Y81MH1iC.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 1800 €",
+  "duree": "21h (14h online + 7h présentiel)",
+  "objectif_court": null,
+  "prerequis": null,
+  "public": null,
+  "objectifs": [
+    "Réaliser une séance complète de Lomi Lomi, des passages fluides de base aux enchaînements avancés",
+    "Présenter à un client l'origine hawaïenne du soin et les valeurs qui guident ses gestes",
+    "Adapter le déroulé de la séance à l'état physique et émotionnel exprimé par le receveur",
+    "Conduire des séquences de détente qui réduisent les signes de stress observés chez le client",
+    "Proposer le Lomi Lomi en cabinet, à domicile ou en spa en respectant le cadre d'exercice du praticien"
+  ],
+  "points_forts": null,
+  "modalites": null,
+  "programme_md": "### Module 1 : D'où vient le Lomi Lomi\n- Retracer l'histoire du soin à Hawaï et ce qui a changé depuis ses débuts\n- Relier chaque geste aux valeurs hawaïennes qui l'inspirent\n- Expliquer simplement à un futur client ce que le soin apporte au corps et au mental\n### Module 2 : Le corps du receveur, repères d'anatomie\n- Repérer sur un partenaire les muscles et articulations sollicités par les passages longs\n- Localiser au toucher les zones contractées et les points gâchettes fréquents\n- Mener un court entretien d'accueil pour cerner les attentes et les limites du client\n### Module 3 : Les gestes de base sur table\n- Enchaîner les grands effleurages fluides, mains puis avant-bras\n- Caler le rythme de vos mouvements sur votre souffle et celui du receveur\n- Préparer la cabine et l'huile pour que le client soit installé au chaud et à l'aise\n### Module 4 : Aller plus loin et personnaliser\n- Ajouter des manœuvres avancées ciblées sur une zone gênée\n- Moduler la séance selon la morphologie, la forme du jour et les goûts du client\n- Guider le receveur vers une détente profonde et un rééquilibrage en fin de séance\n### Module 5 : Séances encadrées et cas réels\n- Donner des séances complètes sous le regard du formateur\n- Étudier des situations de clients pour choisir la conduite de séance adaptée\n- Corriger votre technique à partir des retours reçus en binôme\n### Module 6 : S'installer comme praticien\n- Situer ce que la loi et la déontologie autorisent au praticien en massage bien-être\n- Soigner l'accueil, l'écoute et le suivi pour fidéliser vos premiers clients\n- Bâtir votre projet professionnel autour du Lomi Lomi comme soin phare",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Le Lomi Lomi est un massage hawaïen aux mouvements longs et enveloppants, réalisés avec les mains et les avant-bras, en rythme avec la respiration. Cette formation s'adresse à vous si vous préparez une reconversion ou l'ouverture d'un cabinet de bien-être et cherchez un soin qui marque vos clients. Vous partez de zéro, puis vous apprenez à conduire une séance entière et à l'adapter à la personne allongée sur votre table."
+    },
+    {
+      "rubrique": "Note",
+      "contenu": "5/5 ⭐"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "niveau",
+    "Note",
+    "objectifs",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Objectif",
+    "Pré-requis",
+    "Public cible",
+    "Points forts",
+    "Modalités pédagogiques",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

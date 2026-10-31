@@ -1,0 +1,74 @@
+{
+  "lien": "https://formatrix.fr/formation/bureautique/formation-creer-et-administrer-son-site/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Créer et administrer son site",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/site-internet-1024x860.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2400 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Savoir comment créer un site WEB à votre image",
+  "prerequis": "Savoir manipuler internet",
+  "public": null,
+  "objectifs": [
+    "Définir sa stratégie de communication digitale",
+    "Identifier les fonctionnalités attendues",
+    "Créer une documentation fonctionnelle & technique permettant d’assurer le développement",
+    "Sélectionner et installer un thème WordPress ou un page builder",
+    "Configurer et administrer son site avec WordPress et les extensions adaptées",
+    "Créer des contenus écrits et visuels pour alimenter le site",
+    "Générer du trafic sur le site via la mise en place ou l’optimisation de leviers webmarketing (réseaux sociaux, emailing, référencement naturel & payant… )",
+    "À l’issue de la formation, vous serez en mesure de publier votre propre site WEB."
+  ],
+  "points_forts": "- **Approche Intégrée et Contextualisée :** Ce cours est spécialement conçu pour lier les aspects techniques et créatifs de la création de sites web, assurant ainsi que les participants peuvent immédiatement mettre en pratique les compétences acquises dans leurs environnements professionnels.\n**Contenu Sur-Mesure :** Adaptation du contenu aux besoins spécifiques des participants, en fonction de leur domaine d’activité. Cela permet une pertinence accrue et une application directe des compétences en développement web.\n- **Évaluation Continue et Feedback Personnalisé :** Des évaluations régulières et des retours constructifs sont intégrés tout au long du parcours pour suivre les progrès des participants et ajuster l’approche pédagogique si nécessaire.\n- **Formateurs Expérimentés :** Nos formateurs possèdent une connaissance approfondie des technologies web et des pratiques de design modernes.",
+  "modalites": "- **Méthodes d’Enseignement Actives et Participatives :** Utilisation de techniques telles que la pédagogie de projet, les ateliers pratiques, et les revues de code pour encourager l’interaction et l’engagement actif des participants.\n- **Entretien et Test de Positionnement :** Entretien initial avec votre formateur pour déterminer au mieux le contenu de la formation selon votre expérience et vos objectifs professionnels.\n- **Préparation et Passage à la Certification :** Préparation au passage de certifications reconnues dans le domaine du développement web, garantissant une validation professionnelle de vos compétences.",
+  "programme_md": "### Module 1: Introduction à WordPress\n- **Comprendre WordPress** : Découvrez l’histoire et l’évolution de WordPress, pourquoi il est devenu la plateforme de choix pour les créateurs de contenu, et comment il se distingue des autres systèmes de gestion de contenu (CMS).\n- **Installation et configuration** : Apprenez à installer WordPress sur un hébergement local et en ligne, à naviguer dans son tableau de bord, et à configurer les paramètres essentiels pour un démarrage réussi.\n- **Principes de base de la publication** : Maîtrisez les outils de création de contenu de WordPress, y compris les articles et les pages, et découvrez comment organiser votre contenu avec des catégories et des étiquettes.\n### Module 2: Thèmes et Personnalisation Visuelle\n- **Sélection et installation de thèmes** : Explorez la vaste bibliothèque de thèmes WordPress pour trouver celui qui convient parfaitement à votre vision, apprenez à l’installer et à l’activer.\n- **Personnalisation du thème** : Utilisez le personnalisateur de thème pour ajuster les couleurs, les polices, et les dispositions, créant ainsi une apparence unique pour votre site.\n- **Widgets et Menus** : Intégrez des fonctionnalités supplémentaires à votre site avec des widgets, et créez des menus de navigation pour aider vos visiteurs à explorer votre site.\n### Module 3: Extensions et Fonctionnalités\n- **Introduction aux plugins** : Découvrez le rôle crucial des plugins dans l’extension des fonctionnalités de WordPress et comment choisir les bons pour votre site.\n- **Installation et gestion des plugins** : Apprenez à installer, activer, et mettre à jour les plugins, tout en gérant les conflits potentiels entre eux.\n- **Plugins essentiels** : Explorez quelques plugins incontournables pour la sécurité, le SEO, la sauvegarde, et l’amélioration de la performance de votre site.\n### Module 4: Gestion de Contenu Avancée\n- **Types de contenu personnalisés** : Créez des types de contenu sur mesure pour votre site, permettant une organisation et une présentation plus sophistiquées du contenu.\n- **Champs personnalisés** : Apprenez à ajouter des informations supplémentaires et spécifiques à vos articles et pages avec des champs personnalisés.\n- **Taxonomies personnalisées** : Organisez efficacement votre contenu avec des taxonomies personnalisées, au-delà des catégories et étiquettes standards.\n### Module 5: SEO et Analytiques\n- **Optimisation pour les moteurs de recherche** : Appliquez les meilleures pratiques de SEO pour améliorer la visibilité de votre site dans les résultats de recherche, y compris l’optimisation des titres, des descriptions, et l’utilisation des mots-clés.\n- **Google Analytics** : Intégrez Google Analytics à votre site WordPress pour suivre et analyser le trafic de votre site, comprendre le comportement des visiteurs, et améliorer l’engagement.\n- **Amélioration de la performance** : Augmentez la vitesse de chargement de votre site et optimisez l’expérience utilisateur en compressant les images, en utilisant des plugins de cache, et en minimisant les scripts.\n### Module 6: Sécurité et Maintenance\n- **Sécurisation de votre site WordPress** : Mettez en place des stratégies de sécurité robustes pour protéger votre site contre les logiciels malveillants, les hacks, et les autres vulnérabilités.\n- **Sauvegarde et restauration** : Apprenez les meilleures pratiques pour sauvegarder régulièrement votre site et comment restaurer votre contenu en cas de problème.\n- **Mise à jour et maintenance** : Développez une routine de maintenance pour garder votre site à jour avec les dernières versions",
+  "resultats_attendus": null,
+  "evaluation": "Examen 100% à distance\nTest en ligne automatisé et sécurisé permettant l’évaluation des compétences en s’appuyant sur une mise en situation de cas pratiques et soumis aux conditions de passage d’examen imposées par la Fondation ICDL (surveillance obligatoire par un Examinateur ICDL, sans supports)\nDurée : 35 minutes. Nombre de questions : 36. Barre de succès : 75% de bonnes réponses",
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "De l’idée au site web opérationnel, notre formation “Créer et administrer son site” vous guide étape par étape pour concevoir un site internet professionnel. Apprenez à utiliser des outils comme WordPress, gérer les thèmes et plugins, personnaliser le design, optimiser les performances et assurer la sécurité de votre site. Que ce soit pour un blog personnel, un site vitrine d’entreprise ou une boutique en ligne, cette formation est idéale pour les débutants souhaitant développer leur présence sur le web sans connaissances techniques."
+    },
+    {
+      "rubrique": "Passage de la certification",
+      "contenu": "- En vous formant au CMS WordPress vous passerez **la certification PCIE** -RS6560 –date d’enregistrement 27-03-2024 valide la capacité d’individus à créer et modifier un site web professionnel disposant de pages web pouvant inclure des hyperliens, des tableaux, des images Web et des formulaires, à l’aide d’une application d’édition de site web.Test en ligne automatisé s’appuyant sur une mise en situation de cas pratiques, permettant l’évaluation des compétences et soumis aux conditions de passage d’examen imposées par la Fondation ICDL (surveillance obligatoire, sans support, )\n- Formatrix vous accompagne et vous propose une date à votre convenance pour passer la certification visée.\nExamen de certification obligatoire et inclus dans le prix de la formation"
+    },
+    {
+      "rubrique": "Déroulement des sessions avec votre formateur",
+      "contenu": "Nous proposons des sessions de formation en visioconférence via Google Meet ou Zoom offrant une expérience d’apprentissage interactive et personnalisée, adaptées à votre propre rythme.\nChaque session avec votre formateur, sélectionné selon votre projet de formation pour un suivi sur mesure. Vous pouvez planifier ces sessions individuelles selon votre disponibilité, 6 jours sur 7, de 9h à 20h.\nPour une meilleure assimilation, l’approche pédagogique est axée sur la pratique, comprenant des exercices et des études de cas spécialement adaptés à votre projet.\nLes échanges par mail avec votre formateur dédié et votre coordinatrice pédagogique sont illimités, facilitant ainsi un accompagnement continu et efficace."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\nEligible : la certification PCIE – Edition de site web – RS6560 –date d’enregistrement 27-03-2024 . Utilisation d’un logiciel d’édition de site web (ICDL – PCIE)- valable jusqu’au 27/03/2026\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md",
+    "resultats_attendus",
+    "Passage de la certification",
+    "evaluation",
+    "Déroulement des sessions avec votre formateur",
+    "Informations relatives à la certification"
+  ],
+  "certification": "ICDL",
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Résultats attendus (rubrique présente mais vide)",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

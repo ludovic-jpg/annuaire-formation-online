@@ -1,0 +1,83 @@
+{
+  "lien": "https://skills4mation.com/formations/vente-b2b-developper-ses-competences-commerciales",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Vente B2B – Développer ses compétences commerciales",
+  "image": "https://skills4mation.com/images/formations/vente-b2b-developper-ses-competences-commerciales.webp",
+  "niveau": "Niveau 5 (équivalent Bac+2)",
+  "tarif": "A partir de 2 490 €",
+  "duree": "96 heures (12 semaines)",
+  "objectif_court": "Acquérir les compétences nécessaires pour vendre efficacement des produits ou services en B2B, en maîtrisant l'ensemble du processus de vente, de la prospection à la conclusion et au suivi",
+  "prerequis": "Minimum 2 ans d'expérience professionnelle",
+  "public": null,
+  "objectifs": [
+    "Rédiger un argumentaire de prospection et de vente",
+    "Développer et gérer un portefeuille de prospects",
+    "Réaliser une approche diagnostic des besoins clients",
+    "Conduire des entretiens de vente structurés",
+    "Conclure des ventes en instaurant la confiance",
+    "Mettre en place un processus de suivi des ventes"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en distanciel\n- Accompagnement personnalisé par un formateur expert\n- Mises en situation professionnelles\n- Accès à une plateforme pédagogique avec ressources numériques",
+  "programme_md": "### Module 1 : Comprendre les fondamentaux de la vente B2B\n- Identifier les spécificités du cycle de vente en environnement B2B.\n- Différencier les typologies de clients et leurs processus décisionnels.\n- Intégrer les enjeux stratégiques de la vente complexe dans sa posture commerciale.\n### Module 2 : Préparer efficacement ses actions commerciales\n- Analyser son portefeuille clients et segmenter ses cibles avec pertinence.\n- Construire un argumentaire commercial structuré et adapté à la cible B2B.\n- Définir des objectifs SMART pour ses rendez-vous et campagnes de prospection.\n### Module 3 : Prospecter et obtenir des rendez-vous qualifiés\n- Développer des scripts d’appel et d’e-mails percutants pour capter l’attention.\n- Utiliser LinkedIn et les outils digitaux pour générer des leads en B2B.\n- Mettre en œuvre des relances efficaces sans être intrusif.\n### Module 4 : Mener un entretien de vente performant\n- Créer une relation de confiance dès les premières minutes de l’échange.\n- Utiliser la méthode de découverte (QQOQCCP, SONCAS, SPIN…) pour qualifier les besoins.\n- Reformuler et structurer son offre en lien avec les attentes du client.\n### Module 5 : Argumenter, traiter les objections et conclure\n- Adapter son discours de valeur en fonction des enjeux et profils clients.\n- Répondre aux objections avec assertivité et professionnalisme.\n- Saisir les signaux d’achat et conclure de manière engageante et naturelle.\n### Module 6 : Suivre, fidéliser et développer son portefeuille client\n- Mettre en place un plan de suivi post-vente pour pérenniser la relation client.\n- Identifier les opportunités de ventes croisées ou additionnelles.\n- Construire une stratégie de fidélisation basée sur la satisfaction client.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Acquérir les compétences nécessaires pour vendre efficacement des produits ou services en B2B, en maîtrisant l'ensemble du processus de vente, de la prospection à la conclusion et au suivi"
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- 5"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/rh-management/formation-innover-grace-au-design-thinking/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Innover grâce au Design Thinking",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-design-thinking.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2400 € - Financement possible",
+  "duree": "A partir de 10 H de formation",
+  "objectif_court": "Améliorer votre capacité d’innovation grâce à l’intelligence collective",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Comprendre les fondements et les principes du Design Thinking.",
+    "Apprendre à appliquer le processus du Design Thinking à des problèmes réels.",
+    "Développer des compétences d’empathie pour mieux comprendre les utilisateurs.",
+    "Stimuler la créativité et l’innovation au sein des équipes.",
+    "Maîtriser les techniques de prototypage rapide et de tests d’idées."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation pour des groupes entre 4 et 12 personnes.\nFormation en présentiel ou à distance\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction au Design Thinking\n- Définir le Design Thinking et ses principes clés.\n- Comprendre l’importance de l’empathie dans le processus créatif.\n- Explorer l’histoire et l’évolution du Design Thinking.\n### Module 2 : L’Empathie comme Fondement de l’Innovation\n- Apprendre à mener des recherches basées sur l’empathie.\n- Techniques pour observer et interpréter les besoins des utilisateurs.\n- Construire des personas et des parcours utilisateurs.\n### Module 3 : Idéation et Créativité\n- Techniques de brainstorming et de pensée divergente.\n- Organiser des sessions d’idéation efficaces.\n- Sélectionner et affiner les idées.\n### Module 4 : Prototypage et Tests\n- Principes du prototypage rapide.\n- Construire des prototypes fonctionnels.\n- Tester les prototypes avec les utilisateurs et collecter des feedbacks.\n### Module 5 : Implémentation et Itération\n- Stratégies pour l’implémentation des solutions.\n- Approches itératives pour le développement de produits/services.\n- Gérer le feedback et l’évolution du projet.\n### Module 6 : Design Thinking dans le Leadership et la Culture d’Entreprise\n- Intégrer le Design Thinking dans les stratégies d’entreprise.\n- Cultiver une culture d’innovation.\n- Cas d’étude : entreprises ayant réussi grâce au Design Thinking.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Développez votre capacité à innover en utilisant le Design Thinking. Apprenez à résoudre des problèmes complexes en impliquant vos équipes dans une démarche centrée sur l’empathie, la créativité et la collaboration. Maîtrisez les étapes du processus : immersion, idéation, prototypage et test, pour transformer vos défis en opportunités concrètes d’innovation."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

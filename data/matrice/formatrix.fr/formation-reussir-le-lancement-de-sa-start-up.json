@@ -1,0 +1,63 @@
+{
+  "lien": "https://formatrix.fr/formation/creation-dentreprise/formation-reussir-le-lancement-de-sa-start-up/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Réussir le lancement de sa start Up!",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/1-1024x915.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "réussir le lancement de sa Start Up",
+  "prerequis": "Qvoir un projet de Start Up",
+  "public": null,
+  "objectifs": [
+    "– Comprendre l’écosystème entrepreneurial et les facteurs clés de succès d’une start-up.",
+    "– Élaborer un plan d’affaires solide et réaliste.",
+    "– Maîtriser les stratégies de financement et de levée de fonds.",
+    "– Développer des compétences en marketing et communication pour promouvoir efficacement la start-up.",
+    "– Apprendre à construire et gérer une équipe performante.",
+    "– Analyser le marché et adapter son offre aux besoins des clients.",
+    "– Anticiper et gérer les risques et les défis du lancement d’une entreprise.",
+    "Ce parcours offre les outils et connaissances essentiels pour transformer une idée innovante en une entreprise prospère. En vous inscrivant, vous franchirez une étape cruciale vers la réalisation de votre rêve entrepreneurial, équipé pour surmonter les défis et saisir les opportunités du monde des start-ups."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "**1. Comprendre l’Écosystème Entrepreneurial**\n– Analyser le paysage actuel des start-ups et les tendances du marché.\n– Identifier les défis et opportunités spécifiques aux start-ups.\n– Comprendre les dynamiques de financement et d’investissement pour les jeunes entreprises.\n- **Élaboration d’un Plan d’Affaires Efficace**\n– Développer un business model viable et innovant.\n– Construire un plan financier robuste.\n– Créer une proposition de valeur unique et un plan marketing stratégique.\n- **Stratégies de Financement et Levée de Fonds**\n– Naviguer dans les différentes options de financement disponibles pour les start-ups.\n– Préparer et présenter efficacement des pitchs aux investisseurs.\n– Comprendre les aspects légaux et contractuels de la levée de fonds.\n- **Marketing et Communication pour le Lancement**\n– Développer une stratégie de marketing digitale adaptée.\n– Utiliser les réseaux sociaux et autres canaux de communication pour atteindre le public cible.\n– Construire une marque forte et reconnaissable.\n- **Gestion d’Équipe et Leadership**\n– Recruter et gérer une équipe talentueuse et motivée.\n– Instaurer une culture d’entreprise positive et productive.\n– Développer des compétences de leadership adaptées à un environnement de start-up.\n- **Planification et Gestion des Risques**\n– Identifier et atténuer les risques potentiels liés au lancement de la start-up.\n– Mettre en place des stratégies pour gérer les imprévus et les changements.\n– Apprendre à pivoter et s’adapter dans un environnement en constante évolution.\nCe programme est conçu pour fournir aux entrepreneurs les compétences, les outils et les connaissances nécessaires pour transformer une idée innovante en une entreprise prospère.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à transformer votre projet en start-up réussie. Découvrez les étapes clés : validation du concept, business plan, financement, développement de produit et lancement sur le marché. Cette formation pratique vous donne les outils pour structurer votre entreprise, attirer vos premiers clients et naviguer dans un environnement compétitif."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

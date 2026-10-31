@@ -1,0 +1,64 @@
+{
+  "lien": "https://formatrix.fr/formation/metier-specifique/formation-photographie/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Photographie – Maîtrisez l’art de la photographie",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-photographe.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Maîtrisez l’art de la photographie",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les fonctionnalités avancées de votre appareil photo et choisir les réglages optimaux pour chaque situation",
+    "Composer des images esthétiquement équilibrées en appliquant les principes fondamentaux de la composition photographique",
+    "Manipuler la lumière naturelle et artificielle pour créer l’ambiance désirée dans vos photographies",
+    "Utiliser les logiciels de post-traitement pour retoucher et sublimer vos images de manière professionnelle",
+    "Développer un style photographique personnel et construire un portfolio cohérent reflétant votre créativité"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Fondamentaux de la photographie\n- Comprendre le fonctionnement d’un appareil photo et ses composants essentiels\n- Maîtriser l’exposition : ouverture, vitesse d’obturation et sensibilité ISO\n- Explorer les différents types d’objectifs et leur utilisation\n### Module 2 : Composition et cadrage\n- Appliquer les règles de composition (règle des tiers, lignes directrices, symétrie)\n- Utiliser la profondeur de champ pour créer des images percutantes\n- Expérimenter avec différents angles de vue et perspectives\n### Module 3 : Maîtrise de la lumière\n- Comprendre et manipuler la lumière naturelle dans diverses conditions\n- Utiliser l’éclairage artificiel : flash, studio et éclairage continu\n- Créer des ambiances lumineuses pour différents genres photographiques\n### Module 4 : Genres photographiques\n- Pratiquer la photographie de paysage et d’architecture\n- Maîtriser les techniques du portrait et de la photographie de groupe\n- Explorer la photographie de rue et le reportage\n### Module 5 : Post-traitement et retouche\n- Utiliser les logiciels de traitement d’image (Lightroom, Photoshop)\n- Appliquer les techniques de base de retouche et de correction colorimétrique\n- Développer un flux de travail efficace pour le traitement des images\n### Module 6 : Développement professionnel\n- Construire un portfolio cohérent et attractif\n- Comprendre les aspects juridiques et éthiques de la photographie\n- Explorer les opportunités de carrière et les stratégies de marketing pour photographes",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Perfectionnez vos compétences en photographie en explorant les techniques avancées de prise de vue. Apprenez à maîtriser la lumière, la composition et les réglages essentiels pour capturer des clichés de qualité professionnelle. Découvrez l’art de la photographie portrait, paysage et événementielle pour raconter des histoires visuelles uniques. Que vous soyez débutant ou amateur confirmé, cette formation vous guide vers l’excellence artistique."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.8"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "À l’issue de cette formation, vous serez capable de"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

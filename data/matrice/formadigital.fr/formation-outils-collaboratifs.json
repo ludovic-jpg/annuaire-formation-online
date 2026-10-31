@@ -1,0 +1,62 @@
+{
+  "lien": "https://formadigital.fr/formation/formation-outils-collaboratifs/",
+  "site": "formadigital.fr",
+  "marque": "formadigital",
+  "titre": "Formation Teams, Slack et Trello : mieux travailler en équipe",
+  "image": "https://formadigital.fr/images/site/hero-home.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "À partir de 900 € - Financement possible",
+  "duree": "À déterminer selon votre niveau et objectif",
+  "objectif_court": "Améliorer la communication au sein de votre structure",
+  "prerequis": "Vouloir optimiser la communication au sein de sa structure",
+  "public": null,
+  "objectifs": [
+    "Décrire les usages des outils collaboratifs dans une équipe qui travaille au bureau, à distance ou en mode hybride.",
+    "Choisir les outils adaptés à votre équipe parmi les grandes familles : messagerie, gestion de tâches, édition partagée, stockage en ligne.",
+    "Utiliser au quotidien Teams, Slack, Trello et les suites Google Workspace ou Microsoft 365.",
+    "Organiser le travail d’équipe pour réduire les allers-retours d’e-mails et les pertes d’information.",
+    "Mettre en place des espaces partagés et un suivi commun de l’avancement des tâches."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Panorama des outils collaboratifs\n- Ce que change un outil collaboratif dans une équipe sur site, à distance ou hybride.\n- Les solutions courantes et leurs usages : Google Workspace, Microsoft 365, Slack, Trello.\n- L’intérêt d’un espace de travail unique pour suivre projets et équipes.\n### Module 2 : Piloter un projet dans Trello ou Asana\n- Créer des tâches, les attribuer et suivre leur avancement sur un tableau.\n- Découper un projet en phases et répartir le travail entre les membres de l’équipe.\n- Surveiller échéances et priorités avec les tableaux de bord et la vue calendrier.\n### Module 3 : Écrire à plusieurs sur le même document\n- Coproduire un texte, un tableau ou une présentation en simultané dans Google Docs ou Microsoft 365 en ligne.\n- Régler droits d’accès et partages pour que chacun voie ce qu’il doit voir.\n- Utiliser l’historique des versions et le suivi des modifications pour faire valider un document.\n### Module 4 : Centraliser les échanges dans Teams ou Slack\n- Remplacer une partie des e-mails internes par la messagerie instantanée.\n- Ouvrir des canaux par projet, par équipe ou par sujet.\n- Retrouver une information ancienne grâce à l’archivage et à la recherche dans les conversations.\n### Module 5 : Ranger et partager les fichiers dans le cloud\n- Organiser une arborescence commune dans Google Drive ou OneDrive.\n- Travailler sur des fichiers partagés sans écraser le travail des autres grâce à la gestion des versions.\n- Protéger les données sensibles et la confidentialité des documents partagés.\n### Module 6 : Automatiser les tâches répétitives\n- Connecter vos applications avec Zapier ou Power Automate pour supprimer des manipulations répétitives.\n- Construire un circuit de travail (workflow) qui raccourcit les délais de traitement.\n- Faire régulièrement le point avec l’équipe sur ce qui fonctionne et ajuster les règles d’usage.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Apprenez à utiliser des outils tels que Slack, Trello et Microsoft Teams pour améliorer la collaboration d’équipe, la gestion de projet et la communication professionnelle. Découvrez comment fluidifier le travail en équipe, organiser les tâches et optimiser les échanges, que vous soyez en télétravail ou au bureau."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- Financement possible selon votre situation : OPCO, plan de développement des compétences ou employeur"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "À la fin du parcours, vous utilisez ces outils avec méthode et savez les faire adopter par vos collègues ou vos clients."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

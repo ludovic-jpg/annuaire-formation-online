@@ -1,0 +1,61 @@
+{
+  "lien": "https://formatrix.fr/formation/metier-specifique/formation-oenologie/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Œnologie",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-oeneulogie-830x1024.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 € - Financement possible",
+  "duree": "A partir de 14 H de formation",
+  "objectif_court": "être en capacité de déguster le vin et de reconnaitre ses propriétés organoleptique",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "À l’issue de cette formation, vous serez capable de :",
+    "Identifier et décrire les caractéristiques organoleptiques des principaux cépages et appellations",
+    "Maîtriser les techniques de dégustation professionnelle et d’analyse sensorielle des vins",
+    "Expliquer les processus de vinification et leur impact sur les qualités du vin",
+    "Recommander des accords mets-vins pertinents en fonction des profils aromatiques",
+    "Évaluer la qualité et le potentiel de garde d’un vin à partir de ses propriétés organoleptique"
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en Distanciel ou présentiel selon vos convenances\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques orienté selon votre projet professionnel\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : Introduction à l’œnologie et aux fondamentaux du vin\n- Explorer l’histoire du vin et son importance culturelle\n- Comprendre les principes de base de la viticulture et de la vinification\n- Découvrir les principales régions viticoles du monde et leurs caractéristiques\n### Module 2 : Techniques de dégustation professionnelle\n- Maîtriser l’analyse visuelle, olfactive et gustative d’un vin\n- Développer un vocabulaire précis pour décrire les vins\n- S’entraîner à la reconnaissance des arômes et des saveurs\n### Module 3 : Cépages et terroirs\n- Identifier les principaux cépages et leurs caractéristiques organoleptiques\n- Comprendre l’influence du terroir sur les qualités du vin\n- Analyser les spécificités des grandes appellations françaises et internationales\n### Module 4 : Vinification et élevage\n- Approfondir les différentes méthodes de vinification (rouge, blanc, rosé)\n- Étudier l’impact des techniques d’élevage sur le profil du vin\n- Explorer les vins spéciaux (vins effervescents, vins doux naturels, vins de liqueur)\n### Module 5 : Accords mets et vins\n- Comprendre les principes fondamentaux des accords mets-vins\n- Expérimenter différentes combinaisons et analyser leur synergie\n- Élaborer des menus harmonieux en associant les plats et les vins\n### Module 6 : Conservation et service du vin\n- Maîtriser les conditions optimales de conservation et de vieillissement des vins\n- Apprendre les techniques de service adaptées à chaque type de vin\n- Gérer une cave personnelle ou professionnelle",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Explorez le monde du vin avec cette formation qui vous initie à la dégustation, aux accords mets-vins et aux subtilités des grands crus. Parfait pour les passionnés ou professionnels, ce programme vous aide à comprendre les régions viticoles, identifier les arômes et développer une véritable expertise œnologique."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

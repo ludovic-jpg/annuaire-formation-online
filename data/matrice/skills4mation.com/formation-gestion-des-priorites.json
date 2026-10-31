@@ -1,0 +1,85 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-gestion-des-priorites",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Gestion des priorités",
+  "image": "https://skills4mation.com/images/formations/formation-gestion-des-priorites.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 1400 €",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Mieux gérer ses priorités dans le cadre’ de son activité professionelle",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Identifier et classer efficacement les priorités professionnelles.",
+    "Appliquer des techniques de gestion du temps pour améliorer la productivité.",
+    "Maîtriser des outils et méthodes pour l’organisation des tâches.",
+    "Développer des stratégies pour gérer le stress lié à la surcharge de travail.",
+    "Renforcer les compétences en prise de décision rapide et efficace.",
+    "Cultiver la flexibilité et l’adaptabilité face aux changements de priorités.",
+    "Améliorer la communication interpersonnelle pour une gestion efficace des attentes.",
+    "Ce parcours “Gestion des Priorités” est un levier crucial pour tout professionnel aspirant à exceller dans un environnement dynamique et exigeant. En acquérant ces compétences essentielles, les participants se positionnent non seulement comme des gestionnaires de tâches compétents, mais aussi comme des leaders stratégiques capables d’orienter leur carrière et leur organisation vers le succès."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Identifier et Classer les Priorités Professionnelles\n- Comprendre et définir clairement les objectifs professionnels et personnels.\n- Distinguer entre les tâches urgentes et importantes.\n- Utiliser des outils de planification pour hiérarchiser les activités.\n### Appliquer les Techniques de Gestion du Temps\n- Planifier efficacement les tâches quotidiennes et à long terme.\n- Adopter des méthodes de gestion du temps comme la méthode Pomodoro ou la matrice Eisenhower.\n- Évaluer et ajuster régulièrement les stratégies de gestion du temps.\n### Maîtriser des Outils et Méthodes d’Organisation des Tâches\n- Utiliser des logiciels de gestion de tâches et des applications de calendrier.\n- Développer des checklists et des systèmes de suivi des tâches.\n- Prioriser les tâches en fonction de leur impact et des délais.\n### Développer des Stratégies pour Gérer le Stress\n- Appliquer des techniques de relaxation et de gestion du stress.\n- Identifier les signes de surmenage et mettre en place des stratégies préventives.\n- Équilibrer les charges de travail pour maintenir une performance optimale.\n### Renforcer les Compétences en Prise de Décision\n- Analyser rapidement les informations pour prendre des décisions efficaces.\n- Gérer les dilemmes et les situations ambigües.\n- Exercer un jugement critique pour évaluer les conséquences des choix.\n### Cultiver la Flexibilité et l’Adaptabilité\n- Adapter les plans et les stratégies face à des changements imprévus.\n- Développer une mentalité ouverte pour accepter et intégrer les retours d’information.\n- Réajuster les priorités en fonction de l’évolution du contexte professionnel.\n### Améliorer la Communication Interpersonnelle\n- Négocier et communiquer efficacement les priorités avec les parties prenantes.\n- Établir des attentes claires avec les collaborateurs et les supérieurs.\n- Gérer les conflits liés aux priorités et aux délais de manière constructive.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Améliorez votre organisation personnelle et optimisez votre productivité grâce à des méthodes de gestion du temps éprouvées. Apprenez à identifier les tâches prioritaires, distinguer l’urgent de l’important et établir des plans d’action clairs pour atteindre vos objectifs. Transformez vos journées surchargées en moments structurés et efficaces, tout en réduisant le stress lié aux délais."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

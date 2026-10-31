@@ -1,0 +1,70 @@
+{
+  "lien": "https://skills4mation.com/formations/charge-de-projet-evenementiel-bloc-de-competence-rncp34927bc03-bloc-de-competence-3-piloter-un-projet-evenementiel",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Chargé de projet événementiel – Bloc de compétence : RNCP34927BC03 – Bloc de compétence 3 : Piloter un projet événementiel",
+  "image": "https://skills4mation.com/images/formations/charge-de-projet-evenementiel-bloc-de-competence-rncp34927bc03-bloc-de-competence-3-piloter-un-projet-evenementiel.webp",
+  "niveau": "Niveau 6 (équivalent Bac+3/4) – Titre certifié RNCP",
+  "tarif": "A partir de 2 490 € - Financement possible",
+  "duree": "100 heures",
+  "objectif_court": "Acquérir les compétences nécessaires pour piloter, organiser et évaluer un projet événementiel, de la conception à la réalisation, en intégrant les dimensions budgétaires, logistiques, techniques et humaines.",
+  "prerequis": "Niveau 4 (Bac) minimum OU titre de niveau 5 (Bac+2) OU expérience de 3 ans dans la communication avec validation du certificateur",
+  "public": null,
+  "objectifs": [
+    "Acquérir les compétences nécessaires pour piloter, organiser et évaluer un projet événementiel, de la conception à la réalisation, en intégrant les dimensions budgétaires, logistiques, techniques et humaines."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en distanciel\n- Accompagnement personnalisé par un formateur expert\n- Mises en situation professionnelles\n- Accès à une plateforme pédagogique avec ressources numériques",
+  "programme_md": "### Module 1 : Concevoir un événement écoresponsable et structuré\n- Apprendre à planifier un événement dans une logique de durabilité, de communication visuelle et de maîtrise budgétaire.\n- Intégrer les principes de l’éco-conception dans la création d’un événement.\n- Créer des supports de communication numériques à l’aide d’outils graphiques professionnels.\n- Développer un site web événementiel en respectant les standards écoresponsables.\n- Sélectionner des prestataires et intervenants selon des critères de qualité et de cohérence avec le projet.\n- Organiser la logistique d’un événement via un calendrier détaillé et un plan opérationnel.\n### Module 2 : Déployer une stratégie de communication événementielle efficace\n- Mettre en place une communication multicanal adaptée aux objectifs de l’événement et aux publics visés.\n- Identifier les besoins du client et formuler des objectifs de communication pertinents.\n- Exploiter les réseaux sociaux et les leviers digitaux pour promouvoir l’événement.\n- Concevoir des actions de fidélisation comme des offres VIP ou des suivis personnalisés post-événement.\n- Intégrer une approche interculturelle dans la communication événementielle.\n- Élaborer un plan d’actions clair et structuré pour assurer la visibilité de l’événement.\n### Module 3 : Coordonner les acteurs et piloter l’exécution du projet\n- Savoir gérer les priorités, superviser les équipes et piloter les relations avec les partenaires.\n- Hiérarchiser les actions à mener selon les enjeux et les délais du projet.\n- Identifier, engager et animer les partenaires clés de l’événement.\n- Planifier et conduire les réunions avec les prestataires en assurant le suivi budgétaire.\n- Superviser et coordonner les équipes dans un esprit de collaboration et d’écoute active.\n- Gérer les conflits et améliorer la performance collective dans un contexte de pression opérationnelle.\n### Module 4 : Suivre les retombées et évaluer l’impact de l’événement\n- Mesurer l’efficacité du projet et proposer des axes d’amélioration pour les futurs événements.\n- Utiliser un tableau de bord pour analyser les écarts entre objectifs et résultats.\n- Suivre rigoureusement le budget événementiel et contrôler les dépenses.\n- Identifier les risques et mettre en place des mesures correctives tout au long du projet.\n- Réaliser un plan d’implantation technique en coordination avec les prestataires.\n- Organiser un débriefing post-événement et proposer un plan d’amélioration basé sur les retours participants.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

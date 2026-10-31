@@ -1,0 +1,60 @@
+{
+  "lien": "https://formavente.fr/formation/formation-batir-et-piloter-votre-plan-daction-commercial/",
+  "site": "formavente.fr",
+  "marque": "formavente",
+  "titre": "Formation Construire et piloter le plan d'action commercial de son équipe",
+  "image": "https://formavente.fr/images/2024/12/2.jpg",
+  "niveau": "Niveau 5 (équivalent Bac+2)",
+  "tarif": "À partir de 2400 € – financement possible",
+  "duree": "96 heures (12 semaines)",
+  "objectif_court": "Construire un plan d'action commercial chiffré, le déployer avec son équipe et l'ajuster selon les résultats.",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Étudier son marché et repérer les opportunités commerciales à saisir.",
+    "Formuler des objectifs commerciaux SMART pour son équipe ou son secteur.",
+    "Concevoir des stratégies commerciales adaptées à ses cibles, y compris des approches nouvelles.",
+    "Déployer le plan d'action sur le terrain avec méthode.",
+    "Mesurer et analyser les résultats commerciaux obtenus.",
+    "Corriger le plan d'action selon les retours du terrain et l'évolution du marché.",
+    "Diriger et animer l'équipe chargée de mettre le plan en œuvre."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1 : À quoi sert un plan d'action commercial\n- Expliquer pourquoi une équipe de vente a besoin d'un plan d'action écrit.\n- Lister les éléments indispensables d'un plan qui fonctionne.\n- Comparer les grandes familles de stratégies commerciales.\n### Module 2 : Lire son marché\n- Mener une analyse de marché sur son secteur ou sa zone.\n- Repérer les opportunités et les classer selon leur potentiel.\n- Situer sa position face aux concurrents avec une matrice SWOT.\n### Module 3 : Chiffrer les objectifs\n- Rédiger des objectifs commerciaux SMART.\n- Rattacher ces objectifs à la stratégie de l'entreprise.\n- Découper l'année en étapes et en jalons.\n### Module 4 : Passer à l'action\n- Choisir les actions de vente et de marketing pour chaque cible.\n- Intégrer les outils numériques au plan.\n- Prévoir les moyens nécessaires : équipe, budget, matériel.\n### Module 5 : Suivre le plan\n- Définir les KPI qui diront si le plan avance.\n- Décider à partir des données plutôt qu'à l'intuition.\n- Organiser des revues de résultats à date fixe.\n### Module 6 : Emmener l'équipe commerciale\n- Asseoir son leadership auprès des commerciaux.\n- Motiver l'équipe et entretenir son engagement sur la durée du plan.\n- Régler les conflits et maintenir une ambiance de travail saine.\n### Module 7 : Réajuster en cours de route\n- Exploiter les retours du terrain et les chiffres pour modifier le plan.\n- Anticiper les changements du marché et faire évoluer la stratégie.\n- Tester de nouvelles approches commerciales pour garder une longueur d'avance.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Construire un plan d'action commercial chiffré, le déployer avec son équipe et l'ajuster selon les résultats."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d'apprentissage optimale pour favoriser votre montée en compétences\n- Une formation adaptée à votre niveau après une évaluation\n- 100 % pris en charge via votre compte formation, OPCO, AGEFICE, FIFPL"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-ayurvedique/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Massage Ayurvédique",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/formation-ayurvedique-1024x879.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 900 € - Financement possible",
+  "duree": "A partir de 7 H de formation",
+  "objectif_court": "Maîtriser les techniques de massage ayurvédique",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Maîtriser les techniques fondamentales et avancées du massage ayurvédique.",
+    "Utiliser efficacement les huiles et les herbes traditionnelles dans la pratique du massage.",
+    "Comprendre les principes de l’Ayurveda et leur application dans les thérapies de bien-être.",
+    "Développer des compétences en évaluation des besoins spécifiques des clients pour des traitements personnalisés.",
+    "Acquérir les compétences nécessaires pour lancer et gérer une activité professionnelle en massage ayurvédique."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel dans le cadre des sessions proposés par notre formateur\n- Méthodes d’animation participatives : interactivité, exemples et mise en pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction à l’Ayurveda et aux Massages Ayurvédiques\n- Découvrir les origines et la philosophie de l’Ayurveda.\n- Comprendre les trois doshas : Vata, Pitta, et Kapha, et leur influence sur le corps et l’esprit.\n- Identifier les fondements du massage ayurvédique et ses bienfaits sur la santé.\n### Module 2: Anatomie et Physiologie pour le Massage Ayurvédique\n- Étudier l’anatomie humaine spécifique aux techniques de massage ayurvédique.\n- Explorer le système circulatoire et lymphatique pour améliorer les techniques de massage.\n- Comprendre les points marma et leur rôle dans le bien-être général.\n### Module 3: Techniques de Base du Massage Ayurvédique\n- Apprendre les mouvements de base du massage ayurvédique, y compris les techniques de pétrissage et de frictions.\n- Pratiquer le bon alignement et la posture pour exécuter les massages efficacement.\n- Maîtriser l’utilisation des huiles et des herbes spécifiques dans les massages.\n### Module 4: Techniques Avancées et Spécialisées\n- Développer des compétences en techniques avancées pour traiter des problèmes spécifiques de santé.\n- Utiliser des approches personnalisées en fonction du dosha et de l’état de santé du client.\n- Intégrer des éléments de détente profonde et de méditation dans la pratique du massage.\n### Module 5: Évaluation et Adaptation des Soins\n- Apprendre à évaluer les besoins des clients avant, pendant, et après les séances de massage.\n- Adapter les techniques de massage en fonction de l’évaluation continue du bien-être du client.\n- Développer un plan de traitement holistique qui inclut des conseils en nutrition et mode de vie ayurvédiques.\n### Module 6: Gestion et Marketing de votre Pratique de Massage Ayurvédique\n- Acquérir des compétences en gestion d’entreprise spécifiques à une pratique de bien-être.\n- Développer une stratégie de marketing efficace pour attirer et retenir une clientèle.\n- Comprendre les aspects légaux et éthiques de la pratique du massage professionnel.",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Maîtrisez les techniques du massage ayurvédique, une pratique ancestrale issue de la médecine indienne pour revitaliser le corps et équilibrer les énergies. Apprenez à utiliser les huiles essentielles, les gestes fluides et les pressions adaptées pour offrir une détente profonde et durable. Cette formation vous donne les compétences pour devenir un praticien expert en bien-être holistique."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n5"
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

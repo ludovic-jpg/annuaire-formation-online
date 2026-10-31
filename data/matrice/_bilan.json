@@ -1,0 +1,1329 @@
+{
+  "total": 180,
+  "par_site": {
+    "skills4mation.com": {
+      "pages": 56,
+      "sources": {
+        "html": 55,
+        "playwright": 1
+      },
+      "remplissage": {
+        "Niveau": 55,
+        "Tarif": 55,
+        "Durée": 55,
+        "Objectif": 55,
+        "Pré-requis": 56,
+        "Public cible": 6,
+        "Objectifs pédagogiques": 56,
+        "Points forts": 5,
+        "Modalités pédagogiques": 55,
+        "Programme": 56,
+        "Résultats attendus": 8,
+        "Modalités d'évaluation": 55,
+        "Accessibilité": 55,
+        "Délais d'accès": 55
+      },
+      "image": 56,
+      "cpf_true": 0,
+      "certification": {
+        "ICDL": 5,
+        "LILATE": 6
+      }
+    },
+    "formatrix.fr": {
+      "pages": 68,
+      "sources": {
+        "html": 68
+      },
+      "remplissage": {
+        "Niveau": 68,
+        "Tarif": 67,
+        "Durée": 68,
+        "Objectif": 68,
+        "Pré-requis": 67,
+        "Public cible": 3,
+        "Objectifs pédagogiques": 68,
+        "Points forts": 6,
+        "Modalités pédagogiques": 68,
+        "Programme": 68,
+        "Résultats attendus": 8,
+        "Modalités d'évaluation": 3,
+        "Accessibilité": 0,
+        "Délais d'accès": 0
+      },
+      "image": 66,
+      "cpf_true": 68,
+      "certification": {
+        "ICDL": 5,
+        "LILATE": 6
+      }
+    },
+    "formacompta.fr": {
+      "pages": 6,
+      "sources": {
+        "playwright": 6
+      },
+      "remplissage": {
+        "Niveau": 6,
+        "Tarif": 6,
+        "Durée": 6,
+        "Objectif": 0,
+        "Pré-requis": 6,
+        "Public cible": 6,
+        "Objectifs pédagogiques": 6,
+        "Points forts": 0,
+        "Modalités pédagogiques": 6,
+        "Programme": 6,
+        "Résultats attendus": 0,
+        "Modalités d'évaluation": 0,
+        "Accessibilité": 0,
+        "Délais d'accès": 0
+      },
+      "image": 6,
+      "cpf_true": 1,
+      "certification": {}
+    },
+    "formarh.com": {
+      "pages": 8,
+      "sources": {
+        "html": 8
+      },
+      "remplissage": {
+        "Niveau": 0,
+        "Tarif": 8,
+        "Durée": 8,
+        "Objectif": 0,
+        "Pré-requis": 8,
+        "Public cible": 8,
+        "Objectifs pédagogiques": 8,
+        "Points forts": 0,
+        "Modalités pédagogiques": 8,
+        "Programme": 8,
+        "Résultats attendus": 0,
+        "Modalités d'évaluation": 8,
+        "Accessibilité": 8,
+        "Délais d'accès": 0
+      },
+      "image": 8,
+      "cpf_true": 0,
+      "certification": {}
+    },
+    "formalangue.com": {
+      "pages": 9,
+      "sources": {
+        "html": 9
+      },
+      "remplissage": {
+        "Niveau": 9,
+        "Tarif": 9,
+        "Durée": 9,
+        "Objectif": 9,
+        "Pré-requis": 9,
+        "Public cible": 1,
+        "Objectifs pédagogiques": 9,
+        "Points forts": 1,
+        "Modalités pédagogiques": 8,
+        "Programme": 9,
+        "Résultats attendus": 1,
+        "Modalités d'évaluation": 1,
+        "Accessibilité": 0,
+        "Délais d'accès": 0
+      },
+      "image": 9,
+      "cpf_true": 0,
+      "certification": {
+        "LILATE": 7
+      }
+    },
+    "formadigital.fr": {
+      "pages": 10,
+      "sources": {
+        "html": 10
+      },
+      "remplissage": {
+        "Niveau": 10,
+        "Tarif": 10,
+        "Durée": 10,
+        "Objectif": 10,
+        "Pré-requis": 10,
+        "Public cible": 0,
+        "Objectifs pédagogiques": 10,
+        "Points forts": 2,
+        "Modalités pédagogiques": 10,
+        "Programme": 10,
+        "Résultats attendus": 0,
+        "Modalités d'évaluation": 0,
+        "Accessibilité": 0,
+        "Délais d'accès": 0
+      },
+      "image": 10,
+      "cpf_true": 4,
+      "certification": {
+        "ICDL": 4
+      }
+    },
+    "formavente.fr": {
+      "pages": 10,
+      "sources": {
+        "html": 10
+      },
+      "remplissage": {
+        "Niveau": 10,
+        "Tarif": 10,
+        "Durée": 10,
+        "Objectif": 10,
+        "Pré-requis": 10,
+        "Public cible": 0,
+        "Objectifs pédagogiques": 10,
+        "Points forts": 0,
+        "Modalités pédagogiques": 10,
+        "Programme": 10,
+        "Résultats attendus": 0,
+        "Modalités d'évaluation": 0,
+        "Accessibilité": 0,
+        "Délais d'accès": 0
+      },
+      "image": 10,
+      "cpf_true": 10,
+      "certification": {}
+    },
+    "formabientre.fr": {
+      "pages": 12,
+      "sources": {
+        "html": 12
+      },
+      "remplissage": {
+        "Niveau": 12,
+        "Tarif": 12,
+        "Durée": 12,
+        "Objectif": 0,
+        "Pré-requis": 0,
+        "Public cible": 0,
+        "Objectifs pédagogiques": 12,
+        "Points forts": 0,
+        "Modalités pédagogiques": 0,
+        "Programme": 12,
+        "Résultats attendus": 0,
+        "Modalités d'évaluation": 0,
+        "Accessibilité": 0,
+        "Délais d'accès": 0
+      },
+      "image": 12,
+      "cpf_true": 0,
+      "certification": {}
+    },
+    "bilandecompetence.pro": {
+      "pages": 1,
+      "sources": {
+        "playwright": 1
+      },
+      "remplissage": {
+        "Niveau": 0,
+        "Tarif": 1,
+        "Durée": 1,
+        "Objectif": 0,
+        "Pré-requis": 0,
+        "Public cible": 1,
+        "Objectifs pédagogiques": 0,
+        "Points forts": 0,
+        "Modalités pédagogiques": 0,
+        "Programme": 1,
+        "Résultats attendus": 0,
+        "Modalités d'évaluation": 0,
+        "Accessibilité": 0,
+        "Délais d'accès": 0
+      },
+      "image": 1,
+      "cpf_true": 1,
+      "certification": {}
+    }
+  },
+  "par_source": {
+    "html": 172,
+    "playwright": 8
+  },
+  "remplissage_global": {
+    "Niveau": "170/180",
+    "Tarif": "178/180",
+    "Durée": "179/180",
+    "Objectif": "152/180",
+    "Pré-requis": "166/180",
+    "Public cible": "25/180",
+    "Objectifs pédagogiques": "179/180",
+    "Points forts": "14/180",
+    "Modalités pédagogiques": "165/180",
+    "Programme": "180/180",
+    "Résultats attendus": "17/180",
+    "Modalités d'évaluation": "67/180",
+    "Accessibilité": "63/180",
+    "Délais d'accès": "55/180"
+  },
+  "incompletes": [
+    {
+      "lien": "https://skills4mation.com/formations/charge-de-projet-evenementiel-bloc-de-competence-rncp34927bc03-bloc-de-competence-3-piloter-un-projet-evenementiel",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-analyse-financiere",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-animer-une-equipe",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-batir-et-piloter-votre-plan-daction-commercial",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-coaching-systemique-dequipe",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-couture-creative",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-creer-et-administrer-son-site",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-de-formateur",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-developper-ses-competences-manageriales",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-en-outils-collaboratifs",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-en-sea-referencement-payant",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-financer-un-projet-culturel",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-gestion-des-conflits",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-gestion-des-emotions",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-gestion-des-priorites",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-gestion-et-pilotage-dentreprise-tpe",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-ingenierie-de-projet",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-innover-grace-au-design-thinking",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-intelligence-collective",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-lallemand-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-langlais-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-lart-du-closing",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-le-francais-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-le-japonais-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-le-mandarin-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-le-mecenat-dentreprise",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-le-portugais-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-leconomie-circulaire-dans-son-processus-de-production",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-lespagnol-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-litalien-des-affaires",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-maitriser-canva",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-maitriser-la-methode-aec-disc",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-maitriser-lart-des-tableurs",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-maitriser-les-logiciels-de-presentation-pao",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-maitriser-les-reseaux-sociaux",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-maitrisez-lart-du-referencement-naturel-seo",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-mao-production-musicale-avec-cubase",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-oenologie",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-photographie",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-prendre-la-parole-en-public-avec-aisance",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-prise-en-main-dun-pc-mac",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-produire-du-contenu-video-avec-votre-smartphone",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-prothesiste-ongulaire",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-reduire-lempreinte-carbone-dans-son-entreprise",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-reinventer-les-reunions-dequipe",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-reussir-le-lancement-de-sa-start-up",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-reussir-sa-prospection-telephonique",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-traitement-de-texte",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/formation-vente-conseil",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/installateur-panneaux-photovoltaiques",
+      "manques_cles": [
+        "Tarif",
+        "Durée"
+      ]
+    },
+    {
+      "lien": "https://skills4mation.com/formations/vente-b2b-developper-ses-competences-commerciales",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-maitriser-lart-des-tableurs/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-langlais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/creation-dentreprise/management-operationnel-performance-equipe/",
+      "manques_cles": [
+        "Tarif",
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/creation-dentreprise/vente-b2b-developper-ses-competences-commerciales/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-maitriser-les-reseaux-sociaux/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/metier-specifique/formation-de-formateur/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-coaching-systemique-dequipe/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-gestion-des-conflits/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-yoga-et-ayurveda/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-maitriser-canva/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-traitement-de-texte/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/metier-specifique/formation-prothesiste-ongulaire/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/metier-specifique/formation-photographie/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-intelligence-collective/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-chi-nei-tsang/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-bien-etre/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-aux-pierres-chaudes/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-enseigner-le-yoga/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-reinventer-les-reunions-dequipe/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-maitriser-la-methode-aec-disc/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-innover-grace-au-design-thinking/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-litalien-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-lespagnol-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-le-portugais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-le-mandarin-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-ingenierie-de-projet/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-gestion-des-priorites/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-gestion-des-emotions/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/metier-specifique/formation-mao-production-musicale-avec-cubase/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/metier-specifique/formation-couture-creative/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/communication/formation-produire-du-contenu-video-avec-votre-smartphone/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/communication/formation-prendre-la-parole-en-public-avec-aisance/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-le-japonais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/creation-dentreprise/formation-reussir-le-lancement-de-sa-start-up/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-maitrisez-lart-du-referencement-naturel-seo/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-creer-et-administrer-son-site/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-shinzu-face/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-lomi/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-kobi/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-dos-et-cranien/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-assis/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-5-continents/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-prise-en-main-dun-pc-mac/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-en-sea-referencement-payant/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-ayurvedique/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rse/formation-leconomie-circulaire-dans-son-processus-de-production/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-maitriser-les-logiciels-de-presentation-pao/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rse/formation-financer-un-projet-culturel/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rse/formation-le-mecenat-dentreprise/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rse/formation-reduire-lempreinte-carbone-dans-son-entreprise/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-le-francais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/langues/formation-lallemand-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/creation-dentreprise/formation-gestion-et-pilotage-dentreprise-tpe/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/creation-dentreprise/formation-analyse-financiere/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bureautique/formation-en-outils-collaboratifs/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/ventes/formation-reussir-sa-prospection-telephonique/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/ventes/formation-lart-du-closing/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/ventes/formation-batir-et-piloter-votre-plan-daction-commercial/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/ventes/formation-vente-conseil/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-animer-une-equipe/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/rh-management/formation-developper-ses-competences-manageriales/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-massage-shinzu-body/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-devenez-praticien-en-massage-quintessence/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/bien-etre/formation-devenez-formateur-massage-quintessence/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formatrix.fr/formation/metier-specifique/formation-oenologie/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-langlais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-lallemand-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-lespagnol-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-litalien-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-le-portugais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-le-japonais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-le-mandarin-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formalangue.com/formation/formation-le-francais-des-affaires/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-maitrisez-lart-du-referencement-naturel-seo/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-creer-et-administrer-son-site/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-sea-referencement-payant/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-outils-collaboratifs/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-maitriser-canva-pour-sublimer-votre-communication/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-prise-en-main-dun-pc-mac/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-traitement-de-texte-de-linitiation-au-perfectionnement/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-maitriser-lart-des-tableurs/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-maitriser-les-logiciels-de-presentation-pao-powerpoint/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formadigital.fr/formation/formation-maitriser-les-reseaux-sociaux/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/merchandising-3-0-piloter-lexperience-client-a-lere-numerique/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/developper-les-relations-et-les-ventes-en-magasin-avec-le-numerique-rs6239/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/management-de-la-performance-dune-equipe/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/recruter-et-integrer-ses-collaborateurs-rs6168/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/vente-grands-comptes-rs6169/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/vente-b2b-developper-ses-competences-commerciales/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/formation-vente-conseil/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/formation-batir-et-piloter-votre-plan-daction-commercial/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/formation-lart-du-closing/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formavente.fr/formation/formation-reussir-sa-prospection-telephonique/",
+      "manques_cles": [
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-lomi",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-assis",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-dos-cranien",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-kobi",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-bien-etre",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-ayurvedique",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-chi-nei-tsang",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/yoga-ayurveda",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/enseigner-yoga",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-5-continents",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-pierres-chaudes",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://formabientre.fr/formation/massage-shinzu-face",
+      "manques_cles": [
+        "Pré-requis",
+        "Public cible"
+      ]
+    },
+    {
+      "lien": "https://bilandecompetence.pro/offres",
+      "manques_cles": [
+        "Pré-requis",
+        "Objectifs pédagogiques"
+      ]
+    }
+  ],
+  "echecs": [],
+  "matrice_par_site": {
+    "skills4mation.com": [
+      "Niveau",
+      "Tarif",
+      "Objectif",
+      "Durée",
+      "Pré-requis",
+      "Objectifs pédagogiques",
+      "Programme",
+      "Modalités pédagogiques",
+      "Financement de votre formation",
+      "Modalités d'évaluation",
+      "Délais d'accès",
+      "Accessibilité",
+      "Dernière mise à jour du programme",
+      "Certification",
+      "Comment se déroule la certification ?"
+    ],
+    "formatrix.fr": [
+      "Niveau",
+      "Tarif",
+      "Objectif",
+      "Durée",
+      "Pré-requis",
+      "Objectifs pédagogiques",
+      "Public cible",
+      "Points forts",
+      "Modalités pédagogiques",
+      "Programme"
+    ],
+    "formacompta.fr": [
+      "Tarif",
+      "Durée",
+      "Niveau",
+      "Programme",
+      "Objectifs pédagogiques",
+      "Pré-requis",
+      "Modalités pédagogiques",
+      "Public cible",
+      "Questions fréquentes",
+      "Durée",
+      "Certification Qualiopi",
+      "Financement OPCO"
+    ],
+    "formarh.com": [
+      "Durée",
+      "Tarif",
+      "Tarif Intra",
+      "Format",
+      "Public cible",
+      "Pré-requis",
+      "Objectifs pédagogiques",
+      "Programme",
+      "Modalités pédagogiques",
+      "Modalités d'évaluation",
+      "Accessibilité",
+      "Cette formation inclut"
+    ],
+    "formalangue.com": [
+      "Niveau",
+      "Tarif",
+      "Objectif",
+      "Durée",
+      "Pré-requis",
+      "Objectifs pédagogiques",
+      "Modalités pédagogiques",
+      "Programme",
+      "Certification"
+    ],
+    "formadigital.fr": [
+      "Niveau",
+      "Tarif",
+      "Objectif",
+      "Durée",
+      "Pré-requis",
+      "Objectifs pédagogiques",
+      "Modalités pédagogiques",
+      "Programme"
+    ],
+    "formavente.fr": [
+      "Niveau",
+      "Tarif",
+      "Objectif",
+      "Durée",
+      "Pré-requis",
+      "Objectifs pédagogiques",
+      "Modalités pédagogiques",
+      "Programme"
+    ],
+    "formabientre.fr": [
+      "Durée",
+      "Tarif",
+      "Niveau",
+      "Note",
+      "Objectifs pédagogiques",
+      "Programme"
+    ],
+    "bilandecompetence.pro": [
+      "Tarif",
+      "Durée",
+      "Votre accompagnement individuel",
+      "Programme",
+      "Public cible",
+      "Financement",
+      "Questions fréquentes"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "lien": "https://skills4mation.com/formations/formation-batir-et-piloter-votre-plan-daction-commercial",
+  "site": "skills4mation.com",
+  "marque": "skills4mation",
+  "titre": "Formation Bâtir et Piloter votre Plan d’Action Commercial",
+  "image": "https://skills4mation.com/images/formations/formation-batir-et-piloter-votre-plan-daction-commercial.webp",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 2400 €",
+  "duree": "A partir de 18 H de formation",
+  "objectif_court": "Optimiser les revenus de votre CHR",
+  "prerequis": "Aucun",
+  "public": null,
+  "objectifs": [
+    "Analyser le marché et identifier les opportunités commerciales.",
+    "Définir des objectifs commerciaux SMART.",
+    "Élaborer des stratégies commerciales adaptées et innovantes.",
+    "Mettre en œuvre le plan d’action avec efficacité.",
+    "Mesurer et analyser les performances commerciales.",
+    "Ajuster le plan d’action en fonction des retours et des évolutions du marché.",
+    "Renforcer les compétences de leadership et de gestion d’équipe.",
+    "Valeur ajoutée: Grâce à une pédagogie innovante et des études de cas réels, ce parcours est une opportunité unique de se projeter dans des situations concrètes, d’optimiser ses pratiques commerciales et de devenir un acteur clé du succès de son entreprise. Rejoignez-nous pour une aventure d’apprentissage qui marquera un tournant dans votre carrière professionnelle."
+  ],
+  "points_forts": null,
+  "modalites": "- Formation en présentiel ou en visioconférence avec un formateur dédié.\n- Méthodes d’animation participatives : interactivité, exemples et cas pratiques\n- Procédés pédagogiques adaptés au niveau du/des participants\n- Travaux pratiques adaptés à votre activité",
+  "programme_md": "### Module 1: Introduction au Plan d’Action Commercial\n- Comprendre la nécessité d’un plan d’action commercial.\n- Identifier les composantes clés d’un plan d’action efficace.\n- Distinguer les différents types de stratégies commerciales.\n### Module 2: Analyse de Marché et Identification des Opportunités\n- Réaliser une analyse de marché complète.\n- Identifier et évaluer les opportunités commerciales.\n- Utiliser des outils d’analyse SWOT pour évaluer la position concurrentielle.\n### Module 3: Définition des Objectifs Commerciaux\n- Formuler des objectifs commerciaux SMART.\n- Aligner les objectifs commerciaux avec la stratégie globale de l’entreprise.\n- Planifier les étapes clés pour atteindre ces objectifs.\n### Module 4: Stratégies de Mise en Œuvre\n- Développer des stratégies de vente et de marketing ciblées.\n- Intégrer les technologies et outils digitaux dans le plan d’action.\n- Planifier les ressources nécessaires (humaines, financières, matérielles).\n### Module 5: Pilotage et Suivi du Plan d’Action\n- Mettre en place des indicateurs de performance clés (KPIs).\n- Utiliser les données pour piloter et ajuster les stratégies.\n- Organiser des revues de performances régulières.\n### Module 6: Leadership et Gestion d’Équipe\n- Renforcer les compétences de leadership pour diriger l’équipe commerciale.\n- Développer des techniques de motivation et d’engagement de l’équipe.\n- Gérer efficacement les conflits et favoriser un environnement de travail positif.\n### Module 7: Adaptation et Ajustement Stratégique\n- Analyser les retours et les données de performance pour ajuster le plan.\n- Anticiper les évolutions du marché et adapter les stratégies en conséquence.\n- Innover dans l’approche commerciale pour maintenir l’avantage compétitif.",
+  "resultats_attendus": null,
+  "evaluation": "- Test de positionnement pour positionner et adapter la formation\n- Évaluation régulière pendant la formation\n- Évaluation finale en fin de parcours",
+  "accessibilite": "Toutes nos formations sont accessibles, sous réserve d'étude préalable des besoins d'aménagement.",
+  "delais_acces": "Retour en 24 h pour effectuer le recueil des besoins.",
+  "autres": [
+    {
+      "rubrique": "Mise à jour du programme",
+      "contenu": "Mise à jour du programme : 03/09/26"
+    },
+    {
+      "rubrique": "Présentation",
+      "contenu": "Développez votre stratégie commerciale en apprenant à bâtir, déployer et piloter un plan d’action efficace. Analysez vos objectifs, mettez en place des actions ciblées et mesurez vos résultats pour améliorer la croissance de votre entreprise."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation"
+    },
+    {
+      "rubrique": "Financement de votre formation",
+      "contenu": "Plusieurs dispositifs de financement de la formation professionnelle peuvent couvrir tout ou partie du tarif. Skills4mation évalue vos droits avec vous et monte l'intégralité de votre dossier."
+    },
+    {
+      "rubrique": "Dernière mise à jour du programme",
+      "contenu": "Dernière mise à jour du programme le 03/09/26"
+    },
+    {
+      "rubrique": "Certification",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    },
+    {
+      "rubrique": "Comment se déroule la certification ?",
+      "contenu": "Cette formation ne fait pas l'objet de certification."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "Financement de votre formation",
+    "evaluation",
+    "delais_acces",
+    "accessibilite",
+    "Dernière mise à jour du programme",
+    "Certification",
+    "Comment se déroule la certification ?"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Public cible",
+    "Points forts",
+    "Résultats attendus"
+  ]
+}

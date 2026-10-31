@@ -1,0 +1,74 @@
+{
+  "lien": "https://formarh.com/formation/management-performance",
+  "site": "formarh.com",
+  "marque": "formarh",
+  "titre": "Management de la performance",
+  "image": "https://formarh.com/assets/course-management-performance-CIQUzpgL.webp",
+  "niveau": null,
+  "tarif": "3 490 € HT",
+  "duree": "35h (5 jours)",
+  "objectif_court": null,
+  "prerequis": "- Expérience de management confirmée (5 ans minimum)\n- Responsabilité d'une équipe ou d'un périmètre organisationnel\n- Projet de transformation ou d'amélioration de la performance",
+  "public": "Dirigeants, DRH, Directeurs de la performance, Managers seniors, Responsables Excellence Opérationnelle",
+  "objectifs": [
+    "Construire la carte stratégique de son entité selon le Balanced Scorecard",
+    "Décliner les objectifs stratégiques en objectifs d'équipe et en OKR",
+    "Définir les KPI de son périmètre et les assembler dans un tableau de bord équilibré",
+    "Préparer et animer une People Review ou une Talent Review",
+    "Diagnostiquer la culture de performance de son organisation avec le Competing Values Framework",
+    "Concevoir le système de management de la performance de son périmètre et le présenter oralement"
+  ],
+  "points_forts": null,
+  "modalites": "- Apports théoriques de haut niveau\n- Études de cas d'entreprises performantes (Google, Netflix, etc.)\n- Travaux dirigés sur son propre contexte professionnel\n- Coaching individuel entre les sessions\n- Communauté d'alumni pour le networking",
+  "programme_md": "### Aligner stratégie et organisation\nDurée : 7h\n- Les quatre dimensions de la performance : finances, clients, processus, apprentissage\n- Le Balanced Scorecard de Kaplan et Norton : principes et mise en œuvre\n- Décliner les objectifs stratégiques jusqu'aux équipes\n- Aligner ressources et investissements\n- Expliquer la stratégie aux équipes pour lui donner du sens\n- Atelier : la carte stratégique de son entité\n### Mesurer : KPI et tableaux de bord\nDurée : 7h\n- Indicateurs avancés (lead) et indicateurs de résultat (lag)\n- Définir des KPI SMART et adaptés au contexte\n- Les OKR (Objectives and Key Results) tels que pratiqués chez Google\n- Construire des tableaux de bord équilibrés\n- Data visualisation et reporting automatisé\n- Exercice : les KPI de son propre périmètre\n### Talents et compétences\nDurée : 7h\n- Cartographier les compétences stratégiques\n- Évaluer le potentiel et repérer les hauts potentiels\n- Préparer et animer People Review et Talent Review\n- Plans de succession et développement des leaders\n- Performance individuelle : objectifs, feedback, évaluation\n- Cas pratique : préparer une Talent Review\n### Installer une culture de la performance\nDurée : 7h\n- Diagnostiquer la culture en place (Competing Values Framework)\n- Les leviers de transformation culturelle\n- Rituels managériaux : revues hebdomadaires, mensuelles et trimestrielles\n- Reconnaître et célébrer les réussites\n- Traiter la sous-performance avec bienveillance et exigence\n- Concevoir son système de management de la performance\n### Projet de performance et évaluation finale\nDurée : 7h\n- Revue et consolidation des acquis\n- Finaliser le dossier de son projet de performance\n- Présenter oralement son projet de performance\n- Évaluation du projet par le formateur et un professionnel RH\n- Retour individuel et axes de progrès\n- Remise de l'attestation de fin de formation",
+  "resultats_attendus": null,
+  "evaluation": "- Contrôle continu des travaux intersessions\n- Projet de performance sur son périmètre réel\n- Présentation orale du projet devant le formateur et un professionnel RH\n- Attestation de fin de formation délivrée",
+  "accessibilite": "Formation accessible aux personnes en situation de handicap. Accompagnement personnalisé sur demande.\nFormation accessible aux personnes en situation de handicap : contactez notre référent handicap, Ludovic Albisser — ludovic@formatrix.fr.",
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Piloter la performance des équipes\nCinq jours pour relier stratégie, indicateurs, talents et culture managériale sur votre propre périmètre. Vous construisez pendant la formation votre système de management de la performance, puis vous le présentez oralement en fin de parcours."
+    },
+    {
+      "rubrique": "Tarif Intra",
+      "contenu": "7 500 € HT"
+    },
+    {
+      "rubrique": "Format",
+      "contenu": "Présentiel"
+    },
+    {
+      "rubrique": "Cette formation inclut",
+      "contenu": "- Supports pédagogiques personnalisés\n- Formateur expert du domaine\n- Modalités logistiques précisées au devis\n- Attestation de formation\n- Suivi post-formation 30 jours"
+    },
+    {
+      "rubrique": "Formation intra-entreprise",
+      "contenu": "7 500 € HT\nJusqu'à 10 participants"
+    }
+  ],
+  "ordre_rubriques": [
+    "duree",
+    "tarif",
+    "Tarif Intra",
+    "Format",
+    "public",
+    "prerequis",
+    "objectifs",
+    "programme_md",
+    "modalites",
+    "evaluation",
+    "accessibilite",
+    "Cette formation inclut"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "html",
+  "manques": [
+    "Niveau",
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Délais d'accès"
+  ]
+}

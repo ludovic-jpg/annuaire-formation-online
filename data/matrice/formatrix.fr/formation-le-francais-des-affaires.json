@@ -1,0 +1,66 @@
+{
+  "lien": "https://formatrix.fr/formation/langues/formation-le-francais-des-affaires/",
+  "site": "formatrix.fr",
+  "marque": "formatrix",
+  "titre": "Formation Le Français des affaires",
+  "image": "https://formatrix.fr/wp-content/uploads/2024/12/5-1024x819.png",
+  "niveau": "De Débutant à Avancé",
+  "tarif": "A partir de 800 € - Financement possible",
+  "duree": "A déterminer selon votre niveau et objectif",
+  "objectif_court": "Améliorer ses compétences linguistiques pour un usage professionel",
+  "prerequis": "Avoir des notions de base dans la langue cible et vouloir progresser",
+  "public": null,
+  "objectifs": [
+    "Acquérir un vocabulaire spécifique au monde des affaires en français.",
+    "Améliorer la compréhension et l’expression orale dans un contexte professionnel.",
+    "Développer des compétences en rédaction de documents commerciaux en français.",
+    "Maîtriser la communication interculturelle dans un environnement d’affaires international.",
+    "Renforcer la capacité à négocier et à présenter en français.",
+    "Comprendre et utiliser des expressions idiomatiques et du jargon professionnel.",
+    "Améliorer l’écoute pour une meilleure compréhension des accents et dialectes variés."
+  ],
+  "points_forts": null,
+  "modalites": "- Acquérir un vocabulaire spécifique au monde des affaires en français.\n- Améliorer la compréhension et l’expression orale dans un contexte professionnel.\n- Développer des compétences en rédaction de documents commerciaux en français.\n- Maîtriser la communication interculturelle dans un environnement d’affaires international.\n- Renforcer la capacité à négocier et à présenter en français.\n- Comprendre et utiliser des expressions idiomatiques et du jargon professionnel.\n- Améliorer l’écoute pour une meilleure compréhension des accents et dialectes variés.\nCe parcours de formation en français des Affaires est essentiel pour tout professionnel visant une carrière internationale. Il offre non seulement une maîtrise linguistique, mais aussi une compréhension culturelle approfondie, cruciale pour naviguer avec succès dans le monde globalisé des affaires.",
+  "programme_md": "**Dégager une problématique à partir d’un sujet donné :**\n– Identifier et synthétiser les points clés d’un document commercial.\n– Analyser le contexte économique et culturel d’une situation d’affaires.\n– Formuler clairement une problématique d’affaires en français\n**Construire un exposé structuré :**\n– Organiser logiquement des idées pour présenter un argumentaire convaincant.\n– Utiliser des connecteurs logiques pour fluidifier la communication.\n– Préparer et utiliser des supports visuels adaptés pour renforcer l’exposé.\n**S’exprimer de façon rigoureuse en français:**\n– Maîtriser la terminologie spécifique au secteur d’affaires pertinent.\n– Pratiquer la prononciation et l’intonation professionnelle en français\n– Appliquer les règles de grammaire et de syntaxe pour une expression précise.\n**Défendre ses positions de façon argumentée :**\n– Développer des arguments solides pour appuyer une proposition commerciale.\n– Répondre de manière structurée et pertinente aux objections.\n– Engager de façon constructive dans des débats et négociations en français\n**Mobiliser de façon pertinente un vocabulaire lié au français des affaires :**\n– Enrichir le lexique professionnel pour des contextes variés (finance, marketing, management…).\n– Utiliser un langage adapté pour des discussions formelles et informelles.\n– Comprendre et utiliser des expressions idiomatiques du monde des affaires.\n**Intégrer à bon escient dans le discours les faits d’actualité :**\n– Suivre et discuter des tendances et actualités économiques mondiales.\n– Relier les faits d’actualité aux enjeux commerciaux et stratégiques.\n– Critiquer et évaluer l’impact des événements mondiaux sur les affaires.\nChaque compétence ciblée vise à renforcer l’efficacité communicationnelle des apprenants dans des contextes professionnels internationaux, leur permettant ainsi de se positionner avantageusement dans la langue cible dans un contexte professionnel",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Renforcez votre maîtrise du français professionnel pour exceller dans vos négociations, présentations et rédactions. Cette formation vous prépare à interagir avec aisance dans un environnement d’affaires francophone, que ce soit pour des échanges commerciaux, des courriers formels ou des présentations orales."
+    },
+    {
+      "rubrique": "Encart inscription",
+      "contenu": "- Une expérience d’apprentissage optimale pour favoriser votre montée en compétence\n- Une formation adaptée à votre niveau après une évaluation\n- possibilité de prise en charge via votre Compte formation , OPCO, AGEFICE , FIFPL\n4.9"
+    },
+    {
+      "rubrique": "Objectif pédagogique (texte)",
+      "contenu": "Ce parcours de formation en français des Affaires est essentiel pour tout professionnel visant une carrière internationale. Il offre non seulement une maîtrise linguistique, mais aussi une compréhension culturelle approfondie, cruciale pour naviguer avec succès dans le monde globalisé des affaires."
+    }
+  ],
+  "ordre_rubriques": [
+    "niveau",
+    "tarif",
+    "objectif_court",
+    "duree",
+    "prerequis",
+    "objectifs",
+    "public",
+    "points_forts",
+    "modalites",
+    "programme_md"
+  ],
+  "certification": null,
+  "cpf": true,
+  "source": "html",
+  "manques": [
+    "Public cible (rubrique présente mais vide)",
+    "Points forts (rubrique présente mais vide)",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}

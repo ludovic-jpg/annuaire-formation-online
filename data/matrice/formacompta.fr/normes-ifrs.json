@@ -1,0 +1,79 @@
+{
+  "lien": "https://formacompta.fr/formations/normes-ifrs",
+  "site": "formacompta.fr",
+  "marque": "formacompta",
+  "titre": "Normes IFRS",
+  "image": "https://formacompta.fr/og-image.jpg",
+  "niveau": "Avancé",
+  "tarif": "1 990 €",
+  "duree": "4 jours (28h)",
+  "objectif_court": null,
+  "prerequis": "Maîtrise de la comptabilité générale française (PCG)\nExpérience en consolidation ou en audit souhaitable\nConnaissance des états financiers d'un groupe",
+  "public": "- Comptables et consolideurs de groupes internationaux\n- Directeurs financiers et responsables du reporting groupe\n- Auditeurs externes intervenant sur des comptes IFRS\n- Contrôleurs de gestion de filiales de groupes cotés\n- Professionnels préparant une transition vers les IFRS",
+  "objectifs": [
+    "Comprendre le cadre conceptuel et la logique des normes IFRS",
+    "Appliquer les principales normes IFRS sur les actifs, passifs et produits",
+    "Maîtriser la comptabilisation des instruments financiers selon IFRS 9",
+    "Réaliser une consolidation des comptes selon les normes internationales",
+    "Gérer un projet de transition vers les IFRS (first-time adoption)",
+    "Se tenir informé des évolutions normatives récentes"
+  ],
+  "points_forts": null,
+  "modalites": "- Exposés théoriques illustrés d'exemples chiffrés\n- Comparaison systématique IFRS vs normes françaises\n- Cas pratiques progressifs sur chaque norme\n- Étude de rapports annuels de groupes cotés\n- Documentation complète avec extraits des normes",
+  "programme_md": "### Introduction au référentiel IFRS\n4 heures\n- Historique et évolution des normes IFRS\n- L'IASB : organisation, processus d'élaboration des normes\n- Champ d'application des IFRS en Europe et dans le monde\n- Le cadre conceptuel : objectifs et principes fondamentaux\n- Hiérarchie des textes : normes, interprétations, guides\n- Principales différences entre IFRS et normes françaises (PCG)\n- Convergence IFRS / US GAAP : état des lieux\n### Les principales normes IFRS\n7 heures\n- IAS 1 : Présentation des états financiers\n- IAS 2 : Stocks - évaluation et dépréciation\n- IAS 16 : Immobilisations corporelles - composants, réévaluation\n- IAS 38 : Immobilisations incorporelles - activation des dépenses\n- IAS 36 : Dépréciation d'actifs et tests d'impairment\n- IFRS 15 : Produits des activités ordinaires tirés de contrats clients\n- IFRS 16 : Contrats de location - le droit d'utilisation\n- IFRS 9 : Instruments financiers - classification et évaluation\n- Cas pratiques sur chaque norme étudiée\n### Comptabilisation des instruments financiers\n5 heures\n- Classification des actifs financiers selon IFRS 9\n- Évaluation initiale et ultérieure des instruments financiers\n- Le modèle des pertes de crédit attendues (ECL)\n- Comptabilité de couverture : principes et conditions\n- Instruments dérivés et opérations de trading\n- Juste valeur et hiérarchie des données (niveaux 1, 2, 3)\n- Informations à fournir en annexe (IFRS 7)\n### Consolidation des comptes en IFRS\n6 heures\n- IFRS 10 : États financiers consolidés - notion de contrôle\n- IFRS 3 : Regroupements d'entreprises - méthode de l'acquisition\n- Identification et évaluation des actifs et passifs acquis\n- Comptabilisation du goodwill et test de dépréciation\n- IAS 28 : Participations dans des entreprises associées\n- IFRS 11 : Partenariats - coentreprises et activités conjointes\n- Éliminations intragroupe et conversion des filiales étrangères\n- Cas pratique : consolidation d'un groupe de sociétés\n### Première application des IFRS\n3 heures\n- IFRS 1 : Première adoption des normes IFRS\n- Bilan d'ouverture IFRS et retraitements nécessaires\n- Les exemptions et exceptions facultatives/obligatoires\n- Impacts sur les capitaux propres d'ouverture\n- Communication financière lors de la transition\n- Retour d'expérience sur des transitions réussies\n### Évolutions récentes et perspectives\n3 heures\n- Dernières normes publiées et projets en cours de l'IASB\n- IFRS 17 : Contrats d'assurance - principes et impacts\n- Sustainability disclosure : normes ISSB et reporting ESG\n- Impacts des évolutions technologiques sur le reporting IFRS\n- Veille normative : comment se tenir informé\n- Ressources et documentation de référence",
+  "resultats_attendus": null,
+  "evaluation": null,
+  "accessibilite": null,
+  "delais_acces": null,
+  "autres": [
+    {
+      "rubrique": "Présentation",
+      "contenu": "Formez-vous aux normes IFRS pour répondre aux exigences de consolidation et de reporting international. Cette formation complète vous permettra de comprendre le cadre conceptuel des IFRS, d'appliquer les principales normes et de gérer une transition du référentiel français vers les normes internationales. Indispensable pour les groupes internationaux et les entreprises cotées."
+    },
+    {
+      "rubrique": "Questions fréquentes",
+      "contenu": "### La formation couvre-t-elle les dernières évolutions IFRS ?\nOui, nous mettons régulièrement à jour notre contenu pour intégrer les dernières normes, amendements et interprétations publiés par l'IASB. Les évolutions de 2024-2025 sont intégrées.\n### Des connaissances préalables en consolidation sont-elles nécessaires ?\nUne familiarité avec les principes de base de la consolidation est recommandée mais pas indispensable. Les concepts fondamentaux sont rappelés en début de module.\n### La formation aborde-t-elle les aspects pratiques de mise en œuvre ?\nAbsolument ! Au-delà de la théorie, nous abordons les aspects pratiques : impacts sur les systèmes d'information, organisation des équipes, gestion de projet de transition.\n### Peut-on suivre uniquement certains modules ?\nLa formation est conçue comme un tout cohérent, mais nous pouvons organiser des modules à la carte pour les entreprises ayant des besoins spécifiques. Contactez-nous pour en discuter."
+    },
+    {
+      "rubrique": "Encart tarif",
+      "contenu": "1 990 €\n28 heures de formation\nFinancement possible selon votre situation : plan de développement des compétences de l'entreprise, OPCO ou fonds d'assurance formation des indépendants."
+    },
+    {
+      "rubrique": "Durée",
+      "contenu": "4 jours\n28 heures de formation réparties sur 6 modules complets."
+    },
+    {
+      "rubrique": "Certification Qualiopi",
+      "contenu": "Formations dispensées par Back to Business – Formatrix, organisme certifié Qualiopi au titre des actions de formation. La certification de l'organisme est une condition nécessaire, mais l'éligibilité à un financement dépend du financeur."
+    },
+    {
+      "rubrique": "Financement OPCO",
+      "contenu": "Bénéficiez d'une prise en charge totale ou partielle de votre formation grâce aux financements OPCO."
+    }
+  ],
+  "ordre_rubriques": [
+    "tarif",
+    "duree",
+    "niveau",
+    "programme_md",
+    "objectifs",
+    "prerequis",
+    "modalites",
+    "public",
+    "Questions fréquentes",
+    "Durée",
+    "Certification Qualiopi",
+    "Financement OPCO"
+  ],
+  "certification": null,
+  "cpf": null,
+  "source": "playwright",
+  "manques": [
+    "Objectif",
+    "Points forts",
+    "Résultats attendus",
+    "Modalités d'évaluation",
+    "Accessibilité",
+    "Délais d'accès"
+  ]
+}
