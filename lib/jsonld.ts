@@ -38,6 +38,7 @@ export function publisherJsonLd() {
         description:
           "Annuaire français de parcours de formation professionnelle : durée, prix, modalité, éligibilité CPF et organisme de chaque parcours.",
         inLanguage: "fr-FR",
+        image: `${SITE_URL}/visuels/logo-annuaire-formation.png`,
         publisher: { "@id": EDITEUR_ID },
         potentialAction: {
           "@type": "SearchAction",

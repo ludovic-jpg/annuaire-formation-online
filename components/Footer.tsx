@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { SPHERES } from "@/lib/spheres";
-import { Wordmark } from "@/components/Logo";
+import { LogoComplet } from "@/components/Logo";
 
 export function Footer() {
   return (
     <footer className="on-dark mt-20 border-t-4 border-encre bg-nuit text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-[1.3fr_1fr_1fr]">
         <div>
-          <div className="inline-block rounded-2xl bg-white px-3 py-2 text-encre">
-            <Wordmark />
+          <div className="inline-block rounded-2xl bg-white p-2 text-encre">
+            <LogoComplet />
           </div>
           <p className="mt-4 max-w-sm text-white/85">
             L&apos;annuaire des parcours de formation professionnelle. Édité par Back to Business (Formatrix), organisme de

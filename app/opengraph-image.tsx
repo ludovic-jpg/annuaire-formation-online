@@ -1,4 +1,8 @@
 import { ImageResponse } from "next/og";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
+const PIN = `data:image/png;base64,${readFileSync(join(process.cwd(), "public", "icon.png")).toString("base64")}`;
 
 export const alt = "Annuaire Formation Online : le bon parcours de formation, sans détour";
 export const size = { width: 1200, height: 630 };
@@ -23,9 +27,8 @@ export default function OgImage() {
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 20, fontSize: 34, fontWeight: 800 }}>
-            <div style={{ width: 64, height: 64, background: "#fff", border: "5px solid #0D1240", borderRadius: 16, display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <svg width="40" height="40" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 7" fill="none" stroke="#0D1240" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /></svg>
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={PIN} width={96} height={96} alt="" style={{ borderRadius: 16 }} />
             annuaire-formation.online
           </div>
           <div style={{ fontSize: 88, fontWeight: 800, lineHeight: 1, letterSpacing: -2, maxWidth: 900 }}>Le bon parcours de formation, sans détour.</div>
