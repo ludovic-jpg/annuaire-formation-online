@@ -147,10 +147,10 @@ export default async function AdminPage() {
                   <td className="p-3">
                     <div className="flex gap-2">
                       {o.status !== "active" && (
-                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="active" /><button className="min-h-9 rounded-lg border-2 border-nuit px-2.5 font-semibold">Activer<span className="sr-only"> {o.name}</span></button></form>
+                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="active" /><button className="min-h-9 rounded-lg border-[3px] border-nuit px-2.5 font-semibold">Activer<span className="sr-only"> {o.name}</span></button></form>
                       )}
                       {o.status !== "rejected" && (
-                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="rejected" /><button className="min-h-9 rounded-lg border-2 border-slate-400 px-2.5">Refuser<span className="sr-only"> {o.name}</span></button></form>
+                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="rejected" /><button className="min-h-9 rounded-lg border-[3px] border-slate-400 px-2.5">Refuser<span className="sr-only"> {o.name}</span></button></form>
                       )}
                     </div>
                   </td>
@@ -175,7 +175,7 @@ export default async function AdminPage() {
                 <button
                   aria-pressed={p.indexable}
                   title={p.indexable ? "Passer en noindex" : "Rendre indexable"}
-                  className={`min-h-9 rounded-lg border-2 px-2.5 font-semibold ${p.indexable ? "border-emerald-700 bg-emerald-50 text-emerald-800" : "border-slate-400 text-encre/80"}`}
+                  className={`min-h-9 rounded-lg border-[3px] px-2.5 font-semibold ${p.indexable ? "border-emerald-700 bg-emerald-50 text-emerald-800" : "border-slate-400 text-encre/80"}`}
                 >
                   {p.indexable ? "Indexable" : "Noindex"}
                   <span className="sr-only"> : {p.title}</span>
@@ -183,7 +183,7 @@ export default async function AdminPage() {
               </form>
               <form action={unpublishProgram}>
                 <input type="hidden" name="id" value={p.id} />
-                <button className="min-h-9 rounded-lg border-2 border-slate-400 px-2.5">Retirer<span className="sr-only"> {p.title}</span></button>
+                <button className="min-h-9 rounded-lg border-[3px] border-slate-400 px-2.5">Retirer<span className="sr-only"> {p.title}</span></button>
               </form>
             </li>
           ))}

@@ -3,7 +3,6 @@ import Link from "next/link";
 import type { ProgramWithOrg } from "@/lib/types";
 import { SPHERE_BY_SLUG, modaliteLabel } from "@/lib/spheres";
 import { programImage } from "@/lib/visuels";
-import { GroupBadge } from "@/components/GroupBadge";
 
 export function ProgramCard({ p, priority = false }: { p: ProgramWithOrg; priority?: boolean }) {
   const sphere = p.sphere ? SPHERE_BY_SLUG[p.sphere] : undefined;
@@ -12,7 +11,7 @@ export function ProgramCard({ p, priority = false }: { p: ProgramWithOrg; priori
   return (
     <article className="brut lift relative flex h-full flex-col overflow-hidden bg-white">
       <div
-        className="visual-tint relative aspect-[16/10] overflow-hidden border-b-[3px] border-encre"
+        className="visual-tint relative aspect-[16/10] overflow-hidden border-b-4 border-encre"
         style={{ "--tone": sphere?.color ?? "#FFCD1C" } as React.CSSProperties}
       >
         {local ? (
@@ -29,7 +28,7 @@ export function ProgramCard({ p, priority = false }: { p: ProgramWithOrg; priori
           <img src={img} alt="" loading="lazy" className="lift-img absolute inset-0 h-full w-full object-cover" />
         )}
         {sphere && (
-          <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 rounded-full border-2 border-encre bg-white py-0.5 pl-1.5 pr-2.5 text-xs font-bold">
+          <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 rounded-full border-[3px] border-encre bg-white py-0.5 pl-1.5 pr-2.5 text-xs font-bold">
             <span aria-hidden="true" className="h-2.5 w-2.5 rounded-full border-[1.5px] border-encre" style={{ background: sphere.color }} />
             {sphere.label}
           </span>
@@ -51,7 +50,6 @@ export function ProgramCard({ p, priority = false }: { p: ProgramWithOrg; priori
           {p.cpf_eligible && <li className="rounded-md bg-menthe/25 px-2 py-1 ring-1 ring-encre/10">Éligible CPF</li>}
           {p.certification && <li className="rounded-md bg-jaune px-2 py-1 ring-1 ring-encre/15">Certifiant {p.certification}</li>}
         </ul>
-        {p.organizations.is_group && <GroupBadge compact />}
       </div>
     </article>
   );

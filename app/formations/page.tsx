@@ -81,7 +81,7 @@ export default async function FormationsPage({ searchParams }: { searchParams: S
 
   return (
     <>
-      <section className="dots border-b-[3px] border-encre">
+      <section className="dots border-b-4 border-encre">
         <div className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
           <Breadcrumbs items={[{ label: "Formations" }]} />
           <h1 className="mt-4 text-4xl sm:text-5xl">{sphere ? `Formations ${sphereLabel(sphere).toLowerCase()}` : "Toutes les formations"}</h1>
@@ -213,7 +213,7 @@ export default async function FormationsPage({ searchParams }: { searchParams: S
                     href={qs({ page: n > 1 ? String(n) : "" })}
                     aria-current={n === page ? "page" : undefined}
                     aria-label={`Page ${n}`}
-                    className={`grid h-11 w-11 place-items-center rounded-xl border-[3px] border-encre font-display font-extrabold ${n === page ? "bg-encre text-white" : "bg-white hover:bg-jaune-pale"}`}
+                    className={`grid h-11 w-11 place-items-center rounded-xl border-4 border-encre font-display font-extrabold ${n === page ? "bg-encre text-white" : "bg-white hover:bg-jaune-pale"}`}
                   >
                     {n}
                   </Link>

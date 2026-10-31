@@ -17,7 +17,7 @@ export function ContactForm({ programId, orgName }: { programId: string; orgName
 
   if (state?.ok) {
     return (
-      <div role="status" className="anim-pop flex items-start gap-3 rounded-xl border-2 border-encre bg-menthe/20 p-4">
+      <div role="status" className="anim-pop flex items-start gap-3 rounded-xl border-[3px] border-encre bg-menthe/20 p-4">
         <svg viewBox="0 0 24 24" aria-hidden="true" className="mt-0.5 h-6 w-6 shrink-0">
           <circle cx="12" cy="12" r="11" fill="#FFCD1C" stroke="#0D1240" strokeWidth="2" />
           <path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#0D1240" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />

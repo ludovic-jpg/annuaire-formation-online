@@ -141,7 +141,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
               <li key={etape.key} className="flex items-center gap-1" aria-current={actuel ? "step" : undefined}>
                 {i > 0 && <span aria-hidden="true" className={`h-0.5 w-4 ${passe || actuel ? "bg-encre" : "bg-encre/20"}`} />}
                 <span
-                  className={`rounded-full border-2 px-2.5 py-0.5 font-bold ${
+                  className={`rounded-full border-[3px] px-2.5 py-0.5 font-bold ${
                     actuel
                       ? status === "rejected"
                         ? "border-red-900 bg-red-100 text-red-900"
@@ -189,7 +189,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
                   <li key={sec.id} className="shrink-0">
                     <a
                       href={`#${sec.id}`}
-                      className={`inline-flex min-h-10 items-center gap-2 rounded-full border-2 px-3 text-sm font-bold ${ok ? "border-encre bg-jaune" : "border-encre/25 bg-white hover:border-encre"}`}
+                      className={`inline-flex min-h-10 items-center gap-2 rounded-full border-[3px] px-3 text-sm font-bold ${ok ? "border-encre bg-jaune" : "border-encre/25 bg-white hover:border-encre"}`}
                     >
                       <span aria-hidden="true" className="font-display">{ok ? "✓" : i + 1}</span>
                       {sec.label}
@@ -225,7 +225,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
                     key={m.value}
                     id={m.value === MODALITES[0].value ? "e-mod" : undefined}
                     onClick={() => set("modality", m.value)}
-                    className={`min-h-11 rounded-xl border-2 px-3 font-semibold ${draft.modality === m.value ? "border-nuit bg-nuit text-white" : "border-slate-300 bg-white hover:border-nuit"}`}
+                    className={`min-h-11 rounded-xl border-[3px] px-3 font-semibold ${draft.modality === m.value ? "border-nuit bg-nuit text-white" : "border-slate-300 bg-white hover:border-nuit"}`}
                   >
                     {m.label}
                   </button>
@@ -292,7 +292,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
                       type="button"
                       aria-label={`Retirer l'objectif ${i + 1}`}
                       onClick={() => set("objectives", draft.objectives.length > 1 ? draft.objectives.filter((_, j) => j !== i) : [""])}
-                      className="min-h-11 min-w-11 rounded-xl border-2 border-slate-300 font-bold hover:border-brique"
+                      className="min-h-11 min-w-11 rounded-xl border-[3px] border-slate-300 font-bold hover:border-brique"
                     >
                       ×
                     </button>
@@ -335,7 +335,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
           </fieldset>
 
           {errors.length > 0 && (
-            <div role="alert" className="rounded-xl border-2 border-brique bg-red-50 p-4">
+            <div role="alert" className="rounded-xl border-[3px] border-brique bg-red-50 p-4">
               <p className="font-bold">Avant l&apos;envoi en revue :</p>
               <ul className="mt-2 list-disc pl-5">
                 {errors.map((e) => <li key={e}>{e}</li>)}
@@ -344,7 +344,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
           )}
 
           {!locked && !pret.ok && errors.length === 0 && (
-            <div className="rounded-xl border-2 border-dashed border-encre/30 bg-white p-4 text-sm">
+            <div className="rounded-xl border-[3px] border-dashed border-encre/30 bg-white p-4 text-sm">
               <p className="font-semibold">Pour envoyer en revue, il reste {pret.errors.length} point{pret.errors.length > 1 ? "s" : ""}&nbsp;:</p>
               <ul className="mt-1.5 list-disc pl-5 text-encre/80">
                 {pret.errors.map((e) => <li key={e}>{e}</li>)}
@@ -398,7 +398,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
                     disabled={!editable}
                     className="flex min-h-7 w-full items-start gap-2 rounded-lg px-1 py-0.5 text-left hover:bg-jaune-pale disabled:hover:bg-transparent"
                   >
-                  <span aria-hidden="true" className={`mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 text-[11px] font-black ${it.earned === it.points ? "border-nuit bg-jaune" : it.earned > 0 ? "border-nuit bg-jaune-pale" : "border-slate-300"}`}>
+                  <span aria-hidden="true" className={`mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-[3px] text-[11px] font-black ${it.earned === it.points ? "border-nuit bg-jaune" : it.earned > 0 ? "border-nuit bg-jaune-pale" : "border-slate-300"}`}>
                     {it.earned === it.points ? "✓" : ""}
                   </span>
                   <span className={it.earned === it.points ? "" : "text-encre/75"}>

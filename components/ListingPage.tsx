@@ -31,7 +31,7 @@ export function ListingPage({
   const orgs = new Set(programs.map((p) => p.org_id)).size;
   return (
     <>
-      <section className="dots border-b-[3px] border-encre">
+      <section className="dots border-b-4 border-encre">
         <div className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
           <Breadcrumbs items={crumbs} />
           <div className="mt-6 grid items-center gap-6 md:grid-cols-[1.5fr_1fr]">

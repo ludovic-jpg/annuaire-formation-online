@@ -44,7 +44,7 @@ export default async function OrganismePage({ params }: { params: Params }) {
   const themes = [...new Set(programs.map((p) => p.sphere).filter((x): x is string => Boolean(x && SPHERE_BY_SLUG[x])))].map((x) => SPHERE_BY_SLUG[x]);
   return (
     <>
-      <section className="dots border-b-[3px] border-encre">
+      <section className="dots border-b-4 border-encre">
         <div className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
           <Breadcrumbs items={[{ href: "/formations", label: "Formations" }, { label: o.name }]} />
           <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-center">

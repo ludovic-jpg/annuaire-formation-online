@@ -59,7 +59,7 @@ export default async function FormationPage({ params }: { params: Params }) {
 
   return (
     <>
-      <section className="dots border-b-[3px] border-encre">
+      <section className="dots border-b-4 border-encre">
         <div className="mx-auto max-w-6xl px-4 py-8">
           <Breadcrumbs
             items={[
@@ -78,7 +78,7 @@ export default async function FormationPage({ params }: { params: Params }) {
               <h1 className="mt-4 text-4xl sm:text-5xl">{p.title}</h1>
               <dl className="brut mt-6 grid grid-cols-2 overflow-hidden bg-white sm:grid-cols-4">
                 {facts.map(([k, v], i) => (
-                  <div key={k} className={`p-4 ${i % 2 === 0 ? "border-r-[3px]" : "sm:border-r-[3px]"} ${i < 2 ? "border-b-[3px] sm:border-b-0" : ""} border-encre last:border-r-0`}>
+                  <div key={k} className={`p-4 ${i % 2 === 0 ? "border-r-[3px]" : "sm:border-r-[3px]"} ${i < 2 ? "border-b-4 sm:border-b-0" : ""} border-encre last:border-r-0`}>
                     <dt className="text-xs font-semibold text-encre/70">{k}</dt>
                     <dd className="mt-1 font-display text-lg font-extrabold leading-tight">
                       {k === "Organisme" ? <Link href={`/organisme/${org.slug}`} className="underline decoration-2 underline-offset-4">{v}</Link> : v}

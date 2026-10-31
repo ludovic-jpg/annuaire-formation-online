@@ -62,10 +62,10 @@ export default async function ArticlePage({ params }: Props) {
       </PageHero>
       <article className="prose-af mx-auto max-w-3xl px-4 py-10" dangerouslySetInnerHTML={{ __html: html }} />
       <aside className="mx-auto max-w-3xl px-4 pb-6">
-        <div className="rounded-3xl border-[3px] border-encre bg-jaune p-6">
+        <div className="rounded-3xl border-4 border-encre bg-jaune p-6">
           <p className="font-display text-xl">Vous êtes organisme de formation ou formateur indépendant ?</p>
           <p className="mt-2">Publiez vos parcours gratuitement dans l&apos;annuaire, relus par une personne avant mise en ligne.</p>
-          <Link href="/publier" className="tap mt-4 inline-block rounded-full border-[3px] border-encre bg-white px-5 py-2 font-semibold">
+          <Link href="/publier" className="tap mt-4 inline-block rounded-full border-4 border-encre bg-white px-5 py-2 font-semibold">
             Publier mes parcours
           </Link>
         </div>

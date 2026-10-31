@@ -26,7 +26,7 @@ const ETAPES = [
 export default function PublierPage() {
   return (
     <>
-      <section className="border-b-[3px] border-encre bg-jaune">
+      <section className="border-b-4 border-encre bg-jaune">
         <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 py-10 sm:py-14 md:grid-cols-[1.5fr_1fr]">
           <div>
             <Breadcrumbs items={[{ label: "Publier mes parcours" }]} />

@@ -39,7 +39,7 @@ export default function BlogPage() {
         ) : (
           <ul className="grid gap-6">
             {posts.map((p) => (
-              <li key={p.slug} className="rounded-3xl border-[3px] border-encre bg-white p-6 shadow-[6px_6px_0_0_var(--color-encre)]">
+              <li key={p.slug} className="rounded-3xl border-4 border-encre bg-white p-6 shadow-[6px_6px_0_0_var(--color-encre)]">
                 <p className="text-sm text-encre/70">
                   <time dateTime={p.date}>{formaterDate(p.date)}</time> · {tempsDeLecture(p.body)} min de lecture
                 </p>

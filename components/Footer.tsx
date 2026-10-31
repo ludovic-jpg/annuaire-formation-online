@@ -4,7 +4,7 @@ import { Wordmark } from "@/components/Logo";
 
 export function Footer() {
   return (
-    <footer className="on-dark mt-20 border-t-[3px] border-encre bg-nuit text-white">
+    <footer className="on-dark mt-20 border-t-4 border-encre bg-nuit text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-[1.3fr_1fr_1fr]">
         <div>
           <div className="inline-block rounded-2xl bg-white px-3 py-2 text-encre">

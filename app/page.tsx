@@ -86,7 +86,7 @@ export default async function Home() {
               <p className="font-display text-5xl font-extrabold">{all.length ? orgCount : "2\u00a0j"}</p>
               <p className="mt-1 text-sm font-semibold">{all.length ? "organismes" : "pour la relecture"}</p>
             </div>
-            <p className="col-span-2 border-t-[3px] border-encre px-5 py-3 text-sm">
+            <p className="col-span-2 border-t-4 border-encre px-5 py-3 text-sm">
               Classement sans option payante.{" "}
               <Link href="/comment-fonctionne-le-classement" className="tap font-semibold underline underline-offset-2">
                 Nos critères
@@ -115,8 +115,8 @@ export default async function Home() {
                     sizes="(min-width: 1024px) 20vw, 50vw"
                     className="lift-img object-cover mix-blend-multiply"
                   />
-                  <span aria-hidden="true" className="absolute right-2.5 top-2.5 h-4 w-4 rounded-full border-2 border-encre" style={{ background: s.color }} />
-                  <span className="relative m-2.5 inline-flex flex-col self-start rounded-xl border-2 border-encre bg-white px-3 py-1.5 shadow-[2px_2px_0_0_var(--color-encre)]">
+                  <span aria-hidden="true" className="absolute right-2.5 top-2.5 h-4 w-4 rounded-full border-[3px] border-encre" style={{ background: s.color }} />
+                  <span className="relative m-2.5 inline-flex flex-col self-start rounded-xl border-[3px] border-encre bg-white px-3 py-1.5 shadow-[2px_2px_0_0_var(--color-encre)]">
                     <span className="font-display text-base font-extrabold leading-tight">{s.label}</span>
                     <span className="text-xs font-semibold text-encre/70">
                       {perSphere.get(s.slug) ? `${perSphere.get(s.slug)} parcours` : "Bientôt"}

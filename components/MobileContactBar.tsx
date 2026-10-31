@@ -8,7 +8,7 @@ export function MobileContactBar({ orgName, sourceUrl, rel }: { orgName: string;
       <div aria-hidden="true" className="h-20 lg:hidden" />
       <nav
         aria-label="Actions de la fiche"
-        className="fixed inset-x-0 bottom-0 z-30 border-t-[3px] border-encre bg-white/95 px-3 pt-2.5 backdrop-blur lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 border-t-4 border-encre bg-white/95 px-3 pt-2.5 backdrop-blur lg:hidden"
         style={{ paddingBottom: "max(0.625rem, env(safe-area-inset-bottom))" }}
       >
         <div className="mx-auto flex max-w-xl gap-2">
