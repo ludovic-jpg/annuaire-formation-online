@@ -10,12 +10,17 @@ const TITLE = "Blog : guides pour organismes de formation et apprenants";
 const DESCRIPTION =
   "Guides pratiques pour référencer une formation, rédiger un programme clair et comparer des parcours professionnels avant de s'inscrire.";
 
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  alternates: { canonical: "/blog" },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: "/blog" },
-};
+export function generateMetadata(): Metadata {
+  // Tant qu'aucun article n'est visible, la page reste hors index (page vide = contenu faible).
+  const vide = postsVisibles().length === 0;
+  return {
+    title: TITLE,
+    description: DESCRIPTION,
+    alternates: { canonical: "/blog" },
+    openGraph: { title: TITLE, description: DESCRIPTION, url: "/blog" },
+    ...(vide ? { robots: { index: false, follow: true } } : {}),
+  };
+}
 
 export default function BlogPage() {
   const posts = postsVisibles();

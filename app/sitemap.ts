@@ -34,8 +34,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ];
 
   const posts = postsVisibles();
-  const blog: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/blog`, lastModified: posts[0] ? new Date(`${posts[0].date}T06:00:00Z`) : undefined },
+  const blog: MetadataRoute.Sitemap = posts.length === 0 ? [] : [
+    { url: `${SITE_URL}/blog`, lastModified: new Date(`${posts[0].date}T06:00:00Z`) },
     ...posts.map((p) => ({ url: `${SITE_URL}/blog/${p.slug}`, lastModified: new Date(`${p.date}T06:00:00Z`) })),
   ];
 
