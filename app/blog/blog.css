@@ -1,0 +1,7 @@
+/* Compléments de .prose-af pour les articles du blog (tableaux, listes numérotées, citations). */
+.prose-af ol { list-style: decimal; padding-left: 1.4rem; margin: 0.75rem 0; }
+.prose-af table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
+.prose-af th, .prose-af td { border: 2px solid var(--color-encre); padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+.prose-af th { background: var(--color-jaune); font-weight: 700; }
+.prose-af blockquote { border-left: 4px solid var(--color-jaune); padding-left: 1rem; margin: 1rem 0; font-style: italic; }
+.prose-af strong { font-weight: 700; }

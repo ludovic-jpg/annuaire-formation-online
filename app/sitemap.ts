@@ -4,6 +4,7 @@ import { SPHERES } from "@/lib/spheres";
 import { allPublishedLight, activeOrganizationsLight } from "@/lib/data";
 import { isListingIndexable } from "@/lib/regles";
 import { slugify } from "@/lib/slug";
+import { postsVisibles } from "@/lib/blog";
 
 export const revalidate = 300;
 
@@ -32,6 +33,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/contact` },
   ];
 
+  const posts = postsVisibles();
+  const blog: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/blog`, lastModified: posts[0] ? new Date(`${posts[0].date}T06:00:00Z`) : undefined },
+    ...posts.map((p) => ({ url: `${SITE_URL}/blog/${p.slug}`, lastModified: new Date(`${p.date}T06:00:00Z`) })),
+  ];
+
   const fiches = indexables.map((p) => ({ url: `${SITE_URL}/formation/${p.slug}`, lastModified: new Date(p.updated_at) }));
 
   const themes = SPHERES.flatMap((s) => {
@@ -51,5 +58,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .filter((o) => orgsIndexables.has(o.id))
     .map((o) => ({ url: `${SITE_URL}/organisme/${o.slug}`, lastModified: plusRecent(orgsIndexables.get(o.id)!) }));
 
-  return [...statics, ...themes, ...villes, ...fiches, ...organismes];
+  return [...statics, ...blog, ...themes, ...villes, ...fiches, ...organismes];
 }
