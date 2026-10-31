@@ -47,7 +47,7 @@ export function ListingPage({
             </div>
             {image && (
               <div className="brut relative hidden aspect-[4/3] overflow-hidden md:block" style={{ background: color }}>
-                <Image src={image} alt="" fill sizes="35vw" className="object-cover mix-blend-multiply" fetchPriority="high" />
+                <Image src={image} alt="" fill sizes="35vw" className="object-cover" fetchPriority="high" />
               </div>
             )}
           </div>

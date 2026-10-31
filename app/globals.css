@@ -182,12 +182,9 @@
 
   /* Fond clair teinté pour les visuels détourés (la couleur du thème est passée en --tone) */
   .visual-tint {
-    background-color: color-mix(in oklab, var(--tone, var(--color-jaune)) var(--mix, 26%), #fff);
-    background-image: radial-gradient(color-mix(in oklab, var(--tone, var(--color-jaune)) 40%, transparent) 1px, transparent 1.2px);
-    background-size: 14px 14px;
+    background-color: #fff;
   }
 
-  .visual-tint-strong { --mix: 62%; }
 
   /* Squelette de chargement */
   .skeleton {

@@ -113,7 +113,7 @@ export default async function Home() {
                     alt=""
                     fill
                     sizes="(min-width: 1024px) 20vw, 50vw"
-                    className="lift-img object-cover mix-blend-multiply"
+                    className="lift-img object-cover"
                   />
                   <span aria-hidden="true" className="absolute right-2.5 top-2.5 h-4 w-4 rounded-full border-[3px] border-encre" style={{ background: s.color }} />
                   <span className="relative m-2.5 inline-flex flex-col self-start rounded-xl border-[3px] border-encre bg-white px-3 py-1.5 shadow-[2px_2px_0_0_var(--color-encre)]">

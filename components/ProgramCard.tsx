@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ProgramWithOrg } from "@/lib/types";
 import { SPHERE_BY_SLUG, modaliteLabel } from "@/lib/spheres";
 import { programImage } from "@/lib/visuels";
+import { SphereIcon } from "@/components/SphereIcon";
 
 export function ProgramCard({ p, priority = false }: { p: ProgramWithOrg; priority?: boolean }) {
   const sphere = p.sphere ? SPHERE_BY_SLUG[p.sphere] : undefined;
@@ -10,36 +11,37 @@ export function ProgramCard({ p, priority = false }: { p: ProgramWithOrg; priori
   const local = img.startsWith("/");
   return (
     <article className="brut lift relative flex h-full flex-col overflow-hidden bg-white">
-      <div
-        className="visual-tint relative aspect-[16/10] overflow-hidden border-b-4 border-encre"
-        style={{ "--tone": sphere?.color ?? "#FFCD1C" } as React.CSSProperties}
-      >
-        {local ? (
-          <Image
-            src={img}
-            alt=""
-            fill
-            priority={priority}
-            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-            className="lift-img object-contain p-3 mix-blend-multiply"
-          />
-        ) : (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={img} alt="" loading="lazy" className="lift-img absolute inset-0 h-full w-full object-cover" />
-        )}
-        {sphere && (
-          <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 rounded-full border-[3px] border-encre bg-white py-0.5 pl-1.5 pr-2.5 text-xs font-bold">
-            <span aria-hidden="true" className="h-2.5 w-2.5 rounded-full border-[1.5px] border-encre" style={{ background: sphere.color }} />
-            {sphere.label}
-          </span>
-        )}
+      <div className="visual-tint flex aspect-[4/3] flex-col border-b-4 border-encre">
+        <div className="relative min-h-0 flex-1">
+          {local ? (
+            <Image
+              src={img}
+              alt={`Visuel de la formation ${p.title}, proposée par ${p.organizations.name}`}
+              fill
+              priority={priority}
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+              className="lift-img object-contain p-3"
+            />
+          ) : (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={img} alt={`Visuel de la formation ${p.title}, proposée par ${p.organizations.name}`} loading="lazy" className="lift-img absolute inset-0 h-full w-full object-contain p-3" />
+          )}
+          {sphere && (
+            <span className="absolute left-3 top-3 inline-flex items-center gap-2 rounded-full border-[3px] border-encre bg-white py-0.5 pl-0.5 pr-3 text-xs font-bold">
+              <SphereIcon sphere={sphere.slug} color={sphere.color} size={28} />
+              {sphere.label}
+            </span>
+          )}
+        </div>
+        <div className="flex min-h-[4.5rem] items-center border-t-4 border-encre bg-jaune px-3 py-2">
+          <h3 className="line-clamp-2 text-lg leading-tight">
+            <Link href={`/formation/${p.slug}`} className="card-link after:absolute after:inset-0 after:content-[''] focus-visible:outline-none">
+              {p.title}
+            </Link>
+          </h3>
+        </div>
       </div>
       <div className="flex flex-1 flex-col gap-2.5 p-4">
-        <h3 className="text-lg leading-tight">
-          <Link href={`/formation/${p.slug}`} className="card-link after:absolute after:inset-0 after:content-[''] focus-visible:outline-none">
-            {p.title}
-          </Link>
-        </h3>
         <p className="text-sm text-encre/75">
           {p.organizations.name}
           {p.city ? `, ${p.city}` : ""}

@@ -114,10 +114,10 @@ export default async function FormationPage({ params }: { params: Params }) {
             </div>
             <div className="brut visual-tint relative aspect-[4/3] overflow-hidden" style={{ "--tone": sphere?.color ?? "#FFCD1C" } as React.CSSProperties}>
               {img.startsWith("/") ? (
-                <Image src={img} alt="" fill loading="eager" fetchPriority="high" sizes="(min-width: 1024px) 40vw, 100vw" className="object-contain p-4 mix-blend-multiply" />
+                <Image src={img} alt={`Visuel de la formation ${p.title}, proposée par ${org.name}`} fill loading="eager" fetchPriority="high" sizes="(min-width: 1024px) 40vw, 100vw" className="object-contain p-4" />
               ) : (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={img} alt="" className="absolute inset-0 h-full w-full object-cover" />
+                <img src={img} alt={`Visuel de la formation ${p.title}, proposée par ${org.name}`} className="absolute inset-0 h-full w-full object-contain p-4" />
               )}
             </div>
           </div>
