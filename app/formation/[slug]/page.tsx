@@ -16,7 +16,6 @@ import { GroupBadge } from "@/components/GroupBadge";
 import { MobileContactBar } from "@/components/MobileContactBar";
 import type { AlsoOffered } from "@/lib/types";
 import { slugify } from "@/lib/slug";
-import { rubriquesIntegrales } from "@/lib/fiche-rubriques";
 import { renderMarkdownSur } from "@/lib/blog";
 import "../../blog/blog.css";
 
@@ -61,13 +60,26 @@ export default async function FormationPage({ params }: { params: Params }) {
   ];
   if (p.level_text) facts.splice(3, 0, ["Niveau", p.level_text]);
 
-  const rubriques = rubriquesIntegrales(p);
   const reecrit = Boolean(p.rewritten_at);
   const lienSource = p.source_url
     ? `${p.title_source || p.title} sur ${org.name}`
     : "";
-  const audience = reecrit ? p.audience_rewrite || null : p.audience;
-  const prerequis = reecrit ? p.prerequisites_rewrite || null : p.prerequisites;
+  const objectifsOrigine = p.objectives_source && p.objectives_source.length ? p.objectives_source : p.objectives;
+  const plein = (t?: string | null) => Boolean(t && t.trim());
+  // Rubriques obligatoires : toujours présentes, dans l'ordre de la matrice ; texte d'origine repris tel quel.
+  const sectionsFiche: { id: string; titre: string; texte?: string | null; md?: string | null; liste?: string[]; vide?: boolean }[] = [
+    { id: "objectifs", titre: "Objectifs pédagogiques", liste: objectifsOrigine?.length ? objectifsOrigine : undefined, vide: !objectifsOrigine?.length },
+    { id: "public", titre: "Public visé", texte: p.audience, vide: !plein(p.audience) },
+    { id: "prerequis", titre: "Prérequis", texte: p.prerequisites, vide: !plein(p.prerequisites) },
+    ...(plein(p.highlights) ? [{ id: "points-forts", titre: "Points forts de la formation", texte: p.highlights }] : []),
+    { id: "modalites", titre: "Modalités pédagogiques", texte: p.modalities_text, vide: !plein(p.modalities_text) },
+    { id: "programme", titre: "Programme pédagogique", md: p.program_md, vide: !plein(p.program_md) },
+    ...(plein(p.results_expected) ? [{ id: "resultats", titre: "Résultats attendus", texte: p.results_expected }] : []),
+    { id: "evaluation", titre: "Modalités d'évaluation", texte: p.evaluation, vide: !plein(p.evaluation) },
+    { id: "accessibilite", titre: "Accessibilité", texte: p.accessibility, vide: !plein(p.accessibility) },
+    { id: "delais", titre: "Délais d'accès", texte: p.access_delay, vide: !plein(p.access_delay) },
+    ...(Array.isArray(p.extra_sections) ? p.extra_sections : []).filter((x) => plein(x.contenu)).map((x, i) => ({ id: `autre-${i}`, titre: x.rubrique, texte: x.contenu })),
+  ];
 
   return (
     <>
@@ -128,76 +140,45 @@ export default async function FormationPage({ params }: { params: Params }) {
               )}
             </div>
           )}
-          {!reecrit && p.short_objective && (
+          {p.summary && (
+            <section aria-labelledby="t-res" className="mb-10">
+              <h2 id="t-res" className="text-3xl">En résumé</h2>
+              <p className="mt-4 max-w-prose text-lg">{p.summary}</p>
+            </section>
+          )}
+
+          <p className="mb-8 max-w-prose rounded-2xl border-4 border-encre bg-jaune-pale p-4 text-base">
+            Les rubriques ci-dessous reprennent le texte complet publié par {org.name}, sans modification.
+          </p>
+
+          {p.short_objective && (
             <p className="mb-8 max-w-prose rounded-2xl border-4 border-encre bg-jaune-pale p-4 text-lg font-semibold">
               <span className="block text-xs font-bold uppercase tracking-wide text-encre/70">Objectif</span>
               {p.short_objective}
             </p>
           )}
-          {p.objectives?.length > 0 && (
-            <section aria-labelledby="t-obj">
-              <h2 id="t-obj" className="text-3xl">Ce que vous saurez faire</h2>
-              <ul className="mt-4 grid gap-2">
-                {p.objectives.map((o, i) => (
-                  <li key={i} className="flex gap-3 rounded-xl bg-creme p-3">
-                    <svg viewBox="0 0 24 24" className="mt-0.5 h-5 w-5 shrink-0" aria-hidden="true">
-                      <circle cx="12" cy="12" r="11" fill="#FFCD1C" stroke="#0D1240" strokeWidth="2" />
-                      <path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#0D1240" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    <span>{o}</span>
-                  </li>
-                ))}
-              </ul>
+          {sectionsFiche.map((r) => (
+            <section key={r.id} aria-labelledby={`t-${r.id}`} className="mt-10 first:mt-0">
+              <h2 id={`t-${r.id}`} className="text-3xl">{r.titre}</h2>
+              {r.liste ? (
+                <ul className="mt-4 grid gap-2">
+                  {r.liste.map((o, i) => (
+                    <li key={i} className="flex gap-3 rounded-xl bg-creme p-3">
+                      <svg viewBox="0 0 24 24" className="mt-0.5 h-5 w-5 shrink-0" aria-hidden="true">
+                        <circle cx="12" cy="12" r="11" fill="#FFCD1C" stroke="#0D1240" strokeWidth="2" />
+                        <path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#0D1240" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                      <span>{o}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : r.vide ? (
+                <p className="mt-4 max-w-prose text-lg text-encre/70">Non communiqué par l&apos;organisme sur sa page.</p>
+              ) : (
+                <div className="prose-af mt-4 max-w-prose text-lg" dangerouslySetInnerHTML={{ __html: renderMarkdownSur((r.md || r.texte) ?? "") }} />
+              )}
             </section>
-          )}
-          {p.summary && (
-            <section aria-labelledby="t-res" className="mt-10">
-              <h2 id="t-res" className="text-3xl">En résumé</h2>
-              <p className="mt-4 max-w-prose text-lg">{p.summary}</p>
-            </section>
-          )}
-          <section aria-labelledby="t-pub" className="mt-10 grid gap-4 sm:grid-cols-2">
-            <h2 id="t-pub" className="sr-only">Public et prérequis</h2>
-            <div className="calm-card p-5">
-              <h3 className="text-lg">Public visé</h3>
-              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(audience || "Non précisé par l'organisme.") }} />
-            </div>
-            <div className="calm-card p-5">
-              <h3 className="text-lg">Prérequis</h3>
-              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(prerequis || "Non précisé par l'organisme.") }} />
-            </div>
-          </section>
-
-          {reecrit && Array.isArray(p.key_points) && p.key_points.length > 0 && (
-            <section aria-labelledby="t-cles" className="mt-10">
-              <h2 id="t-cles" className="text-3xl">L&apos;essentiel</h2>
-              <ul className="prose-af mt-4 max-w-prose text-lg">
-                {p.key_points.map((k, i) => (
-                  <li key={i}>{k}</li>
-                ))}
-              </ul>
-            </section>
-          )}
-          {reecrit && p.program_summary_md && (
-            <section aria-labelledby="t-prog" className="mt-10">
-              <h2 id="t-prog" className="text-3xl">Le programme en bref</h2>
-              <div className="prose-af mt-4 max-w-prose text-lg" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(p.program_summary_md) }} />
-            </section>
-          )}
-          {reecrit
-            ? rubriques.length > 0 && (
-                <p className="mt-8 max-w-prose text-lg">
-                  <Link href={`/formation/${p.slug}/programme-complet`} className="font-semibold underline decoration-2 underline-offset-4">
-                    Lire le programme complet et le texte d&apos;origine de l&apos;organisme
-                  </Link>
-                </p>
-              )
-            : rubriques.map((r) => (
-                <section key={r.id} aria-labelledby={`t-${r.id}`} className="mt-10">
-                  <h2 id={`t-${r.id}`} className="text-3xl">{r.titre}</h2>
-                  <div className="prose-af mt-4 max-w-prose text-lg" dangerouslySetInnerHTML={{ __html: renderMarkdownSur((r.md || r.texte) ?? "") }} />
-                </section>
-              ))}
+          ))}
 
           {p.source_url && (
             <a href={p.source_url} target="_blank" rel={rel} className="btn btn-jaune mt-10 text-lg">
