@@ -4,7 +4,7 @@ import { Wordmark } from "@/components/Logo";
 
 export function Footer() {
   return (
-    <footer className="mt-20 border-t-[3px] border-encre bg-nuit text-white">
+    <footer className="on-dark mt-20 border-t-[3px] border-encre bg-nuit text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-[1.3fr_1fr_1fr]">
         <div>
           <div className="inline-block rounded-2xl bg-white px-3 py-2 text-encre">
@@ -15,17 +15,17 @@ export function Footer() {
             formation à Rixheim : nos propres offres y figurent et sont signalées comme telles.
           </p>
           <p className="mt-3">
-            <Link href="/comment-fonctionne-le-classement" className="font-semibold text-jaune underline underline-offset-4">
+            <Link href="/comment-fonctionne-le-classement" className="tap font-semibold text-jaune underline underline-offset-4">
               Comment fonctionne le classement
             </Link>
           </p>
         </div>
         <nav aria-label="Thèmes">
           <h2 className="font-display text-lg">Thèmes</h2>
-          <ul className="mt-3 space-y-1.5">
+          <ul className="mt-3 space-y-0.5">
             {SPHERES.map((s) => (
               <li key={s.slug}>
-                <Link href={`/theme/${s.slug}`} className="text-white/85 hover:text-jaune">
+                <Link href={`/theme/${s.slug}`} className="tap text-white/85 underline-offset-4 hover:text-jaune hover:underline">
                   {s.label}
                 </Link>
               </li>
@@ -34,9 +34,10 @@ export function Footer() {
         </nav>
         <nav aria-label="Informations">
           <h2 className="font-display text-lg">L&apos;annuaire</h2>
-          <ul className="mt-3 space-y-1.5">
+          <ul className="mt-3 space-y-0.5">
             {[
               ["/publier", "Publier mes parcours"],
+              ["/a-propos", "À propos et méthodologie"],
               ["/connexion", "Espace organisme"],
               ["/liste-attente", "Liste d'attente"],
               ["/contact", "Contact et signalement"],
@@ -45,7 +46,7 @@ export function Footer() {
               ["/confidentialite", "Confidentialité"],
             ].map(([href, label]) => (
               <li key={href}>
-                <Link href={href} className="text-white/85 hover:text-jaune">
+                <Link href={href} className="tap text-white/85 underline-offset-4 hover:text-jaune hover:underline">
                   {label}
                 </Link>
               </li>
