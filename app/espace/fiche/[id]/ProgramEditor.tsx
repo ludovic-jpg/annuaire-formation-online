@@ -3,12 +3,35 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { saveProgram, submitProgram, reopenProgram, deleteProgram, type ProgramDraft } from "@/app/espace/actions";
-import { computeCompleteness, countWords, SUMMARY_MAX_WORDS, SUMMARY_MIN_WORDS } from "@/lib/completude";
+import { canSubmit, computeCompleteness, countWords, SUMMARY_MAX_WORDS, SUMMARY_MIN_WORDS } from "@/lib/completude";
 import { SPHERES, MODALITES, CERTIFICATIONS, SPHERE_BY_SLUG, modaliteLabel } from "@/lib/spheres";
 import { STATUTS } from "@/lib/statuts";
 import { Mascotte } from "@/components/Mascotte";
 import { Confetti } from "@/components/Confetti";
 import type { Program } from "@/lib/types";
+
+const CHAMP: Record<string, string> = {
+  title: "e-title", sphere: "e-sphere", modality: "e-mod", duration: "e-dur", price: "e-price", place: "e-city",
+  summary: "e-sum", objectives: "e-obj-0", audience: "e-aud", prerequisites: "e-pre", source: "e-src",
+};
+const SECTIONS = [
+  { id: "sec-essentiel", label: "L'essentiel", keys: ["title", "sphere", "modality", "duration", "price", "place"] },
+  { id: "sec-contenu", label: "Contenu", keys: ["summary", "objectives"] },
+  { id: "sec-public", label: "Public", keys: ["audience", "prerequisites"] },
+  { id: "sec-liens", label: "Liens", keys: ["source"] },
+];
+const PISTE = [
+  { key: "draft", label: "Brouillon" },
+  { key: "pending", label: "En revue" },
+  { key: "published", label: "Publiée" },
+];
+
+function allerAuChamp(key: string) {
+  const el = document.getElementById(CHAMP[key] ?? "");
+  if (!el) return;
+  el.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+  el.focus({ preventScroll: true });
+}
 
 type SaveState = { kind: "idle" | "saving" | "saved" | "error"; at?: string; message?: string };
 
@@ -44,6 +67,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
 
   const { score, items } = useMemo(() => computeCompleteness(draft), [draft]);
   const words = countWords(draft.summary);
+  const pret = useMemo(() => canSubmit(draft), [draft]);
 
   const set = <K extends keyof ProgramDraft>(k: K, v: ProgramDraft[K]) => {
     dirty.current = true;
@@ -107,8 +131,32 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
     <div className="mx-auto max-w-6xl px-4 py-8">
       <Confetti burstKey={burst} />
       <div className="flex flex-wrap items-center gap-3">
-        <Link href="/espace" className="text-sm font-semibold underline underline-offset-2">Mes fiches</Link>
-        <span className={`rounded-full px-3 py-1 text-sm font-bold ${st.className}`}>{st.label}</span>
+        <Link href="/espace" className="tap text-sm font-semibold underline underline-offset-2">Mes fiches</Link>
+        <ol className="flex flex-wrap items-center gap-1 text-sm" aria-label="Statut de la fiche">
+          {PISTE.map((etape, i) => {
+            const idx = PISTE.findIndex((x) => x.key === (status === "rejected" ? "draft" : status));
+            const actuel = i === idx;
+            const passe = i < idx;
+            return (
+              <li key={etape.key} className="flex items-center gap-1" aria-current={actuel ? "step" : undefined}>
+                {i > 0 && <span aria-hidden="true" className={`h-0.5 w-4 ${passe || actuel ? "bg-encre" : "bg-encre/20"}`} />}
+                <span
+                  className={`rounded-full border-2 px-2.5 py-0.5 font-bold ${
+                    actuel
+                      ? status === "rejected"
+                        ? "border-red-900 bg-red-100 text-red-900"
+                        : `border-encre ${st.className}`
+                      : passe
+                        ? "border-encre bg-white"
+                        : "border-encre/20 bg-white text-encre/60"
+                  }`}
+                >
+                  {actuel && status === "rejected" ? "Refusée" : etape.label}
+                </span>
+              </li>
+            );
+          })}
+        </ol>
         <p className="text-sm text-encre/70" aria-live="polite">
           {save.kind === "saving" && "Enregistrement…"}
           {save.kind === "saved" && `Enregistré à ${new Date(save.at!).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`}
@@ -132,7 +180,27 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
 
       <div className="mt-8 grid gap-8 lg:grid-cols-[1.5fr_1fr]">
         <div className="grid gap-6">
-          <fieldset disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:grid-cols-2 sm:p-6">
+          <nav aria-label="Sections de la fiche" className="sticky top-[4.6rem] z-20 -mx-1 overflow-x-auto rounded-2xl bg-slate-50/95 px-1 py-1.5 backdrop-blur">
+            <ol className="flex gap-2">
+              {SECTIONS.map((sec, i) => {
+                const its = items.filter((it) => sec.keys.includes(it.key));
+                const ok = its.every((it) => it.earned === it.points);
+                return (
+                  <li key={sec.id} className="shrink-0">
+                    <a
+                      href={`#${sec.id}`}
+                      className={`inline-flex min-h-10 items-center gap-2 rounded-full border-2 px-3 text-sm font-bold ${ok ? "border-encre bg-jaune" : "border-encre/25 bg-white hover:border-encre"}`}
+                    >
+                      <span aria-hidden="true" className="font-display">{ok ? "✓" : i + 1}</span>
+                      {sec.label}
+                      <span className="sr-only">{ok ? " : complète" : " : à compléter"}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ol>
+          </nav>
+          <fieldset id="sec-essentiel" disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:grid-cols-2 sm:p-6">
             <legend className="sr-only">L&apos;essentiel</legend>
             <h2 className="text-2xl sm:col-span-2">L&apos;essentiel</h2>
             <div className="sm:col-span-2">
@@ -155,6 +223,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
                     role="radio"
                     aria-checked={draft.modality === m.value}
                     key={m.value}
+                    id={m.value === MODALITES[0].value ? "e-mod" : undefined}
                     onClick={() => set("modality", m.value)}
                     className={`min-h-11 rounded-xl border-2 px-3 font-semibold ${draft.modality === m.value ? "border-nuit bg-nuit text-white" : "border-slate-300 bg-white hover:border-nuit"}`}
                   >
@@ -183,12 +252,12 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
               </select>
             </div>
             <label className="flex min-h-11 items-center gap-3 font-semibold sm:col-span-2">
-              <input type="checkbox" checked={draft.cpf_eligible} onChange={(e) => set("cpf_eligible", e.target.checked)} className="h-5 w-5 accent-nuit" />
+              <input type="checkbox" checked={draft.cpf_eligible} onChange={(e) => set("cpf_eligible", e.target.checked)} className="check" />
               Parcours éligible au CPF
             </label>
           </fieldset>
 
-          <fieldset disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:p-6">
+          <fieldset id="sec-contenu" disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:p-6">
             <legend className="sr-only">Contenu</legend>
             <h2 className="text-2xl">Contenu</h2>
             <div>
@@ -238,7 +307,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
             </div>
           </fieldset>
 
-          <fieldset disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:grid-cols-2 sm:p-6">
+          <fieldset id="sec-public" disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:grid-cols-2 sm:p-6">
             <legend className="sr-only">Public</legend>
             <h2 className="text-2xl sm:col-span-2">Public</h2>
             <div>
@@ -251,7 +320,7 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
             </div>
           </fieldset>
 
-          <fieldset disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:p-6">
+          <fieldset id="sec-liens" disabled={fieldsDisabled} className="calm-card grid gap-4 p-5 sm:p-6">
             <legend className="sr-only">Liens</legend>
             <h2 className="text-2xl">Liens</h2>
             <div>
@@ -274,6 +343,14 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
             </div>
           )}
 
+          {!locked && !pret.ok && errors.length === 0 && (
+            <div className="rounded-xl border-2 border-dashed border-encre/30 bg-white p-4 text-sm">
+              <p className="font-semibold">Pour envoyer en revue, il reste {pret.errors.length} point{pret.errors.length > 1 ? "s" : ""}&nbsp;:</p>
+              <ul className="mt-1.5 list-disc pl-5 text-encre/80">
+                {pret.errors.map((e) => <li key={e}>{e}</li>)}
+              </ul>
+            </div>
+          )}
           <div className="flex flex-wrap items-center gap-3">
             {!locked && (
               <button type="button" onClick={submit} disabled={pending} className="btn btn-nuit">
@@ -304,22 +381,32 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
               <div className="flex-1">
                 <h2 id="t-score" className="text-lg">Complétude</h2>
                 <p className="font-display text-4xl font-extrabold">{score}&nbsp;%</p>
-                <div className="mt-1 h-3 overflow-hidden rounded-full bg-slate-200" role="progressbar" aria-valuenow={score} aria-valuemin={0} aria-valuemax={100} aria-label="Complétude de la fiche">
+                <div className="mt-1 h-3.5 overflow-hidden rounded-full border-[1.5px] border-encre bg-white" role="progressbar" aria-valuenow={score} aria-valuemin={0} aria-valuemax={100} aria-label="Complétude de la fiche">
                   <div className="h-full rounded-full bg-jaune transition-[width] duration-500" style={{ width: `${score}%` }} />
                 </div>
               </div>
             </div>
-            <p className="mt-3 text-sm text-encre/75">Les fiches complètes apparaissent en premier dans les résultats.</p>
+            <p className="mt-3 text-sm text-encre/75">
+              Les fiches complètes apparaissent en premier dans les résultats. Cliquez sur un critère pour aller au champ.
+            </p>
             <ul className="mt-3 grid gap-1.5 text-sm">
               {items.map((it) => (
-                <li key={it.key} className="flex items-start gap-2" title={it.hint}>
+                <li key={it.key}>
+                  <button
+                    type="button"
+                    onClick={() => allerAuChamp(it.key)}
+                    disabled={!editable}
+                    className="flex min-h-7 w-full items-start gap-2 rounded-lg px-1 py-0.5 text-left hover:bg-jaune-pale disabled:hover:bg-transparent"
+                  >
                   <span aria-hidden="true" className={`mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 text-[11px] font-black ${it.earned === it.points ? "border-nuit bg-jaune" : it.earned > 0 ? "border-nuit bg-jaune-pale" : "border-slate-300"}`}>
                     {it.earned === it.points ? "✓" : ""}
                   </span>
                   <span className={it.earned === it.points ? "" : "text-encre/75"}>
-                    {it.label} <span className="text-encre/50">+{it.points}</span>
+                    {it.label} <span className="text-encre/70">+{it.points}</span>
                     <span className="sr-only">{it.earned === it.points ? " : fait" : ` : ${it.hint}`}</span>
+                    {it.earned !== it.points && <span aria-hidden="true" className="block text-xs text-encre/70">{it.hint}</span>}
                   </span>
+                  </button>
                 </li>
               ))}
             </ul>

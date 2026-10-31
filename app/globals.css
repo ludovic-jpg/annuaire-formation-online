@@ -42,6 +42,9 @@
     outline-offset: 3px;
     border-radius: 6px;
   }
+  /* Sur fond sombre, le bleu vif manque de contraste (2,6:1) : anneau jaune */
+  .on-dark :focus-visible { outline-color: var(--color-jaune); }
+  [id] { scroll-margin-top: 5.5rem; }
   ::selection { background: var(--color-jaune); color: var(--color-encre); }
 }
 
@@ -69,10 +72,14 @@
   .lift {
     transition: transform 160ms ease, box-shadow 160ms ease;
   }
-  .lift:hover {
+  .lift:hover, .lift:focus-within {
     transform: translate(-2px, -2px) rotate(-0.4deg);
     box-shadow: var(--shadow-brut-lg);
   }
+  .lift .lift-img { transition: transform 260ms cubic-bezier(0.2, 0.9, 0.3, 1.2); }
+  .lift:hover .lift-img { transform: scale(1.05) rotate(1deg); }
+  /* La carte entière est cliquable : l'anneau de focus entoure la carte */
+  .lift:has(.card-link:focus-visible) { outline: 3px solid var(--color-vif); outline-offset: 4px; }
 
   /* Bouton qui s'enfonce */
   .btn {
@@ -89,7 +96,8 @@
     transition: transform 90ms ease, box-shadow 90ms ease, background-color 120ms ease;
     cursor: pointer;
     text-decoration: none;
-    white-space: nowrap;
+    text-align: center;
+    text-wrap: balance;
   }
   .btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 0 var(--color-encre); }
   .btn:active { transform: translate(3px, 3px); box-shadow: 0 0 0 0 var(--color-encre); }
@@ -113,6 +121,82 @@
     background: #fff;
     color: var(--color-encre);
   }
+  .field[aria-invalid="true"] { border-color: var(--color-brique); background: #fff7f5; }
+  .field-error {
+    display: flex;
+    gap: 0.4rem;
+    align-items: flex-start;
+    margin-top: 0.35rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #9a3412;
+  }
+  .field-error::before {
+    content: "!";
+    flex: none;
+    display: inline-grid;
+    place-items: center;
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-top: 0.1rem;
+    border-radius: 999px;
+    background: #9a3412;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+  .req { color: #9a3412; font-weight: 700; }
+
+  /* Case à cocher néobrutaliste, 24 px */
+  .check {
+    appearance: none;
+    flex: none;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border: 2.5px solid var(--color-encre);
+    border-radius: 7px;
+    background: #fff;
+    display: inline-grid;
+    place-content: center;
+    cursor: pointer;
+    transition: background-color 120ms ease, box-shadow 120ms ease;
+  }
+  .check::after {
+    content: "";
+    width: 12px;
+    height: 7px;
+    border-left: 3px solid var(--color-encre);
+    border-bottom: 3px solid var(--color-encre);
+    transform: rotate(-45deg) scale(0);
+    transform-origin: center;
+    margin-top: -3px;
+    transition: transform 140ms cubic-bezier(0.2, 0.9, 0.3, 1.4);
+  }
+  .check:checked { background: var(--color-jaune); box-shadow: 2px 2px 0 0 var(--color-encre); }
+  .check:checked::after { transform: rotate(-45deg) scale(1); }
+  .check:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  /* Liens de liste (pied de page, fil d'Ariane) : cible >= 24 px */
+  .tap { display: inline-flex; align-items: center; min-height: 28px; }
+
+  /* Fond clair teinté pour les visuels détourés (la couleur du thème est passée en --tone) */
+  .visual-tint {
+    background-color: color-mix(in oklab, var(--tone, var(--color-jaune)) var(--mix, 26%), #fff);
+    background-image: radial-gradient(color-mix(in oklab, var(--tone, var(--color-jaune)) 40%, transparent) 1px, transparent 1.2px);
+    background-size: 14px 14px;
+  }
+
+  .visual-tint-strong { --mix: 62%; }
+
+  /* Squelette de chargement */
+  .skeleton {
+    background: linear-gradient(90deg, #eef0f6 0%, #f8f9fc 40%, #eef0f6 80%);
+    background-size: 300% 100%;
+    animation: shimmer 1.4s linear infinite;
+    border-radius: 10px;
+  }
+
   .field:focus { outline: 3px solid color-mix(in oklab, var(--color-vif) 55%, transparent); outline-offset: 1px; border-color: var(--color-vif); }
   .label { display: block; font-weight: 600; font-size: 0.95rem; margin-bottom: 0.35rem; }
   .hint { font-size: 0.85rem; color: color-mix(in oklab, var(--color-encre) 70%, transparent); }
@@ -143,6 +227,10 @@
   from { transform: translateY(14px) scale(0.98); opacity: 0; }
   to { transform: none; opacity: 1; }
 }
+@keyframes shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: -50% 0; }
+}
 @keyframes wobble {
   0%, 100% { transform: rotate(0); }
   30% { transform: rotate(-6deg); }
@@ -158,5 +246,6 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-  .lift:hover, .btn:hover, .btn:active { transform: none; }
+  .lift:hover, .lift:focus-within, .btn:hover, .btn:active, .lift:hover .lift-img { transform: none; }
+  .skeleton { animation: none; }
 }

@@ -38,12 +38,35 @@ export default async function AdminPage() {
     ["Liste d'attente", waitlist.length],
   ];
 
+  const ORG_STATUT: Record<string, [string, string]> = {
+    active: ["Actif", "bg-menthe/25"],
+    pending: ["À vérifier", "bg-jaune"],
+    rejected: ["Refusé", "bg-red-100 text-red-900"],
+  };
+  const sommaire: [string, string, number | null][] = [
+    ["#t-mod", "À relire", pending.length],
+    ["#t-orgs", "Organisations", orgs.filter((o) => o.status === "pending").length],
+    ["#t-pub", "Indexation", null],
+    ["#t-wait", "Liste d'attente", waitlist.length],
+  ];
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-4xl">Administration</h1>
         <Link href="/espace" className="font-semibold underline underline-offset-2">Retour à mon espace</Link>
       </div>
+
+      <nav aria-label="Sections de l'administration" className="mt-5 flex flex-wrap gap-2">
+        {sommaire.map(([href, label, n]) => (
+          <a key={href} href={href} className="chip min-h-10 hover:bg-jaune-pale">
+            {label}
+            {n !== null && (
+              <span className={`grid min-w-6 place-items-center rounded-full px-1.5 text-xs ${n > 0 ? "bg-jaune ring-2 ring-encre" : "bg-slate-100"}`}>{n}</span>
+            )}
+          </a>
+        ))}
+      </nav>
 
       <section aria-labelledby="t-stats" className="mt-6">
         <h2 id="t-stats" className="sr-only">Statistiques</h2>
@@ -117,15 +140,17 @@ export default async function AdminPage() {
                 <tr key={o.id} className="border-b last:border-0">
                   <td className="p-3 font-semibold">{o.name}{o.is_group && <span className="ml-2 rounded bg-jaune-pale px-1.5 text-xs">groupe</span>}</td>
                   <td className="p-3">{o.siret ?? "—"} / {o.nda ?? "—"}</td>
-                  <td className="p-3">{o.status}</td>
+                  <td className="p-3">
+                    <span className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-bold ${ORG_STATUT[o.status]?.[1] ?? ""}`}>{ORG_STATUT[o.status]?.[0] ?? o.status}</span>
+                  </td>
                   <td className="p-3">{o.link_rel}</td>
                   <td className="p-3">
                     <div className="flex gap-2">
                       {o.status !== "active" && (
-                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="active" /><button className="rounded-lg border-2 border-nuit px-2 py-1 font-semibold">Activer</button></form>
+                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="active" /><button className="min-h-9 rounded-lg border-2 border-nuit px-2.5 font-semibold">Activer<span className="sr-only"> {o.name}</span></button></form>
                       )}
                       {o.status !== "rejected" && (
-                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="rejected" /><button className="rounded-lg border-2 border-slate-300 px-2 py-1">Refuser</button></form>
+                        <form action={setOrgStatus}><input type="hidden" name="id" value={o.id} /><input type="hidden" name="status" value="rejected" /><button className="min-h-9 rounded-lg border-2 border-slate-400 px-2.5">Refuser<span className="sr-only"> {o.name}</span></button></form>
                       )}
                     </div>
                   </td>
@@ -147,13 +172,18 @@ export default async function AdminPage() {
               <form action={toggleIndexable}>
                 <input type="hidden" name="id" value={p.id} />
                 <input type="hidden" name="value" value={String(!p.indexable)} />
-                <button className={`rounded-lg border-2 px-2 py-1 font-semibold ${p.indexable ? "border-emerald-700 text-emerald-800" : "border-slate-300 text-encre/70"}`}>
+                <button
+                  aria-pressed={p.indexable}
+                  title={p.indexable ? "Passer en noindex" : "Rendre indexable"}
+                  className={`min-h-9 rounded-lg border-2 px-2.5 font-semibold ${p.indexable ? "border-emerald-700 bg-emerald-50 text-emerald-800" : "border-slate-400 text-encre/80"}`}
+                >
                   {p.indexable ? "Indexable" : "Noindex"}
+                  <span className="sr-only"> : {p.title}</span>
                 </button>
               </form>
               <form action={unpublishProgram}>
                 <input type="hidden" name="id" value={p.id} />
-                <button className="rounded-lg border-2 border-slate-300 px-2 py-1">Retirer</button>
+                <button className="min-h-9 rounded-lg border-2 border-slate-400 px-2.5">Retirer<span className="sr-only"> {p.title}</span></button>
               </form>
             </li>
           ))}

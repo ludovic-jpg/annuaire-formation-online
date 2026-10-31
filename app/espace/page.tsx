@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
-import { STATUTS, STEPS } from "@/lib/statuts";
+import { STATUTS } from "@/lib/statuts";
+import { etapesOrganisme } from "@/lib/parcours-of";
+import { ParcoursEtapes } from "@/components/ParcoursEtapes";
 import { Mascotte } from "@/components/Mascotte";
 import type { Organization, Program } from "@/lib/types";
 
@@ -18,9 +20,16 @@ export default async function EspacePage({ searchParams }: { searchParams: Promi
     ? await supabase.from("contact_requests").select("id, name, email, message, created_at, program_id").in("org_id", orgIds).order("created_at", { ascending: false }).limit(20)
     : { data: [] };
 
+  const etapes = etapesOrganisme({
+    orgStatus: myOrgs[0]?.status ?? null,
+    programs: programs.map((p) => ({ status: p.status, completeness: p.completeness })),
+    contacts: contacts?.length ?? 0,
+  });
+
   if (!myOrgs.length) {
     return (
-      <div className="mx-auto max-w-3xl px-4 py-12">
+      <div className="mx-auto grid max-w-4xl gap-6 px-4 py-12">
+        <ParcoursEtapes etapes={etapes} />
         <div className="calm-card flex flex-col items-center gap-5 p-8 text-center sm:flex-row sm:text-left">
           <Mascotte score={20} className="h-28 w-28 shrink-0" />
           <div>
@@ -50,41 +59,49 @@ export default async function EspacePage({ searchParams }: { searchParams: Promi
       </div>
       {erreur && <p role="alert" className="mt-4 font-semibold text-brique">La fiche n&apos;a pas pu être créée. Vérifiez que votre organisme est bien enregistré.</p>}
 
-      <ol className="mt-6 flex flex-wrap items-center gap-2 text-sm" aria-label="Étapes d'une fiche">
-        {STEPS.map((s, i) => (
-          <li key={s} className="flex items-center gap-2">
-            {i > 0 && <span aria-hidden="true" className="h-0.5 w-6 bg-encre/30" />}
-            <span className={`rounded-full px-3 py-1 font-semibold ${STATUTS[s].className}`}>{STATUTS[s].label}</span>
-          </li>
-        ))}
-        <li className="text-encre/70">ou Refusée avec un motif</li>
-      </ol>
+      <div className="mt-6">
+        <ParcoursEtapes etapes={etapes} />
+      </div>
+
+      <h2 className="mt-10 text-2xl">
+        Fiches <span className="font-sans text-base font-semibold text-encre/70">({programs.length})</span>
+      </h2>
 
       {programs.length ? (
-        <ul className="mt-6 grid gap-3">
+        <ul className="mt-4 grid gap-3">
           {programs.map((p) => {
             const st = STATUTS[p.status];
             return (
               <li key={p.id} className="calm-card flex flex-col gap-3 p-4 sm:flex-row sm:items-center">
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className={`rounded-full px-2.5 py-0.5 text-xs font-bold ${st.className}`}>{st.label}</span>
+                    <span className={`inline-flex items-center gap-1.5 rounded-full border-[1.5px] border-encre/20 px-2.5 py-0.5 text-xs font-bold ${st.className}`}>
+                      <span aria-hidden="true" className={`h-2 w-2 rounded-full ${p.status === "published" ? "bg-menthe" : p.status === "pending" ? "bg-jaune" : p.status === "rejected" ? "bg-brique" : "bg-encre/40"}`} />
+                      {st.label}
+                    </span>
                     <span className="text-xs text-encre/60">Modifiée le {new Date(p.updated_at).toLocaleDateString("fr-FR")}</span>
                   </div>
                   <p className="mt-1 truncate font-display text-lg font-extrabold">{p.title}</p>
-                  <p className="text-sm text-encre/70">{p.status === "rejected" && p.reject_reason ? `Motif : ${p.reject_reason}` : st.help}</p>
+                  <p className={`text-sm ${p.status === "rejected" ? "font-semibold text-red-900" : "text-encre/75"}`}>
+                    {p.status === "rejected" && p.reject_reason ? `Motif du refus : ${p.reject_reason}` : st.help}
+                  </p>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-28" title={`Complétude ${p.completeness} %`}>
-                    <div className="h-2.5 overflow-hidden rounded-full bg-slate-200" role="progressbar" aria-valuenow={p.completeness} aria-valuemin={0} aria-valuemax={100} aria-label="Complétude">
+                    <div className="h-3 overflow-hidden rounded-full border-[1.5px] border-encre bg-white" role="progressbar" aria-valuenow={p.completeness} aria-valuemin={0} aria-valuemax={100} aria-label="Complétude">
                       <div className="h-full rounded-full bg-jaune" style={{ width: `${p.completeness}%` }} />
                     </div>
                     <p className="mt-1 text-xs text-encre/70">{p.completeness} % complète</p>
                   </div>
                   {p.status === "published" && (
-                    <Link href={`/formation/${p.slug}`} className="text-sm font-semibold underline underline-offset-2">Voir</Link>
+                    <Link href={`/formation/${p.slug}`} className="tap text-sm font-semibold underline underline-offset-2">
+                      Voir<span className="sr-only"> la fiche publiée {p.title}</span>
+                    </Link>
                   )}
-                  <Link href={`/espace/fiche/${p.id}`} className="btn btn-blanc !min-h-10 !shadow-none">Ouvrir</Link>
+                  <Link href={`/espace/fiche/${p.id}`} className="btn btn-blanc !min-h-11">
+                    {p.status === "rejected" ? "Corriger" : p.status === "draft" ? "Compléter" : "Ouvrir"}
+                    <span className="sr-only"> {p.title}</span>
+                  </Link>
                 </div>
               </li>
             );

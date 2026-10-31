@@ -93,7 +93,7 @@ export function LoginFlow() {
           <li>L&apos;expéditeur est Supabase Auth, pour le compte d&apos;Annuaire Formation Online.</li>
           <li>Le lien est valable une heure et ne sert qu&apos;une fois.</li>
         </ul>
-        {error && <p role="alert" className="mt-4 font-semibold text-brique">{error}</p>}
+        {error && <p role="alert" className="field-error mt-4">{error}</p>}
         <div className="mt-5 flex flex-wrap gap-3">
           <button type="button" className="btn btn-blanc" disabled={busy || cooldown > 0} onClick={() => send()}>
             {cooldown > 0 ? `Renvoyer le lien (${cooldown} s)` : "Renvoyer le lien"}
@@ -103,7 +103,7 @@ export function LoginFlow() {
           </button>
         </div>
         <details className="mt-6 border-t pt-4">
-          <summary className="cursor-pointer font-semibold">J&apos;ai reçu un code à 6 chiffres</summary>
+          <summary className="tap cursor-pointer font-semibold">J&apos;ai reçu un code à 6 chiffres</summary>
           <form onSubmit={verify} className="mt-3 flex flex-wrap items-end gap-3">
             <div>
               <label htmlFor="otp" className="label">Code</label>
@@ -112,13 +112,15 @@ export function LoginFlow() {
                 inputMode="numeric"
                 autoComplete="one-time-code"
                 pattern="\d{6}"
+                aria-describedby="otp-aide"
                 maxLength={6}
                 value={code}
                 onChange={(e) => setCode(e.target.value.replace(/\D/g, ""))}
                 className="field !w-40 text-center font-mono text-xl tracking-[0.3em]"
               />
             </div>
-            <button type="submit" className="btn btn-nuit" disabled={busy}>Valider le code</button>
+            <button type="submit" className="btn btn-nuit" disabled={busy} aria-busy={busy}>Valider le code</button>
+            <p id="otp-aide" className="hint w-full">Saisissez ou collez les 6 chiffres reçus par e-mail.</p>
           </form>
         </details>
       </section>
@@ -133,8 +135,12 @@ export function LoginFlow() {
         <input
           id="email"
           type="email"
+          inputMode="email"
           autoComplete="email"
+          spellCheck={false}
+          autoCapitalize="none"
           required
+          aria-invalid={error ? true : undefined}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           className="field"
@@ -142,13 +148,13 @@ export function LoginFlow() {
           aria-describedby={error ? "login-err" : undefined}
         />
       </div>
-      {error && <p id="login-err" role="alert" className="mt-3 font-semibold text-brique">{error}</p>}
-      <button type="submit" className="btn btn-nuit mt-5 w-full" disabled={busy}>
-        {busy ? "Envoi…" : "Recevoir mon lien"}
+      {error && <p id="login-err" role="alert" className="field-error">{error}</p>}
+      <button type="submit" className="btn btn-nuit mt-5 w-full" disabled={busy} aria-busy={busy}>
+        {busy ? "Envoi du lien…" : "Recevoir mon lien"}
       </button>
       <p className="hint mt-4">
         Première visite&nbsp;? Le compte est créé automatiquement. En continuant, vous acceptez les{" "}
-        <a href="/cgu" className="underline">conditions d&apos;utilisation</a>.
+        <a href="/cgu" className="underline underline-offset-2">conditions d&apos;utilisation</a>.
       </p>
     </form>
   );

@@ -38,6 +38,7 @@ export function Footer() {
             {[
               ["/publier", "Publier mes parcours"],
               ["/a-propos", "À propos et méthodologie"],
+              ["/blog", "Blog et guides"],
               ["/connexion", "Espace organisme"],
               ["/liste-attente", "Liste d'attente"],
               ["/contact", "Contact et signalement"],
