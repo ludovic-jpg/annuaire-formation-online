@@ -97,7 +97,8 @@ for f in sorted(glob.glob(os.path.join(src_dir, "*", "*.json"))):
         "audience": txt(m.get("public")), "prerequisites": txt(m.get("prerequis")), "duration_text": txt(m.get("duree")),
         "price_text": re.sub(r"^A partir", "À partir", txt(m.get("tarif"))), "modality": modalite(champs["modalities_text"]),
         "sphere": SPHERE.get(e.get("sphere"), "metiers-specifiques"), "certification": cert,
-        "cpf_eligible": bool(m.get("cpf")), "source_url": url, "image_url": img, "source_site": h, "completeness": completude,
+        # CPF : uniquement les parcours certifiants (LILATE, ICDL) et le bilan de compétences ; les mentions CPF des pages non certifiantes ne sont pas reprises.
+        "cpf_eligible": bool(cert) or SPHERE.get(e.get("sphere")) == "bilan-de-competences", "source_url": url, "image_url": img, "source_site": h, "completeness": completude,
         "also_offered_by": [{"name": NOM.get(host(t["lien"]), host(t["lien"])), "url": t["lien"]} for t in twins],
         "extra_sections": [{"rubrique": txt(x.get("rubrique")), "contenu": txt(x.get("contenu"))} for x in (m.get("autres") or []) if txt(x.get("contenu"))],
         **champs,
