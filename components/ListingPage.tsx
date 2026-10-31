@@ -13,6 +13,7 @@ export function ListingPage({
   crumbs,
   programs,
   color,
+  fluo,
   image,
   titreListe,
   children,
@@ -22,6 +23,8 @@ export function ListingPage({
   crumbs: { href?: string; label: string }[];
   programs: ProgramWithOrg[];
   color: string;
+  /** Couleur fluo du thème (soulignements). */
+  fluo?: string;
   image?: string;
   /** Titre H2 de la grille (hiérarchie : H1 > H2 > cartes en H3). */
   titreListe?: string;
@@ -30,7 +33,7 @@ export function ListingPage({
 }) {
   const orgs = new Set(programs.map((p) => p.org_id)).size;
   return (
-    <>
+    <div style={{ "--marker": fluo } as React.CSSProperties}>
       <section className="dots border-b-4 border-encre">
         <div className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
           <Breadcrumbs items={crumbs} />
@@ -94,6 +97,6 @@ export function ListingPage({
           }}
         />
       )}
-    </>
+    </div>
   );
 }

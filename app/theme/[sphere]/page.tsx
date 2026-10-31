@@ -66,6 +66,7 @@ export default async function ThemePage({ params }: { params: Params }) {
       crumbs={[{ href: "/formations", label: "Formations" }, { label: s.label }]}
       programs={programs}
       color={s.color}
+      fluo={s.fluo}
       image={SPHERE_VISUELS[s.slug]}
       titreListe={`Les parcours ${s.label.toLowerCase()} référencés`}
     >

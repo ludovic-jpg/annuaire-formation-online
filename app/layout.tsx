@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Bricolage_Grotesque, Inter } from "next/font/google";
+import { Bricolage_Grotesque, Inter, VT323 } from "next/font/google";
 import "./globals.css";
 import { SITE_NAME, SITE_URL } from "@/lib/env";
 import { Header } from "@/components/Header";
@@ -8,6 +8,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { publisherJsonLd } from "@/lib/jsonld";
 
 const bricolage = Bricolage_Grotesque({ subsets: ["latin"], weight: ["600", "800"], variable: "--font-bricolage", display: "swap" });
+const pixel = VT323({ subsets: ["latin"], weight: "400", variable: "--font-pixel", display: "swap" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 export const metadata: Metadata = {
@@ -36,7 +37,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="fr" className={`${bricolage.variable} ${inter.variable}`}>
+    <html lang="fr" className={`${bricolage.variable} ${inter.variable} ${pixel.variable}`}>
       <body className="min-h-dvh flex flex-col antialiased">
         <a href="#contenu" className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 btn btn-jaune">
           Aller au contenu

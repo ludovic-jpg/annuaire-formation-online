@@ -33,10 +33,8 @@ export default async function Home() {
           <section aria-labelledby="titre-accueil" className="brut anim-pop relative overflow-hidden bg-jaune md:col-span-2 md:row-span-2">
             <div className="relative z-10 p-6 sm:p-9 lg:pr-[30%]">
               <h1 id="titre-accueil" className="text-[2.6rem] leading-[0.98] sm:text-6xl">
-                <span className="mb-3 block font-sans text-base font-bold uppercase tracking-wide sm:text-lg">
-                  Annuaire des formations professionnelles
-                </span>
-                Le bon parcours de formation, sans détour.
+                <span className="tag-pixel mb-4">Annuaire des formations professionnelles</span>
+                <span className="mt-3 block">Le bon parcours de formation, <span className="marker marker-cyan">sans détour.</span></span>
               </h1>
               <p className="mt-5 max-w-md text-lg font-medium">
                 Durée, prix, modalité, CPF : comparez les parcours des organismes de formation, puis contactez celui qui vous
@@ -64,7 +62,7 @@ export default async function Home() {
           <section aria-labelledby="titre-of" className="on-dark brut anim-pop flex flex-col bg-nuit p-6 text-white [animation-delay:90ms]">
             <div className="flex items-start gap-4">
               <Mascotte score={100} className="h-24 w-24 shrink-0 -rotate-6" />
-              <h2 id="titre-of" className="text-2xl leading-tight">
+              <h2 id="titre-of" className="sans-marqueur text-2xl leading-tight">
                 Organisme de formation&nbsp;? Vos parcours ont leur place ici.
               </h2>
             </div>

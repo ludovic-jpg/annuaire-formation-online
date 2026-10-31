@@ -27,13 +27,13 @@ export function ProgramCard({ p, priority = false }: { p: ProgramWithOrg; priori
             <img src={img} alt={`Visuel de la formation ${p.title}, proposée par ${p.organizations.name}`} loading="lazy" className="lift-img absolute inset-0 h-full w-full object-contain p-3" />
           )}
           {sphere && (
-            <span className="absolute left-3 top-3 inline-flex items-center gap-2 rounded-full border-[3px] border-encre bg-white py-0.5 pl-0.5 pr-3 text-xs font-bold">
-              <SphereIcon sphere={sphere.slug} color={sphere.color} size={28} />
+            <span className="absolute left-3 top-3 inline-flex items-center gap-2 rounded-full border-[3px] border-encre bg-white py-0.5 pl-0.5 pr-3 font-pixel text-lg uppercase leading-none tracking-wide">
+              <SphereIcon sphere={sphere.slug} color={sphere.fluo} size={28} />
               {sphere.label}
             </span>
           )}
         </div>
-        <div className="flex min-h-[4.5rem] items-center border-t-4 border-encre bg-jaune px-3 py-2">
+        <div className="flex min-h-[4.5rem] items-center border-t-4 border-encre px-3 py-2" style={{ background: sphere?.fluo ?? "#FFF23D" }}>
           <h3 className="line-clamp-2 text-lg leading-tight">
             <Link href={`/formation/${p.slug}`} className="card-link after:absolute after:inset-0 after:content-[''] focus-visible:outline-none">
               {p.title}

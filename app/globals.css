@@ -10,6 +10,11 @@
   --color-rose: #ff8fb1;
   --color-menthe: #16c79a;
   --color-brique: #c2410c;
+  --color-fluo-jaune: #fff23d;
+  --color-fluo-cyan: #3de8ff;
+  --color-fluo-rose: #ff5cc8;
+  --color-fluo-vert: #4dff7a;
+  --font-pixel: var(--font-pixel), ui-monospace, Menlo, Consolas, monospace;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-bricolage), var(--font-inter), ui-sans-serif, sans-serif;
   --radius-brut: 20px;
@@ -25,6 +30,11 @@
     -webkit-text-size-adjust: 100%;
   }
   body {
+    background-color: #fff;
+    background-image:
+      linear-gradient(to right, color-mix(in oklab, var(--color-encre) 7%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in oklab, var(--color-encre) 7%, transparent) 1px, transparent 1px);
+    background-size: 28px 28px;
     font-family: var(--font-sans);
     line-height: 1.55;
     text-rendering: optimizeLegibility;
@@ -245,4 +255,49 @@
   }
   .lift:hover, .lift:focus-within, .btn:hover, .btn:active, .lift:hover .lift-img { transform: none; }
   .skeleton { animation: none; }
+}
+
+
+@layer components {
+  /* Étiquette façon terminal : police pixel, fond noir, lettres capitales */
+  .tag-pixel {
+    display: inline-block;
+    font-family: var(--font-pixel);
+    font-size: 1.1rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: var(--color-encre);
+    color: #fff;
+    padding: 0.1rem 0.7rem;
+  }
+  /* Surlignage « marqueur fluo » derrière les mots clés d'un titre */
+  .marker {
+    background: linear-gradient(transparent 12%, var(--marker, var(--color-fluo-jaune)) 12%, var(--marker, var(--color-fluo-jaune)) 92%, transparent 92%);
+    padding: 0 0.15em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .marker-cyan { --marker: var(--color-fluo-cyan); }
+  .marker-rose { --marker: var(--color-fluo-rose); }
+  .marker-vert { --marker: var(--color-fluo-vert); }
+  /* Barre de fenêtre : bandeau fluo + nom de fichier en police pixel */
+  .fenetre-barre {
+    font-family: var(--font-pixel);
+    font-size: 1.15rem;
+    background: var(--color-fluo-cyan);
+    border-bottom: 4px solid var(--color-encre);
+    padding: 0.15rem 0.75rem;
+  }
+}
+
+
+@layer base {
+  /* Soulignement fluo « marqueur » sous les titres de section ; la couleur suit le thème via --marker */
+  main h2:not(.sr-only):not(.sans-marqueur) {
+    width: fit-content;
+    max-width: 100%;
+    background: linear-gradient(transparent 64%, var(--marker, var(--color-fluo-jaune)) 64%, var(--marker, var(--color-fluo-jaune)) 94%, transparent 94%);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
 }

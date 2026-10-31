@@ -82,7 +82,7 @@ export default async function FormationPage({ params }: { params: Params }) {
   ];
 
   return (
-    <>
+    <div style={{ "--marker": sphere?.fluo } as React.CSSProperties}>
       <section className="dots border-b-4 border-encre">
         <div className="mx-auto max-w-6xl px-4 py-8">
           <Breadcrumbs
@@ -247,6 +247,6 @@ export default async function FormationPage({ params }: { params: Params }) {
       </section>
       <MobileContactBar orgName={org.name} sourceUrl={p.source_url} rel={rel} />
       <JsonLd data={courseJsonLd(p)} />
-    </>
+    </div>
   );
 }
