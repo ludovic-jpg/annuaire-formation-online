@@ -149,22 +149,18 @@ export default async function FormationPage({ params }: { params: Params }) {
             <h2 id="t-pub" className="sr-only">Public et prérequis</h2>
             <div className="calm-card p-5">
               <h3 className="text-lg">Public visé</h3>
-              <p className="mt-2">{p.audience || "Non précisé par l'organisme."}</p>
+              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(p.audience || "Non précisé par l'organisme.") }} />
             </div>
             <div className="calm-card p-5">
               <h3 className="text-lg">Prérequis</h3>
-              <p className="mt-2">{p.prerequisites || "Non précisé par l'organisme."}</p>
+              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(p.prerequisites || "Non précisé par l'organisme.") }} />
             </div>
           </section>
 
           {rubriques.map((r) => (
             <section key={r.id} aria-labelledby={`t-${r.id}`} className="mt-10">
               <h2 id={`t-${r.id}`} className="text-3xl">{r.titre}</h2>
-              {r.md ? (
-                <div className="prose-af mt-4 max-w-prose" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(r.md) }} />
-              ) : (
-                <p className="mt-4 max-w-prose whitespace-pre-line text-lg">{r.texte}</p>
-              )}
+              <div className="prose-af mt-4 max-w-prose text-lg" dangerouslySetInnerHTML={{ __html: renderMarkdownSur((r.md || r.texte) ?? "") }} />
             </section>
           ))}
 
