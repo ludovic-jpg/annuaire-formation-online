@@ -19,7 +19,6 @@ export const metadata: Metadata = {
   description:
     "Comparez des parcours de formation professionnelle : durée, prix, modalité, éligibilité CPF, organisme. Organismes de formation : publiez vos parcours gratuitement.",
   applicationName: SITE_NAME,
-  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "fr_FR",

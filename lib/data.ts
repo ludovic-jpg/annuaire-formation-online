@@ -96,22 +96,37 @@ export async function programsBySphere(sphere: string) {
   return (data ?? []) as ProgramWithOrg[];
 }
 
+export type LightProgram = {
+  slug: string;
+  title: string;
+  org_id: string;
+  sphere: string | null;
+  city: string | null;
+  indexable: boolean;
+  updated_at: string;
+  summary: string | null;
+  duration_text: string | null;
+  modality: string | null;
+  cpf_eligible: boolean;
+  certification: string | null;
+};
+
 /** Toutes les fiches publiées (champs légers) : sitemap, compteurs, llms.txt. */
 export async function allPublishedLight() {
   const sb = publicClient();
-  if (!sb) return [] as { slug: string; title: string; org_id: string; sphere: string | null; city: string | null; indexable: boolean; updated_at: string; summary: string | null }[];
+  if (!sb) return [] as LightProgram[];
   const { data } = await sb
     .from("programs")
-    .select("slug, title, org_id, sphere, city, indexable, updated_at, summary")
+    .select("slug, title, org_id, sphere, city, indexable, updated_at, summary, duration_text, modality, cpf_eligible, certification")
     .eq("status", "published")
     .limit(5000);
-  return data ?? [];
+  return (data ?? []) as LightProgram[];
 }
 
 export async function activeOrganizationsLight() {
   const sb = publicClient();
-  if (!sb) return [] as { slug: string; name: string; created_at: string }[];
-  const { data } = await sb.from("organizations").select("slug, name, created_at").eq("status", "active").limit(5000);
+  if (!sb) return [] as { id: string; slug: string; name: string; created_at: string }[];
+  const { data } = await sb.from("organizations").select("id, slug, name, created_at").eq("status", "active").limit(5000);
   return data ?? [];
 }
 
@@ -137,4 +152,21 @@ export async function programsByCitySlug(citySlug: string, slugify: (s: string) 
     .order("published_at", { ascending: false, nullsFirst: false })
     .limit(200);
   return { city: match, programs: (data ?? []) as ProgramWithOrg[] };
+}
+
+/** Maillage interne : autres fiches publiées du même thème (indexables d'abord, puis complétude). */
+export async function relatedPrograms(sphere: string, excludeId: string, limit = 3) {
+  const sb = publicClient();
+  if (!sb) return [] as ProgramWithOrg[];
+  const { data } = await sb
+    .from("programs")
+    .select(PROGRAM_SELECT)
+    .eq("status", "published")
+    .eq("sphere", sphere)
+    .neq("id", excludeId)
+    .order("indexable", { ascending: false })
+    .order("completeness", { ascending: false })
+    .order("published_at", { ascending: false, nullsFirst: false })
+    .limit(limit);
+  return (data ?? []) as ProgramWithOrg[];
 }

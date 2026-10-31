@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getProgram } from "@/lib/data";
+import { getProgram, relatedPrograms } from "@/lib/data";
+import { titreFiche, descriptionFiche } from "@/lib/seo";
+import { ProgramCard } from "@/components/ProgramCard";
 import { programRobots, outboundRel } from "@/lib/regles";
 import { SPHERE_BY_SLUG, modaliteLabel } from "@/lib/spheres";
 import { programImage } from "@/lib/visuels";
@@ -11,7 +13,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContactForm } from "@/components/ContactForm";
 import { GroupBadge } from "@/components/GroupBadge";
+import { MobileContactBar } from "@/components/MobileContactBar";
 import type { AlsoOffered } from "@/lib/types";
+import { slugify } from "@/lib/slug";
 
 export const revalidate = 300;
 export async function generateStaticParams() {
@@ -24,14 +28,14 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const { slug } = await params;
   const p = await getProgram(slug);
   if (!p) return { title: "Formation introuvable", robots: { index: false } };
-  const desc = (p.summary ?? `${p.title} par ${p.organizations.name}`).slice(0, 158);
+  const desc = descriptionFiche(p);
   const img = programImage(p);
   return {
-    title: `${p.title} : ${p.organizations.name}`,
+    title: titreFiche(p.title, p.organizations.name),
     description: desc,
     alternates: { canonical: `/formation/${p.slug}` },
     robots: programRobots(p),
-    openGraph: { title: p.title, description: desc, type: "article", images: [{ url: img }] },
+    openGraph: { title: p.title, description: desc, type: "website", url: `/formation/${p.slug}`, images: [{ url: img }] },
   };
 }
 
@@ -44,6 +48,7 @@ export default async function FormationPage({ params }: { params: Params }) {
   const rel = outboundRel(org.link_rel);
   const img = programImage(p);
   const twins = (Array.isArray(p.also_offered_by) ? p.also_offered_by : []) as AlsoOffered[];
+  const voisins = p.sphere ? await relatedPrograms(p.sphere, p.id, 3) : [];
 
   const facts: [string, string][] = [
     ["Durée", p.duration_text || "Non précisée"],
@@ -83,9 +88,9 @@ export default async function FormationPage({ params }: { params: Params }) {
               </dl>
               {org.is_group && <div className="mt-3"><GroupBadge /></div>}
             </div>
-            <div className="brut relative aspect-[4/3] overflow-hidden" style={{ background: sphere?.color ?? "#FFCD1C" }}>
+            <div className="brut visual-tint relative aspect-[4/3] overflow-hidden" style={{ "--tone": sphere?.color ?? "#FFCD1C" } as React.CSSProperties}>
               {img.startsWith("/") ? (
-                <Image src={img} alt="" fill priority sizes="(min-width: 1024px) 40vw, 100vw" className="object-contain p-4" />
+                <Image src={img} alt="" fill loading="eager" fetchPriority="high" sizes="(min-width: 1024px) 40vw, 100vw" className="object-contain p-4 mix-blend-multiply" />
               ) : (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={img} alt="" className="absolute inset-0 h-full w-full object-cover" />
@@ -165,6 +170,38 @@ export default async function FormationPage({ params }: { params: Params }) {
           </div>
         </aside>
       </div>
+
+      <section aria-labelledby="t-plus" className="mx-auto max-w-6xl px-4 pb-4">
+        <h2 id="t-plus" className="text-3xl">Pour comparer</h2>
+        <p className="mt-3 max-w-prose text-lg">
+          {sphere ? (
+            <>
+              Ce parcours fait partie du thème{" "}
+              <Link href={`/theme/${sphere.slug}`} className="font-semibold underline underline-offset-4">{sphere.label.toLowerCase()}</Link>
+              , où vous trouverez un guide pour bien choisir et les autres parcours référencés.{" "}
+            </>
+          ) : null}
+          Retrouvez aussi{" "}
+          <Link href={`/organisme/${org.slug}`} className="font-semibold underline underline-offset-4">tous les parcours de {org.name}</Link>
+          {p.city && p.modality !== "distanciel" ? (
+            <>
+              {" "}et les{" "}
+              <Link href={`/ville/${slugify(p.city)}`} className="font-semibold underline underline-offset-4">formations à {p.city}</Link>
+            </>
+          ) : null}
+          .
+        </p>
+        {voisins.length > 0 && (
+          <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3" aria-label="Autres parcours du même thème">
+            {voisins.map((v) => (
+              <li key={v.id}>
+                <ProgramCard p={v} />
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+      <MobileContactBar orgName={org.name} sourceUrl={p.source_url} rel={rel} />
       <JsonLd data={courseJsonLd(p)} />
     </>
   );

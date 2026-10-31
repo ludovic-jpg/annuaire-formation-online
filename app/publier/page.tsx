@@ -3,13 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mascotte } from "@/components/Mascotte";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { JsonLd } from "@/components/JsonLd";
+import { Faq } from "@/components/Faq";
+import { META, PUBLIER } from "@/lib/contenu/pages";
 import { LOGOS_GROUPE } from "@/lib/visuels";
 
 export const metadata: Metadata = {
-  title: "Organismes de formation : publiez vos parcours gratuitement",
-  description: "Référencez vos parcours de formation gratuitement : connexion par e-mail, fiche guidée avec aperçu en direct, relecture sous 2 jours ouvrés, lien vers votre site.",
+  title: META.publier.title,
+  description: META.publier.description,
   alternates: { canonical: "/publier" },
+  openGraph: { title: META.publier.title, description: META.publier.description, url: "/publier" },
 };
 
 const ETAPES = [
@@ -20,14 +22,6 @@ const ETAPES = [
   ["Recevez des demandes", "Une fois publiée, la fiche renvoie vers votre site et les apprenants vous écrivent directement."],
 ];
 
-const FAQ = [
-  ["Combien ça coûte ?", "Rien au lancement. Si une offre payante apparaît plus tard, elle sera annoncée au moins 15 jours à l'avance et ne donnera jamais de meilleur classement."],
-  ["Qui peut publier ?", "Les organismes de formation disposant d'un SIRET. Le numéro de déclaration d'activité et la certification Qualiopi sont affichés quand vous les renseignez."],
-  ["Puis-je copier le texte de mon site ?", "Non pour le résumé : il doit être original (80 à 150 mots). Un copier-coller ferait doublon avec votre propre page et nuirait à son référencement. Le lien « Voir le programme complet » mène à votre page détaillée."],
-  ["Comment les fiches sont-elles classées ?", "Par pertinence de la recherche, puis par complétude de la fiche, puis par date de publication. Tous les critères sont expliqués sur la page dédiée."],
-  ["Le lien vers mon site est-il suivi ?", "Il porte l'attribut rel=\"ugc\", recommandé par Google pour les contenus publiés par les utilisateurs. Il vous apporte des visiteurs qualifiés, pas un « backlink » artificiel."],
-  ["Puis-je retirer une fiche ?", "Oui, à tout moment depuis votre espace, ou par simple e-mail."],
-];
 
 export default function PublierPage() {
   return (
@@ -36,11 +30,8 @@ export default function PublierPage() {
         <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 py-10 sm:py-14 md:grid-cols-[1.5fr_1fr]">
           <div>
             <Breadcrumbs items={[{ label: "Publier mes parcours" }]} />
-            <h1 className="mt-5 text-4xl sm:text-6xl">Vos parcours, là où les apprenants cherchent.</h1>
-            <p className="mt-5 max-w-xl text-lg font-medium">
-              Publiez gratuitement une fiche par parcours. Elle met en avant l&apos;essentiel (durée, prix, modalité, CPF) et renvoie vers
-              votre site.
-            </p>
+            <h1 className="mt-5 text-4xl sm:text-6xl">{PUBLIER.h1}</h1>
+            <p className="mt-5 max-w-xl text-lg font-medium">{PUBLIER.chapo}</p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link href="/connexion?suite=/espace" className="btn btn-nuit text-lg">Publier mes parcours gratuitement</Link>
               <Link href="/liste-attente" className="btn btn-blanc">Être prévenu plus tard</Link>
@@ -88,33 +79,28 @@ export default function PublierPage() {
             </ul>
           </section>
 
-          <section aria-labelledby="t-faq" className="mt-14">
-            <h2 id="t-faq" className="text-3xl sm:text-4xl">Questions fréquentes</h2>
-            <div className="mt-6 grid gap-3">
-              {FAQ.map(([q, a]) => (
-                <details key={q} className="brut-sm group bg-white p-4 open:bg-creme">
-                  <summary className="cursor-pointer list-none font-display text-lg font-extrabold">
-                    <span className="mr-2 inline-block transition-transform group-open:rotate-45" aria-hidden="true">+</span>
-                    {q}
-                  </summary>
-                  <p className="mt-2 pl-6">{a}</p>
-                </details>
-              ))}
-            </div>
+          <section aria-labelledby="t-pourquoi" className="mt-14 max-w-prose">
+            <h2 id="t-pourquoi" className="text-3xl sm:text-4xl">{PUBLIER.pourquoi.titre}</h2>
+            {PUBLIER.pourquoi.paragraphes.map((t) => (
+              <p key={t.slice(0, 20)} className="mt-4 text-lg">{t}</p>
+            ))}
+            <p className="mt-4 text-lg">
+              Les règles de classement et de liens sont publiques :{" "}
+              <Link href="/comment-fonctionne-le-classement" className="font-semibold underline underline-offset-4">comment fonctionne le classement</Link>{" "}
+              et <Link href="/a-propos" className="font-semibold underline underline-offset-4">notre méthodologie</Link>.
+            </p>
           </section>
+
+          <div className="mt-14">
+            <Faq id="t-faq" items={PUBLIER.faq} />
+          </div>
 
           <div className="mt-14 text-center">
             <Link href="/connexion?suite=/espace" className="btn btn-jaune text-lg">Publier mes parcours gratuitement</Link>
           </div>
         </div>
       </div>
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
-        }}
-      />
+
     </>
   );
 }

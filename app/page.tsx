@@ -6,8 +6,18 @@ import { Mascotte } from "@/components/Mascotte";
 import { SPHERES } from "@/lib/spheres";
 import { SPHERE_VISUELS, HERO_VISUEL } from "@/lib/visuels";
 import { allPublishedLight, latestPrograms } from "@/lib/data";
+import type { Metadata } from "next";
+import { META, ACCUEIL_GUIDE, ACCUEIL_FAQ } from "@/lib/contenu/pages";
+import { Faq } from "@/components/Faq";
 
 export const revalidate = 300;
+
+export const metadata: Metadata = {
+  title: { absolute: META.accueil.title },
+  description: META.accueil.description,
+  alternates: { canonical: "/" },
+  openGraph: { title: META.accueil.title, description: META.accueil.description, url: "/" },
+};
 
 export default async function Home() {
   const [latest, all] = await Promise.all([latestPrograms(6), allPublishedLight()]);
@@ -23,6 +33,9 @@ export default async function Home() {
           <section aria-labelledby="titre-accueil" className="brut anim-pop relative overflow-hidden bg-jaune md:col-span-2 md:row-span-2">
             <div className="relative z-10 p-6 sm:p-9 lg:pr-[30%]">
               <h1 id="titre-accueil" className="text-[2.6rem] leading-[0.98] sm:text-6xl">
+                <span className="mb-3 block font-sans text-base font-bold uppercase tracking-wide sm:text-lg">
+                  Annuaire des formations professionnelles
+                </span>
                 Le bon parcours de formation, sans détour.
               </h1>
               <p className="mt-5 max-w-md text-lg font-medium">
@@ -33,7 +46,7 @@ export default async function Home() {
                 <SearchBox big />
               </div>
               <p className="mt-4 text-sm font-medium">
-                Ou parcourez les <Link href="/formations" className="underline underline-offset-4">formations par filtres</Link>.
+                Ou parcourez les <Link href="/formations" className="tap underline underline-offset-4">formations par filtres</Link>.
               </p>
             </div>
             <Image
@@ -41,13 +54,14 @@ export default async function Home() {
               alt=""
               width={1024}
               height={643}
-              priority
-              sizes="(min-width: 768px) 40vw, 90vw"
+              loading="eager"
+              fetchPriority="high"
+              sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw"
               className="pointer-events-none relative -mb-1 ml-auto w-[88%] md:w-[70%] lg:absolute lg:bottom-0 lg:right-[-8%] lg:w-[46%]"
             />
           </section>
 
-          <section aria-labelledby="titre-of" className="brut anim-pop flex flex-col bg-nuit p-6 text-white [animation-delay:90ms]">
+          <section aria-labelledby="titre-of" className="on-dark brut anim-pop flex flex-col bg-nuit p-6 text-white [animation-delay:90ms]">
             <div className="flex items-start gap-4">
               <Mascotte score={100} className="h-24 w-24 shrink-0 -rotate-6" />
               <h2 id="titre-of" className="text-2xl leading-tight">
@@ -74,7 +88,7 @@ export default async function Home() {
             </div>
             <p className="col-span-2 border-t-[3px] border-encre px-5 py-3 text-sm">
               Classement sans option payante.{" "}
-              <Link href="/comment-fonctionne-le-classement" className="font-semibold underline underline-offset-2">
+              <Link href="/comment-fonctionne-le-classement" className="tap font-semibold underline underline-offset-2">
                 Nos critères
               </Link>
             </p>
@@ -91,17 +105,18 @@ export default async function Home() {
               <li key={s.slug} className={i === 0 ? "col-span-2 sm:col-span-1 lg:row-span-2" : ""}>
                 <Link
                   href={`/theme/${s.slug}`}
-                  className="brut-sm lift group relative flex h-full min-h-36 flex-col justify-end overflow-hidden"
-                  style={{ background: s.color }}
+                  className="brut-sm lift visual-tint visual-tint-strong group relative flex h-full min-h-36 flex-col justify-end overflow-hidden"
+                  style={{ "--tone": s.color } as React.CSSProperties}
                 >
                   <Image
                     src={SPHERE_VISUELS[s.slug]}
                     alt=""
                     fill
                     sizes="(min-width: 1024px) 20vw, 50vw"
-                    className="object-cover opacity-90 mix-blend-multiply transition-transform duration-300 group-hover:scale-105"
+                    className="lift-img object-cover mix-blend-multiply"
                   />
-                  <span className="relative m-2.5 inline-flex flex-col self-start rounded-xl border-2 border-encre bg-white px-3 py-1.5">
+                  <span aria-hidden="true" className="absolute right-2.5 top-2.5 h-4 w-4 rounded-full border-2 border-encre" style={{ background: s.color }} />
+                  <span className="relative m-2.5 inline-flex flex-col self-start rounded-xl border-2 border-encre bg-white px-3 py-1.5 shadow-[2px_2px_0_0_var(--color-encre)]">
                     <span className="font-display text-base font-extrabold leading-tight">{s.label}</span>
                     <span className="text-xs font-semibold text-encre/70">
                       {perSphere.get(s.slug) ? `${perSphere.get(s.slug)} parcours` : "Bientôt"}
@@ -167,6 +182,34 @@ export default async function Home() {
             </div>
           ))}
         </section>
+
+        {/* Bloc éditorial : à quoi sert l'annuaire (apprenants et organismes) */}
+        <section aria-labelledby="titre-guide" className="mt-14">
+          <h2 id="titre-guide" className="max-w-4xl text-3xl sm:text-4xl">{ACCUEIL_GUIDE.titre}</h2>
+          <div className="mt-6 grid gap-5 md:grid-cols-2">
+            {[ACCUEIL_GUIDE.apprenants, ACCUEIL_GUIDE.organismes].map((b, i) => (
+              <div key={b.titre} className="calm-card p-6">
+                <h3 className="text-2xl">{b.titre}</h3>
+                {b.paragraphes.map((t) => (
+                  <p key={t.slice(0, 20)} className="mt-3">{t}</p>
+                ))}
+                <p className="mt-4">
+                  {i === 0 ? (
+                    <Link href="/formations" className="font-semibold underline underline-offset-4">Rechercher une formation</Link>
+                  ) : (
+                    <Link href="/publier" className="font-semibold underline underline-offset-4">Référencer mes formations gratuitement</Link>
+                  )}
+                  {" · "}
+                  <Link href="/a-propos" className="underline underline-offset-4">Notre méthode</Link>
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <div className="mt-14">
+          <Faq id="titre-faq-accueil" items={ACCUEIL_FAQ} />
+        </div>
       </div>
     </div>
   );
