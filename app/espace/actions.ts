@@ -6,6 +6,7 @@ import { requireUser } from "@/lib/auth";
 import { slugify, randomSuffix } from "@/lib/slug";
 import { canSubmit, computeCompleteness } from "@/lib/completude";
 import { SPHERES, MODALITES, CERTIFICATIONS } from "@/lib/spheres";
+import { estErreurCredit, messageErreurCredit } from "@/lib/credits";
 
 export type ActionResult = { ok: boolean; message?: string; errors?: string[]; savedAt?: string; completeness?: number };
 
@@ -136,6 +137,7 @@ export async function submitProgram(id: string, draft: ProgramDraft): Promise<Ac
       slug = `${slugify(data.title)}-${randomSuffix(4)}`;
       continue;
     }
+    if (estErreurCredit(error)) return { ok: false, message: messageErreurCredit() };
     return { ok: false, message: "L'envoi a échoué. Réessayez dans un instant." };
   }
   return { ok: false, message: "L'envoi a échoué (adresse de fiche déjà prise)." };

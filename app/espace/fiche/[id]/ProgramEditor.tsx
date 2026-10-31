@@ -8,6 +8,7 @@ import { SPHERES, MODALITES, CERTIFICATIONS, SPHERE_BY_SLUG, modaliteLabel } fro
 import { STATUTS } from "@/lib/statuts";
 import { Mascotte } from "@/components/Mascotte";
 import { Confetti } from "@/components/Confetti";
+import { MESSAGE_RECHARGE } from "@/lib/credits";
 import type { Program } from "@/lib/types";
 
 const CHAMP: Record<string, string> = {
@@ -54,7 +55,15 @@ function toDraft(p: Program): ProgramDraft {
   };
 }
 
-export function ProgramEditor({ program, orgName }: { program: Program; orgName: string }) {
+export function ProgramEditor({
+  program,
+  orgName,
+  credit = { peutEnvoyer: true, groupe: false },
+}: {
+  program: Program;
+  orgName: string;
+  credit?: { peutEnvoyer: boolean; groupe: boolean };
+}) {
   const [draft, setDraft] = useState<ProgramDraft>(() => toDraft(program));
   const [status, setStatus] = useState(program.status);
   const [save, setSave] = useState<SaveState>({ kind: "idle" });
@@ -353,7 +362,13 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
           )}
           <div className="flex flex-wrap items-center gap-3">
             {!locked && (
-              <button type="button" onClick={submit} disabled={pending} className="btn btn-nuit">
+              <button
+                type="button"
+                onClick={submit}
+                disabled={pending || !credit.peutEnvoyer}
+                aria-describedby={!credit.peutEnvoyer ? "e-credit-bloque" : undefined}
+                className="btn btn-nuit"
+              >
                 {pending ? "Envoi…" : "Envoyer en revue"}
               </button>
             )}
@@ -367,6 +382,12 @@ export function ProgramEditor({ program, orgName }: { program: Program; orgName:
               </form>
             )}
           </div>
+          {!locked && !credit.peutEnvoyer && (
+            <p id="e-credit-bloque" className="rounded-xl bg-red-50 p-3 text-sm text-red-900">
+              <strong>Crédit insuffisant :</strong> 1 € est nécessaire pour envoyer une fiche en revue. {MESSAGE_RECHARGE}.
+            </p>
+          )}
+          {!locked && credit.groupe && <p className="text-sm text-encre/70">Publication incluse : votre organisme fait partie des marques du groupe.</p>}
           {status === "pending" && (
             <p role="status" className="rounded-xl bg-jaune-pale p-4">
               <strong>Envoyée&nbsp;!</strong> Nous relisons votre fiche, en général sous 2 jours ouvrés. Vous la verrez passer en « Publiée » dans votre tableau de bord.

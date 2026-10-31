@@ -4,6 +4,8 @@ import { STATUTS } from "@/lib/statuts";
 import { etapesOrganisme } from "@/lib/parcours-of";
 import { ParcoursEtapes } from "@/components/ParcoursEtapes";
 import { Mascotte } from "@/components/Mascotte";
+import { CreditCard } from "@/components/CreditCard";
+import { lireCredit } from "@/lib/credits-server";
 import type { Organization, Program } from "@/lib/types";
 
 export default async function EspacePage({ searchParams }: { searchParams: Promise<{ erreur?: string }> }) {
@@ -43,6 +45,7 @@ export default async function EspacePage({ searchParams }: { searchParams: Promi
   }
 
   const org = myOrgs[0];
+  const credit = await lireCredit(supabase, org);
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <div className="flex flex-wrap items-end justify-between gap-4">
@@ -61,6 +64,17 @@ export default async function EspacePage({ searchParams }: { searchParams: Promi
 
       <div className="mt-6">
         <ParcoursEtapes etapes={etapes} />
+      </div>
+
+      <div className="mt-6 grid gap-4 lg:grid-cols-[1.4fr_1fr]">
+        <CreditCard credit={credit} />
+        <section aria-labelledby="t-articles" className="calm-card flex flex-col justify-between gap-3 p-5 sm:p-6">
+          <div>
+            <h2 id="t-articles" className="text-2xl">Mes articles</h2>
+            <p className="mt-1 text-sm text-encre/75">Publiez vos conseils sur le blog de l&apos;annuaire, signés par votre organisme et relus avant mise en ligne.</p>
+          </div>
+          <Link href="/espace/articles" className="btn btn-blanc self-start">Gérer mes articles</Link>
+        </section>
       </div>
 
       <h2 className="mt-10 text-2xl">

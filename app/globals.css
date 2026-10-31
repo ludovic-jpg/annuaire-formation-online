@@ -213,7 +213,7 @@
     font-size: 0.9rem;
     background: #fff;
   }
-  .chip[aria-pressed="true"], .chip[aria-current="true"] { background: var(--color-encre); color: #fff; }
+  .chip[aria-pressed="true"], .chip[aria-current="true"], .chip[aria-selected="true"] { background: var(--color-encre); color: #fff; }
 
   .prose-af p { margin: 0.75rem 0; }
   .prose-af h2 { font-size: 1.6rem; margin: 2rem 0 0.75rem; }
