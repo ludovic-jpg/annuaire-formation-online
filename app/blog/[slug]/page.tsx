@@ -13,7 +13,7 @@ import { entreesBlog } from "@/lib/blog-unifie";
 import { jourIso, normaliserCorps, reecrireLiensSortants, relDeLorganisme, type OrgPostPublic } from "@/lib/articles";
 
 const MARQUES: Record<string, { name: string; url: string }> = {
-  "back-to-business-formatrix": { name: "Formatrix (Back to Business)", url: "https://formatrix.fr" },
+  "back-to-business-formatrix": { name: "Formatrix", url: "https://formatrix.fr" },
   skills4mation: { name: "Skills4mation", url: "https://skills4mation.com" },
   formarh: { name: "FormaRH", url: "https://formarh.com" },
   formalangue: { name: "FormaLangue", url: "https://formalangue.com" },
