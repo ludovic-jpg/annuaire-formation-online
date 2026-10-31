@@ -1,8 +1,12 @@
 import { publicClient } from "@/lib/supabase/public";
 import type { Organization, ProgramWithOrg } from "@/lib/types";
 
+const ORG_JOIN = "organizations!inner(id, name, slug, link_rel, is_group, qualiopi, website, city, logo_url, nda)";
+// Listes : sans les rubriques longues de la matrice (programme, modalités…), réservées à la fiche.
 const PROGRAM_SELECT =
-  "*, organizations!inner(id, name, slug, link_rel, is_group, qualiopi, website, city, logo_url, nda)";
+  "id, org_id, slug, title, summary, objectives, audience, prerequisites, duration_text, price_text, modality, sphere, city, certification, cpf_eligible, source_url, image_url, also_offered_by, status, reject_reason, completeness, indexable, created_at, updated_at, published_at, level_text, short_objective, source_site, " +
+  ORG_JOIN;
+const PROGRAM_FULL_SELECT = "*, " + ORG_JOIN;
 
 export type ProgramFilters = {
   q?: string;
@@ -41,7 +45,7 @@ export async function searchPrograms(f: ProgramFilters = {}) {
     console.error("searchPrograms", error.message);
     return { items: [], count: 0 };
   }
-  return { items: (data ?? []) as ProgramWithOrg[], count: count ?? 0 };
+  return { items: (data ?? []) as unknown as ProgramWithOrg[], count: count ?? 0 };
 }
 
 export async function latestPrograms(limit = 6) {
@@ -53,14 +57,14 @@ export async function latestPrograms(limit = 6) {
     .eq("status", "published")
     .order("published_at", { ascending: false, nullsFirst: false })
     .limit(limit);
-  return (data ?? []) as ProgramWithOrg[];
+  return (data ?? []) as unknown as ProgramWithOrg[];
 }
 
 export async function getProgram(slug: string) {
   const sb = publicClient();
   if (!sb) return null;
-  const { data } = await sb.from("programs").select(PROGRAM_SELECT).eq("slug", slug).eq("status", "published").maybeSingle();
-  return (data as ProgramWithOrg) ?? null;
+  const { data } = await sb.from("programs").select(PROGRAM_FULL_SELECT).eq("slug", slug).eq("status", "published").maybeSingle();
+  return (data as unknown as ProgramWithOrg) ?? null;
 }
 
 export async function getOrganization(slug: string) {
@@ -79,7 +83,7 @@ export async function programsByOrg(orgId: string) {
     .eq("status", "published")
     .eq("org_id", orgId)
     .order("title");
-  return (data ?? []) as ProgramWithOrg[];
+  return (data ?? []) as unknown as ProgramWithOrg[];
 }
 
 export async function programsBySphere(sphere: string) {
@@ -93,7 +97,7 @@ export async function programsBySphere(sphere: string) {
     .order("completeness", { ascending: false })
     .order("published_at", { ascending: false, nullsFirst: false })
     .limit(200);
-  return (data ?? []) as ProgramWithOrg[];
+  return (data ?? []) as unknown as ProgramWithOrg[];
 }
 
 export type LightProgram = {
@@ -151,7 +155,7 @@ export async function programsByCitySlug(citySlug: string, slugify: (s: string) 
     .order("completeness", { ascending: false })
     .order("published_at", { ascending: false, nullsFirst: false })
     .limit(200);
-  return { city: match, programs: (data ?? []) as ProgramWithOrg[] };
+  return { city: match, programs: (data ?? []) as unknown as ProgramWithOrg[] };
 }
 
 /** Maillage interne : autres fiches publiées du même thème (indexables d'abord, puis complétude). */
@@ -168,5 +172,5 @@ export async function relatedPrograms(sphere: string, excludeId: string, limit =
     .order("completeness", { ascending: false })
     .order("published_at", { ascending: false, nullsFirst: false })
     .limit(limit);
-  return (data ?? []) as ProgramWithOrg[];
+  return (data ?? []) as unknown as ProgramWithOrg[];
 }

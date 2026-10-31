@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { marked } from "marked";
+import { Marked, marked } from "marked";
 
 /**
  * Blog alimenté par « La Rotative » (tâche planifiée) : un fichier par article dans
@@ -95,6 +95,14 @@ export function postVisible(slug: string, now = new Date()): Post | null {
 
 export function renderMarkdown(md: string): string {
   return marked.parse(md, { async: false, gfm: true }) as string;
+}
+
+const echapper = (t: string) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+// Pour les contenus importés (pages des organismes) : tout HTML brut est affiché comme du texte, jamais interprété.
+const markedSur = new Marked({ gfm: true, breaks: true, renderer: { html: ({ text }) => echapper(text) } });
+
+export function renderMarkdownSur(md: string): string {
+  return markedSur.parse(md, { async: false }) as string;
 }
 
 /** Extrait les questions/réponses de la section « Questions fréquentes » (H3 + paragraphes) pour le JSON-LD. */

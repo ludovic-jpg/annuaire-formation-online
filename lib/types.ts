@@ -49,6 +49,19 @@ export type Program = {
   created_at: string;
   updated_at: string;
   published_at: string | null;
+  // Matrice complète reprise 1/1 de la page source (migration 0003)
+  level_text?: string | null;
+  short_objective?: string | null;
+  highlights?: string | null;
+  modalities_text?: string | null;
+  program_md?: string | null;
+  results_expected?: string | null;
+  evaluation?: string | null;
+  accessibility?: string | null;
+  access_delay?: string | null;
+  extra_sections?: { rubrique: string; contenu: string }[];
+  source_site?: string | null;
+  source_synced_at?: string | null;
 };
 
 export type ProgramWithOrg = Program & {

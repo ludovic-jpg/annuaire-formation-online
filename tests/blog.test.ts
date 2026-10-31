@@ -46,3 +46,13 @@ describe("blog", () => {
     expect(aujourdhuiParis(new Date("2026-10-31T23:30:00Z"))).toBe("2026-11-01");
   });
 });
+
+import { renderMarkdownSur } from "@/lib/blog";
+describe("markdown importé", () => {
+  it("n'interprète pas le HTML brut", () => {
+    const h = renderMarkdownSur('### Module 1\n<script>alert(1)</script>\n<img src=x onerror=alert(1)>');
+    expect(h).not.toContain("<script");
+    expect(h).not.toContain("<img");
+    expect(h).toContain("<h3");
+  });
+});

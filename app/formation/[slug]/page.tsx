@@ -16,6 +16,8 @@ import { GroupBadge } from "@/components/GroupBadge";
 import { MobileContactBar } from "@/components/MobileContactBar";
 import type { AlsoOffered } from "@/lib/types";
 import { slugify } from "@/lib/slug";
+import { renderMarkdownSur } from "@/lib/blog";
+import "../../blog/blog.css";
 
 export const revalidate = 300;
 export async function generateStaticParams() {
@@ -56,6 +58,19 @@ export default async function FormationPage({ params }: { params: Params }) {
     ["Modalité", modaliteLabel(p.modality) + (p.city && p.modality !== "distanciel" ? `, ${p.city}` : "")],
     ["Organisme", org.name],
   ];
+  if (p.level_text) facts.splice(3, 0, ["Niveau", p.level_text]);
+
+  // Rubriques de la matrice, dans l'ordre des pages sources. Texte repris tel quel ; Markdown pour le programme.
+  const rubriques: { id: string; titre: string; texte?: string | null; md?: string | null }[] = [
+    { id: "points-forts", titre: "Points forts de la formation", texte: p.highlights },
+    { id: "modalites", titre: "Modalités pédagogiques", texte: p.modalities_text },
+    { id: "programme", titre: "Programme pédagogique", md: p.program_md },
+    { id: "resultats", titre: "Résultats attendus", texte: p.results_expected },
+    { id: "evaluation", titre: "Modalités d'évaluation", texte: p.evaluation },
+    { id: "accessibilite", titre: "Accessibilité", texte: p.accessibility },
+    { id: "delais", titre: "Délais d'accès", texte: p.access_delay },
+    ...(Array.isArray(p.extra_sections) ? p.extra_sections : []).map((x, i) => ({ id: `autre-${i}`, titre: x.rubrique, texte: x.contenu })),
+  ].filter((r) => (r.texte && r.texte.trim()) || (r.md && r.md.trim()));
 
   return (
     <>
@@ -102,9 +117,15 @@ export default async function FormationPage({ params }: { params: Params }) {
 
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-10 lg:grid-cols-[1.4fr_1fr]">
         <div>
+          {p.short_objective && (
+            <p className="mb-8 max-w-prose rounded-2xl border-4 border-encre bg-jaune-pale p-4 text-lg font-semibold">
+              <span className="block text-xs font-bold uppercase tracking-wide text-encre/70">Objectif</span>
+              {p.short_objective}
+            </p>
+          )}
           {p.objectives?.length > 0 && (
             <section aria-labelledby="t-obj">
-              <h2 id="t-obj" className="text-3xl">Objectifs</h2>
+              <h2 id="t-obj" className="text-3xl">Objectifs pédagogiques</h2>
               <ul className="mt-4 grid gap-2">
                 {p.objectives.map((o, i) => (
                   <li key={i} className="flex gap-3 rounded-xl bg-creme p-3">
@@ -136,9 +157,20 @@ export default async function FormationPage({ params }: { params: Params }) {
             </div>
           </section>
 
+          {rubriques.map((r) => (
+            <section key={r.id} aria-labelledby={`t-${r.id}`} className="mt-10">
+              <h2 id={`t-${r.id}`} className="text-3xl">{r.titre}</h2>
+              {r.md ? (
+                <div className="prose-af mt-4 max-w-prose" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(r.md) }} />
+              ) : (
+                <p className="mt-4 max-w-prose whitespace-pre-line text-lg">{r.texte}</p>
+              )}
+            </section>
+          ))}
+
           {p.source_url && (
             <a href={p.source_url} target="_blank" rel={rel} className="btn btn-jaune mt-10 text-lg">
-              Voir le programme complet sur le site de l&apos;organisme
+              Voir la page du parcours sur le site de l&apos;organisme
               <span className="sr-only"> (nouvel onglet)</span>
             </a>
           )}
