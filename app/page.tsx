@@ -21,7 +21,7 @@ export default async function Home() {
         {/* Bento principal */}
         <div className="grid gap-5 md:grid-cols-3 md:grid-rows-[auto_auto]">
           <section aria-labelledby="titre-accueil" className="brut anim-pop relative overflow-hidden bg-jaune md:col-span-2 md:row-span-2">
-            <div className="relative z-10 p-6 sm:p-9 md:pr-[38%]">
+            <div className="relative z-10 p-6 sm:p-9 lg:pr-[30%]">
               <h1 id="titre-accueil" className="text-[2.6rem] leading-[0.98] sm:text-6xl">
                 Le bon parcours de formation, sans détour.
               </h1>
@@ -29,7 +29,7 @@ export default async function Home() {
                 Durée, prix, modalité, CPF : comparez les parcours des organismes de formation, puis contactez celui qui vous
                 convient.
               </p>
-              <div className="mt-7 max-w-xl">
+              <div className="mt-7 max-w-xl lg:max-w-lg">
                 <SearchBox big />
               </div>
               <p className="mt-4 text-sm font-medium">
@@ -43,7 +43,7 @@ export default async function Home() {
               height={643}
               priority
               sizes="(min-width: 768px) 40vw, 90vw"
-              className="pointer-events-none relative -mb-1 ml-auto w-[88%] md:absolute md:bottom-0 md:right-[-6%] md:w-[52%]"
+              className="pointer-events-none relative -mb-1 ml-auto w-[88%] md:w-[70%] lg:absolute lg:bottom-0 lg:right-[-8%] lg:w-[46%]"
             />
           </section>
 
@@ -65,12 +65,12 @@ export default async function Home() {
 
           <section aria-label="L'annuaire en bref" className="brut anim-pop grid grid-cols-2 bg-white [animation-delay:160ms]">
             <div className="border-r-[3px] border-encre p-5">
-              <p className="font-display text-5xl font-extrabold">{all.length || "—"}</p>
-              <p className="mt-1 text-sm font-semibold">parcours publiés</p>
+              <p className="font-display text-5xl font-extrabold">{all.length ? all.length : "0\u00a0€"}</p>
+              <p className="mt-1 text-sm font-semibold">{all.length ? "parcours publiés" : "pour publier une fiche"}</p>
             </div>
             <div className="p-5">
-              <p className="font-display text-5xl font-extrabold">{orgCount || "—"}</p>
-              <p className="mt-1 text-sm font-semibold">organismes</p>
+              <p className="font-display text-5xl font-extrabold">{all.length ? orgCount : "2\u00a0j"}</p>
+              <p className="mt-1 text-sm font-semibold">{all.length ? "organismes" : "pour la relecture"}</p>
             </div>
             <p className="col-span-2 border-t-[3px] border-encre px-5 py-3 text-sm">
               Classement sans option payante.{" "}

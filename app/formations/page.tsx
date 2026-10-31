@@ -92,7 +92,7 @@ export default async function FormationsPage({ searchParams }: { searchParams: S
                 ))}
               </datalist>
             </div>
-            <div className="flex flex-wrap items-end gap-3 sm:col-span-2 lg:col-span-1">
+            <div className="order-last flex flex-wrap items-end gap-3 sm:col-span-2 lg:order-none lg:col-span-1">
               <button type="submit" className="btn btn-nuit w-full lg:w-auto">Filtrer</button>
             </div>
             <fieldset className="flex flex-wrap items-center gap-x-5 gap-y-2 sm:col-span-2 lg:col-span-5">

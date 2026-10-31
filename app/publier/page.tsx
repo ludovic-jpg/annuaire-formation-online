@@ -76,10 +76,13 @@ export default function PublierPage() {
               Annuaire Formation Online est édité par Back to Business (nom commercial Formatrix), organisme de formation à Rixheim. Les
               parcours de nos marques y figurent aussi : ils sont signalés sur chaque fiche et ne sont pas favorisés dans le classement.
             </p>
-            <ul className="mt-6 flex flex-wrap items-center gap-x-8 gap-y-5" aria-label="Marques du groupe présentes dans l'annuaire">
-              {LOGOS_GROUPE.map((l) => (
-                <li key={l.name}>
-                  <Image src={l.src} alt={l.name} width={l.w} height={l.h} className="h-10 w-auto object-contain" />
+            <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5" aria-label="Marques du groupe présentes dans l'annuaire">
+              {LOGOS_GROUPE.map((l, i) => (
+                <li key={l.name} className={`brut-sm flex flex-col items-center justify-center gap-2 bg-creme p-3 ${i < 2 ? "sm:col-span-1 lg:col-span-1" : ""}`}>
+                  <span className="flex h-16 w-full items-center justify-center">
+                    <Image src={l.src} alt="" width={l.w} height={l.h} className={`max-h-16 w-auto object-contain ${l.w / l.h > 2 ? "max-w-[90%]" : "h-16"}`} />
+                  </span>
+                  <span className="text-center text-sm font-semibold">{l.name}</span>
                 </li>
               ))}
             </ul>

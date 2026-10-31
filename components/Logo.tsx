@@ -11,8 +11,8 @@ export function LogoMark({ className = "" }: { className?: string }) {
 export function Wordmark() {
   return (
     <span className="inline-flex items-center gap-2">
-      <LogoMark className="h-9 w-9 shrink-0" />
-      <span className="font-display text-[1.15rem] font-extrabold leading-none tracking-tight">
+      <LogoMark className="h-8 w-8 shrink-0 sm:h-9 sm:w-9" />
+      <span className="font-display text-[1rem] font-extrabold sm:text-[1.15rem] leading-none tracking-tight">
         Annuaire<span className="text-vif">.</span>Formation
         <span className="block text-[0.72rem] font-semibold tracking-normal text-nuit/70">online</span>
       </span>
