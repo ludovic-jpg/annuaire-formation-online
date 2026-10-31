@@ -90,3 +90,14 @@ export async function rejectPost(fd: FormData) {
   const d = data as unknown as PostMaj;
   refreshArticle(d?.slug, d?.organizations?.slug);
 }
+
+/** Enregistre une clé dans Supabase Vault (chiffrée). La valeur ne revient jamais au navigateur. */
+export async function saveSecret(fd: FormData) {
+  const { supabase } = await requireAdmin();
+  const name = String(fd.get("name") ?? "");
+  if (name !== "gemini_api_key") return; // liste blanche des clés acceptées
+  const value = String(fd.get("value") ?? "").trim();
+  if (value.length < 20 || /\s/.test(value)) return;
+  await supabase.rpc("admin_set_secret", { p_name: name, p_value: value });
+  revalidatePath("/admin");
+}

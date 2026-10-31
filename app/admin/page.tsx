@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { requireAdmin } from "@/lib/auth";
-import { approvePost, approveProgram, rejectPost, rejectProgram, setOrgStatus, toggleIndexable, unpublishProgram } from "./actions";
+import { approvePost, approveProgram, rejectPost, rejectProgram, saveSecret, setOrgStatus, toggleIndexable, unpublishProgram } from "./actions";
 import { renderMarkdownSur } from "@/lib/markdown";
 import { DESC_MAX, DESC_MIN, normaliserCorps, reecrireLiensSortants, relDeLorganisme } from "@/lib/articles";
 import { SITE_URL } from "@/lib/env";
@@ -22,6 +22,7 @@ export default async function AdminPage() {
     // Table posts (migration 0005) : en cas d'absence, la file reste simplement vide.
     supabase.from("posts").select("*, organizations(name, slug, status, is_group, link_rel)").eq("status", "pending").order("updated_at"),
   ]);
+  const { data: geminiOk } = await supabase.rpc("admin_has_secret", { p_name: "gemini_api_key" });
   const postsPending = (postsQ.error ? [] : postsQ.data ?? []) as PostAdmin[];
   const pending = (pendingQ.data ?? []) as ProgramAdmin[];
   const orgs = (orgsQ.data ?? []) as Organization[];
@@ -75,6 +76,22 @@ export default async function AdminPage() {
           </a>
         ))}
       </nav>
+
+      <section aria-labelledby="t-cles" className="calm-card mt-6 p-5">
+        <h2 id="t-cles" className="text-2xl">Clé Gemini pour les visuels</h2>
+        <p className="mt-1 max-w-prose text-sm text-encre/80">
+          Enregistrée chiffrée dans Supabase Vault. Elle n&apos;est jamais réaffichée et le site ne l&apos;utilise pas : seules tes sessions Claude peuvent la lire pour produire les visuels.
+        </p>
+        <p className="mt-2 font-semibold">{geminiOk ? "Une clé est enregistrée. Saisis-en une nouvelle pour la remplacer." : "Aucune clé enregistrée."}</p>
+        <form action={saveSecret} className="mt-3 flex flex-wrap items-end gap-3">
+          <input type="hidden" name="name" value="gemini_api_key" />
+          <label className="grid gap-1 text-sm font-semibold">
+            Clé API Gemini
+            <input name="value" type="password" autoComplete="off" required minLength={20} className="min-h-11 w-80 max-w-full rounded-xl border-4 border-encre px-3" />
+          </label>
+          <button type="submit" className="btn btn-jaune">Enregistrer la clé</button>
+        </form>
+      </section>
 
       <section aria-labelledby="t-stats" className="mt-6">
         <h2 id="t-stats" className="sr-only">Statistiques</h2>
