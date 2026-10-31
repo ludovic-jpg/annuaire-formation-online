@@ -69,11 +69,21 @@ export default function PublierPage() {
             </p>
             <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5" aria-label="Marques du groupe présentes dans l'annuaire">
               {LOGOS_GROUPE.map((l, i) => (
-                <li key={l.name} className={`brut-sm flex flex-col items-center justify-center gap-2 bg-creme p-3 ${i < 2 ? "sm:col-span-1 lg:col-span-1" : ""}`}>
-                  <span className="flex h-16 w-full items-center justify-center">
-                    <Image src={l.src} alt="" width={l.w} height={l.h} className={`max-h-16 w-auto object-contain ${l.w / l.h > 2 ? "max-w-[90%]" : "h-16"}`} />
-                  </span>
-                  <span className="text-center text-sm font-semibold">{l.name}</span>
+                <li key={l.name} className="flex">
+                  <a
+                    href={l.url}
+                    target="_blank"
+                    rel="sponsored noopener"
+                    className="brut-sm lift flex w-full flex-col items-center justify-center gap-2 bg-creme p-3 hover:bg-jaune-pale"
+                  >
+                    <span className="flex h-16 w-full items-center justify-center">
+                      <Image src={l.src} alt="" width={l.w} height={l.h} className={`max-h-16 w-auto object-contain ${l.w / l.h > 2 ? "max-w-[90%]" : "h-16"}`} />
+                    </span>
+                    <span className="text-center text-sm font-semibold">
+                      {l.name}
+                      <span className="sr-only"> (site de la marque, nouvel onglet)</span>
+                    </span>
+                  </a>
                 </li>
               ))}
             </ul>

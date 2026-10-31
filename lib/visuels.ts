@@ -14,15 +14,15 @@ export const SPHERE_VISUELS: Record<string, string> = {
 export const HERO_VISUEL = "/visuels/hero-formatrix-formation.webp";
 
 export const LOGOS_GROUPE = [
-  { name: "Formatrix", src: "/visuels/logo-formatrix.webp", w: 800, h: 142 },
-  { name: "Skills4mation", src: "/visuels/logo-skills4mation.webp", w: 469, h: 61 },
-  { name: "FormaRH", src: "/visuels/logo-formarh.webp", w: 112, h: 112 },
-  { name: "FormaLangue", src: "/visuels/logo-formalangue.webp", w: 400, h: 400 },
-  { name: "FormaDigital", src: "/visuels/logo-formadigital.webp", w: 397, h: 449 },
-  { name: "FormaVente", src: "/visuels/logo-formavente.webp", w: 500, h: 500 },
-  { name: "FormaBienêtre", src: "/visuels/logo-formabienetre.webp", w: 96, h: 96 },
-  { name: "FormaCompta", src: "/visuels/logo-formacompta.webp", w: 112, h: 112 },
-  { name: "Bilan de compétence", src: "/visuels/logo-bilandecompetence.webp", w: 192, h: 192 },
+  { name: "Formatrix", url: "https://formatrix.fr", src: "/visuels/logo-formatrix.webp", w: 800, h: 142 },
+  { name: "Skills4mation", url: "https://skills4mation.com", src: "/visuels/logo-skills4mation.webp", w: 469, h: 61 },
+  { name: "FormaRH", url: "https://formarh.com", src: "/visuels/logo-formarh.webp", w: 112, h: 112 },
+  { name: "FormaLangue", url: "https://formalangue.com", src: "/visuels/logo-formalangue.webp", w: 400, h: 400 },
+  { name: "FormaDigital", url: "https://formadigital.fr", src: "/visuels/logo-formadigital.webp", w: 397, h: 449 },
+  { name: "FormaVente", url: "https://formavente.fr", src: "/visuels/logo-formavente.webp", w: 500, h: 500 },
+  { name: "FormaBienêtre", url: "https://formabientre.fr", src: "/visuels/logo-formabienetre.webp", w: 96, h: 96 },
+  { name: "FormaCompta", url: "https://formacompta.fr", src: "/visuels/logo-formacompta.webp", w: 112, h: 112 },
+  { name: "Bilan de compétences", url: "https://bilandecompetence.pro", src: "/visuels/logo-bilandecompetence.webp", w: 192, h: 192 },
 ];
 
 export function programImage(p: { image_url?: string | null; sphere?: string | null }) {
