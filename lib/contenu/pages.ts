@@ -82,7 +82,7 @@ export const PUBLIER = {
   faq: [
     {
       q: "Combien coûte la publication d'une formation ?",
-      r: "Rien au lancement. Si une offre payante apparaît plus tard, elle sera annoncée au moins 15 jours à l'avance et ne donnera jamais de meilleur classement.",
+      r: "5 € sont offerts à l'inscription, soit 5 publications. Ensuite, chaque fiche ou article publié coûte 1 €, débité seulement à la mise en ligne. Le prix est le même pour tous et ne donne jamais de meilleur classement.",
     },
     {
       q: "Qui peut publier ?",

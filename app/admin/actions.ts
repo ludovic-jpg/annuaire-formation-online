@@ -57,3 +57,36 @@ export async function setOrgStatus(fd: FormData) {
   if (data?.slug) revalidatePath(`/organisme/${data.slug}`);
   refreshPublic();
 }
+
+/* ---------------------------- Articles des organismes ---------------------------- */
+
+function refreshArticle(slug?: string | null, orgSlug?: string | null) {
+  revalidatePath("/blog");
+  revalidatePath("/sitemap.xml");
+  if (slug) revalidatePath(`/blog/${slug}`);
+  if (orgSlug) revalidatePath(`/organisme/${orgSlug}`);
+  revalidatePath("/admin");
+}
+
+type PostMaj = { slug: string; organizations: { slug: string } | null } | null;
+
+export async function approvePost(fd: FormData) {
+  const { supabase } = await requireAdmin();
+  const id = String(fd.get("id"));
+  // Le trigger débite 1 € (organismes hors groupe), une seule fois par article.
+  const { data, error } = await supabase.from("posts").update({ status: "published", reject_reason: null }).eq("id", id).select("slug, organizations(slug)").single();
+  if (error) console.error("approvePost", error.message);
+  const d = data as unknown as PostMaj;
+  refreshArticle(d?.slug, d?.organizations?.slug);
+}
+
+export async function rejectPost(fd: FormData) {
+  const { supabase } = await requireAdmin();
+  const id = String(fd.get("id"));
+  const reason = String(fd.get("reason") ?? "").trim().slice(0, 1000);
+  if (reason.length < 5) return; // motif obligatoire, visible par l'organisme
+  const { data, error } = await supabase.from("posts").update({ status: "rejected", reject_reason: reason }).eq("id", id).select("slug, organizations(slug)").single();
+  if (error) console.error("rejectPost", error.message);
+  const d = data as unknown as PostMaj;
+  refreshArticle(d?.slug, d?.organizations?.slug);
+}

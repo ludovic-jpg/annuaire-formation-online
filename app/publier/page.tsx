@@ -61,6 +61,33 @@ export default function PublierPage() {
             ))}
           </ol>
 
+          <section aria-labelledby="t-tarif" className="brut mt-14 grid gap-6 bg-white p-6 sm:p-8 md:grid-cols-[1.2fr_1fr] md:items-center">
+            <div>
+              <h2 id="t-tarif" className="text-2xl sm:text-3xl">Combien ça coûte&nbsp;?</h2>
+              <p className="mt-3 max-w-prose text-lg">
+                <strong>5 € offerts à l&apos;inscription, soit 5 publications.</strong> Ensuite, 1 € par fiche ou par article publié.
+              </p>
+              <ul className="mt-4 grid list-disc gap-2 pl-5 text-encre/85">
+                <li>Rien n&apos;est débité tant que la fiche ou l&apos;article n&apos;est pas validé et mis en ligne.</li>
+                <li>Une seule fois par fiche ou article : le modifier puis le republier ne coûte rien de plus.</li>
+                <li>Pas d&apos;abonnement, pas d&apos;engagement. Votre solde et son historique sont visibles dans votre espace.</li>
+                <li>Le classement ne s&apos;achète pas : le prix est le même pour tous et ne change rien à la position.</li>
+              </ul>
+            </div>
+            <dl className="grid grid-cols-2 gap-3 text-center">
+              <div className="brut-sm bg-jaune p-4">
+                <dt className="text-sm font-semibold">Offert</dt>
+                <dd className="font-display text-4xl font-extrabold">5&nbsp;€</dd>
+                <dd className="text-sm">5 publications</dd>
+              </div>
+              <div className="brut-sm bg-creme p-4">
+                <dt className="text-sm font-semibold">Ensuite</dt>
+                <dd className="font-display text-4xl font-extrabold">1&nbsp;€</dd>
+                <dd className="text-sm">par fiche ou article</dd>
+              </div>
+            </dl>
+          </section>
+
           <section aria-labelledby="t-groupe" className="brut mt-14 bg-white p-6 sm:p-8">
             <h2 id="t-groupe" className="text-2xl sm:text-3xl">Qui édite l&apos;annuaire&nbsp;?</h2>
             <p className="mt-3 max-w-3xl">
@@ -68,7 +95,7 @@ export default function PublierPage() {
               parcours de nos marques y figurent aussi : ils sont signalés sur chaque fiche et ne sont pas favorisés dans le classement.
             </p>
             <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5" aria-label="Marques du groupe présentes dans l'annuaire">
-              {LOGOS_GROUPE.map((l, i) => (
+              {LOGOS_GROUPE.map((l) => (
                 <li key={l.name} className="flex">
                   <a
                     href={l.url}

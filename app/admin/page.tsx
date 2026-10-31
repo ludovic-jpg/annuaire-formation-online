@@ -1,21 +1,28 @@
 import Link from "next/link";
 import { requireAdmin } from "@/lib/auth";
-import { approveProgram, rejectProgram, setOrgStatus, toggleIndexable, unpublishProgram } from "./actions";
+import { approvePost, approveProgram, rejectPost, rejectProgram, setOrgStatus, toggleIndexable, unpublishProgram } from "./actions";
+import { renderMarkdownSur } from "@/lib/markdown";
+import { DESC_MAX, DESC_MIN, normaliserCorps, reecrireLiensSortants, relDeLorganisme } from "@/lib/articles";
+import { SITE_URL } from "@/lib/env";
 import { sphereLabel, modaliteLabel } from "@/lib/spheres";
-import type { Organization, Program } from "@/lib/types";
+import type { Organization, OrgPost, Program } from "@/lib/types";
 
+type PostAdmin = OrgPost & { organizations: Pick<Organization, "name" | "slug" | "status" | "is_group" | "link_rel"> | null };
 type ProgramAdmin = Program & { organizations: Pick<Organization, "name" | "slug" | "status" | "is_group" | "siret" | "nda"> };
 
 export default async function AdminPage() {
   const { supabase } = await requireAdmin();
-  const [pendingQ, orgsQ, waitQ, publishedQ, statsQ, contactsQ] = await Promise.all([
+  const [pendingQ, orgsQ, waitQ, publishedQ, statsQ, contactsQ, postsQ] = await Promise.all([
     supabase.from("programs").select("*, organizations(name, slug, status, is_group, siret, nda)").eq("status", "pending").order("updated_at"),
     supabase.from("organizations").select("*").order("created_at", { ascending: false }).limit(200),
     supabase.from("waitlist").select("*").order("created_at", { ascending: false }).limit(200),
     supabase.from("programs").select("id, title, slug, indexable, org_id, organizations(name, is_group)").eq("status", "published").order("title").limit(1000),
     supabase.from("programs").select("status"),
     supabase.from("contact_requests").select("id", { count: "exact", head: true }),
+    // Table posts (migration 0005) : en cas d'absence, la file reste simplement vide.
+    supabase.from("posts").select("*, organizations(name, slug, status, is_group, link_rel)").eq("status", "pending").order("updated_at"),
   ]);
+  const postsPending = (postsQ.error ? [] : postsQ.data ?? []) as PostAdmin[];
   const pending = (pendingQ.data ?? []) as ProgramAdmin[];
   const orgs = (orgsQ.data ?? []) as Organization[];
   const waitlist = waitQ.data ?? [];
@@ -45,6 +52,7 @@ export default async function AdminPage() {
   };
   const sommaire: [string, string, number | null][] = [
     ["#t-mod", "À relire", pending.length],
+    ["#t-art", "Articles à relire", postsPending.length],
     ["#t-orgs", "Organisations", orgs.filter((o) => o.status === "pending").length],
     ["#t-pub", "Indexation", null],
     ["#t-wait", "Liste d'attente", waitlist.length],
@@ -84,7 +92,7 @@ export default async function AdminPage() {
       </section>
 
       <section aria-labelledby="t-mod" className="mt-10">
-        <h2 id="t-mod" className="text-2xl">File de modération ({pending.length})</h2>
+        <h2 id="t-mod" className="text-2xl">Fiches à relire ({pending.length})</h2>
         {pending.length === 0 && <p className="mt-2 text-encre/70">Rien à relire.</p>}
         <ul className="mt-4 grid gap-4">
           {pending.map((p) => (
@@ -125,6 +133,56 @@ export default async function AdminPage() {
               </div>
             </li>
           ))}
+        </ul>
+      </section>
+
+      <section aria-labelledby="t-art" className="mt-12">
+        <h2 id="t-art" className="text-2xl">Articles à relire ({postsPending.length})</h2>
+        {postsQ.error && <p className="mt-2 text-sm text-encre/70">Table des articles indisponible (migration 0005 à appliquer).</p>}
+        {!postsQ.error && postsPending.length === 0 && <p className="mt-2 text-encre/70">Rien à relire.</p>}
+        <ul className="mt-4 grid gap-4">
+          {postsPending.map((a) => {
+            const nbDesc = (a.description ?? "").length;
+            return (
+              <li key={a.id} className="calm-card p-5">
+                <div className="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 className="text-xl">{a.title}</h3>
+                  <span className="text-sm text-encre/70">{a.word_count} mots</span>
+                </div>
+                <p className="text-sm text-encre/75">
+                  {a.organizations?.name} (organisme {a.organizations?.status === "active" ? "actif" : a.organizations?.status === "pending" ? "à vérifier" : "refusé"}
+                  {a.organizations?.is_group ? ", groupe" : ""}) · /blog/{a.slug} · mot-clé : {a.keyword || "aucun"} · chapô {nbDesc} caractères
+                  {nbDesc < DESC_MIN || nbDesc > DESC_MAX ? " (hors plage)" : ""}
+                </p>
+                {a.description && <p className="mt-2 text-sm italic text-encre/85">{a.description}</p>}
+                <details className="mt-3">
+                  <summary className="cursor-pointer font-semibold">Lire l&apos;article</summary>
+                  {a.cover_url && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={a.cover_url} alt="" className="mt-3 max-h-56 rounded-xl border-2 border-encre/20 object-cover" />
+                  )}
+                  <div
+                    className="prose-af mt-3 max-w-prose rounded-xl border-2 border-encre/10 bg-white p-4"
+                    dangerouslySetInnerHTML={{ __html: reecrireLiensSortants(renderMarkdownSur(normaliserCorps(a.body_md)), relDeLorganisme(a.organizations), SITE_URL) }}
+                  />
+                </details>
+                <div className="mt-4 flex flex-wrap items-end gap-3">
+                  <form action={approvePost}>
+                    <input type="hidden" name="id" value={a.id} />
+                    <button className="btn btn-nuit">Publier<span className="sr-only"> {a.title}</span></button>
+                  </form>
+                  <form action={rejectPost} className="flex flex-1 flex-wrap items-end gap-2">
+                    <input type="hidden" name="id" value={a.id} />
+                    <div className="min-w-56 flex-1">
+                      <label htmlFor={`ra-${a.id}`} className="label">Motif du refus (obligatoire, visible par l&apos;organisme)</label>
+                      <input id={`ra-${a.id}`} name="reason" required minLength={5} className="field" placeholder="Ex. Texte trop promotionnel : apportez des conseils concrets." />
+                    </div>
+                    <button className="btn btn-blanc">Refuser<span className="sr-only"> {a.title}</span></button>
+                  </form>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </section>
 
