@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/env";
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { SUPABASE_ANON_KEY, SUPABASE_URL, supabaseConfigured } from "@/lib/env";
@@ -26,9 +27,8 @@ export async function updateSession(request: NextRequest) {
 
   const path = request.nextUrl.pathname;
   if (!user && (path.startsWith("/espace") || path.startsWith("/admin"))) {
-    const url = request.nextUrl.clone();
-    url.pathname = "/connexion";
-    url.search = `?suite=${encodeURIComponent(path)}`;
+    const url = new URL("/connexion", SITE_URL);
+    url.searchParams.set("suite", path);
     return NextResponse.redirect(url);
   }
   return response;

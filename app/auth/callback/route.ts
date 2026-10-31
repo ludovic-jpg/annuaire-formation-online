@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import type { EmailOtpType } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/server";
 import { safeNext } from "@/lib/redirect";
+import { SITE_URL } from "@/lib/env";
 
 /** Retour du lien magique : PKCE (?code=) ou lien à jeton (?token_hash=&type=). */
 export async function GET(request: NextRequest) {
@@ -20,13 +21,8 @@ export async function GET(request: NextRequest) {
     const { error } = await supabase.auth.verifyOtp({ type, token_hash: tokenHash });
     ok = !error;
   }
-  const dest = url.clone();
-  dest.search = "";
-  if (ok) {
-    dest.pathname = next;
-  } else {
-    dest.pathname = "/connexion";
-    dest.searchParams.set("erreur", url.searchParams.get("error_code") ?? "lien");
-  }
+  // L'adresse publique vient de la configuration : derrière le proxy Coolify, request.url vaut http://0.0.0.0:3000.
+  const dest = new URL(ok ? next : "/connexion", SITE_URL);
+  if (!ok) dest.searchParams.set("erreur", url.searchParams.get("error_code") ?? "lien");
   return NextResponse.redirect(dest);
 }
