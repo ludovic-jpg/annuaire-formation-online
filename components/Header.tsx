@@ -12,6 +12,9 @@ export function Header() {
           <Link href="/formations" className="inline-flex min-h-11 items-center rounded-lg px-1.5 text-[0.9rem] font-semibold hover:bg-jaune-pale sm:px-2.5 sm:text-base">
             Formations
           </Link>
+          <Link href="/blog" className="inline-flex min-h-11 items-center rounded-lg px-1.5 text-[0.9rem] font-semibold hover:bg-jaune-pale sm:px-2.5 sm:text-base">
+            Blog
+          </Link>
           <Link
             href="/espace"
             className="inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-lg px-1 font-semibold hover:bg-jaune-pale sm:px-2.5"

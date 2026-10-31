@@ -61,6 +61,15 @@ export type Program = {
   access_delay?: string | null;
   extra_sections?: { rubrique: string; contenu: string }[];
   source_site?: string | null;
+  title_source?: string | null;
+  lead_text?: string | null;
+  meta_description?: string | null;
+  key_points?: string[];
+  program_summary_md?: string | null;
+  audience_rewrite?: string | null;
+  prerequisites_rewrite?: string | null;
+  objectives_source?: string[];
+  rewritten_at?: string | null;
   source_synced_at?: string | null;
 };
 

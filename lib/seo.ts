@@ -32,7 +32,8 @@ type FicheMetaInput = {
  * Description de fiche : les faits comparables d'abord (ce que cherche l'internaute),
  * puis le début du résumé. Toujours ≤ 158 caractères, coupée sur un mot.
  */
-export function descriptionFiche(p: FicheMetaInput) {
+export function descriptionFiche(p: FicheMetaInput & { meta_description?: string | null }) {
+  if (p.meta_description && p.meta_description.trim()) return p.meta_description.trim();
   const faits = [
     p.duration_text?.trim(),
     p.modality ? modaliteLabel(p.modality).toLowerCase() : null,

@@ -16,6 +16,7 @@ import { GroupBadge } from "@/components/GroupBadge";
 import { MobileContactBar } from "@/components/MobileContactBar";
 import type { AlsoOffered } from "@/lib/types";
 import { slugify } from "@/lib/slug";
+import { rubriquesIntegrales } from "@/lib/fiche-rubriques";
 import { renderMarkdownSur } from "@/lib/blog";
 import "../../blog/blog.css";
 
@@ -60,17 +61,13 @@ export default async function FormationPage({ params }: { params: Params }) {
   ];
   if (p.level_text) facts.splice(3, 0, ["Niveau", p.level_text]);
 
-  // Rubriques de la matrice, dans l'ordre des pages sources. Texte repris tel quel ; Markdown pour le programme.
-  const rubriques: { id: string; titre: string; texte?: string | null; md?: string | null }[] = [
-    { id: "points-forts", titre: "Points forts de la formation", texte: p.highlights },
-    { id: "modalites", titre: "Modalités pédagogiques", texte: p.modalities_text },
-    { id: "programme", titre: "Programme pédagogique", md: p.program_md },
-    { id: "resultats", titre: "Résultats attendus", texte: p.results_expected },
-    { id: "evaluation", titre: "Modalités d'évaluation", texte: p.evaluation },
-    { id: "accessibilite", titre: "Accessibilité", texte: p.accessibility },
-    { id: "delais", titre: "Délais d'accès", texte: p.access_delay },
-    ...(Array.isArray(p.extra_sections) ? p.extra_sections : []).map((x, i) => ({ id: `autre-${i}`, titre: x.rubrique, texte: x.contenu })),
-  ].filter((r) => (r.texte && r.texte.trim()) || (r.md && r.md.trim()));
+  const rubriques = rubriquesIntegrales(p);
+  const reecrit = Boolean(p.rewritten_at);
+  const lienSource = p.source_url
+    ? `${p.title_source || p.title} sur ${org.name}`
+    : "";
+  const audience = reecrit ? p.audience_rewrite || null : p.audience;
+  const prerequis = reecrit ? p.prerequisites_rewrite || null : p.prerequisites;
 
   return (
     <>
@@ -117,7 +114,21 @@ export default async function FormationPage({ params }: { params: Params }) {
 
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-10 lg:grid-cols-[1.4fr_1fr]">
         <div>
-          {p.short_objective && (
+          {reecrit && p.lead_text && (
+            <div className="mb-8 max-w-prose">
+              <p className="text-xl font-semibold">{p.lead_text}</p>
+              {p.source_url && (
+                <p className="mt-3 text-lg">
+                  Parcours proposé par {org.name} :{" "}
+                  <a href={p.source_url} target="_blank" rel={rel} className="font-semibold underline decoration-2 underline-offset-4">
+                    {lienSource}
+                  </a>
+                  <span className="sr-only"> (nouvel onglet)</span>.
+                </p>
+              )}
+            </div>
+          )}
+          {!reecrit && p.short_objective && (
             <p className="mb-8 max-w-prose rounded-2xl border-4 border-encre bg-jaune-pale p-4 text-lg font-semibold">
               <span className="block text-xs font-bold uppercase tracking-wide text-encre/70">Objectif</span>
               {p.short_objective}
@@ -125,7 +136,7 @@ export default async function FormationPage({ params }: { params: Params }) {
           )}
           {p.objectives?.length > 0 && (
             <section aria-labelledby="t-obj">
-              <h2 id="t-obj" className="text-3xl">Objectifs pédagogiques</h2>
+              <h2 id="t-obj" className="text-3xl">Ce que vous saurez faire</h2>
               <ul className="mt-4 grid gap-2">
                 {p.objectives.map((o, i) => (
                   <li key={i} className="flex gap-3 rounded-xl bg-creme p-3">
@@ -149,20 +160,44 @@ export default async function FormationPage({ params }: { params: Params }) {
             <h2 id="t-pub" className="sr-only">Public et prérequis</h2>
             <div className="calm-card p-5">
               <h3 className="text-lg">Public visé</h3>
-              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(p.audience || "Non précisé par l'organisme.") }} />
+              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(audience || "Non précisé par l'organisme.") }} />
             </div>
             <div className="calm-card p-5">
               <h3 className="text-lg">Prérequis</h3>
-              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(p.prerequisites || "Non précisé par l'organisme.") }} />
+              <div className="prose-af mt-2" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(prerequis || "Non précisé par l'organisme.") }} />
             </div>
           </section>
 
-          {rubriques.map((r) => (
-            <section key={r.id} aria-labelledby={`t-${r.id}`} className="mt-10">
-              <h2 id={`t-${r.id}`} className="text-3xl">{r.titre}</h2>
-              <div className="prose-af mt-4 max-w-prose text-lg" dangerouslySetInnerHTML={{ __html: renderMarkdownSur((r.md || r.texte) ?? "") }} />
+          {reecrit && Array.isArray(p.key_points) && p.key_points.length > 0 && (
+            <section aria-labelledby="t-cles" className="mt-10">
+              <h2 id="t-cles" className="text-3xl">L&apos;essentiel</h2>
+              <ul className="prose-af mt-4 max-w-prose text-lg">
+                {p.key_points.map((k, i) => (
+                  <li key={i}>{k}</li>
+                ))}
+              </ul>
             </section>
-          ))}
+          )}
+          {reecrit && p.program_summary_md && (
+            <section aria-labelledby="t-prog" className="mt-10">
+              <h2 id="t-prog" className="text-3xl">Le programme en bref</h2>
+              <div className="prose-af mt-4 max-w-prose text-lg" dangerouslySetInnerHTML={{ __html: renderMarkdownSur(p.program_summary_md) }} />
+            </section>
+          )}
+          {reecrit
+            ? rubriques.length > 0 && (
+                <p className="mt-8 max-w-prose text-lg">
+                  <Link href={`/formation/${p.slug}/programme-complet`} className="font-semibold underline decoration-2 underline-offset-4">
+                    Lire le programme complet et le texte d&apos;origine de l&apos;organisme
+                  </Link>
+                </p>
+              )
+            : rubriques.map((r) => (
+                <section key={r.id} aria-labelledby={`t-${r.id}`} className="mt-10">
+                  <h2 id={`t-${r.id}`} className="text-3xl">{r.titre}</h2>
+                  <div className="prose-af mt-4 max-w-prose text-lg" dangerouslySetInnerHTML={{ __html: renderMarkdownSur((r.md || r.texte) ?? "") }} />
+                </section>
+              ))}
 
           {p.source_url && (
             <a href={p.source_url} target="_blank" rel={rel} className="btn btn-jaune mt-10 text-lg">
