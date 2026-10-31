@@ -14,6 +14,8 @@ export function ListingPage({
   programs,
   color,
   image,
+  titreListe,
+  children,
 }: {
   title: string;
   intro: string;
@@ -21,6 +23,10 @@ export function ListingPage({
   programs: ProgramWithOrg[];
   color: string;
   image?: string;
+  /** Titre H2 de la grille (hiérarchie : H1 > H2 > cartes en H3). */
+  titreListe?: string;
+  /** Contenu éditorial affiché après la liste (guide, liens, FAQ). */
+  children?: React.ReactNode;
 }) {
   const orgs = new Set(programs.map((p) => p.org_id)).size;
   return (
@@ -34,25 +40,28 @@ export function ListingPage({
               <p className="mt-4 max-w-2xl text-lg">{intro}</p>
               <p className="mt-3 text-sm font-semibold">
                 {programs.length} parcours, {orgs} organisme{orgs > 1 ? "s" : ""}.{" "}
-                <Link href="/comment-fonctionne-le-classement" className="font-normal underline underline-offset-2">
+                <Link href="/comment-fonctionne-le-classement" className="tap font-normal underline underline-offset-2">
                   Ordre d&apos;affichage
                 </Link>
               </p>
             </div>
             {image && (
               <div className="brut relative hidden aspect-[4/3] overflow-hidden md:block" style={{ background: color }}>
-                <Image src={image} alt="" fill sizes="35vw" className="object-cover mix-blend-multiply" priority />
+                <Image src={image} alt="" fill sizes="35vw" className="object-cover mix-blend-multiply" fetchPriority="high" />
               </div>
             )}
           </div>
         </div>
       </section>
       <div className="mx-auto max-w-6xl px-4 py-10">
+        {programs.length > 0 && (
+          <h2 className="mb-6 text-3xl">{titreListe ?? `Les ${programs.length} parcours publiés`}</h2>
+        )}
         {programs.length ? (
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {programs.map((p) => (
+            {programs.map((p, i) => (
               <li key={p.id}>
-                <ProgramCard p={p} />
+                <ProgramCard p={p} priority={i < 3} />
               </li>
             ))}
           </ul>
@@ -68,6 +77,7 @@ export function ListingPage({
             </div>
           </div>
         )}
+        {children && <div className="mt-16 grid gap-14">{children}</div>}
       </div>
       {programs.length > 0 && (
         <JsonLd
