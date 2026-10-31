@@ -5,6 +5,7 @@ import { allPublishedLight, activeOrganizationsLight } from "@/lib/data";
 import { isListingIndexable } from "@/lib/regles";
 import { slugify } from "@/lib/slug";
 import { postsVisibles } from "@/lib/blog";
+import { orgPostsPublies } from "@/lib/posts";
 
 export const revalidate = 300;
 
@@ -16,11 +17,12 @@ const plusRecent = (dates: string[]) =>
  * - pages fixes indexables (pas /connexion, /liste-attente, /espace, /admin) ;
  * - fiches publiées avec indexable = true ;
  * - pages thème / ville au-dessus du seuil (isListingIndexable) ;
- * - pages organisme ayant au moins une fiche indexable (sinon la page est en noindex).
+ * - pages organisme ayant au moins une fiche indexable (sinon la page est en noindex) ;
+ * - articles du blog : fichiers visibles et articles publiés des organismes (le fichier l'emporte si même slug).
  * lastModified = date réelle de la fiche la plus récente, jamais « maintenant » par défaut.
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [programs, orgs] = await Promise.all([allPublishedLight(), activeOrganizationsLight()]);
+  const [programs, orgs, postsOrg] = await Promise.all([allPublishedLight(), activeOrganizationsLight(), orgPostsPublies(5000)]);
   const indexables = programs.filter((p) => p.indexable);
   const derniere = plusRecent(programs.map((p) => p.updated_at));
 
@@ -34,9 +36,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ];
 
   const posts = postsVisibles();
-  const blog: MetadataRoute.Sitemap = posts.length === 0 ? [] : [
-    { url: `${SITE_URL}/blog`, lastModified: new Date(`${posts[0].date}T06:00:00Z`) },
+  const slugsFichiers = new Set(posts.map((p) => p.slug));
+  const articlesBlog = [
     ...posts.map((p) => ({ url: `${SITE_URL}/blog/${p.slug}`, lastModified: new Date(`${p.date}T06:00:00Z`) })),
+    ...postsOrg
+      .filter((p) => !slugsFichiers.has(p.slug))
+      .map((p) => ({ url: `${SITE_URL}/blog/${p.slug}`, lastModified: new Date(p.updated_at) })),
+  ];
+  const blog: MetadataRoute.Sitemap = articlesBlog.length === 0 ? [] : [
+    { url: `${SITE_URL}/blog`, lastModified: plusRecent(articlesBlog.map((a) => a.lastModified.toISOString())) },
+    ...articlesBlog,
   ];
 
   const fiches = indexables.map((p) => ({ url: `${SITE_URL}/formation/${p.slug}`, lastModified: new Date(p.updated_at) }));

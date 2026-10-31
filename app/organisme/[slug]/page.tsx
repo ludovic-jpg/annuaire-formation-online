@@ -10,6 +10,9 @@ import { GroupBadge } from "@/components/GroupBadge";
 import Link from "next/link";
 import { SPHERE_BY_SLUG } from "@/lib/spheres";
 import { couper } from "@/lib/seo";
+import { orgPostsParOrganisme } from "@/lib/posts";
+import { formaterDate } from "@/lib/blog";
+import { jourIso } from "@/lib/articles";
 
 export const revalidate = 300;
 export async function generateStaticParams() {
@@ -40,7 +43,7 @@ export default async function OrganismePage({ params }: { params: Params }) {
   const { slug } = await params;
   const o = await getOrganization(slug);
   if (!o) notFound();
-  const programs = await programsByOrg(o.id);
+  const [programs, articles] = await Promise.all([programsByOrg(o.id), orgPostsParOrganisme(o.id)]);
   const themes = [...new Set(programs.map((p) => p.sphere).filter((x): x is string => Boolean(x && SPHERE_BY_SLUG[x])))].map((x) => SPHERE_BY_SLUG[x]);
   return (
     <>
@@ -108,6 +111,31 @@ export default async function OrganismePage({ params }: { params: Params }) {
             </li>
           ))}
         </ul>
+        {articles.length > 0 && (
+          <section aria-labelledby="t-articles" className="mt-12">
+            <h2 id="t-articles" className="text-3xl">
+              Article{articles.length > 1 ? "s" : ""} de {o.name}
+            </h2>
+            <ul className="mt-5 grid gap-4 sm:grid-cols-2">
+              {articles.map((a) => {
+                const jour = jourIso(a.published_at ?? a.updated_at);
+                return (
+                  <li key={a.id} className="calm-card p-5">
+                    <p className="text-sm text-encre/70">
+                      <time dateTime={jour}>{formaterDate(jour)}</time>
+                    </p>
+                    <h3 className="mt-1 font-display text-xl">
+                      <Link href={`/blog/${a.slug}`} className="tap hover:underline underline-offset-4">
+                        {a.title}
+                      </Link>
+                    </h3>
+                    {a.description && <p className="mt-2 text-encre/85">{a.description}</p>}
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
       </div>
       <JsonLd data={orgJsonLd(o)} />
     </>

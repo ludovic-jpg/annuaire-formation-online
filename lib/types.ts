@@ -67,3 +67,22 @@ export type Program = {
 export type ProgramWithOrg = Program & {
   organizations: Pick<Organization, "id" | "name" | "slug" | "link_rel" | "is_group" | "qualiopi" | "website" | "city" | "logo_url" | "nda">;
 };
+
+/** Article d'organisme (table posts, migration 0005), vu par son auteur ou l'admin. */
+export type OrgPost = {
+  id: string;
+  org_id: string;
+  slug: string;
+  title: string;
+  seo_title: string | null;
+  description: string | null;
+  keyword: string | null;
+  body_md: string;
+  cover_url: string | null;
+  status: ProgramStatus;
+  reject_reason: string | null;
+  word_count: number;
+  created_at: string;
+  updated_at: string;
+  published_at: string | null;
+};

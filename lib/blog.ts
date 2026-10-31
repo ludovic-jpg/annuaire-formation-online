@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { Marked, marked } from "marked";
+import { marked } from "marked";
 
 /**
  * Blog alimenté par « La Rotative » (tâche planifiée) : un fichier par article dans
@@ -67,6 +67,11 @@ export function parsePost(nomFichier: string, brut: string): Post | null {
   };
 }
 
+/** Slugs de tous les articles fichiers, y compris programmés : réservés, un organisme ne peut pas les prendre. */
+export function slugsFichiers(): string[] {
+  return tousLesPosts().map((p) => p.slug);
+}
+
 function tousLesPosts(): Post[] {
   let fichiers: string[] = [];
   try {
@@ -97,13 +102,8 @@ export function renderMarkdown(md: string): string {
   return marked.parse(md, { async: false, gfm: true }) as string;
 }
 
-const echapper = (t: string) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-// Pour les contenus importés (pages des organismes) : tout HTML brut est affiché comme du texte, jamais interprété.
-const markedSur = new Marked({ gfm: true, breaks: true, renderer: { html: ({ text }) => echapper(text) } });
-
-export function renderMarkdownSur(md: string): string {
-  return markedSur.parse(md, { async: false }) as string;
-}
+// Rendu sûr (HTML brut affiché comme texte) : dans lib/markdown.ts, importable côté client.
+export { renderMarkdownSur } from "@/lib/markdown";
 
 /** Extrait les questions/réponses de la section « Questions fréquentes » (H3 + paragraphes) pour le JSON-LD. */
 export function faqDepuisMarkdown(md: string): { q: string; a: string }[] {
