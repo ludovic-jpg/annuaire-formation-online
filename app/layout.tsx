@@ -14,8 +14,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Annuaire Formation Online : trouver un parcours de formation professionnelle",
-    template: `%s | ${SITE_NAME}`,
+    default: "Annuaire Formation Online : comparer les parcours de formation",
+    template: "%s | Annuaire Formation",
   },
   description:
     "Comparez des parcours de formation professionnelle : durée, prix, modalité, éligibilité CPF, organisme. Organismes de formation : 5 publications offertes.",

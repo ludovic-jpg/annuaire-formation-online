@@ -69,7 +69,7 @@ export default async function FormationPage({ params }: { params: Params }) {
   // Rubriques obligatoires : toujours présentes, dans l'ordre de la matrice ; texte d'origine repris tel quel.
   const sectionsFiche: { id: string; titre: string; texte?: string | null; md?: string | null; liste?: string[]; vide?: boolean }[] = [
     { id: "objectifs", titre: "Objectifs pédagogiques", liste: objectifsOrigine?.length ? objectifsOrigine : undefined, vide: !objectifsOrigine?.length },
-    { id: "public", titre: "Public visé", texte: p.audience, vide: !plein(p.audience) },
+    { id: "public", titre: "Public visé", texte: plein(p.audience) ? p.audience : "Tout public." },
     { id: "prerequis", titre: "Prérequis", texte: p.prerequisites, vide: !plein(p.prerequisites) },
     ...(plein(p.highlights) ? [{ id: "points-forts", titre: "Points forts de la formation", texte: p.highlights }] : []),
     { id: "modalites", titre: "Modalités pédagogiques", texte: p.modalities_text, vide: !plein(p.modalities_text) },

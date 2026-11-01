@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: META.publier.title,
   description: META.publier.description,
   alternates: { canonical: "/publier" },
-  openGraph: { title: META.publier.title, description: META.publier.description, url: "/publier" },
+  openGraph: { title: META.publier.title, description: META.publier.description, url: "/publier", images: [{ url: "/opengraph-image" }] },
 };
 
 const ETAPES = [

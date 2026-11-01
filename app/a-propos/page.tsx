@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: META.aPropos.title,
   description: META.aPropos.description,
   alternates: { canonical: "/a-propos" },
-  openGraph: { title: META.aPropos.title, description: META.aPropos.description, url: "/a-propos" },
+  openGraph: { title: META.aPropos.title, description: META.aPropos.description, url: "/a-propos", images: [{ url: "/opengraph-image" }] },
 };
 
 const MAJ = "31 octobre 2026";

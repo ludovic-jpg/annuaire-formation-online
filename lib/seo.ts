@@ -12,8 +12,8 @@ export function couper(texte: string, max = 158) {
 /** Titre de fiche : « Titre : formation Organisme », raccourci si trop long. */
 export function titreFiche(titre: string, organisme: string) {
   const complet = `${titre} : formation ${organisme}`;
-  // Le gabarit ajoute « | Annuaire Formation Online » (27 caractères).
-  return complet.length <= 62 ? complet : couper(titre, 62);
+  // Le gabarit ajoute « | Annuaire Formation » (21 caractères) : total visé ≤ 62 caractères.
+  return complet.length <= 41 ? complet : couper(titre, 41);
 }
 
 type FicheMetaInput = {

@@ -95,7 +95,7 @@ export function courseJsonLd(p: ProgramWithOrg) {
     inLanguage: "fr-FR",
     ...(p.sphere ? { about: sphereLabel(p.sphere) } : {}),
     ...(p.objectives?.length ? { teaches: p.objectives } : {}),
-    ...(p.audience ? { audience: { "@type": "Audience", audienceType: p.audience } } : {}),
+    ...({ audience: { "@type": "Audience", audienceType: p.audience && p.audience.trim() ? p.audience : "Tout public" } }),
     ...(p.prerequisites ? { coursePrerequisites: p.prerequisites } : {}),
     ...(p.certification ? { educationalCredentialAwarded: p.certification } : {}),
     provider: {

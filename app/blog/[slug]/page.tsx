@@ -6,6 +6,7 @@ import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/env";
+import { couper } from "@/lib/seo";
 import { EDITEUR_ID, SITE_ID, orgId } from "@/lib/jsonld";
 import { faqDepuisMarkdown, formaterDate, postVisible, postsVisibles, renderMarkdown, renderMarkdownSur, tempsDeLecture } from "@/lib/blog";
 import { orgPostPublie } from "@/lib/posts";
@@ -52,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const p = t.fichier;
     return {
       title: { absolute: p.seoTitle },
-      description: p.description,
+      description: couper(p.description, 158),
       alternates: { canonical: url },
       openGraph: {
         type: "article",
