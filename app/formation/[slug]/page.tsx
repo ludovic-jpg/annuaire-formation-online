@@ -17,6 +17,7 @@ import { MobileContactBar } from "@/components/MobileContactBar";
 import type { AlsoOffered } from "@/lib/types";
 import { slugify } from "@/lib/slug";
 import { renderMarkdownSur } from "@/lib/blog";
+import { articlesPourFiche } from "@/lib/maillage-data";
 import "../../blog/blog.css";
 
 export const revalidate = 300;
@@ -50,6 +51,7 @@ export default async function FormationPage({ params }: { params: Params }) {
   const rel = outboundRel(org.link_rel);
   const img = programImage(p);
   const twins = (Array.isArray(p.also_offered_by) ? p.also_offered_by : []) as AlsoOffered[];
+  const articlesLies = await articlesPourFiche({ title: p.title, orgId: org.id, orgSlug: org.slug });
   const voisins = p.sphere ? await relatedPrograms(p.sphere, p.id, 3) : [];
 
   const facts: [string, string][] = [
@@ -185,6 +187,21 @@ export default async function FormationPage({ params }: { params: Params }) {
               Voir la page du parcours sur le site de l&apos;organisme
               <span className="sr-only"> (nouvel onglet)</span>
             </a>
+          )}
+
+          {articlesLies.length > 0 && (
+            <nav aria-labelledby="t-lire" className="mt-10">
+              <h2 id="t-lire" className="text-2xl">À lire pour aller plus loin</h2>
+              <ul className="mt-3 grid gap-2">
+                {articlesLies.map((a) => (
+                  <li key={a.slug}>
+                    <Link href={`/blog/${a.slug}`} className="tap underline decoration-2 underline-offset-4">
+                      {a.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           )}
 
           {twins.length > 0 && (

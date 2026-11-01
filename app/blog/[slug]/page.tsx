@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/env";
 import { couper } from "@/lib/seo";
+import { fichesPourArticle } from "@/lib/maillage-data";
 import { EDITEUR_ID, SITE_ID, orgId } from "@/lib/jsonld";
 import { faqDepuisMarkdown, formaterDate, postVisible, postsVisibles, renderMarkdown, renderMarkdownSur, tempsDeLecture } from "@/lib/blog";
 import { orgPostPublie } from "@/lib/posts";
@@ -156,6 +157,7 @@ export default async function ArticlePage({ params }: Props) {
     };
   }
   const faq = faqDepuisMarkdown(corps);
+  const fichesLiees = t.fichier ? await fichesPourArticle({ title: t.fichier.title, keyword: t.fichier.keyword, org: t.fichier.org }) : [];
 
   return (
     <>
@@ -203,6 +205,20 @@ export default async function ArticlePage({ params }: Props) {
             Publier mes parcours
           </Link>
         </div>
+        {fichesLiees.length > 0 && (
+          <nav aria-label="Formations liées" className="mt-10">
+            <h2 className="font-display text-2xl">Formations liées à cet article</h2>
+            <ul className="mt-3 space-y-2">
+              {fichesLiees.map((f) => (
+                <li key={f.slug}>
+                  <Link href={`/formation/${f.slug}`} className="tap underline underline-offset-4">
+                    {f.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
         {autres.length > 0 && (
           <nav aria-label="À lire aussi" className="mt-10">
             <h2 className="font-display text-2xl">À lire aussi</h2>

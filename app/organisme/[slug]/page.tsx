@@ -13,6 +13,8 @@ import { couper } from "@/lib/seo";
 import { orgPostsParOrganisme } from "@/lib/posts";
 import { formaterDate } from "@/lib/blog";
 import { jourIso } from "@/lib/articles";
+import { postsVisibles } from "@/lib/blog";
+import { modaliteLabel } from "@/lib/spheres";
 
 export const revalidate = 300;
 export async function generateStaticParams() {
@@ -45,6 +47,10 @@ export default async function OrganismePage({ params }: { params: Params }) {
   if (!o) notFound();
   const [programs, articles] = await Promise.all([programsByOrg(o.id), orgPostsParOrganisme(o.id)]);
   const themes = [...new Set(programs.map((p) => p.sphere).filter((x): x is string => Boolean(x && SPHERE_BY_SLUG[x])))].map((x) => SPHERE_BY_SLUG[x]);
+  const articlesMarque = postsVisibles().filter((a) => a.org === o.slug);
+  const nbCpf = programs.filter((p) => p.cpf_eligible).length;
+  const certifs: string[] = [...new Set(programs.map((p) => p.certification as string | null).filter((x): x is string => Boolean(x)))];
+  const modalites = [...new Set(programs.map((p) => (p.modality ? modaliteLabel(p.modality).toLowerCase() : "")).filter(Boolean))];
   return (
     <>
       <section className="dots border-b-4 border-encre">
@@ -111,6 +117,37 @@ export default async function OrganismePage({ params }: { params: Params }) {
             </li>
           ))}
         </ul>
+        <section aria-labelledby="t-lire-org" className="mt-12 max-w-prose">
+          <h2 id="t-lire-org" className="text-3xl">Bien choisir une formation chez {o.name}</h2>
+          <p className="mt-3">
+            {o.name} propose {programs.length} parcours référencés dans l&apos;annuaire
+            {themes.length > 0 ? `, dans ${themes.length > 1 ? "les thèmes" : "le thème"} ${themes.map((t) => t.label.toLowerCase()).join(", ")}` : ""}.
+            {modalites.length > 0 ? ` Les modalités proposées : ${modalites.join(", ")}.` : ""}
+            {nbCpf > 0 ? ` ${nbCpf} parcours ${nbCpf > 1 ? "sont" : "est"} annoncé${nbCpf > 1 ? "s" : ""} éligible${nbCpf > 1 ? "s" : ""} au CPF.` : " Aucun parcours n'est annoncé éligible au CPF sur cette page."}
+            {certifs.length > 0 ? ` Certification visée : ${certifs.join(", ")}.` : ""}
+          </p>
+          <p className="mt-3">
+            Avant de choisir, ouvrez la fiche du parcours : elle reprend le texte complet publié par l&apos;organisme (objectifs, public, prérequis, programme,
+            évaluation, accessibilité, délais d&apos;accès). Comparez ensuite avec d&apos;autres organismes sur la page du thème, puis contactez {o.name} depuis le
+            formulaire de la fiche pour confirmer dates, prix et financement. Pour comprendre l&apos;ordre des résultats, lisez{" "}
+            <Link href="/comment-fonctionne-le-classement" className="font-semibold underline underline-offset-4">comment fonctionne le classement</Link>.
+          </p>
+        </section>
+        {articlesMarque.length > 0 && (
+          <section aria-labelledby="t-articles-marque" className="mt-12">
+            <h2 id="t-articles-marque" className="text-3xl">À lire : le guide de {o.name}</h2>
+            <ul className="mt-5 grid gap-4 sm:grid-cols-2">
+              {articlesMarque.map((a) => (
+                <li key={a.slug} className="calm-card p-5">
+                  <h3 className="font-display text-xl">
+                    <Link href={`/blog/${a.slug}`} className="tap hover:underline underline-offset-4">{a.title}</Link>
+                  </h3>
+                  {a.description && <p className="mt-2 text-encre/85">{a.description}</p>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
         {articles.length > 0 && (
           <section aria-labelledby="t-articles" className="mt-12">
             <h2 id="t-articles" className="text-3xl">
